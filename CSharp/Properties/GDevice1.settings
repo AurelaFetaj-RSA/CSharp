@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="GDevice1">
+  <Profiles />
+  <Settings>
+    <Setting Name="GD1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">scale</Value>
+    </Setting>
+    <Setting Name="GD1Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD1Param1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">almost empty level (gr)</Value>
+    </Setting>
+    <Setting Name="GD1Param2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">empty level (gr)</Value>
+    </Setting>
+    <Setting Name="GD1Param3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Param4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Param5Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Param6Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Param7Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Param1IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD1Param2IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD1Param3IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD1Param4IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD1Param5IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD1Param6IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD1Param7IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD1Runtime1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gross weight (gr)</Value>
+    </Setting>
+    <Setting Name="GD1Runtime2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">net weight (gr)</Value>
+    </Setting>
+    <Setting Name="GD1Runtime3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Runtime4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD1Runtime1IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD1Runtime2IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD1Runtime3IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD1Runtime4IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

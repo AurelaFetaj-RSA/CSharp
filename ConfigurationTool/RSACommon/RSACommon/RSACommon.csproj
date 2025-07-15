@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA7764F7-D3A9-42FD-9EEF-0AB1424B14E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSACommon</RootNamespace>
+    <AssemblyName>RSACommon</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="krcc">
+      <HintPath>.\krcc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm\Alarm.cs" />
+    <Compile Include="Alarm\AlarmConfiguration.cs" />
+    <Compile Include="Alarm\AlarmService.cs" />
+    <Compile Include="Configuration\CoreConfigurations.cs" />
+    <Compile Include="Configuration\MySqlConfiguration.cs" />
+    <Compile Include="Configuration\OpcClientConfiguration.cs" />
+    <Compile Include="Configuration\OpcServerConfiguration.cs" />
+    <Compile Include="Configuration\ReadProgramsConfiguration.cs" />
+    <Compile Include="DatabasesUtils\DBSet.cs" />
+    <Compile Include="DatabasesUtils\DBUtils.cs" />
+    <Compile Include="DatabasesUtils\MySQLTable.cs" />
+    <Compile Include="DatabasesUtils\Table.cs" />
+    <Compile Include="Diagnostic\Abstract\Context.cs" />
+    <Compile Include="Diagnostic\Abstract\State.cs" />
+    <Compile Include="Diagnostic\DiagnosticConfiguration.cs" />
+    <Compile Include="Event\RSACustomEvents.cs" />
+    <Compile Include="LidorKey.cs" />
+    <Compile Include="Matrix.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Diagnostic\Graphics\DiagnosticWindowsForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Diagnostic\ParserText.cs" />
+    <Compile Include="Diagnostic\Configurator\Diagnostic.cs" />
+    <Compile Include="Diagnostic\DiagnosticsState.cs" />
+    <Compile Include="OPC\OpcClientDataConfiguration.cs" />
+    <Compile Include="OPC\OpcServerKey.cs" />
+    <Compile Include="OPC\SystemIdentity.cs" />
+    <Compile Include="RecipeParser\RecipeFinder.cs" />
+    <Compile Include="RecipeParser\StandardRecipeParser.cs" />
+    <Compile Include="Robot\Fanuc.cs" />
+    <Compile Include="Robot\Kawasaki.cs" />
+    <Compile Include="Robot\KawasakiMemory.cs" />
+    <Compile Include="RSWareError.cs" />
+    <Compile Include="Scanner\Scanner.cs" />
+    <Compile Include="Scanner\ScannerPointsMulti.cs" />
+    <Compile Include="SecurePassword.cs" />
+    <Compile Include="Robot\BaseRobot.cs" />
+    <Compile Include="Commands.cs" />
+    <Compile Include="Configurator.cs" />
+    <Compile Include="Robot\IRobotMemory.cs" />
+    <Compile Include="Configuration\ServiceSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuration\ServiceSetup.Designer.cs">
+      <DependentUpon>ServiceSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Core.cs" />
+    <Compile Include="Service\MySQLService.cs" />
+    <Compile Include="Service\OpcClient.cs" />
+    <Compile Include="Service\OpcServer.cs" />
+    <Compile Include="Service\ProgramReadService.cs" />
+    <Compile Include="Service\ScannerControllerService.cs" />
+    <Compile Include="SetupConfigurator.cs" />
+    <Compile Include="SplashScreen\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebApi\Controller\RecipeController.cs" />
+    <Compile Include="WebApi\DependencyResolver.cs" />
+    <Compile Include="WebApi\ServiceContaner.cs" />
+    <Compile Include="WebApi\UserType\ExternUser.cs" />
+    <Compile Include="WebApi\UserType\RSWareUser.cs" />
+    <Compile Include="WebApi\WebApi.cs" />
+    <Compile Include="WebApi\WebApiConfigurator.cs" />
+    <Compile Include="WebApi\WebApiDefinitions.cs" />
+    <Compile Include="Robot\IRobot.cs" />
+    <Compile Include="Service\IRSAService.cs" />
+    <Compile Include="OpcUADefinitions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebApi\WebApiSharedClass.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle">
+      <Version>1.8.5</Version>
+    </PackageReference>
+    <PackageReference Include="EntityFramework">
+      <Version>6.4.4</Version>
+    </PackageReference>
+    <PackageReference Include="log4net">
+      <Version>3.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="M2Mqtt">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNet.WebApi">
+      <Version>5.2.9</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNet.WebApi.OwinSelfHost">
+      <Version>5.2.9</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+      <Version>7.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging">
+      <Version>7.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Options">
+      <Version>7.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Owin">
+      <Version>4.2.2</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Owin.Hosting">
+      <Version>4.2.2</Version>
+    </PackageReference>
+    <PackageReference Include="MySql.Data">
+      <Version>8.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="MySql.Data.EntityFramework">
+      <Version>8.0.29</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Opc.UaFx.Advanced">
+      <Version>2.31.0</Version>
+    </PackageReference>
+    <PackageReference Include="Owin.Builder">
+      <Version>0.8.5</Version>
+    </PackageReference>
+    <PackageReference Include="Portable.BouncyCastle">
+      <Version>1.8.6</Version>
+    </PackageReference>
+    <PackageReference Include="SimpleInjector">
+      <Version>5.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="SimpleInjector.Integration.WebApi">
+      <Version>5.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Diagnostics.DiagnosticSource">
+      <Version>7.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="WindowsAPICodePack-Shell">
+      <Version>1.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Diagnostic\Graphics\DiagnosticWindowsForm.resx">
+      <DependentUpon>DiagnosticWindowsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuration\ServiceSetup.resx">
+      <DependentUpon>ServiceSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="WebApi\UserType\UserCommands\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RSAFile\RSAFile\RSAFile.csproj">
+      <Project>{1bb88a69-db2f-4798-8719-ce5f2b8f8bba}</Project>
+      <Name>RSAFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RSAInterface\RSAInterface\RSAInterface.csproj">
+      <Project>{7c1a9073-c280-4670-bc54-258ebce48bf0}</Project>
+      <Name>RSAInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RSAPoints\RSAPoints\RSAPoints.csproj">
+      <Project>{ba650f53-8dc8-43af-be28-1068f12bf005}</Project>
+      <Name>RSAPoints</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

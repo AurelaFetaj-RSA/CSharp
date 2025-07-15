@@ -1,0 +1,59 @@
+{
+  "status_man": {
+    "DiagnosticData": {
+      "22": {
+        "DiagnosticMessage": "Test",
+        "TimeOut": "00:00:00",
+        "StatusValue": 22,
+        "BitMask": 0,
+        "DiagnosticStateName": "test"
+      },
+      "77": {
+        "DiagnosticMessage": "Funzione di zeroing",
+        "TimeOut": "00:00:00",
+        "StatusValue": 77,
+        "BitMask": 0,
+        "DiagnosticStateName": "test3"
+      },
+      "8": {
+        "DiagnosticMessage": "Funzione di zeroing",
+        "TimeOut": "00:00:00",
+        "StatusValue": 77,
+        "BitMask": 0,
+        "DiagnosticStateName": "test3"
+      }
+    },
+    "DiagnosticVariableState": "status_man"
+  },
+  "status_man4": {
+    "DiagnosticData": {
+      "8": {
+        "DiagnosticMessage": "Funzione di zeroing",
+        "TimeOut": "00:00:00",
+        "StatusValue": 8,
+        "BitMask": 0,
+        "DiagnosticStateName": "test3"
+      }
+    },
+    "DiagnosticVariableState": "status_man4"
+  },
+  "lf_asse": {
+    "DiagnosticData": {
+      "8": {
+        "DiagnosticMessage": "Funzione di zeroing",
+        "TimeOut": "00:00:00",
+        "StatusValue": 8,
+        "BitMask": 0,
+        "DiagnosticStateName": "test3"
+      },
+      "10": {
+        "DiagnosticMessage": "Funzione di zeroing555xxx",
+        "TimeOut": "00:00:00",
+        "StatusValue": 10,
+        "BitMask": 0,
+        "DiagnosticStateName": "test3"
+      }
+    },
+    "DiagnosticVariableState": "lf_asse"
+  }
+}

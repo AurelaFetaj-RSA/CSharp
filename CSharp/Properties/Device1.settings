@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="Device1">
+  <Profiles />
+  <Settings>
+    <Setting Name="D1Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="D1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Force lasting 1</Value>
+    </Setting>
+    <Setting Name="D1Param1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">size</Value>
+    </Setting>
+    <Setting Name="D1Param2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ND</Value>
+    </Setting>
+    <Setting Name="D1Param3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="D1Param4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="D1Param1On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="D1Param2On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="D1Param3On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="D1Param4On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="D1Mode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="D1WithRecipe" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

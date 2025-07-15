@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="GDevice2">
+  <Profiles />
+  <Settings>
+    <Setting Name="GD2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">glue dehumidifier</Value>
+    </Setting>
+    <Setting Name="GD2Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Param1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">working T. (°C)</Value>
+    </Setting>
+    <Setting Name="GD2Param2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">maintenance T. (°)</Value>
+    </Setting>
+    <Setting Name="GD2Param3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD2Param4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD2Param5Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD2Param6Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GD2Param7Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pallet release (sec)</Value>
+    </Setting>
+    <Setting Name="GD2Param1IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Param2IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Param3IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD2Param4IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD2Param5IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD2Param6IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="GD2Param7IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Runtime1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">heating camera T. (°C)</Value>
+    </Setting>
+    <Setting Name="GD2Runtime2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cooling camera T. (°C)</Value>
+    </Setting>
+    <Setting Name="GD2Runtime3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">humidity (%)</Value>
+    </Setting>
+    <Setting Name="GD2Runtime4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">runtime camera T. (°C)</Value>
+    </Setting>
+    <Setting Name="GD2Runtime1IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Runtime2IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Runtime3IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GD2Runtime4IsOn" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,258 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="SettingsDB">
+  <Profiles />
+  <Settings>
+    <Setting Name="rfidTableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rfid_code</Value>
+    </Setting>
+    <Setting Name="rfidCodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Codice_Tag</Value>
+    </Setting>
+    <Setting Name="rfidSizeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Numero</Value>
+    </Setting>
+    <Setting Name="rfidTypeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tipo</Value>
+    </Setting>
+    <Setting Name="rfidRobotCodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Codice</Value>
+    </Setting>
+    <Setting Name="archiveR1TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">archive</Value>
+    </Setting>
+    <Setting Name="archiveR2TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">archive</Value>
+    </Setting>
+    <Setting Name="archiveR3TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">archive</Value>
+    </Setting>
+    <Setting Name="archiveR4TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">archive</Value>
+    </Setting>
+    <Setting Name="archiveCodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Codice</Value>
+    </Setting>
+    <Setting Name="archiveAux0FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fl_Aux0</Value>
+    </Setting>
+    <Setting Name="archiveAux1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fl_Aux1</Value>
+    </Setting>
+    <Setting Name="archiveAux2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fl_Aux2</Value>
+    </Setting>
+    <Setting Name="archiveAux3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fl_Aux3</Value>
+    </Setting>
+    <Setting Name="modelTableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">model_name</Value>
+    </Setting>
+    <Setting Name="modelCodeField" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Codice</Value>
+    </Setting>
+    <Setting Name="modelR1FieldNameAux0_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_00</Value>
+    </Setting>
+    <Setting Name="modelR1FieldNameAux1_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_00</Value>
+    </Setting>
+    <Setting Name="modelR1FieldNameAux2_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_00</Value>
+    </Setting>
+    <Setting Name="modelR1FieldNameAux0_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_01</Value>
+    </Setting>
+    <Setting Name="modelR1FieldNameAux1_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_01</Value>
+    </Setting>
+    <Setting Name="modelR1FieldNameAux2_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_01</Value>
+    </Setting>
+    <Setting Name="modelR2FieldNameAux0_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_02</Value>
+    </Setting>
+    <Setting Name="modelR2FieldNameAux1_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_02</Value>
+    </Setting>
+    <Setting Name="modelR2FieldNameAux2_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_02</Value>
+    </Setting>
+    <Setting Name="modelR2FieldNameAux0_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_03</Value>
+    </Setting>
+    <Setting Name="modelR2FieldNameAux1_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_03</Value>
+    </Setting>
+    <Setting Name="modelR2FieldNameAux2_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_03</Value>
+    </Setting>
+    <Setting Name="modelR3FieldNameAux0_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_04</Value>
+    </Setting>
+    <Setting Name="modelR3FieldNameAux1_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_04</Value>
+    </Setting>
+    <Setting Name="modelR3FieldNameAux2_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_04</Value>
+    </Setting>
+    <Setting Name="modelR3FieldNameAux0_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_05</Value>
+    </Setting>
+    <Setting Name="modelR3FieldNameAux1_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_05</Value>
+    </Setting>
+    <Setting Name="modelR3FieldNameAux2_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_05</Value>
+    </Setting>
+    <Setting Name="modelR4FieldNameAux0_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_06</Value>
+    </Setting>
+    <Setting Name="modelR4FieldNameAux1_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_06</Value>
+    </Setting>
+    <Setting Name="modelR4FieldNameAux2_00" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_06</Value>
+    </Setting>
+    <Setting Name="modelR4FieldNameAux0_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lav_07</Value>
+    </Setting>
+    <Setting Name="modelR4FieldNameAux1_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au1_07</Value>
+    </Setting>
+    <Setting Name="modelR4FieldNameAux2_01" Type="System.String" Scope="User">
+      <Value Profile="(Default)">au2_07</Value>
+    </Setting>
+    <Setting Name="noteTableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">notes</Value>
+    </Setting>
+    <Setting Name="noteCodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">code</Value>
+    </Setting>
+    <Setting Name="noteRobotCodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">model_name</Value>
+    </Setting>
+    <Setting Name="noteArticleFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">article_name</Value>
+    </Setting>
+    <Setting Name="noteTargetNumberedFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">target_numbered</Value>
+    </Setting>
+    <Setting Name="noteDoneNumberedFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">done_numbered</Value>
+    </Setting>
+    <Setting Name="noteLoadedNumberedFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">loaded_numbered</Value>
+    </Setting>
+    <Setting Name="noteCustom1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="noteCustom2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="rfidNoteFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">barcode</Value>
+    </Setting>
+    <Setting Name="rfidVariantFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Doppione</Value>
+    </Setting>
+    <Setting Name="rfidStatusFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">status</Value>
+    </Setting>
+    <Setting Name="rfidParam1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="rfidParam2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="recipeD1TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_D1</Value>
+    </Setting>
+    <Setting Name="recipeD2TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_D2</Value>
+    </Setting>
+    <Setting Name="recipeD3TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_D3</Value>
+    </Setting>
+    <Setting Name="recipeD1CodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_code</Value>
+    </Setting>
+    <Setting Name="recipeD2CodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_code</Value>
+    </Setting>
+    <Setting Name="recipeD3CodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_code</Value>
+    </Setting>
+    <Setting Name="recipeD1Param1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="recipeD1Param2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="recipeD1Param3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param3</Value>
+    </Setting>
+    <Setting Name="recipeD2Param1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="recipeD2Param2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="recipeD2Param3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param3</Value>
+    </Setting>
+    <Setting Name="recipeD3Param1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="recipeD3Param2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="recipeD3Param3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param3</Value>
+    </Setting>
+    <Setting Name="noteParam1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="noteParam2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="recipeD1Param4FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param4</Value>
+    </Setting>
+    <Setting Name="recipeD2Param4FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param4</Value>
+    </Setting>
+    <Setting Name="recipeD3Param4FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param4</Value>
+    </Setting>
+    <Setting Name="recipeD4Param4FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param4</Value>
+    </Setting>
+    <Setting Name="recipeD4CodeFieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_code</Value>
+    </Setting>
+    <Setting Name="recipeD4TableName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipe_D4</Value>
+    </Setting>
+    <Setting Name="recipeD4Param1FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param1</Value>
+    </Setting>
+    <Setting Name="recipeD4Param2FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param2</Value>
+    </Setting>
+    <Setting Name="recipeD4Param3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param3</Value>
+    </Setting>
+    <Setting Name="rfidParam3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param3</Value>
+    </Setting>
+    <Setting Name="noteCustom3FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param3</Value>
+    </Setting>
+    <Setting Name="noteCustom4FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param4</Value>
+    </Setting>
+    <Setting Name="noteCustom5FieldName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">param5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

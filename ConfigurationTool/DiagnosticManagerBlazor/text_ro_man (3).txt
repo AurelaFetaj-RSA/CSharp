@@ -1,0 +1,56 @@
+--Asse prelievo  (status_man)
+--Zeroing
+
+status_man;1;;controllo trasversali chiusi;
+status_man;3;;controllo presenza segnale sensore zero;
+status_man;5;;controllo assenza segnale sensore zero;
+status_man;7;;controllo presenza segnale sensore zero;
+
+;--Automatico
+status_man;10;;attesa segnale start prelievo, controllo cilindri retratti, controllo robot incluso, controllo numero tentativi<max tentativi, controllo numero cicli<max cicli, controllo selettore asse in automatico da TP;
+status_man;20;;controllo segnale asse in movimento;
+status_man;30;;stop asse- controllo assenza segnale asse in movimento;
+status_man;35;;controllo finecorsa rilevamento pelli o extra corsa;
+status_man;40;;controllo segnale asse in movimento;
+status_man;50;;stop asse-controllo assenza segnale asse in movimento;
+status_man;55;;controllo stato trasversali aperti;
+status_man;54;;stop asse- controllo assenza segnale asse in movimento e controllo presenza pelli;
+status_man;56;;controllo stato trasversali chiusi;
+status_man;60;;attesa robot in posizione di prelievo;
+status_man;61;;controllo stato trasversali aperti;
+status_man;80;;attesa fine prelievo robot;
+status_man;140;;controllo stato trasversali chiusi;
+
+--Robot   (robot_status)
+robot_status;1;;controllo stato task paralleli;
+--TCP in riposizionamento inizio ciclo
+robot_status;12;;controllo selettore TP in automatico;
+robot_status;13;;controllo segnale asse ready;
+robot_status;14;;controllo segnale asse in allarme;
+robot_status;15;;attesa stato asse su sensore di zero e pronto per ricevere start;
+robot_status;16;;movimento uscita approccio prelievo;
+robot_status;17;;movimento uscita prelievo;
+robot_status;18;;movimento posizione inizio ciclo;
+robot_status;19;;movimento svincolo prelievo;
+robot_status;20;;movimento svincolo fine prelievo;
+robot_status;21;;movimento svincolo nastro deposito;
+robot_status;22;;movimento svincolo uscita nastro deposito;
+robot_status;23;;movimento svincolo riposizionamento prelievo;
+robot_status;24;;movimento svincolo da posizione di parcheggio;
+
+--Automatico
+robot_status;30;;attesa segnale pressostato;
+robot_status;31;;attesa controllo robot incluso, numero tentativi<max tentativi, numero cicli<max cicli, manipolatore pronto;
+
+robot_status;32;;attesa start da asse prelievo e robot incluso o richiesta parcheggio;
+robot_status;33;;in fase di prelievo;
+robot_status;34;;attesa sensore nastro scarico in posizione;
+robot_status;35;;attesa selettore inclusione robot;
+robot_status;36;;robot in ciclo di deposito;
+robot_status;37;;attesa sensore scarico pelle da tool robot;
+
+
+--Insegnamento
+robot_status;50;;robot in insegnamento - attesa asse prelievo pronto;
+robot_status;51;;robot in insegnamento - attesa start da asse prelievo;
+robot_status;52;;robot in insegnamento;

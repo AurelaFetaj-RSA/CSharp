@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="SettingsFilesPath">
+  <Profiles />
+  <Settings>
+    <Setting Name="r1FilenamePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PRODUCTION\Programs\R1</Value>
+    </Setting>
+    <Setting Name="r2FilenamePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PRODUCTION\Programs\R2</Value>
+    </Setting>
+    <Setting Name="r3FilenamePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PRODUCTION\Programs\R3</Value>
+    </Setting>
+    <Setting Name="r4FilenamePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PRODUCTION\Programs\cement</Value>
+    </Setting>
+    <Setting Name="notesPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\srvfs2.roveda.internal\Linee_Robotizzate\Chanel\Notes</Value>
+    </Setting>
+    <Setting Name="dbRemotePath1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\172.31.10.146\PRODUCTION\DB\DB_Production.mdb</Value>
+    </Setting>
+    <Setting Name="dbRemotePath2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\172.31.10.166\PRODUCTION\DB\DB_Production.mdb</Value>
+    </Setting>
+    <Setting Name="dbRemotePath3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\172.31.10.156\PRODUCTION\DB\DB_Production.mdb</Value>
+    </Setting>
+    <Setting Name="dbRemotePath4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\172.31.10.176\PRODUCTION\DB\DB_Production.mdb</Value>
+    </Setting>
+    <Setting Name="dbLocalPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PRODUCTION\DB\DB_Production.mdb</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

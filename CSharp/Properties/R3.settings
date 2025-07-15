@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="R3">
+  <Profiles />
+  <Settings>
+    <Setting Name="R3Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="R3Mode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="R3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">scanner</Value>
+    </Setting>
+    <Setting Name="R3Lav" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bottom brush</Value>
+    </Setting>
+    <Setting Name="R3Au1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">side brush</Value>
+    </Setting>
+    <Setting Name="R3Au2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bottom paintbrush</Value>
+    </Setting>
+    <Setting Name="InputNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="OutputNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

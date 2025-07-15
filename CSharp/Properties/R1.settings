@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="R1">
+  <Profiles />
+  <Settings>
+    <Setting Name="R1Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="R1Mode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="R1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rougher robot</Value>
+    </Setting>
+    <Setting Name="R1Lav" Type="System.String" Scope="User">
+      <Value Profile="(Default)">central line</Value>
+    </Setting>
+    <Setting Name="R1Au1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">contour</Value>
+    </Setting>
+    <Setting Name="R1Au2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">inside contour</Value>
+    </Setting>
+    <Setting Name="InputNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="OutputNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

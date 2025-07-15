@@ -1,0 +1,233 @@
+﻿@page "/DiagnosticManager"
+@using RSACommon.Diagnostic.Configurator;
+@using RSACommon.Diagnostic;
+@using System.Net.Http.Headers;
+
+
+<h3>DiagnosticManager</h3>
+
+<input placeholder="Variable to add" @bind="_diagnosticVariableName" />
+<button @onclick="AddDiagnostic">Add todo</button>
+<button @onclick="SaveDiagnosticFile">Save Diagnostic File</button>
+
+<tr>
+    <input placeholder="StatusName" @bind="_diagnosticStatusName" />
+</tr>
+<tr>
+    <input placeholder="StatusValue" @bind="_diagnosticStatusValue" />
+</tr>
+<tr>
+    <input placeholder="StatusMessage" @bind="_diagnosticMessage" />
+</tr>
+
+<InputFile OnChange="@OnInputFileChange" multiple />
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Status Variable</th>
+            <th scope="col">Value</th>
+            <th scope="col">Status Name</th>
+            <th scope="col">Message</th>
+            <th scope="col">Remove</th>
+            <th scope="col">Modify</th>
+        </tr>
+    </thead>
+     <tbody>
+
+    @foreach (var Diagnostic in _diagnostic.DiagnosticStatus)
+    {
+        foreach(var keyvalue in Diagnostic.Value.DiagnosticData)
+        {
+            <tr>
+                <td>@Diagnostic.Key</td>
+                <td>@keyvalue.Key</td>
+                <td>@keyvalue.Value.DiagnosticStateName</td>
+                <td>@keyvalue.Value.DiagnosticMessage</td>
+                <td>
+                    <button @onclick="() => _diagnostic.Remove(Diagnostic.Key, keyvalue.Key)">❌</button>
+                </td>
+                <td>
+                    <button @onclick="() => Modify(Diagnostic.Key, keyvalue.Key)">Modify</button>
+                </td>
+            </tr>
+        }
+    }
+    </tbody>
+</table>
+
+
+@if (ShowPopupModify)
+{
+    <!-- This is the popup to create or edit a forecast -->
+    <div class="modal" tabindex="-1" style="display:block" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Edit Diagnosts State</h3>
+                    <!-- Button to close the popup -->
+
+                    <div class="modal-body">
+                        <input class="form-control" type="text"
+                               placeholder="StatusName"
+                           @bind="_selectedState!.DiagnosticStateName" />
+                        <input class="form-control" type="text"
+                               placeholder="StatusValue"
+                        @bind="_tempDiagnosticValue" />
+                        <input class="form-control" type="text"
+                               placeholder="Message"
+                                @bind="_selectedState!.DiagnosticMessage" />
+                        <!-- Button to save the forecast -->
+                        <button class="btn btn-success"
+                            @onclick="Update">
+                            Save
+                        </button>&nbsp;
+                        <button type="button" class="close"
+                            @onclick="ClosePopupModify">
+                            <span aria-hidden="true">X</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Edit form for the current forecast -->
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    private string? _diagnosticVariableName;
+    private string? _diagnosticStatusName;
+    private string? _diagnosticStatusValue;
+    private string? _diagnosticMessage;
+    private string? _tempDiagnosticValue;
+    public bool ShowPopupModify = false;
+
+    private string _selectedStatusVariable { get; set; } = string.Empty;
+    DiagnosticState? _selectedState { get; set; } = null;
+    DiagnosticConfigurator _diagnostic = new DiagnosticConfigurator("test.json");
+    private List<IBrowserFile> _loadedFiles = new();
+
+    private void AddDiagnostic()
+    {
+
+        if (int.TryParse(_diagnosticStatusValue, out int result))
+        {
+            if (!string.IsNullOrWhiteSpace(_diagnosticVariableName))
+            {
+                var state = new DiagnosticState(result, _diagnosticStatusName, _diagnosticMessage, null);
+                _diagnostic.Add(_diagnosticVariableName, state);
+                _diagnosticStatusName = string.Empty;
+                _diagnosticStatusValue = string.Empty;
+                _diagnosticMessage = string.Empty;
+            }
+        }
+
+    }
+
+    private string NumberOfDiagnosticState(string value)
+    {
+        return $"{_diagnostic.DiagnosticCount(value)}";
+    }
+
+    private void SaveDiagnosticFile()
+    {
+        _diagnostic.Save();
+    }
+
+    private void Modify(string statusMachineTodelete, string valueToDelete)
+    {
+        _diagnostic.DiagnosticResult(statusMachineTodelete, valueToDelete, out var state);
+
+        _selectedState = state;
+        ShowPopupModify = true;
+        _selectedStatusVariable = statusMachineTodelete;
+        //_diagnosticVariableName = statusMachineTodelete;
+        //_diagnosticStatusName = State.DiagnosticStateName;
+        //_diagnosticMessage = State.DiagnosticMessage;
+        //_diagnosticStatusValue = State.StatusValue.ToString();
+    }
+
+    private void Update()
+    {
+        if (int.TryParse(_tempDiagnosticValue, out int result))
+        {
+            _selectedState?.ChangeStatusValue(result);
+            _diagnostic.Add(_selectedStatusVariable, _selectedState, true);
+            StateHasChanged();
+            ClosePopupModify();
+            _tempDiagnosticValue = string.Empty;
+        }
+    }
+
+    bool ShowPopup = false;
+
+    void ClosePopupModify()
+    {
+        // Close the Popup
+        ShowPopupModify = false;
+    }
+
+    //IFileListEntry? file;
+    //string status = string.Empty;
+
+    //async Task HandleSelection(IFileListEntry[] files)
+    //{
+    //    var file = files.FirstOrDefault();
+    //    if (file != null)
+    //    {
+    //        // Just load into .NET memory to show it can be done
+    //        // Alternatively it could be saved to disk, or parsed in memory, or similar
+    ////        var ms = new MemoryStream();
+    ////        await file.Data.CopyToAsync(ms);
+
+    ////        status = $"Finished loading {file.Size} bytes from {file.Name}";
+    //    }
+    //}
+    private class File
+    {
+        public string? Name { get; set; }
+    }
+
+    private List<File> _files = new();
+    private int maxAllowedFiles = 3;
+    private bool shouldRender;
+    private List<DiagnosticManager> uploadResults = new();
+
+    protected override bool ShouldRender() => shouldRender;
+
+    private async Task OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        shouldRender = false;
+        long maxFileSize = 1024 * 15;
+        var upload = false;
+
+        using var content = new MultipartFormDataContent();
+
+        foreach (var file in e.GetMultipleFiles(maxAllowedFiles))
+        {
+            try
+            {
+                _loadedFiles.Add(file);
+
+                var fileContent = new StreamContent(file.OpenReadStream(maxFileSize));
+
+                fileContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
+
+                content.Add(
+                    content: fileContent,
+                    name: "\"files\"",
+                    fileName: file.Name);
+
+                upload = true;
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        //content.
+    }
+}

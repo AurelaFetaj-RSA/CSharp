@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="R4">
+  <Profiles />
+  <Settings>
+    <Setting Name="R4Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="R4Mode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="R4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">unused</Value>
+    </Setting>
+    <Setting Name="R4Lav" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ND</Value>
+    </Setting>
+    <Setting Name="R4Au1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ND</Value>
+    </Setting>
+    <Setting Name="R4Au2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ND</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

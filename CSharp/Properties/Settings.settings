@@ -1,0 +1,129 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">it-IT</Value>
+    </Setting>
+    <Setting Name="beginSize" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">340</Value>
+    </Setting>
+    <Setting Name="endSize" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">420</Value>
+    </Setting>
+    <Setting Name="stepSize" Type="System.Int16" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="modelNameR1Aux0_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR1Aux1_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR1Aux2_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR1Aux0_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR1Aux1_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR1Aux2_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR2Aux0_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR2Aux1_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR2Aux2_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR2Aux0_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR2Aux1_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR2Aux2_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR3Aux0_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR3Aux1_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR3Aux2_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="modelNameR3Aux0_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR3Aux1_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR3Aux2_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="loginPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">robots</Value>
+    </Setting>
+    <Setting Name="loginLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">user</Value>
+    </Setting>
+    <Setting Name="modelNameFlagNumber" Type="System.String" Scope="User">
+      <Value Profile="(Default)">18</Value>
+    </Setting>
+    <Setting Name="localHostIPAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">172.31.10.136</Value>
+    </Setting>
+    <Setting Name="localHostPortNumber" Type="System.String" Scope="User">
+      <Value Profile="(Default)">32769</Value>
+    </Setting>
+    <Setting Name="readerType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">BALLUFF</Value>
+    </Setting>
+    <Setting Name="variantList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00,01,02,03,04,05,06,07,08,09,10,11,12,TC,CA,BE,PA,VE,TS,PE</Value>
+    </Setting>
+    <Setting Name="IsRemoteAssociation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR4Aux0_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR4Aux1_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR4Aux2_00" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR4Aux0_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR4Aux1_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="modelNameR4Aux2_01" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SplashScreenFilepath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Robotsys\PL\CSharp\images\splash_screen.png</Value>
+    </Setting>
+    <Setting Name="OpcClient_1_URI" Type="System.String" Scope="User">
+      <Value Profile="(Default)">opc.tcp://172.31.20.5:4840</Value>
+    </Setting>
+    <Setting Name="AlarmsNumber" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">128</Value>
+    </Setting>
+    <Setting Name="LinePLCInputNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="LinePLCOutputNumber" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProductionLaunch.Properties" GeneratedClassName="Device4">
+  <Profiles />
+  <Settings>
+    <Setting Name="D4Present" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="D4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Delasting</Value>
+    </Setting>
+    <Setting Name="D4Param1Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tipo di movimento</Value>
+    </Setting>
+    <Setting Name="D4Param2Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">p. scalzata (bar)</Value>
+    </Setting>
+    <Setting Name="D4Param3Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">t. pos. pinza (msec)</Value>
+    </Setting>
+    <Setting Name="D4Param4Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">t. scalzata (msec)</Value>
+    </Setting>
+    <Setting Name="D4Param1On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="D4Param2On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="D4Param3On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="D4Param4On" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="D4Mode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="D4WithRecipe" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DiagnosticToolbox.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SplashScreenFilepath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">splash.jpg</Value>
+    </Setting>
+    <Setting Name="DiagnosticRow" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="DiagnosticCol" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="UpdateDiagnosticTimeMS" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="DiagnosticFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">diagnosticConfig.$$$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
