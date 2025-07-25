@@ -175,9 +175,9 @@ namespace ProductionLaunch
         {
             _splashScreen = splashScreen;
             _splashScreen?.WriteOnTextboxAsync($"Initialization...");
-            
+
             InitCore();
-            
+
             InitializeComponent();
             this.Load += new System.EventHandler(this.Form1_Load);
 
@@ -289,7 +289,7 @@ namespace ProductionLaunch
                     ccService = clientOpcService;
                     break;
                 }
-            }            
+            }
 
             foreach (var service in listOfService)
             {
@@ -300,9 +300,9 @@ namespace ProductionLaunch
             {
                 ccService.SetObjectData(new OpcClientConfig().Config());
             }
-            
+
             myCore?.Start();
-            
+
 
             _splashScreen?.WriteOnTextboxAsync($"Core Configuration ended");
             _splashScreen?.WriteOnTextboxAsync($"Core Started");
@@ -346,7 +346,7 @@ namespace ProductionLaunch
         private void OnConnect(bool status)
         {
             Console.WriteLine("client connection status: " + status);
-            
+
             //rtfLog.Invoke(AddLog, "Connection : " + status.ToString());
             //lblConnected.Invoke(UpdateStatusIcons, 1, status);
         }
@@ -366,11 +366,11 @@ namespace ProductionLaunch
         // Data Recieved Listner
         private void OnRecieved(string data)
         {
-           // lblRead.Invoke(UpdateStatusIcons, 3, true);
-           // rtfLog.Invoke(AddLog, "Recieved : " + data);
+            // lblRead.Invoke(UpdateStatusIcons, 3, true);
+            // rtfLog.Invoke(AddLog, "Recieved : " + data);
 
-           //parse data
-           if (data.Substring(0, 4).Equals("SCAN"))
+            //parse data
+            if (data.Substring(0, 4).Equals("SCAN"))
             {
                 MachineRuntime.scannerMessage = data;
 
@@ -451,10 +451,10 @@ namespace ProductionLaunch
                     }
                     else
                     {
-                         
+
                     }
                 }
-           }
+            }
 
             var entries = data.Split(new[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -490,7 +490,7 @@ namespace ProductionLaunch
         }
 
         private bool OnSend(string msgStr)
-        {            
+        {
             // Write to TCP
             try
             {
@@ -543,7 +543,7 @@ namespace ProductionLaunch
             numericUpDownGD1Param2.Visible = Properties.GDevice1.Default.GD1Param2IsOn;
 
             labelGD1RuntimeParam1Text.Visible = Properties.GDevice1.Default.GD1Runtime1IsOn;
-            labelGD1RuntimeParam2Text.Visible = Properties.GDevice1.Default.GD1Runtime2IsOn;            
+            labelGD1RuntimeParam2Text.Visible = Properties.GDevice1.Default.GD1Runtime2IsOn;
 
             labelGD1RuntimeParam1Text.Text = Properties.GDevice1.Default.GD1Runtime1Name;
             labelGD1RuntimeParam2Text.Text = Properties.GDevice1.Default.GD1Runtime2Name;
@@ -556,7 +556,7 @@ namespace ProductionLaunch
 
             labelGD2Param2NameEdit.Visible = Properties.GDevice2.Default.GD2Param2IsOn;
             labelGD2Param2NameEdit.Text = Properties.GDevice2.Default.GD2Param2Name;
-            numericUpDownGD2Param2.Visible = Properties.GDevice2.Default.GD2Param2IsOn;           
+            numericUpDownGD2Param2.Visible = Properties.GDevice2.Default.GD2Param2IsOn;
 
             labelGD2Param7NameEdit.Visible = Properties.GDevice2.Default.GD2Param7IsOn;
             labelGD2Param7NameEdit.Text = Properties.GDevice2.Default.GD2Param7Name;
@@ -596,7 +596,7 @@ namespace ProductionLaunch
             labelR1Aux2_00.Text = Properties.R1.Default.R1Au2;
             labelR1LavEdit.Text = Properties.R1.Default.R1Lav;
             labelR1Au1Edit.Text = Properties.R1.Default.R1Au1;
-            labelR1Au2Edit.Text = Properties.R1.Default.R1Au2;            
+            labelR1Au2Edit.Text = Properties.R1.Default.R1Au2;
             #endregion
 
             #region(* R2 *)
@@ -606,7 +606,7 @@ namespace ProductionLaunch
             labelR2Aux2_00.Text = Properties.R2.Default.R2Au2;
             labelR2LavEdit.Text = Properties.R2.Default.R2Lav;
             labelR2Au1Edit.Text = Properties.R2.Default.R2Au1;
-            labelR2Au2Edit.Text = Properties.R2.Default.R2Au2;            
+            labelR2Au2Edit.Text = Properties.R2.Default.R2Au2;
             #endregion
 
             #region(* R3 *)            
@@ -615,7 +615,7 @@ namespace ProductionLaunch
             labelR3Aux2_00.Text = Properties.R3.Default.R3Au2;
             labelR3LavEdit.Text = Properties.R3.Default.R3Lav;
             labelR3Au1Edit.Text = Properties.R3.Default.R3Au1;
-            labelR3Au2Edit.Text = Properties.R3.Default.R3Au2;            
+            labelR3Au2Edit.Text = Properties.R3.Default.R3Au2;
             #endregion
         }
 
@@ -624,8 +624,8 @@ namespace ProductionLaunch
             List<string> mylist = new List<string>();
             int i = 0;
 
-            
-            mylist.AddRange(myRSA.GetDBL().GetModelTable().GetAllModelNameRecord(myRSA.GetDBL().GetConnection()));           
+
+            mylist.AddRange(myRSA.GetDBL().GetModelTable().GetAllModelNameRecord(myRSA.GetDBL().GetConnection()));
 
             mylist = mylist.Distinct().ToList();
 
@@ -660,7 +660,7 @@ namespace ProductionLaunch
             alarmsConfigurator.LoadFromFile("alarmsconfig.xml", Configurator.FileType.Xml);
             myCore.Log?.Info($"alarmsconfig loaded");
             //automatic config
-        //    autoConfigurator.LoadFromFile("autoconfig.xml", Configurator.FileType.Xml);
+            //    autoConfigurator.LoadFromFile("autoconfig.xml", Configurator.FileType.Xml);
             //barcode reading task config
             brTaskConfigurator.LoadFromFile("brtask.xml", Configurator.FileType.Xml);
             //check box task config
@@ -668,22 +668,22 @@ namespace ProductionLaunch
 
             myCore.Log?.Info($"init form station/bank");
 
-            
-
-       
 
 
 
-           
+
+
+
+
 
             UpdateGUIByUser();
         }
 
         private void UpdateGUIByUser()
         {
-            
+
             //tabPageT6.Enabled = (loginLevel == "Operator") ? false : true;
-           
+
         }
 
         public void Start()
@@ -705,7 +705,7 @@ namespace ProductionLaunch
 
         private void RSACustomEvents_SpeedIsChangedEvent(object sender, RSACustomEvents.SpeedIsChangedEventArgs e)
         {
-           
+
         }
 
 
@@ -765,7 +765,7 @@ namespace ProductionLaunch
         public void SaveSettings()
         {
             guiConfigurator.AddValue("LOGIN", "PWD", loginPassword, true);
-            guiConfigurator.AddValue("T0", "R1INCLUSION", (MachineRuntime.r1.GetRobotInclusion()?"1":"0"), true);            
+            guiConfigurator.AddValue("T0", "R1INCLUSION", (MachineRuntime.r1.GetRobotInclusion() ? "1" : "0"), true);
             guiConfigurator.AddValue("T0", "R1INCLUSION_CLEANING", (MachineRuntime.r1.GetRobotInclusionCleaning() ? "1" : "0"), true);
             guiConfigurator.AddValue("T0", "R2INCLUSION", (MachineRuntime.r2.GetRobotInclusion() ? "1" : "0"), true);
             guiConfigurator.AddValue("T0", "SCALEINCLUSION", (MachineRuntime.gdevice1.GetDeviceInclusion() ? "1" : "0"), true);
@@ -788,7 +788,7 @@ namespace ProductionLaunch
 
             guiConfigurator.AddValue("T0", "PCOUNTER", textBoxLastCounter.Text, true);
 
-            
+
             //guiConfigurator.AddValue("T0", "OVEN1TIMER", MachineRuntime.gdevice1.GetDeviceParam4(), true);
 
             //guiConfigurator.AddValue("T0", "OVEN2SETPOINT1", MachineRuntime.gdevice2.GetDeviceParam1(), true);
@@ -806,7 +806,7 @@ namespace ProductionLaunch
             loginPassword = guiConfigurator.GetValue("LOGIN", "PWD", "RSA");
             //R1 inclusion
             string value = guiConfigurator.GetValue("T0", "R1INCLUSION", "RSA");
-            checkBoxR1Inclusion.CheckState = (value == "1") ? CheckState.Checked : CheckState.Unchecked;            
+            checkBoxR1Inclusion.CheckState = (value == "1") ? CheckState.Checked : CheckState.Unchecked;
             //R1 cleaning inclusion
             value = guiConfigurator.GetValue("T0", "R1INCLUSION_CLEANING", "RSA");
             checkBoxR1InclusionCleaning.CheckState = (value == "1") ? CheckState.Checked : CheckState.Unchecked;
@@ -886,15 +886,15 @@ namespace ProductionLaunch
 
             value = guiConfigurator.GetValue("T0", "PCOUNTER", "RSA");
             textBoxLastCounter.Text = Convert.ToDecimal(float.Parse(value.ToString())).ToString();
-            
+
 
 
 
             //opcua connected
-            MachineRuntime.r1.SetRobotInclusion((checkBoxR1Inclusion.CheckState == CheckState.Checked) ? true : false);            
-            MachineRuntime.r2.SetRobotInclusion((checkBoxR2Inclusion.CheckState == CheckState.Checked) ? true : false);                       
-            MachineRuntime.gdevice1.SetDeviceInclusion((checkBoxGD1.CheckState == CheckState.Checked) ? true : false);            
-           
+            MachineRuntime.r1.SetRobotInclusion((checkBoxR1Inclusion.CheckState == CheckState.Checked) ? true : false);
+            MachineRuntime.r2.SetRobotInclusion((checkBoxR2Inclusion.CheckState == CheckState.Checked) ? true : false);
+            MachineRuntime.gdevice1.SetDeviceInclusion((checkBoxGD1.CheckState == CheckState.Checked) ? true : false);
+
             MachineRuntime.gdevice1.SetDeviceParam1(numericUpDownGD1Param1.Value.ToString());
             MachineRuntime.gdevice1.SetDeviceParam1(numericUpDownGD1Param2.Value.ToString());
 
@@ -1210,7 +1210,7 @@ namespace ProductionLaunch
             MachineRuntime.rfidModelNameG1A1 = comboBoxRFIDModelName_T0.Text;
             MachineRuntime.rfidSizeG1A1 = numericUpDownSize_T0.Value.ToString();
         }
-         
+
         private void tabPageT0_Paint(object sender, PaintEventArgs e)
         {
             Pen blackPen = new Pen(Color.Black, 2);
@@ -1254,7 +1254,7 @@ namespace ProductionLaunch
 
             Graphics myGraphics = e.Graphics;
             Rectangle rectBox = new Rectangle(0, 0, 1100, 180);
-            
+
             myGraphics.ResetTransform();
             myGraphics.TranslateTransform(20, 20);
             //rfid 
@@ -1262,7 +1262,7 @@ namespace ProductionLaunch
             myGraphics.FillRectangle(groupBoxFillColorOn, rectBox);
             myGraphics.DrawLine(groupBoxLineOnTop, new Point(0, 0), new Point(rectBox.Width, 0));
             myGraphics.TranslateTransform(1140, 0);
-            
+
 
             #region(* general control *)
             Rectangle rectControlBoxGC = new Rectangle(0, 0, 520, 180);
@@ -1280,7 +1280,7 @@ namespace ProductionLaunch
             Rectangle rectControlBoxR1 = new Rectangle(0, 0, 260, 540);
             myGraphics.DrawRectangle(rectBorderPen, rectControlBoxR1);
             myGraphics.FillRectangle(groupBoxFillColorOn, rectControlBoxR1);
-            
+
             //myGraphics.DrawLine(groupBoxLineOnTop, new Point(0, 0), new Point(rectControlBoxR1.Width, 0));
             if (MachineRuntime.r1.GetRobotIsDisconnected() == false)
             {
@@ -1300,13 +1300,13 @@ namespace ProductionLaunch
             #region ( R2 drawing *)
             myGraphics.ResetTransform();
             myGraphics.TranslateTransform(300, 0);
-            myGraphics.TranslateTransform(20, 240);            
+            myGraphics.TranslateTransform(20, 240);
 
             Rectangle rectControlBoxR2 = new Rectangle(0, 0, 260, 540);
             myGraphics.DrawRectangle(rectBorderPen, rectControlBoxR2);
             myGraphics.FillRectangle(groupBoxFillColorOn, rectControlBoxR2);
-            
-            
+
+
             if (MachineRuntime.r2.GetRobotIsDisconnected() == false)
             {
                 myGraphics.DrawString(R2.Default.R2Name, whiteFont, windowsTextBrush, new Point(20, 20));
@@ -1331,10 +1331,10 @@ namespace ProductionLaunch
             Rectangle rectControlBoxGD1 = new Rectangle(0, 0, 360, 540);
             myGraphics.DrawRectangle(rectBorderPen, rectControlBoxGD1);
             myGraphics.FillRectangle(groupBoxFillColorOn, rectControlBoxGD1);
-            
+
 
             if (MachineRuntime.gdevice1.gdIsDisconnected == false)
-            {                
+            {
                 myGraphics.DrawString(GDevice1.Default.GD1Name, whiteFont, windowsTextBrush, new Point(20, 20));
                 myGraphics.DrawLine(windowsTextPen, new Point(20, 45), new Point(340, 45));
                 runtimePen = groupBoxLineOnTop;
@@ -1359,12 +1359,12 @@ namespace ProductionLaunch
             #region ( R3 drawing *)
             myGraphics.ResetTransform();
             myGraphics.TranslateTransform(1000, 0);
-            myGraphics.TranslateTransform(20, 240);            
+            myGraphics.TranslateTransform(20, 240);
 
             Rectangle rectControlBoxR3 = new Rectangle(0, 0, 660, 540);
             myGraphics.DrawRectangle(rectBorderPen, rectControlBoxR3);
             myGraphics.FillRectangle(groupBoxFillColorOn, rectControlBoxR3);
-            
+
             //myGraphics.DrawLine(groupBoxLineOnTop, new Point(0, 0), new Point(rectControlBoxR3.Width, 0));
 
             if (MachineRuntime.r3.GetRobotIsDisconnected() == false)
@@ -1427,7 +1427,7 @@ namespace ProductionLaunch
             myGraphics.DrawLine(windowsTextPen, new Point(20, 45), new Point(240, 45));
             myGraphics.DrawLine(groupBoxLineOnTop, new Point(0, 0), new Point(rectControlBox10.Width, 0));
 
-            
+
             #endregion
 
             #region(* unload *)
@@ -1439,7 +1439,7 @@ namespace ProductionLaunch
             myGraphics.DrawLine(windowsTextPen, new Point(20, 45), new Point(340, 45));
             myGraphics.DrawLine(groupBoxLineOnTop, new Point(0, 0), new Point(rectControlBoxUnload.Width, 0));
 
-            
+
             #endregion
 
             #region(* general status *)
@@ -1486,7 +1486,7 @@ namespace ProductionLaunch
                     Properties.SettingsDB.Default.archiveAux2FieldName, Properties.SettingsDB.Default.archiveAux3FieldName);
 
                 RSA.DB.ParameterTable myParameterTableR1 = new RSA.DB.ParameterTable();
-                RSA.DB.ParameterTable myParameterTableR2 = new RSA.DB.ParameterTable();                
+                RSA.DB.ParameterTable myParameterTableR2 = new RSA.DB.ParameterTable();
 
                 //init programs for archive table 2
                 RSA.DB.ArchiveTable myArchiveTableR2 = new RSA.DB.ArchiveTable(Properties.SettingsDB.Default.archiveR2TableName,
@@ -1604,11 +1604,11 @@ namespace ProductionLaunch
                         myRSA.GetG1Balluff().IPort4 = Convert.ToInt32(comboBoxAntennaPLP4.Text);
                         myRSA.GetG1Balluff().IAddress = Convert.ToString(ipAddressG1RFIDReader.Text);
                         if (myRSA.GetG1Balluff().Connect(1) == true)
-                        {                            
+                        {
                             lbLedConnectionG1.LedColor = Color.LightGreen;
                         }
                         else
-                        {                            
+                        {
                             lbLedConnectionG1.LedColor = Color.Red;
                         }
                     }
@@ -1624,7 +1624,7 @@ namespace ProductionLaunch
                     try
                     {
                         if (myRSA.GetG1ASE().BBConnect(Convert.ToString(ipAddressG1RFIDReader.Text), 3000, 255) == 0)
-                        {                            
+                        {
                             lbLedConnectionG1.LedColor = Color.LightGreen;
                         }
                         else
@@ -1663,7 +1663,7 @@ namespace ProductionLaunch
                 MachineRuntime.rfidVariantG1A1 = "";
 
                 return retRFID;
-            }            
+            }
 
             try
             {
@@ -1841,7 +1841,7 @@ namespace ProductionLaunch
                 }
             }
             else
-            {               
+            {
             }
         }
 
@@ -1871,7 +1871,7 @@ namespace ProductionLaunch
             {
 
             }
-        }  
+        }
 
         private async void checkBoxR2Inclusion_CheckStateChanged(object sender, EventArgs e)
         {
@@ -1899,7 +1899,7 @@ namespace ProductionLaunch
             {
 
             }
-        }     
+        }
 
         private async void checkBoxGD1_CheckStateChanged(object sender, EventArgs e)
         {
@@ -1929,7 +1929,7 @@ namespace ProductionLaunch
             {
                 //todo manage
             }
-        }   
+        }
 
         private async void checkBoxOven2_CheckStateChanged(object sender, EventArgs e)
         {
@@ -1957,7 +1957,7 @@ namespace ProductionLaunch
             {
 
             }
-        }      
+        }
 
         private async void numericUpDownGD2Param1_ValueChanged(object sender, EventArgs e)
         {
@@ -1995,7 +1995,7 @@ namespace ProductionLaunch
 
                 }
             }
-        }  
+        }
 
         private async void numericUpDownGD2Param4_ValueChanged(object sender, EventArgs e)
         {
@@ -2014,7 +2014,7 @@ namespace ProductionLaunch
 
                 }
             }
-        }      
+        }
 
         private async void numericUpDownRFIDAutoReading_ValueChanged(object sender, EventArgs e)
         {
@@ -2196,10 +2196,10 @@ namespace ProductionLaunch
         private void comboBoxRFIDModelName_T0_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBoxRFIDModelName_T0.SelectedIndex != -1)
-            MachineRuntime.rfidModelNameG1A1 = comboBoxRFIDModelName_T0.Text;
+                MachineRuntime.rfidModelNameG1A1 = comboBoxRFIDModelName_T0.Text;
 
-            if(comboBoxRFIDModelName_T0.Text != "")
-            SendRecipeInAutomatic(comboBoxRFIDModelName_T0.Text);
+            if (comboBoxRFIDModelName_T0.Text != "")
+                SendRecipeInAutomatic(comboBoxRFIDModelName_T0.Text);
         }
 
         private async void radioManualReading_CheckedChanged(object sender, EventArgs e)
@@ -2342,7 +2342,7 @@ namespace ProductionLaunch
                     return;
                 }
 
-                
+
             }
         }
 
@@ -2493,7 +2493,7 @@ namespace ProductionLaunch
             checkBoxEditR4Aux1_01.BackgroundImage = (checkBoxEditR4Aux1_01.CheckState == CheckState.Unchecked) ? ProductionLaunch.Properties.Resources.ledoff : ProductionLaunch.Properties.Resources.ledon;
             checkBoxEditR4Aux2_01.BackgroundImage = (checkBoxEditR4Aux2_01.CheckState == CheckState.Unchecked) ? ProductionLaunch.Properties.Resources.ledoff : ProductionLaunch.Properties.Resources.ledon;
 
-            
+
 
             if (MachineRuntime.robotCodePL == comboBoxSearchRobotCode.Text)
             {
@@ -2513,7 +2513,7 @@ namespace ProductionLaunch
             else
             {
                 checkBoxR1Aux0_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;
-                
+
             }
             //UpdateAllModelFlag(textBoxManageRobotCode.Text);
         }
@@ -2521,22 +2521,22 @@ namespace ProductionLaunch
         private void checkBoxR1Aux1_00_CheckStateChanged(object sender, EventArgs e)
         {
 
-                if (checkBoxR1Aux1_00.CheckState == CheckState.Unchecked)
-                {
-                    checkBoxR1Aux1_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledoff;
-                }
-                else
-                {
-                    checkBoxR1Aux1_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;
-                    
-                }
-                //UpdateAllModelFlag(textBoxManageRobotCode.Text);
-            
+            if (checkBoxR1Aux1_00.CheckState == CheckState.Unchecked)
+            {
+                checkBoxR1Aux1_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledoff;
+            }
+            else
+            {
+                checkBoxR1Aux1_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;
+
+            }
+            //UpdateAllModelFlag(textBoxManageRobotCode.Text);
+
         }
 
         public void UpdateAllModelFlag(string modelName)
         {
-            
+
             List<string> flags = new List<string>();
 
             flags.Add((checkBoxR1Aux0_00.CheckState == CheckState.Checked) ? "1" : "0");
@@ -2573,7 +2573,7 @@ namespace ProductionLaunch
             }
             else
             {
-                checkBoxR1Aux2_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;                
+                checkBoxR1Aux2_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;
             }
         }
 
@@ -2585,7 +2585,7 @@ namespace ProductionLaunch
             }
             else
             {
-                checkBoxR2Aux0_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;                
+                checkBoxR2Aux0_00.BackgroundImage = ProductionLaunch.Properties.Resources.ledon;
             }
         }
 
@@ -2800,7 +2800,7 @@ namespace ProductionLaunch
                 //exit from application
                 myCore?.StopAllService();
 
-                Client.Close(); 
+                Client.Close();
                 //exit application
                 Environment.Exit(0);
             }
@@ -2872,7 +2872,7 @@ namespace ProductionLaunch
 
         private void buttonLoadRotary_Click(object sender, EventArgs e)
         {
-            DialogResult result = MsgBox.Show("Are you sure to LOAD ROBOTS buffer programs of model name" + comboBoxRFIDLoadRotary_T0 .Text + "?", "Exit", MsgBox.Buttons.YesNo, MsgBox.Icon.Info);
+            DialogResult result = MsgBox.Show("Are you sure to LOAD ROBOTS buffer programs of model name" + comboBoxRFIDLoadRotary_T0.Text + "?", "Exit", MsgBox.Buttons.YesNo, MsgBox.Icon.Info);
 
             if (result == DialogResult.Yes)
             {
@@ -2898,7 +2898,7 @@ namespace ProductionLaunch
             {
                 MessageBox.Show("no active alarms", "scale alarms", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else MessageBox.Show( alarmString, GDevice1.Default.GD1Name + " in alarm", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            else MessageBox.Show(alarmString, GDevice1.Default.GD1Name + " in alarm", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void buttonGD2RegisterAlarms_Click(object sender, EventArgs e)
@@ -3047,7 +3047,7 @@ namespace ProductionLaunch
             Rectangle rectBox = new Rectangle(0, 0, 1680, 560);
 
             myGraphics.ResetTransform();
-            myGraphics.TranslateTransform(20, 20);            
+            myGraphics.TranslateTransform(20, 20);
             myGraphics.DrawRectangle(rectBorderPen, rectBox);
             myGraphics.FillRectangle(groupBoxFillColorOn, rectBox);
             myGraphics.DrawString("recipe settings", whiteFont, windowsTextBrush, new Point(20, 20));
@@ -3062,7 +3062,7 @@ namespace ProductionLaunch
             myGraphics.DrawString("sole training", whiteFont, windowsTextBrush, new Point(20, 20));
             myGraphics.DrawLine(groupBoxLineOnTop, new Point(0, 0), new Point(rectTrainingBox.Width, 0));
             myGraphics.DrawLine(windowsTextPen, new Point(20, 45), new Point(860, 45));
-            
+
             Rectangle rectGCBox = new Rectangle(0, 0, 380, 420);
             //myGraphics.ResetTransform();
             //myGraphics.TranslateTransform(20, 600);
@@ -3091,7 +3091,7 @@ namespace ProductionLaunch
         private void buttonResetCounter_Click(object sender, EventArgs e)
         {
             textBoxLastCounter.Text = "0";
-        }    
+        }
 
         private async void checkBoxR1Cleaning_CheckStateChanged(object sender, EventArgs e)
         {
@@ -3128,7 +3128,7 @@ namespace ProductionLaunch
             {
                 MachineRuntime.gdevice1.SetDeviceParam1((numericUpDownGD1Param1.Value).ToString());
                 string keyToSend = "pcGD1Param1";
-                var sendResult = await ccService.Send(keyToSend, Convert.ToInt32((numericUpDownGD1Param1.Value/10)));
+                var sendResult = await ccService.Send(keyToSend, Convert.ToInt32((numericUpDownGD1Param1.Value / 10)));
 
                 if (sendResult.OpcResult)
                 {
@@ -3163,7 +3163,7 @@ namespace ProductionLaunch
         {
             if (ccService == null) return;
             if (ccService.ClientIsConnected)
-            {                
+            {
                 string keyToSend = "pcGD1CommandTare";
                 var sendResult = await ccService.Send(keyToSend, true);
 
@@ -3174,13 +3174,15 @@ namespace ProductionLaunch
                     if (sendResult.OpcResult)
                     {
                         MessageBox.Show("PL", GDevice1.Default.GD1Name + " tare done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    } else MessageBox.Show("PL", GDevice1.Default.GD1Name + " error doing tare", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else MessageBox.Show("PL", GDevice1.Default.GD1Name + " error doing tare", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
                     MessageBox.Show("PL", GDevice1.Default.GD1Name + " error doing tare", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            } else MessageBox.Show("PL", "OPCUA: client not connected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else MessageBox.Show("PL", "OPCUA: client not connected", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private async void buttonStartZeroScale_Click(object sender, EventArgs e)
@@ -3331,13 +3333,14 @@ namespace ProductionLaunch
             //Thread.Sleep(300);
             //sendResult = await ccService.Send(keyToSend, false);
 
-            if ( sendResult.OpcResult)
+            if (sendResult.OpcResult)
             {
                 //send training mode to scanner
-                 tcp.Write("MODE," + 1 + ",2,0,0,0,0,0,0,0,0,");
+                tcp.Write("MODE," + 1 + ",2,0,0,0,0,0,0,0,0,");
                 Thread.Sleep(100);
                 lbLedTrainingStarted.State = LBLed.LedState.On;
-            } else lbLedTrainingStarted.State = LBLed.LedState.Off;
+            }
+            else lbLedTrainingStarted.State = LBLed.LedState.Off;
             //reset result led
             lbLedScannerResult.State = LBLed.LedState.Off;
         }
@@ -3359,7 +3362,7 @@ namespace ProductionLaunch
                     }
                     else
                     {
-                        
+
                         //send recipe to scanner
                         tcp.Write(
                             "RECIPE,1," + numericUpDownTParam2.Value.ToString() + "," + numericUpDownTParam3.Value.ToString() + "," +
@@ -3375,7 +3378,7 @@ namespace ProductionLaunch
                         MessageBox.Show("FMSS PL", "model name succesfully updated", MessageBoxButtons.OK);
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
 
                 }
@@ -3427,7 +3430,7 @@ namespace ProductionLaunch
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
@@ -3465,7 +3468,7 @@ namespace ProductionLaunch
                     }
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
@@ -3477,7 +3480,7 @@ namespace ProductionLaunch
                 File.Copy("\\\\172.31.10.126\\PRODUCTION\\Scanner\\JOB1" + ".AU1", "C:\\PRODUCTION\\Programs\\master_prog\\" + programName + ".AU1", true);
                 File.Copy("\\\\172.31.10.126\\PRODUCTION\\Scanner\\JOB1" + ".AU2", "C:\\PRODUCTION\\Programs\\master_prog\\" + programName + ".AU2", true);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
             }
@@ -3569,7 +3572,7 @@ namespace ProductionLaunch
                             "RECIPE,1," + par2 + "," + par3 + "," +
                             par4 + "," + par5 + "," + "3," +
                             par6 + "," + par7 + "," +
-                            par8 + "," + par1 + ",");                        
+                            par8 + "," + par1 + ",");
                     }
                 }
                 catch (Exception ex)
@@ -3777,7 +3780,7 @@ namespace ProductionLaunch
                 bool value = bool.Parse(readResult.Value.ToString());
                 string keyToSend = "pcLockUnlockPallets";
                 if (value)
-                {                    
+                {
                     var sendResult = await ccService.Send(keyToSend, false);
 
                     if (sendResult.OpcResult)
@@ -3864,7 +3867,6 @@ namespace ProductionLaunch
             }
         }
 
-
         List<IoSignal> GetInputSignals()
         {
             return new List<IoSignal>
@@ -3888,7 +3890,6 @@ namespace ProductionLaunch
             };
         }
 
-
         List<IoSignal> GetOutputSignals()
         {
             return new List<IoSignal>
@@ -3911,14 +3912,16 @@ namespace ProductionLaunch
                 new IoSignal { Variable = "Linea_out_spare_16", Address = "Q1.7", Comment = "Ethernet 0 OUT 16", ElectricAddress = "DO15", IsOn = false }
             };
         }
-        
+
         public class IoSignal
         {
             public string Variable { get; set; }
             public string Address { get; set; }
             public string Comment { get; set; }
             public string ElectricAddress { get; set; }
+            public string RobotAddress { get; set; }
             public bool IsOn { get; set; }
+            public string DescriptionENG { get; set; }
         }
 
         private void tabPageT8_Paint(object sender, PaintEventArgs e)
@@ -3947,6 +3950,202 @@ namespace ProductionLaunch
 
             Brush onBrush = new SolidBrush(Color.LightGreen);
             Brush offBrush = new SolidBrush(Color.DarkGreen);
+        }
+
+        private void tabPage8_2_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Background
+            Brush backgroundBrush = new SolidBrush(Color.FromArgb(226, 233, 243));
+            g.FillRectangle(backgroundBrush, tabPage8_2.ClientRectangle);
+
+            Font font = new Font("Verdana", 12);
+            Font boldFont = new Font("Verdana", 14, FontStyle.Bold);
+            Brush textBrush = Brushes.Black;
+
+            Pen borderPen = new Pen(Color.FromArgb(80, 157, 187), 2)
+            {
+                DashStyle = System.Drawing.Drawing2D.DashStyle.Dash
+            };
+
+            Brush onBrush = new SolidBrush(Color.LightGreen);
+            Brush offBrush = new SolidBrush(Color.DarkGreen);
+
+            int blockWidth = 500;
+            int blockHeight = 550;
+            int startX = 20;
+            int startY = 20;
+            int rowHeight = 30;
+
+            List<IoSignal> inputSignals = GetInputSignalsForTab2();
+            List<IoSignal> outputSignals = GetOutputSignalsForTab2();
+
+            // INPUT block
+            Rectangle inputBlock = new Rectangle(startX, startY, blockWidth, blockHeight);
+            g.FillRectangle(Brushes.White, inputBlock);
+            g.DrawRectangle(borderPen, inputBlock);
+            g.DrawString("Input", boldFont, textBrush, startX + 10, startY + 5);
+
+            for (int i = 0; i < inputSignals.Count; i++)
+            {
+                var sig = inputSignals[i];
+                int y = startY + 40 + i * rowHeight;
+                g.DrawString(sig.Variable.Replace("_", " "), font, textBrush, startX + 10, y);
+                Brush statusBrush = sig.IsOn ? onBrush : offBrush;
+                g.FillEllipse(statusBrush, startX + 450, y, 25, 25);
+            }
+
+            // OUTPUT block
+            int outStartX = startX + blockWidth + 50;
+            Rectangle outputBlock = new Rectangle(outStartX, startY, blockWidth, blockHeight);
+            g.FillRectangle(Brushes.White, outputBlock);
+            g.DrawRectangle(borderPen, outputBlock);
+            g.DrawString("Output", boldFont, textBrush, outStartX + 10, startY + 5);
+
+            for (int i = 0; i < outputSignals.Count; i++)
+            {
+                var sig = outputSignals[i];
+                int y = startY + 40 + i * rowHeight;
+                g.DrawString(sig.Variable.Replace("_", " "), font, textBrush, outStartX + 10, y);
+                Brush statusBrush = sig.IsOn ? onBrush : offBrush;
+                g.FillEllipse(statusBrush, outStartX + 450, y, 25, 25);
+            }
+        }
+
+        List<IoSignal> GetInputSignalsForTab2()
+        {
+            return new List<IoSignal>
+            {
+                new IoSignal { Variable = "Cardatura_cambio_pressione_robot", Address = "I51.0", DescriptionENG="Carding change pressure robot", Comment = "Ethernet 5 IN Espansione 9", RobotAddress = "9", IsOn = false },
+                new IoSignal { Variable = "Cardatura_reset_centraggio_SX_robot", Address = "I53.3", DescriptionENG="Carding reset centering left robot", Comment = "Ethernet 5 IN Scambio 28", RobotAddress = "28", IsOn = false },
+                new IoSignal { Variable = "Cardatura_reset_centraggio_DX_robot", Address = "I53.4", DescriptionENG="Carding reset  centering right robot", Comment = "Ethernet 5 IN Scambio 29", RobotAddress = "29", IsOn = false },
+                new IoSignal { Variable = "Cardatura_salta_copia_terminata_SX_robot", Address = "I53.5", DescriptionENG="Carding jump copy completed left robot", Comment = "Ethernet 5 IN Scambio 30", RobotAddress = "30", IsOn = false },
+                new IoSignal { Variable = "Cardatura_salta_copia_terminata_DX_robot", Address = "I53.6", DescriptionENG="Carding jump copy completed right robot", Comment = "Ethernet 5 IN Scambio 31", RobotAddress = "31", IsOn = false },
+                new IoSignal { Variable = "Cardatura_pulsante_emergenza_TP_robot", Address = "I53.7", DescriptionENG="Carding emergency button TP robot", Comment = "Ethernet 5 IN Scambio 32", RobotAddress = "32", IsOn = false },
+                new IoSignal { Variable = "Cardatura_pulsante_emergenza_controllo_robot", Address = "I54.0", DescriptionENG="Carding emergency button controller robot", Comment = "Ethernet 5 IN Scambio 33", RobotAddress = "33", IsOn = false },
+                new IoSignal { Variable = "Cardatura_porte_aperte_robot", Address = "I54.1", DescriptionENG="Carding door open robot", Comment = "Ethernet 5 IN Scambio 34", RobotAddress = "34", IsOn = false }
+            };
+        }
+
+        List<IoSignal> GetOutputSignalsForTab2()
+        {
+            return new List<IoSignal>
+            {
+                new IoSignal { Variable = "Cardatura_salta_copia_SX_robot", Address = "Q54.5", DescriptionENG="Carding jump copy left robot", Comment = "Ethernet 5 OUT Scambio 38", RobotAddress = "1038", IsOn = false },
+                new IoSignal { Variable = "Cardatura_salta_copia_DX_robot", Address = "Q54.6", DescriptionENG="Carding jump copy right robot", Comment = "Ethernet 5 OUT Scambio 39", RobotAddress = "1039", IsOn = false },
+            };
+        }
+
+        private void tabPage8_3_Paint(object sender, PaintEventArgs e)
+        {
+            Graphics g = e.Graphics;
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            // Background
+            Brush backgroundBrush = new SolidBrush(Color.FromArgb(226, 233, 243));
+            g.FillRectangle(backgroundBrush, tabPage8_2.ClientRectangle);
+
+            Font font = new Font("Verdana", 12);
+            Font boldFont = new Font("Verdana", 14, FontStyle.Bold);
+            Brush textBrush = Brushes.Black;
+
+            Pen borderPen = new Pen(Color.FromArgb(80, 157, 187), 2)
+            {
+                DashStyle = System.Drawing.Drawing2D.DashStyle.Dash
+            };
+
+            Brush onBrush = new SolidBrush(Color.LightGreen);
+            Brush offBrush = new SolidBrush(Color.DarkGreen);
+
+            int blockWidth = 500;
+            int blockHeight = 550;
+            int startX = 20;
+            int startY = 20;
+            int rowHeight = 30;
+
+            List<IoSignal> inputSignals = GetInputSignalsForTab3();
+            List<IoSignal> outputSignals = GetOutputSignalsForTab3();
+
+            // INPUT block
+            Rectangle inputBlock = new Rectangle(startX, startY, blockWidth, blockHeight);
+            g.FillRectangle(Brushes.White, inputBlock);
+            g.DrawRectangle(borderPen, inputBlock);
+            g.DrawString("Input", boldFont, textBrush, startX + 10, startY + 5);
+
+            for (int i = 0; i < inputSignals.Count; i++)
+            {
+                var sig = inputSignals[i];
+                int y = startY + 40 + i * rowHeight;
+                g.DrawString(sig.Variable.Replace("_", " "), font, textBrush, startX + 10, y);
+                Brush statusBrush = sig.IsOn ? onBrush : offBrush;
+                g.FillEllipse(statusBrush, startX + 450, y, 25, 25);
+            }
+
+            // OUTPUT block
+            int outStartX = startX + blockWidth + 50;
+            Rectangle outputBlock = new Rectangle(outStartX, startY, blockWidth, blockHeight);
+            g.FillRectangle(Brushes.White, outputBlock);
+            g.DrawRectangle(borderPen, outputBlock);
+            g.DrawString("Output", boldFont, textBrush, outStartX + 10, startY + 5);
+
+            for (int i = 0; i < outputSignals.Count; i++)
+            {
+                var sig = outputSignals[i];
+                int y = startY + 40 + i * rowHeight;
+                g.DrawString(sig.Variable.Replace("_", " "), font, textBrush, outStartX + 10, y);
+                Brush statusBrush = sig.IsOn ? onBrush : offBrush;
+                g.FillEllipse(statusBrush, outStartX + 450, y, 25, 25);
+            }
+        }
+
+        List<IoSignal> GetInputSignalsForTab3()
+        {
+            return new List<IoSignal>
+            {
+                new IoSignal { Variable = "Cardatura_pulsante_emergenza_premuto", Address = "I90.0", ElectricAddress = "DI0" },
+                new IoSignal { Variable = "Cardatura_in_spare_2", Address = "I90.1", ElectricAddress = "DI1" },
+                new IoSignal { Variable = "Cardatura_pressostato", Address = "I90.2", ElectricAddress = "DI2" },
+                new IoSignal { Variable = "Cardatura_drive_pronto", Address = "I90.3", ElectricAddress = "DI3" },
+                new IoSignal { Variable = "Cardatura_velocita_zero", Address = "I90.4", ElectricAddress = "DI4" },
+                new IoSignal { Variable = "Cardatura_allarme_drive", Address = "I90.5", ElectricAddress = "DI5" },
+                new IoSignal { Variable = "Cardatura_in_spare_7", Address = "I90.6", ElectricAddress = "DI6" },
+                new IoSignal { Variable = "Cardatura_in_spare_8", Address = "I90.7", ElectricAddress = "DI7" },
+                new IoSignal { Variable = "Cardatura_in_spare_9", Address = "I91.0", ElectricAddress = "DI8" },
+                new IoSignal { Variable = "Cardatura_in_spare_10", Address = "I91.1", ElectricAddress = "DI9" },
+                new IoSignal { Variable = "Cardatura_in_spare_11", Address = "I91.2", ElectricAddress = "DI10" },
+                new IoSignal { Variable = "Cardatura_in_spare_12", Address = "I91.3", ElectricAddress = "DI11" },
+                new IoSignal { Variable = "Cardatura_in_spare_13", Address = "I91.4", ElectricAddress = "DI12" },
+                new IoSignal { Variable = "Cardatura_in_spare_14", Address = "I91.5", ElectricAddress = "DI13" },
+                new IoSignal { Variable = "Cardatura_in_spare_15", Address = "I91.6", ElectricAddress = "DI14" },
+                new IoSignal { Variable = "Cardatura_in_spare_16", Address = "I91.7", ElectricAddress = "DI15" },
+
+            };
+        }
+
+        List<IoSignal> GetOutputSignalsForTab3()
+        {
+            return new List<IoSignal>
+            {
+                new IoSignal { Variable = "Cardatura_servo_on", Address = "Q90.0", ElectricAddress = "DO0" },
+                new IoSignal { Variable = "Cardatura_start_velocita", Address = "Q90.1", ElectricAddress = "DO1" },
+                new IoSignal { Variable = "Cardatura_velocita_bit_0", Address = "Q90.2", ElectricAddress = "DO2" },
+                new IoSignal { Variable = "Cardatura_velocita_bit_1", Address = "Q90.3", ElectricAddress = "DO3" },
+                new IoSignal { Variable = "Cardatura_reset_allarmi_drive", Address = "Q90.4", ElectricAddress = "DO4" },
+                new IoSignal { Variable = "Cardatura_stop_motore", Address = "Q90.5", ElectricAddress = "DO5" },
+                new IoSignal { Variable = "Cardatura_compensazione_indietro_1", Address = "Q90.6", ElectricAddress = "DO6" },
+                new IoSignal { Variable = "Cardatura_compensazione_indietro_2", Address = "Q90.7", ElectricAddress = "DO7" },
+                new IoSignal { Variable = "Cardatura_cambio_pressione", Address = "Q91.0", ElectricAddress = "DO8" },
+                new IoSignal { Variable = "Cardatura_reset_drive", Address = "Q91.1", ElectricAddress = "DO9" },
+                new IoSignal { Variable = "Cardatura_velocita_bit_2", Address = "Q91.2", ElectricAddress = "DO10" },
+                new IoSignal { Variable = "Cardatura_out_spare_12", Address = "Q91.3", ElectricAddress = "DO11" },
+                new IoSignal { Variable = "Cardatura_out_spare_13", Address = "Q91.4", ElectricAddress = "DO12" },
+                new IoSignal { Variable = "Cardatura_spia_verde", Address = "Q91.5", ElectricAddress = "DO13" },
+                new IoSignal { Variable = "Cardatura_spia_gialla", Address = "Q91.6", ElectricAddress = "DO14" },
+                new IoSignal { Variable = "Cardatura_spia_rossa", Address = "Q91.7", ElectricAddress = "DO15" },
+
+            };
         }
     }
 }

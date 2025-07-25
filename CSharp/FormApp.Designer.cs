@@ -949,7 +949,7 @@ namespace ProductionLaunch
             tabPageColorStyle1.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT3.HoverStyle = tabPageColorStyle1;
             this.tabPageT3.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT3.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT3.Name = "tabPageT3";
             tabPageColorStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle2.BackFadeColor = System.Drawing.Color.Transparent;
@@ -966,7 +966,7 @@ namespace ProductionLaunch
             tabPageColorStyle3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle3.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT3.SelectedStyle = tabPageColorStyle3;
-            this.tabPageT3.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT3.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT3.StyleFromParent = false;
             this.tabPageT3.TabIndex = 8;
             treeNode1.Name = "";
@@ -975,7 +975,7 @@ namespace ProductionLaunch
             this.tabPageT3.Tag = treeNode1;
             this.tabPageT3.Text = "Training&Calib";
             this.tabPageT3.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT3.TextBounds")));
-            this.tabPageT3.TextSize = new System.Drawing.SizeF(148.7776F, 25.4663F);
+            this.tabPageT3.TextSize = new System.Drawing.SizeF(223.1665F, 38.19946F);
             this.tabPageT3.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPageT3_Paint);
             // 
             // checkBoxMasterPointR2
@@ -984,9 +984,10 @@ namespace ProductionLaunch
             this.checkBoxMasterPointR2.Checked = true;
             this.checkBoxMasterPointR2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxMasterPointR2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxMasterPointR2.Location = new System.Drawing.Point(1079, 1005);
+            this.checkBoxMasterPointR2.Location = new System.Drawing.Point(1618, 1546);
+            this.checkBoxMasterPointR2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxMasterPointR2.Name = "checkBoxMasterPointR2";
-            this.checkBoxMasterPointR2.Size = new System.Drawing.Size(168, 22);
+            this.checkBoxMasterPointR2.Size = new System.Drawing.Size(243, 33);
             this.checkBoxMasterPointR2.TabIndex = 674;
             this.checkBoxMasterPointR2.Text = "master points R2";
             this.checkBoxMasterPointR2.UseVisualStyleBackColor = true;
@@ -998,9 +999,10 @@ namespace ProductionLaunch
             this.label152.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label152.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label152.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label152.Location = new System.Drawing.Point(876, 1044);
+            this.label152.Location = new System.Drawing.Point(1314, 1606);
+            this.label152.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(126, 16);
+            this.label152.Size = new System.Drawing.Size(193, 25);
             this.label152.TabIndex = 673;
             this.label152.Text = "trigger to scanner";
             // 
@@ -1013,9 +1015,10 @@ namespace ProductionLaunch
             this.button1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(845, 1039);
+            this.button1.Location = new System.Drawing.Point(1268, 1598);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(20, 20);
+            this.button1.Size = new System.Drawing.Size(30, 31);
             this.button1.TabIndex = 672;
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -1026,9 +1029,10 @@ namespace ProductionLaunch
             this.label153.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label153.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label153.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label153.Location = new System.Drawing.Point(876, 1013);
+            this.label153.Location = new System.Drawing.Point(1314, 1558);
+            this.label153.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(98, 16);
+            this.label153.Size = new System.Drawing.Size(149, 25);
             this.label153.TabIndex = 671;
             this.label153.Text = "sole presence";
             // 
@@ -1041,9 +1045,10 @@ namespace ProductionLaunch
             this.button2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(845, 1008);
+            this.button2.Location = new System.Drawing.Point(1268, 1551);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(20, 20);
+            this.button2.Size = new System.Drawing.Size(30, 31);
             this.button2.TabIndex = 670;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -1054,9 +1059,10 @@ namespace ProductionLaunch
             this.label138.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label138.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label138.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label138.Location = new System.Drawing.Point(654, 739);
+            this.label138.Location = new System.Drawing.Point(981, 1137);
+            this.label138.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(62, 18);
+            this.label138.Size = new System.Drawing.Size(92, 29);
             this.label138.TabIndex = 669;
             this.label138.Text = "trigger";
             // 
@@ -1070,10 +1076,11 @@ namespace ProductionLaunch
             this.lbLed1.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLed1.LedColor = System.Drawing.Color.LightGreen;
             this.lbLed1.LedSize = new System.Drawing.SizeF(24F, 24F);
-            this.lbLed1.Location = new System.Drawing.Point(674, 763);
+            this.lbLed1.Location = new System.Drawing.Point(1011, 1174);
+            this.lbLed1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLed1.Name = "lbLed1";
             this.lbLed1.Renderer = null;
-            this.lbLed1.Size = new System.Drawing.Size(24, 24);
+            this.lbLed1.Size = new System.Drawing.Size(36, 37);
             this.lbLed1.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.Off;
             this.lbLed1.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLed1.TabIndex = 668;
@@ -1085,9 +1092,10 @@ namespace ProductionLaunch
             this.label139.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label139.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label139.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label139.Location = new System.Drawing.Point(734, 739);
+            this.label139.Location = new System.Drawing.Point(1101, 1137);
+            this.label139.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(55, 18);
+            this.label139.Size = new System.Drawing.Size(80, 29);
             this.label139.TabIndex = 667;
             this.label139.Text = "result";
             // 
@@ -1101,10 +1109,11 @@ namespace ProductionLaunch
             this.lbLed2.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLed2.LedColor = System.Drawing.Color.LightGreen;
             this.lbLed2.LedSize = new System.Drawing.SizeF(24F, 24F);
-            this.lbLed2.Location = new System.Drawing.Point(744, 763);
+            this.lbLed2.Location = new System.Drawing.Point(1116, 1174);
+            this.lbLed2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLed2.Name = "lbLed2";
             this.lbLed2.Renderer = null;
-            this.lbLed2.Size = new System.Drawing.Size(24, 24);
+            this.lbLed2.Size = new System.Drawing.Size(36, 37);
             this.lbLed2.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.Off;
             this.lbLed2.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLed2.TabIndex = 666;
@@ -1115,9 +1124,10 @@ namespace ProductionLaunch
             this.buttonStartCalib.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStartCalib.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonStartCalib.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonStartCalib.Location = new System.Drawing.Point(432, 739);
+            this.buttonStartCalib.Location = new System.Drawing.Point(648, 1137);
+            this.buttonStartCalib.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonStartCalib.Name = "buttonStartCalib";
-            this.buttonStartCalib.Size = new System.Drawing.Size(219, 48);
+            this.buttonStartCalib.Size = new System.Drawing.Size(328, 74);
             this.buttonStartCalib.TabIndex = 665;
             this.buttonStartCalib.Text = "start calib";
             this.buttonStartCalib.UseVisualStyleBackColor = false;
@@ -1133,14 +1143,15 @@ namespace ProductionLaunch
             0,
             0,
             0});
-            this.numericUpDownCExposure.Location = new System.Drawing.Point(547, 661);
+            this.numericUpDownCExposure.Location = new System.Drawing.Point(820, 1017);
+            this.numericUpDownCExposure.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownCExposure.Maximum = new decimal(new int[] {
             5000,
             0,
             0,
             0});
             this.numericUpDownCExposure.Name = "numericUpDownCExposure";
-            this.numericUpDownCExposure.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownCExposure.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownCExposure.TabIndex = 664;
             this.numericUpDownCExposure.Value = new decimal(new int[] {
             700,
@@ -1155,9 +1166,10 @@ namespace ProductionLaunch
             this.label137.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label137.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label137.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label137.Location = new System.Drawing.Point(432, 661);
+            this.label137.Location = new System.Drawing.Point(648, 1017);
+            this.label137.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label137.Name = "label137";
-            this.label137.Size = new System.Drawing.Size(82, 18);
+            this.label137.Size = new System.Drawing.Size(123, 29);
             this.label137.TabIndex = 663;
             this.label137.Text = "exposure";
             // 
@@ -1166,14 +1178,15 @@ namespace ProductionLaunch
             this.numericUpDownTSize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownTSize.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTSize.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTSize.Location = new System.Drawing.Point(912, 665);
+            this.numericUpDownTSize.Location = new System.Drawing.Point(1368, 1023);
+            this.numericUpDownTSize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTSize.Maximum = new decimal(new int[] {
             999,
             0,
             0,
             0});
             this.numericUpDownTSize.Name = "numericUpDownTSize";
-            this.numericUpDownTSize.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTSize.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTSize.TabIndex = 662;
             this.numericUpDownTSize.Value = new decimal(new int[] {
             340,
@@ -1188,9 +1201,10 @@ namespace ProductionLaunch
             this.label134.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label134.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label134.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label134.Location = new System.Drawing.Point(840, 916);
+            this.label134.Location = new System.Drawing.Point(1260, 1409);
+            this.label134.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label134.Name = "label134";
-            this.label134.Size = new System.Drawing.Size(75, 23);
+            this.label134.Size = new System.Drawing.Size(113, 35);
             this.label134.TabIndex = 661;
             this.label134.Text = "Lenght";
             // 
@@ -1200,9 +1214,10 @@ namespace ProductionLaunch
             this.textBoxTLenght.Enabled = false;
             this.textBoxTLenght.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTLenght.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxTLenght.Location = new System.Drawing.Point(840, 951);
+            this.textBoxTLenght.Location = new System.Drawing.Point(1260, 1463);
+            this.textBoxTLenght.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxTLenght.Name = "textBoxTLenght";
-            this.textBoxTLenght.Size = new System.Drawing.Size(80, 37);
+            this.textBoxTLenght.Size = new System.Drawing.Size(118, 51);
             this.textBoxTLenght.TabIndex = 660;
             this.textBoxTLenght.Text = "--";
             // 
@@ -1213,9 +1228,10 @@ namespace ProductionLaunch
             this.label133.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label133.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label133.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label133.Location = new System.Drawing.Point(1340, 830);
+            this.label133.Location = new System.Drawing.Point(2010, 1277);
+            this.label133.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(33, 23);
+            this.label133.Size = new System.Drawing.Size(50, 35);
             this.label133.TabIndex = 659;
             this.label133.Text = "Rz";
             // 
@@ -1226,9 +1242,10 @@ namespace ProductionLaunch
             this.label132.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label132.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label132.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label132.Location = new System.Drawing.Point(1240, 830);
+            this.label132.Location = new System.Drawing.Point(1860, 1277);
+            this.label132.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(33, 23);
+            this.label132.Size = new System.Drawing.Size(51, 35);
             this.label132.TabIndex = 658;
             this.label132.Text = "Ry";
             // 
@@ -1239,9 +1256,10 @@ namespace ProductionLaunch
             this.label131.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label131.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label131.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label131.Location = new System.Drawing.Point(1140, 830);
+            this.label131.Location = new System.Drawing.Point(1710, 1277);
+            this.label131.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(34, 23);
+            this.label131.Size = new System.Drawing.Size(52, 35);
             this.label131.TabIndex = 657;
             this.label131.Text = "Rx";
             // 
@@ -1251,9 +1269,10 @@ namespace ProductionLaunch
             this.textBoxRzT.Enabled = false;
             this.textBoxRzT.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRzT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRzT.Location = new System.Drawing.Point(1340, 860);
+            this.textBoxRzT.Location = new System.Drawing.Point(2010, 1323);
+            this.textBoxRzT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRzT.Name = "textBoxRzT";
-            this.textBoxRzT.Size = new System.Drawing.Size(80, 37);
+            this.textBoxRzT.Size = new System.Drawing.Size(118, 51);
             this.textBoxRzT.TabIndex = 656;
             this.textBoxRzT.Text = "--";
             // 
@@ -1263,9 +1282,10 @@ namespace ProductionLaunch
             this.textBoxRyT.Enabled = false;
             this.textBoxRyT.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRyT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRyT.Location = new System.Drawing.Point(1240, 860);
+            this.textBoxRyT.Location = new System.Drawing.Point(1860, 1323);
+            this.textBoxRyT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRyT.Name = "textBoxRyT";
-            this.textBoxRyT.Size = new System.Drawing.Size(80, 37);
+            this.textBoxRyT.Size = new System.Drawing.Size(118, 51);
             this.textBoxRyT.TabIndex = 655;
             this.textBoxRyT.Text = "--";
             // 
@@ -1275,9 +1295,10 @@ namespace ProductionLaunch
             this.textBoxRxT.Enabled = false;
             this.textBoxRxT.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRxT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRxT.Location = new System.Drawing.Point(1140, 860);
+            this.textBoxRxT.Location = new System.Drawing.Point(1710, 1323);
+            this.textBoxRxT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRxT.Name = "textBoxRxT";
-            this.textBoxRxT.Size = new System.Drawing.Size(80, 37);
+            this.textBoxRxT.Size = new System.Drawing.Size(118, 51);
             this.textBoxRxT.TabIndex = 654;
             this.textBoxRxT.Text = "--";
             // 
@@ -1288,9 +1309,10 @@ namespace ProductionLaunch
             this.label130.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label130.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label130.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label130.Location = new System.Drawing.Point(1040, 830);
+            this.label130.Location = new System.Drawing.Point(1560, 1277);
+            this.label130.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(23, 23);
+            this.label130.Size = new System.Drawing.Size(35, 35);
             this.label130.TabIndex = 653;
             this.label130.Text = "Z";
             // 
@@ -1300,9 +1322,10 @@ namespace ProductionLaunch
             this.textBoxZT.Enabled = false;
             this.textBoxZT.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxZT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxZT.Location = new System.Drawing.Point(1040, 860);
+            this.textBoxZT.Location = new System.Drawing.Point(1560, 1323);
+            this.textBoxZT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxZT.Name = "textBoxZT";
-            this.textBoxZT.Size = new System.Drawing.Size(80, 37);
+            this.textBoxZT.Size = new System.Drawing.Size(118, 51);
             this.textBoxZT.TabIndex = 652;
             this.textBoxZT.Text = "--";
             // 
@@ -1313,9 +1336,10 @@ namespace ProductionLaunch
             this.label128.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label128.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label128.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label128.Location = new System.Drawing.Point(940, 830);
+            this.label128.Location = new System.Drawing.Point(1410, 1277);
+            this.label128.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(22, 23);
+            this.label128.Size = new System.Drawing.Size(33, 35);
             this.label128.TabIndex = 651;
             this.label128.Text = "Y";
             // 
@@ -1326,9 +1350,10 @@ namespace ProductionLaunch
             this.label129.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label129.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label129.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label129.Location = new System.Drawing.Point(840, 830);
+            this.label129.Location = new System.Drawing.Point(1260, 1277);
+            this.label129.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(23, 23);
+            this.label129.Size = new System.Drawing.Size(35, 35);
             this.label129.TabIndex = 650;
             this.label129.Text = "X";
             // 
@@ -1338,9 +1363,10 @@ namespace ProductionLaunch
             this.textBoxYT.Enabled = false;
             this.textBoxYT.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxYT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxYT.Location = new System.Drawing.Point(940, 860);
+            this.textBoxYT.Location = new System.Drawing.Point(1410, 1323);
+            this.textBoxYT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxYT.Name = "textBoxYT";
-            this.textBoxYT.Size = new System.Drawing.Size(80, 37);
+            this.textBoxYT.Size = new System.Drawing.Size(118, 51);
             this.textBoxYT.TabIndex = 649;
             this.textBoxYT.Text = "--";
             // 
@@ -1350,9 +1376,10 @@ namespace ProductionLaunch
             this.textBoxXT.Enabled = false;
             this.textBoxXT.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxXT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxXT.Location = new System.Drawing.Point(840, 860);
+            this.textBoxXT.Location = new System.Drawing.Point(1260, 1323);
+            this.textBoxXT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxXT.Name = "textBoxXT";
-            this.textBoxXT.Size = new System.Drawing.Size(80, 37);
+            this.textBoxXT.Size = new System.Drawing.Size(118, 51);
             this.textBoxXT.TabIndex = 648;
             this.textBoxXT.Text = "---";
             // 
@@ -1362,9 +1389,10 @@ namespace ProductionLaunch
             this.checkBoxMasterPointR1.Checked = true;
             this.checkBoxMasterPointR1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxMasterPointR1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxMasterPointR1.Location = new System.Drawing.Point(1079, 970);
+            this.checkBoxMasterPointR1.Location = new System.Drawing.Point(1618, 1492);
+            this.checkBoxMasterPointR1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxMasterPointR1.Name = "checkBoxMasterPointR1";
-            this.checkBoxMasterPointR1.Size = new System.Drawing.Size(168, 22);
+            this.checkBoxMasterPointR1.Size = new System.Drawing.Size(243, 33);
             this.checkBoxMasterPointR1.TabIndex = 647;
             this.checkBoxMasterPointR1.Text = "master points R1";
             this.checkBoxMasterPointR1.UseVisualStyleBackColor = true;
@@ -1376,9 +1404,10 @@ namespace ProductionLaunch
             this.label126.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label126.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label126.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label126.Location = new System.Drawing.Point(1322, 739);
+            this.label126.Location = new System.Drawing.Point(1983, 1137);
+            this.label126.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(62, 18);
+            this.label126.Size = new System.Drawing.Size(92, 29);
             this.label126.TabIndex = 646;
             this.label126.Text = "trigger";
             // 
@@ -1392,10 +1421,11 @@ namespace ProductionLaunch
             this.lbLedTrainingStarted.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedTrainingStarted.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedTrainingStarted.LedSize = new System.Drawing.SizeF(24F, 24F);
-            this.lbLedTrainingStarted.Location = new System.Drawing.Point(1342, 763);
+            this.lbLedTrainingStarted.Location = new System.Drawing.Point(2013, 1174);
+            this.lbLedTrainingStarted.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedTrainingStarted.Name = "lbLedTrainingStarted";
             this.lbLedTrainingStarted.Renderer = null;
-            this.lbLedTrainingStarted.Size = new System.Drawing.Size(24, 24);
+            this.lbLedTrainingStarted.Size = new System.Drawing.Size(36, 37);
             this.lbLedTrainingStarted.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.Off;
             this.lbLedTrainingStarted.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedTrainingStarted.TabIndex = 645;
@@ -1407,9 +1437,10 @@ namespace ProductionLaunch
             this.label127.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label127.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label127.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label127.Location = new System.Drawing.Point(1402, 739);
+            this.label127.Location = new System.Drawing.Point(2103, 1137);
+            this.label127.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(55, 18);
+            this.label127.Size = new System.Drawing.Size(80, 29);
             this.label127.TabIndex = 644;
             this.label127.Text = "result";
             // 
@@ -1423,10 +1454,11 @@ namespace ProductionLaunch
             this.lbLedScannerResult.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedScannerResult.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedScannerResult.LedSize = new System.Drawing.SizeF(24F, 24F);
-            this.lbLedScannerResult.Location = new System.Drawing.Point(1412, 763);
+            this.lbLedScannerResult.Location = new System.Drawing.Point(2118, 1174);
+            this.lbLedScannerResult.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedScannerResult.Name = "lbLedScannerResult";
             this.lbLedScannerResult.Renderer = null;
-            this.lbLedScannerResult.Size = new System.Drawing.Size(24, 24);
+            this.lbLedScannerResult.Size = new System.Drawing.Size(36, 37);
             this.lbLedScannerResult.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.Off;
             this.lbLedScannerResult.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedScannerResult.TabIndex = 643;
@@ -1443,9 +1475,10 @@ namespace ProductionLaunch
             "central line .LAV",
             "contour .AU1",
             "inside contour .AU2"});
-            this.checkedListBoxR2.Location = new System.Drawing.Point(1210, 470);
+            this.checkedListBoxR2.Location = new System.Drawing.Point(1815, 723);
+            this.checkedListBoxR2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkedListBoxR2.Name = "checkedListBoxR2";
-            this.checkedListBoxR2.Size = new System.Drawing.Size(240, 82);
+            this.checkedListBoxR2.Size = new System.Drawing.Size(358, 121);
             this.checkedListBoxR2.TabIndex = 642;
             this.checkedListBoxR2.Visible = false;
             // 
@@ -1455,9 +1488,10 @@ namespace ProductionLaunch
             this.buttonTRecipeAddNew.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTRecipeAddNew.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonTRecipeAddNew.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonTRecipeAddNew.Location = new System.Drawing.Point(1551, 396);
+            this.buttonTRecipeAddNew.Location = new System.Drawing.Point(2326, 609);
+            this.buttonTRecipeAddNew.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTRecipeAddNew.Name = "buttonTRecipeAddNew";
-            this.buttonTRecipeAddNew.Size = new System.Drawing.Size(120, 48);
+            this.buttonTRecipeAddNew.Size = new System.Drawing.Size(180, 74);
             this.buttonTRecipeAddNew.TabIndex = 641;
             this.buttonTRecipeAddNew.Text = "add new";
             this.buttonTRecipeAddNew.UseVisualStyleBackColor = false;
@@ -1468,9 +1502,10 @@ namespace ProductionLaunch
             this.buttonTRecipeDelete.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTRecipeDelete.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonTRecipeDelete.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonTRecipeDelete.Location = new System.Drawing.Point(1551, 288);
+            this.buttonTRecipeDelete.Location = new System.Drawing.Point(2326, 443);
+            this.buttonTRecipeDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTRecipeDelete.Name = "buttonTRecipeDelete";
-            this.buttonTRecipeDelete.Size = new System.Drawing.Size(120, 48);
+            this.buttonTRecipeDelete.Size = new System.Drawing.Size(180, 74);
             this.buttonTRecipeDelete.TabIndex = 640;
             this.buttonTRecipeDelete.Text = "delete";
             this.buttonTRecipeDelete.UseVisualStyleBackColor = false;
@@ -1488,9 +1523,10 @@ namespace ProductionLaunch
             "central line .LAV",
             "contour .AU1",
             "inside contour .AU2"});
-            this.checkedListBoxR1.Location = new System.Drawing.Point(1210, 340);
+            this.checkedListBoxR1.Location = new System.Drawing.Point(1815, 523);
+            this.checkedListBoxR1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkedListBoxR1.Name = "checkedListBoxR1";
-            this.checkedListBoxR1.Size = new System.Drawing.Size(240, 82);
+            this.checkedListBoxR1.Size = new System.Drawing.Size(358, 121);
             this.checkedListBoxR1.TabIndex = 639;
             this.checkedListBoxR1.Visible = false;
             // 
@@ -1500,9 +1536,10 @@ namespace ProductionLaunch
             this.buttonStartTraining.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStartTraining.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonStartTraining.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonStartTraining.Location = new System.Drawing.Point(843, 739);
+            this.buttonStartTraining.Location = new System.Drawing.Point(1264, 1137);
+            this.buttonStartTraining.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonStartTraining.Name = "buttonStartTraining";
-            this.buttonStartTraining.Size = new System.Drawing.Size(473, 48);
+            this.buttonStartTraining.Size = new System.Drawing.Size(710, 74);
             this.buttonStartTraining.TabIndex = 638;
             this.buttonStartTraining.Text = "start training";
             this.buttonStartTraining.UseVisualStyleBackColor = false;
@@ -1514,9 +1551,10 @@ namespace ProductionLaunch
             this.buttonTRecipeUpdate.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTRecipeUpdate.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonTRecipeUpdate.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonTRecipeUpdate.Location = new System.Drawing.Point(1551, 182);
+            this.buttonTRecipeUpdate.Location = new System.Drawing.Point(2326, 280);
+            this.buttonTRecipeUpdate.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTRecipeUpdate.Name = "buttonTRecipeUpdate";
-            this.buttonTRecipeUpdate.Size = new System.Drawing.Size(120, 48);
+            this.buttonTRecipeUpdate.Size = new System.Drawing.Size(180, 74);
             this.buttonTRecipeUpdate.TabIndex = 637;
             this.buttonTRecipeUpdate.Text = "update";
             this.buttonTRecipeUpdate.UseVisualStyleBackColor = false;
@@ -1528,9 +1566,10 @@ namespace ProductionLaunch
             this.buttonTSave.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTSave.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonTSave.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonTSave.Location = new System.Drawing.Point(1300, 946);
+            this.buttonTSave.Location = new System.Drawing.Point(1950, 1455);
+            this.buttonTSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTSave.Name = "buttonTSave";
-            this.buttonTSave.Size = new System.Drawing.Size(120, 48);
+            this.buttonTSave.Size = new System.Drawing.Size(180, 74);
             this.buttonTSave.TabIndex = 637;
             this.buttonTSave.Text = "save";
             this.buttonTSave.UseVisualStyleBackColor = false;
@@ -1543,9 +1582,10 @@ namespace ProductionLaunch
             this.label125.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label125.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label125.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label125.Location = new System.Drawing.Point(1104, 671);
+            this.label125.Location = new System.Drawing.Point(1656, 1032);
+            this.label125.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(51, 23);
+            this.label125.Size = new System.Drawing.Size(78, 35);
             this.label125.TabIndex = 636;
             this.label125.Text = "type";
             // 
@@ -1559,9 +1599,10 @@ namespace ProductionLaunch
             "LF",
             "RG",
             "XX"});
-            this.comboBoxTType.Location = new System.Drawing.Point(1190, 665);
+            this.comboBoxTType.Location = new System.Drawing.Point(1785, 1023);
+            this.comboBoxTType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxTType.Name = "comboBoxTType";
-            this.comboBoxTType.Size = new System.Drawing.Size(120, 43);
+            this.comboBoxTType.Size = new System.Drawing.Size(178, 61);
             this.comboBoxTType.TabIndex = 635;
             this.comboBoxTType.Text = "LF";
             // 
@@ -1572,9 +1613,10 @@ namespace ProductionLaunch
             this.label123.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label123.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label123.Location = new System.Drawing.Point(840, 665);
+            this.label123.Location = new System.Drawing.Point(1260, 1023);
+            this.label123.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(47, 23);
+            this.label123.Size = new System.Drawing.Size(71, 35);
             this.label123.TabIndex = 634;
             this.label123.Text = "size";
             // 
@@ -1584,7 +1626,8 @@ namespace ProductionLaunch
             this.numericUpDownTParam8.DecimalPlaces = 1;
             this.numericUpDownTParam8.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam8.Location = new System.Drawing.Point(1040, 405);
+            this.numericUpDownTParam8.Location = new System.Drawing.Point(1560, 623);
+            this.numericUpDownTParam8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam8.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -1596,7 +1639,7 @@ namespace ProductionLaunch
             0,
             -2147483648});
             this.numericUpDownTParam8.Name = "numericUpDownTParam8";
-            this.numericUpDownTParam8.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam8.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam8.TabIndex = 632;
             // 
             // labelTParam8
@@ -1606,9 +1649,10 @@ namespace ProductionLaunch
             this.labelTParam8.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam8.Location = new System.Drawing.Point(840, 405);
+            this.labelTParam8.Location = new System.Drawing.Point(1260, 623);
+            this.labelTParam8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam8.Name = "labelTParam8";
-            this.labelTParam8.Size = new System.Drawing.Size(176, 18);
+            this.labelTParam8.Size = new System.Drawing.Size(256, 29);
             this.labelTParam8.TabIndex = 631;
             this.labelTParam8.Text = "Y frame offset (mm)";
             // 
@@ -1618,7 +1662,8 @@ namespace ProductionLaunch
             this.numericUpDownTParam7.DecimalPlaces = 1;
             this.numericUpDownTParam7.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam7.Location = new System.Drawing.Point(1040, 340);
+            this.numericUpDownTParam7.Location = new System.Drawing.Point(1560, 523);
+            this.numericUpDownTParam7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam7.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -1630,7 +1675,7 @@ namespace ProductionLaunch
             0,
             -2147483648});
             this.numericUpDownTParam7.Name = "numericUpDownTParam7";
-            this.numericUpDownTParam7.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam7.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam7.TabIndex = 630;
             // 
             // labelTParam7
@@ -1640,9 +1685,10 @@ namespace ProductionLaunch
             this.labelTParam7.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam7.Location = new System.Drawing.Point(840, 340);
+            this.labelTParam7.Location = new System.Drawing.Point(1260, 523);
+            this.labelTParam7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam7.Name = "labelTParam7";
-            this.labelTParam7.Size = new System.Drawing.Size(176, 18);
+            this.labelTParam7.Size = new System.Drawing.Size(257, 29);
             this.labelTParam7.TabIndex = 629;
             this.labelTParam7.Text = "X frame offset (mm)";
             // 
@@ -1652,7 +1698,8 @@ namespace ProductionLaunch
             this.numericUpDownTParam6.DecimalPlaces = 1;
             this.numericUpDownTParam6.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam6.Location = new System.Drawing.Point(667, 470);
+            this.numericUpDownTParam6.Location = new System.Drawing.Point(1000, 723);
+            this.numericUpDownTParam6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam6.Maximum = new decimal(new int[] {
             2000,
             0,
@@ -1664,7 +1711,7 @@ namespace ProductionLaunch
             0,
             -2147483648});
             this.numericUpDownTParam6.Name = "numericUpDownTParam6";
-            this.numericUpDownTParam6.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam6.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam6.TabIndex = 628;
             // 
             // labelTParam6
@@ -1674,9 +1721,10 @@ namespace ProductionLaunch
             this.labelTParam6.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam6.Location = new System.Drawing.Point(430, 470);
+            this.labelTParam6.Location = new System.Drawing.Point(645, 723);
+            this.labelTParam6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam6.Name = "labelTParam6";
-            this.labelTParam6.Size = new System.Drawing.Size(228, 18);
+            this.labelTParam6.Size = new System.Drawing.Size(333, 29);
             this.labelTParam6.TabIndex = 627;
             this.labelTParam6.Text = "inside contour offset (mm)";
             // 
@@ -1690,14 +1738,15 @@ namespace ProductionLaunch
             0,
             0,
             0});
-            this.numericUpDownTParam5.Location = new System.Drawing.Point(667, 405);
+            this.numericUpDownTParam5.Location = new System.Drawing.Point(1000, 623);
+            this.numericUpDownTParam5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam5.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownTParam5.Name = "numericUpDownTParam5";
-            this.numericUpDownTParam5.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam5.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam5.TabIndex = 626;
             this.numericUpDownTParam5.Value = new decimal(new int[] {
             50,
@@ -1712,18 +1761,20 @@ namespace ProductionLaunch
             this.labelTParam5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam5.Location = new System.Drawing.Point(430, 405);
+            this.labelTParam5.Location = new System.Drawing.Point(645, 623);
+            this.labelTParam5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam5.Name = "labelTParam5";
-            this.labelTParam5.Size = new System.Drawing.Size(206, 18);
+            this.labelTParam5.Size = new System.Drawing.Size(299, 29);
             this.labelTParam5.TabIndex = 625;
             this.labelTParam5.Text = "inside contour points n°";
             // 
             // pictureBoxModelName
             // 
             this.pictureBoxModelName.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxModelName.Image")));
-            this.pictureBoxModelName.Location = new System.Drawing.Point(430, 85);
+            this.pictureBoxModelName.Location = new System.Drawing.Point(645, 131);
+            this.pictureBoxModelName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxModelName.Name = "pictureBoxModelName";
-            this.pictureBoxModelName.Size = new System.Drawing.Size(160, 166);
+            this.pictureBoxModelName.Size = new System.Drawing.Size(240, 255);
             this.pictureBoxModelName.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxModelName.TabIndex = 623;
             this.pictureBoxModelName.TabStop = false;
@@ -1735,9 +1786,10 @@ namespace ProductionLaunch
             this.label124.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label124.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label124.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label124.Location = new System.Drawing.Point(430, 275);
+            this.label124.Location = new System.Drawing.Point(645, 423);
+            this.label124.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(96, 18);
+            this.label124.Size = new System.Drawing.Size(135, 29);
             this.label124.TabIndex = 622;
             this.label124.Text = "filling type";
             this.label124.Visible = false;
@@ -1752,9 +1804,10 @@ namespace ProductionLaunch
             "central line",
             "inside contour",
             "all"});
-            this.comboBoxTFiilingType.Location = new System.Drawing.Point(570, 275);
+            this.comboBoxTFiilingType.Location = new System.Drawing.Point(855, 423);
+            this.comboBoxTFiilingType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxTFiilingType.Name = "comboBoxTFiilingType";
-            this.comboBoxTFiilingType.Size = new System.Drawing.Size(217, 40);
+            this.comboBoxTFiilingType.Size = new System.Drawing.Size(324, 57);
             this.comboBoxTFiilingType.TabIndex = 621;
             this.comboBoxTFiilingType.Text = "central line";
             this.comboBoxTFiilingType.Visible = false;
@@ -1764,14 +1817,15 @@ namespace ProductionLaunch
             this.numericUpDownTParam4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownTParam4.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam4.Location = new System.Drawing.Point(667, 340);
+            this.numericUpDownTParam4.Location = new System.Drawing.Point(1000, 523);
+            this.numericUpDownTParam4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam4.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownTParam4.Name = "numericUpDownTParam4";
-            this.numericUpDownTParam4.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam4.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam4.TabIndex = 620;
             this.numericUpDownTParam4.Value = new decimal(new int[] {
             50,
@@ -1786,9 +1840,10 @@ namespace ProductionLaunch
             this.labelTParam4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam4.Location = new System.Drawing.Point(430, 340);
+            this.labelTParam4.Location = new System.Drawing.Point(645, 523);
+            this.labelTParam4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam4.Name = "labelTParam4";
-            this.labelTParam4.Size = new System.Drawing.Size(182, 18);
+            this.labelTParam4.Size = new System.Drawing.Size(260, 29);
             this.labelTParam4.TabIndex = 619;
             this.labelTParam4.Text = "central line points n°";
             // 
@@ -1797,14 +1852,15 @@ namespace ProductionLaunch
             this.numericUpDownTParam3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownTParam3.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam3.Location = new System.Drawing.Point(265, 405);
+            this.numericUpDownTParam3.Location = new System.Drawing.Point(398, 623);
+            this.numericUpDownTParam3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam3.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownTParam3.Name = "numericUpDownTParam3";
-            this.numericUpDownTParam3.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam3.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam3.TabIndex = 618;
             this.numericUpDownTParam3.Value = new decimal(new int[] {
             5,
@@ -1819,9 +1875,10 @@ namespace ProductionLaunch
             this.labelTParam3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam3.Location = new System.Drawing.Point(40, 405);
+            this.labelTParam3.Location = new System.Drawing.Point(60, 623);
+            this.labelTParam3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam3.Name = "labelTParam3";
-            this.labelTParam3.Size = new System.Drawing.Size(217, 18);
+            this.labelTParam3.Size = new System.Drawing.Size(318, 29);
             this.labelTParam3.TabIndex = 617;
             this.labelTParam3.Text = "contour overlap points n°";
             // 
@@ -1830,14 +1887,15 @@ namespace ProductionLaunch
             this.numericUpDownTParam2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownTParam2.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam2.Location = new System.Drawing.Point(265, 340);
+            this.numericUpDownTParam2.Location = new System.Drawing.Point(398, 523);
+            this.numericUpDownTParam2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam2.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownTParam2.Name = "numericUpDownTParam2";
-            this.numericUpDownTParam2.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam2.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam2.TabIndex = 616;
             this.numericUpDownTParam2.Value = new decimal(new int[] {
             50,
@@ -1852,9 +1910,10 @@ namespace ProductionLaunch
             this.labelTParam2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam2.Location = new System.Drawing.Point(40, 340);
+            this.labelTParam2.Location = new System.Drawing.Point(60, 523);
+            this.labelTParam2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam2.Name = "labelTParam2";
-            this.labelTParam2.Size = new System.Drawing.Size(151, 18);
+            this.labelTParam2.Size = new System.Drawing.Size(222, 29);
             this.labelTParam2.TabIndex = 615;
             this.labelTParam2.Text = "contour points n°";
             // 
@@ -1863,14 +1922,15 @@ namespace ProductionLaunch
             this.numericUpDownTParam1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownTParam1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownTParam1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownTParam1.Location = new System.Drawing.Point(265, 275);
+            this.numericUpDownTParam1.Location = new System.Drawing.Point(398, 423);
+            this.numericUpDownTParam1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownTParam1.Maximum = new decimal(new int[] {
             5000,
             0,
             0,
             0});
             this.numericUpDownTParam1.Name = "numericUpDownTParam1";
-            this.numericUpDownTParam1.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownTParam1.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownTParam1.TabIndex = 614;
             this.numericUpDownTParam1.Value = new decimal(new int[] {
             200,
@@ -1885,9 +1945,10 @@ namespace ProductionLaunch
             this.labelTParam1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTParam1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelTParam1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelTParam1.Location = new System.Drawing.Point(40, 275);
+            this.labelTParam1.Location = new System.Drawing.Point(60, 423);
+            this.labelTParam1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTParam1.Name = "labelTParam1";
-            this.labelTParam1.Size = new System.Drawing.Size(82, 18);
+            this.labelTParam1.Size = new System.Drawing.Size(123, 29);
             this.labelTParam1.TabIndex = 613;
             this.labelTParam1.Text = "exposure";
             // 
@@ -1898,9 +1959,10 @@ namespace ProductionLaunch
             this.labelT3ModelName.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelT3ModelName.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelT3ModelName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelT3ModelName.Location = new System.Drawing.Point(40, 85);
+            this.labelT3ModelName.Location = new System.Drawing.Point(60, 131);
+            this.labelT3ModelName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelT3ModelName.Name = "labelT3ModelName";
-            this.labelT3ModelName.Size = new System.Drawing.Size(128, 23);
+            this.labelT3ModelName.Size = new System.Drawing.Size(195, 35);
             this.labelT3ModelName.TabIndex = 413;
             this.labelT3ModelName.Text = "model name";
             // 
@@ -1910,9 +1972,10 @@ namespace ProductionLaunch
             this.comboBoxTModelName.Font = new System.Drawing.Font("Verdana", 21.75F);
             this.comboBoxTModelName.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.comboBoxTModelName.FormattingEnabled = true;
-            this.comboBoxTModelName.Location = new System.Drawing.Point(250, 85);
+            this.comboBoxTModelName.Location = new System.Drawing.Point(375, 131);
+            this.comboBoxTModelName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxTModelName.Name = "comboBoxTModelName";
-            this.comboBoxTModelName.Size = new System.Drawing.Size(120, 43);
+            this.comboBoxTModelName.Size = new System.Drawing.Size(178, 61);
             this.comboBoxTModelName.TabIndex = 412;
             this.comboBoxTModelName.Text = "TEST";
             this.comboBoxTModelName.SelectedIndexChanged += new System.EventHandler(this.comboBoxTModelName_SelectedIndexChanged);
@@ -2167,7 +2230,7 @@ namespace ProductionLaunch
             this.tabPageT0.HoverStyle = tabPageColorStyle4;
             this.tabPageT0.ImageIndex = 0;
             this.tabPageT0.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT0.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT0.Name = "tabPageT0";
             tabPageColorStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle5.BackFadeColor = System.Drawing.Color.Transparent;
@@ -2185,7 +2248,7 @@ namespace ProductionLaunch
             tabPageColorStyle6.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle6.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT0.SelectedStyle = tabPageColorStyle6;
-            this.tabPageT0.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT0.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT0.StyleFromParent = false;
             this.tabPageT0.TabIndex = 0;
             treeNode2.Name = "";
@@ -2194,7 +2257,7 @@ namespace ProductionLaunch
             this.tabPageT0.Tag = treeNode2;
             this.tabPageT0.Text = " -";
             this.tabPageT0.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT0.TextBounds")));
-            this.tabPageT0.TextSize = new System.Drawing.SizeF(22.10481F, 25.4663F);
+            this.tabPageT0.TextSize = new System.Drawing.SizeF(33.15723F, 38.19946F);
             this.tabPageT0.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPageT0_Paint);
             // 
             // checkBoxLockUnlock
@@ -2202,9 +2265,10 @@ namespace ProductionLaunch
             this.checkBoxLockUnlock.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBoxLockUnlock.AutoSize = true;
             this.checkBoxLockUnlock.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxLockUnlock.Location = new System.Drawing.Point(1159, 1000);
+            this.checkBoxLockUnlock.Location = new System.Drawing.Point(1738, 1538);
+            this.checkBoxLockUnlock.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxLockUnlock.Name = "checkBoxLockUnlock";
-            this.checkBoxLockUnlock.Size = new System.Drawing.Size(109, 28);
+            this.checkBoxLockUnlock.Size = new System.Drawing.Size(160, 39);
             this.checkBoxLockUnlock.TabIndex = 786;
             this.checkBoxLockUnlock.Text = "lock/unlock";
             this.checkBoxLockUnlock.UseVisualStyleBackColor = true;
@@ -2217,9 +2281,10 @@ namespace ProductionLaunch
             this.label168.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label168.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label168.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label168.Location = new System.Drawing.Point(316, 131);
+            this.label168.Location = new System.Drawing.Point(474, 202);
+            this.label168.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label168.Name = "label168";
-            this.label168.Size = new System.Drawing.Size(24, 13);
+            this.label168.Size = new System.Drawing.Size(34, 20);
             this.label168.TabIndex = 785;
             this.label168.Text = "RG";
             // 
@@ -2230,9 +2295,10 @@ namespace ProductionLaunch
             this.label169.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label169.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label169.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label169.Location = new System.Drawing.Point(229, 131);
+            this.label169.Location = new System.Drawing.Point(344, 202);
+            this.label169.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label169.Name = "label169";
-            this.label169.Size = new System.Drawing.Size(19, 13);
+            this.label169.Size = new System.Drawing.Size(28, 20);
             this.label169.TabIndex = 784;
             this.label169.Text = "LF";
             // 
@@ -2243,9 +2309,10 @@ namespace ProductionLaunch
             this.label167.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label167.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label167.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label167.Location = new System.Drawing.Point(138, 132);
+            this.label167.Location = new System.Drawing.Point(207, 203);
+            this.label167.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label167.Name = "label167";
-            this.label167.Size = new System.Drawing.Size(24, 13);
+            this.label167.Size = new System.Drawing.Size(34, 20);
             this.label167.TabIndex = 783;
             this.label167.Text = "RG";
             // 
@@ -2256,9 +2323,10 @@ namespace ProductionLaunch
             this.label162.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label162.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label162.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label162.Location = new System.Drawing.Point(59, 132);
+            this.label162.Location = new System.Drawing.Point(88, 203);
+            this.label162.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(19, 13);
+            this.label162.Size = new System.Drawing.Size(28, 20);
             this.label162.TabIndex = 782;
             this.label162.Text = "LF";
             // 
@@ -2268,9 +2336,10 @@ namespace ProductionLaunch
             this.textBoxPallet3.Enabled = false;
             this.textBoxPallet3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPallet3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxPallet3.Location = new System.Drawing.Point(207, 150);
+            this.textBoxPallet3.Location = new System.Drawing.Point(310, 231);
+            this.textBoxPallet3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxPallet3.Name = "textBoxPallet3";
-            this.textBoxPallet3.Size = new System.Drawing.Size(64, 31);
+            this.textBoxPallet3.Size = new System.Drawing.Size(94, 42);
             this.textBoxPallet3.TabIndex = 781;
             this.textBoxPallet3.Text = "-------";
             // 
@@ -2280,9 +2349,10 @@ namespace ProductionLaunch
             this.textBoxPallet4.Enabled = false;
             this.textBoxPallet4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPallet4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxPallet4.Location = new System.Drawing.Point(296, 150);
+            this.textBoxPallet4.Location = new System.Drawing.Point(444, 231);
+            this.textBoxPallet4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxPallet4.Name = "textBoxPallet4";
-            this.textBoxPallet4.Size = new System.Drawing.Size(64, 31);
+            this.textBoxPallet4.Size = new System.Drawing.Size(94, 42);
             this.textBoxPallet4.TabIndex = 780;
             this.textBoxPallet4.Text = "------";
             // 
@@ -2292,9 +2362,10 @@ namespace ProductionLaunch
             this.textBoxPallet1.Enabled = false;
             this.textBoxPallet1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPallet1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxPallet1.Location = new System.Drawing.Point(39, 150);
+            this.textBoxPallet1.Location = new System.Drawing.Point(58, 231);
+            this.textBoxPallet1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxPallet1.Name = "textBoxPallet1";
-            this.textBoxPallet1.Size = new System.Drawing.Size(64, 31);
+            this.textBoxPallet1.Size = new System.Drawing.Size(94, 42);
             this.textBoxPallet1.TabIndex = 779;
             this.textBoxPallet1.Text = "-------";
             // 
@@ -2304,9 +2375,10 @@ namespace ProductionLaunch
             this.textBoxPallet2.Enabled = false;
             this.textBoxPallet2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPallet2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxPallet2.Location = new System.Drawing.Point(120, 150);
+            this.textBoxPallet2.Location = new System.Drawing.Point(180, 231);
+            this.textBoxPallet2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxPallet2.Name = "textBoxPallet2";
-            this.textBoxPallet2.Size = new System.Drawing.Size(64, 31);
+            this.textBoxPallet2.Size = new System.Drawing.Size(94, 42);
             this.textBoxPallet2.TabIndex = 778;
             this.textBoxPallet2.Text = "------";
             // 
@@ -2317,9 +2389,10 @@ namespace ProductionLaunch
             this.label161.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label161.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label161.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label161.Location = new System.Drawing.Point(1444, 851);
+            this.label161.Location = new System.Drawing.Point(2166, 1309);
+            this.label161.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(93, 13);
+            this.label161.Size = new System.Drawing.Size(139, 20);
             this.label161.TabIndex = 777;
             this.label161.Text = "comm in alarm";
             this.label161.Visible = false;
@@ -2333,9 +2406,10 @@ namespace ProductionLaunch
             this.buttonLineCommInAlarm.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLineCommInAlarm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonLineCommInAlarm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLineCommInAlarm.Location = new System.Drawing.Point(1418, 844);
+            this.buttonLineCommInAlarm.Location = new System.Drawing.Point(2127, 1298);
+            this.buttonLineCommInAlarm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonLineCommInAlarm.Name = "buttonLineCommInAlarm";
-            this.buttonLineCommInAlarm.Size = new System.Drawing.Size(20, 20);
+            this.buttonLineCommInAlarm.Size = new System.Drawing.Size(30, 31);
             this.buttonLineCommInAlarm.TabIndex = 776;
             this.buttonLineCommInAlarm.UseVisualStyleBackColor = false;
             this.buttonLineCommInAlarm.Visible = false;
@@ -2347,9 +2421,10 @@ namespace ProductionLaunch
             this.label159.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label159.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label159.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label159.Location = new System.Drawing.Point(1184, 900);
+            this.label159.Location = new System.Drawing.Point(1776, 1385);
+            this.label159.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label159.Name = "label159";
-            this.label159.Size = new System.Drawing.Size(91, 13);
+            this.label159.Size = new System.Drawing.Size(136, 20);
             this.label159.TabIndex = 775;
             this.label159.Text = "termic 2 alarm";
             // 
@@ -2362,9 +2437,10 @@ namespace ProductionLaunch
             this.buttonTermic2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTermic2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonTermic2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonTermic2.Location = new System.Drawing.Point(1159, 900);
+            this.buttonTermic2.Location = new System.Drawing.Point(1738, 1385);
+            this.buttonTermic2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTermic2.Name = "buttonTermic2";
-            this.buttonTermic2.Size = new System.Drawing.Size(20, 20);
+            this.buttonTermic2.Size = new System.Drawing.Size(30, 31);
             this.buttonTermic2.TabIndex = 774;
             this.buttonTermic2.UseVisualStyleBackColor = false;
             // 
@@ -2375,9 +2451,10 @@ namespace ProductionLaunch
             this.label160.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label160.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label160.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label160.Location = new System.Drawing.Point(1184, 882);
+            this.label160.Location = new System.Drawing.Point(1776, 1357);
+            this.label160.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label160.Name = "label160";
-            this.label160.Size = new System.Drawing.Size(91, 13);
+            this.label160.Size = new System.Drawing.Size(136, 20);
             this.label160.TabIndex = 773;
             this.label160.Text = "termic 1 alarm";
             // 
@@ -2390,9 +2467,10 @@ namespace ProductionLaunch
             this.buttonTermic1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonTermic1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonTermic1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonTermic1.Location = new System.Drawing.Point(1159, 882);
+            this.buttonTermic1.Location = new System.Drawing.Point(1738, 1357);
+            this.buttonTermic1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTermic1.Name = "buttonTermic1";
-            this.buttonTermic1.Size = new System.Drawing.Size(20, 20);
+            this.buttonTermic1.Size = new System.Drawing.Size(30, 31);
             this.buttonTermic1.TabIndex = 772;
             this.buttonTermic1.UseVisualStyleBackColor = false;
             // 
@@ -2403,9 +2481,10 @@ namespace ProductionLaunch
             this.label163.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label163.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label163.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label163.Location = new System.Drawing.Point(1184, 980);
+            this.label163.Location = new System.Drawing.Point(1776, 1508);
+            this.label163.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label163.Name = "label163";
-            this.label163.Size = new System.Drawing.Size(122, 13);
+            this.label163.Size = new System.Drawing.Size(180, 20);
             this.label163.TabIndex = 767;
             this.label163.Text = "external emergency";
             // 
@@ -2418,9 +2497,10 @@ namespace ProductionLaunch
             this.buttonLEmergency.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLEmergency.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonLEmergency.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLEmergency.Location = new System.Drawing.Point(1159, 980);
+            this.buttonLEmergency.Location = new System.Drawing.Point(1738, 1508);
+            this.buttonLEmergency.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonLEmergency.Name = "buttonLEmergency";
-            this.buttonLEmergency.Size = new System.Drawing.Size(20, 20);
+            this.buttonLEmergency.Size = new System.Drawing.Size(30, 31);
             this.buttonLEmergency.TabIndex = 766;
             this.buttonLEmergency.UseVisualStyleBackColor = false;
             // 
@@ -2431,9 +2511,10 @@ namespace ProductionLaunch
             this.label164.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label164.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label164.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label164.Location = new System.Drawing.Point(1184, 960);
+            this.label164.Location = new System.Drawing.Point(1776, 1477);
+            this.label164.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label164.Name = "label164";
-            this.label164.Size = new System.Drawing.Size(98, 13);
+            this.label164.Size = new System.Drawing.Size(146, 20);
             this.label164.TabIndex = 765;
             this.label164.Text = "CAMOZZI line 2";
             // 
@@ -2446,9 +2527,10 @@ namespace ProductionLaunch
             this.buttonCamozziLine2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCamozziLine2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonCamozziLine2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonCamozziLine2.Location = new System.Drawing.Point(1159, 960);
+            this.buttonCamozziLine2.Location = new System.Drawing.Point(1738, 1477);
+            this.buttonCamozziLine2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonCamozziLine2.Name = "buttonCamozziLine2";
-            this.buttonCamozziLine2.Size = new System.Drawing.Size(20, 20);
+            this.buttonCamozziLine2.Size = new System.Drawing.Size(30, 31);
             this.buttonCamozziLine2.TabIndex = 764;
             this.buttonCamozziLine2.UseVisualStyleBackColor = false;
             // 
@@ -2459,9 +2541,10 @@ namespace ProductionLaunch
             this.label165.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label165.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label165.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label165.Location = new System.Drawing.Point(1184, 940);
+            this.label165.Location = new System.Drawing.Point(1776, 1446);
+            this.label165.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label165.Name = "label165";
-            this.label165.Size = new System.Drawing.Size(98, 13);
+            this.label165.Size = new System.Drawing.Size(146, 20);
             this.label165.TabIndex = 763;
             this.label165.Text = "CAMOZZI line 1";
             // 
@@ -2474,9 +2557,10 @@ namespace ProductionLaunch
             this.buttonCamozziLine1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCamozziLine1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonCamozziLine1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonCamozziLine1.Location = new System.Drawing.Point(1159, 940);
+            this.buttonCamozziLine1.Location = new System.Drawing.Point(1738, 1446);
+            this.buttonCamozziLine1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonCamozziLine1.Name = "buttonCamozziLine1";
-            this.buttonCamozziLine1.Size = new System.Drawing.Size(20, 20);
+            this.buttonCamozziLine1.Size = new System.Drawing.Size(30, 31);
             this.buttonCamozziLine1.TabIndex = 762;
             this.buttonCamozziLine1.UseVisualStyleBackColor = false;
             // 
@@ -2487,9 +2571,10 @@ namespace ProductionLaunch
             this.label166.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label166.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label166.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label166.Location = new System.Drawing.Point(1184, 920);
+            this.label166.Location = new System.Drawing.Point(1776, 1415);
+            this.label166.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label166.Name = "label166";
-            this.label166.Size = new System.Drawing.Size(94, 13);
+            this.label166.Size = new System.Drawing.Size(139, 20);
             this.label166.TabIndex = 761;
             this.label166.Text = "PLC connection";
             // 
@@ -2502,9 +2587,10 @@ namespace ProductionLaunch
             this.buttonMainWago.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMainWago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonMainWago.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonMainWago.Location = new System.Drawing.Point(1159, 920);
+            this.buttonMainWago.Location = new System.Drawing.Point(1738, 1415);
+            this.buttonMainWago.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonMainWago.Name = "buttonMainWago";
-            this.buttonMainWago.Size = new System.Drawing.Size(20, 20);
+            this.buttonMainWago.Size = new System.Drawing.Size(30, 31);
             this.buttonMainWago.TabIndex = 760;
             this.buttonMainWago.UseVisualStyleBackColor = false;
             // 
@@ -2515,9 +2601,10 @@ namespace ProductionLaunch
             this.label158.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label158.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label158.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label158.Location = new System.Drawing.Point(1350, 694);
+            this.label158.Location = new System.Drawing.Point(2025, 1068);
+            this.label158.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label158.Name = "label158";
-            this.label158.Size = new System.Drawing.Size(88, 16);
+            this.label158.Size = new System.Drawing.Size(143, 25);
             this.label158.TabIndex = 663;
             this.label158.Text = "axis in alarm";
             // 
@@ -2531,9 +2618,10 @@ namespace ProductionLaunch
             this.buttonAxisInAlarm.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAxisInAlarm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAxisInAlarm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAxisInAlarm.Location = new System.Drawing.Point(1320, 690);
+            this.buttonAxisInAlarm.Location = new System.Drawing.Point(1980, 1062);
+            this.buttonAxisInAlarm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAxisInAlarm.Name = "buttonAxisInAlarm";
-            this.buttonAxisInAlarm.Size = new System.Drawing.Size(20, 20);
+            this.buttonAxisInAlarm.Size = new System.Drawing.Size(30, 31);
             this.buttonAxisInAlarm.TabIndex = 662;
             this.buttonAxisInAlarm.UseVisualStyleBackColor = false;
             // 
@@ -2544,9 +2632,10 @@ namespace ProductionLaunch
             this.label157.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label157.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label157.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label157.Location = new System.Drawing.Point(1350, 665);
+            this.label157.Location = new System.Drawing.Point(2025, 1023);
+            this.label157.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(120, 16);
+            this.label157.Size = new System.Drawing.Size(190, 25);
             this.label157.TabIndex = 661;
             this.label157.Text = "axis homing done";
             // 
@@ -2556,9 +2645,10 @@ namespace ProductionLaunch
             this.buttonScannerAxisHome.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonScannerAxisHome.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonScannerAxisHome.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonScannerAxisHome.Location = new System.Drawing.Point(1500, 660);
+            this.buttonScannerAxisHome.Location = new System.Drawing.Point(2250, 1015);
+            this.buttonScannerAxisHome.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonScannerAxisHome.Name = "buttonScannerAxisHome";
-            this.buttonScannerAxisHome.Size = new System.Drawing.Size(80, 32);
+            this.buttonScannerAxisHome.Size = new System.Drawing.Size(120, 49);
             this.buttonScannerAxisHome.TabIndex = 660;
             this.buttonScannerAxisHome.Text = "home";
             this.buttonScannerAxisHome.UseVisualStyleBackColor = false;
@@ -2574,9 +2664,10 @@ namespace ProductionLaunch
             this.buttonHomingDone.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonHomingDone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonHomingDone.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonHomingDone.Location = new System.Drawing.Point(1320, 660);
+            this.buttonHomingDone.Location = new System.Drawing.Point(1980, 1015);
+            this.buttonHomingDone.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonHomingDone.Name = "buttonHomingDone";
-            this.buttonHomingDone.Size = new System.Drawing.Size(20, 20);
+            this.buttonHomingDone.Size = new System.Drawing.Size(30, 31);
             this.buttonHomingDone.TabIndex = 659;
             this.buttonHomingDone.UseVisualStyleBackColor = false;
             // 
@@ -2587,9 +2678,10 @@ namespace ProductionLaunch
             this.label156.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label156.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label156.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label156.Location = new System.Drawing.Point(847, 717);
+            this.label156.Location = new System.Drawing.Point(1270, 1103);
+            this.label156.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(82, 16);
+            this.label156.Size = new System.Drawing.Size(127, 25);
             this.label156.TabIndex = 658;
             this.label156.Text = "tank empty";
             // 
@@ -2600,9 +2692,10 @@ namespace ProductionLaunch
             this.label155.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label155.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label155.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label155.Location = new System.Drawing.Point(711, 717);
+            this.label155.Location = new System.Drawing.Point(1066, 1103);
+            this.label155.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(130, 16);
+            this.label155.Size = new System.Drawing.Size(201, 25);
             this.label155.TabIndex = 657;
             this.label155.Text = "tank almost empty";
             // 
@@ -2613,9 +2706,10 @@ namespace ProductionLaunch
             this.label154.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label154.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label154.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label154.Location = new System.Drawing.Point(640, 717);
+            this.label154.Location = new System.Drawing.Point(960, 1103);
+            this.label154.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(65, 16);
+            this.label154.Size = new System.Drawing.Size(106, 25);
             this.label154.TabIndex = 656;
             this.label154.Text = "in alarms";
             // 
@@ -2629,15 +2723,15 @@ namespace ProductionLaunch
             0,
             0,
             0});
-            this.numericUpDownSize_T0.Location = new System.Drawing.Point(520, 75);
-            this.numericUpDownSize_T0.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.numericUpDownSize_T0.Location = new System.Drawing.Point(780, 115);
+            this.numericUpDownSize_T0.Margin = new System.Windows.Forms.Padding(9, 8, 9, 8);
             this.numericUpDownSize_T0.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
             this.numericUpDownSize_T0.Name = "numericUpDownSize_T0";
-            this.numericUpDownSize_T0.Size = new System.Drawing.Size(97, 50);
+            this.numericUpDownSize_T0.Size = new System.Drawing.Size(146, 71);
             this.numericUpDownSize_T0.TabIndex = 655;
             this.numericUpDownSize_T0.Value = new decimal(new int[] {
             340,
@@ -2653,9 +2747,10 @@ namespace ProductionLaunch
             this.label151.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label151.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label151.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label151.Location = new System.Drawing.Point(1517, 455);
+            this.label151.Location = new System.Drawing.Point(2276, 700);
+            this.label151.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(126, 16);
+            this.label151.Size = new System.Drawing.Size(193, 25);
             this.label151.TabIndex = 654;
             this.label151.Text = "trigger to scanner";
             // 
@@ -2668,9 +2763,10 @@ namespace ProductionLaunch
             this.buttonScannerTrigger.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonScannerTrigger.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonScannerTrigger.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonScannerTrigger.Location = new System.Drawing.Point(1486, 450);
+            this.buttonScannerTrigger.Location = new System.Drawing.Point(2229, 692);
+            this.buttonScannerTrigger.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonScannerTrigger.Name = "buttonScannerTrigger";
-            this.buttonScannerTrigger.Size = new System.Drawing.Size(20, 20);
+            this.buttonScannerTrigger.Size = new System.Drawing.Size(30, 31);
             this.buttonScannerTrigger.TabIndex = 653;
             this.buttonScannerTrigger.UseVisualStyleBackColor = false;
             // 
@@ -2681,9 +2777,10 @@ namespace ProductionLaunch
             this.label150.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label150.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label150.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label150.Location = new System.Drawing.Point(1350, 455);
+            this.label150.Location = new System.Drawing.Point(2025, 700);
+            this.label150.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(98, 16);
+            this.label150.Size = new System.Drawing.Size(149, 25);
             this.label150.TabIndex = 652;
             this.label150.Text = "sole presence";
             // 
@@ -2696,9 +2793,10 @@ namespace ProductionLaunch
             this.buttonSolePresence.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSolePresence.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonSolePresence.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonSolePresence.Location = new System.Drawing.Point(1320, 450);
+            this.buttonSolePresence.Location = new System.Drawing.Point(1980, 692);
+            this.buttonSolePresence.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSolePresence.Name = "buttonSolePresence";
-            this.buttonSolePresence.Size = new System.Drawing.Size(20, 20);
+            this.buttonSolePresence.Size = new System.Drawing.Size(30, 31);
             this.buttonSolePresence.TabIndex = 651;
             this.buttonSolePresence.UseVisualStyleBackColor = false;
             // 
@@ -2708,9 +2806,10 @@ namespace ProductionLaunch
             this.buttonResetAxisScanner.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonResetAxisScanner.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonResetAxisScanner.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonResetAxisScanner.Location = new System.Drawing.Point(1500, 690);
+            this.buttonResetAxisScanner.Location = new System.Drawing.Point(2250, 1062);
+            this.buttonResetAxisScanner.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonResetAxisScanner.Name = "buttonResetAxisScanner";
-            this.buttonResetAxisScanner.Size = new System.Drawing.Size(80, 32);
+            this.buttonResetAxisScanner.Size = new System.Drawing.Size(120, 49);
             this.buttonResetAxisScanner.TabIndex = 650;
             this.buttonResetAxisScanner.Text = "reset";
             this.buttonResetAxisScanner.UseVisualStyleBackColor = false;
@@ -2722,10 +2821,11 @@ namespace ProductionLaunch
             this.textBoxResultStringG1A2.Enabled = false;
             this.textBoxResultStringG1A2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxResultStringG1A2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxResultStringG1A2.Location = new System.Drawing.Point(1041, 450);
+            this.textBoxResultStringG1A2.Location = new System.Drawing.Point(1562, 692);
+            this.textBoxResultStringG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxResultStringG1A2.Multiline = true;
             this.textBoxResultStringG1A2.Name = "textBoxResultStringG1A2";
-            this.textBoxResultStringG1A2.Size = new System.Drawing.Size(272, 198);
+            this.textBoxResultStringG1A2.Size = new System.Drawing.Size(406, 302);
             this.textBoxResultStringG1A2.TabIndex = 649;
             this.textBoxResultStringG1A2.Text = "waiting for RFID reading";
             // 
@@ -2735,9 +2835,10 @@ namespace ProductionLaunch
             this.textBoxAType.Enabled = false;
             this.textBoxAType.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxAType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxAType.Location = new System.Drawing.Point(1535, 399);
+            this.textBoxAType.Location = new System.Drawing.Point(2302, 614);
+            this.textBoxAType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxAType.Name = "textBoxAType";
-            this.textBoxAType.Size = new System.Drawing.Size(64, 31);
+            this.textBoxAType.Size = new System.Drawing.Size(94, 42);
             this.textBoxAType.TabIndex = 648;
             this.textBoxAType.Text = "----";
             // 
@@ -2748,9 +2849,10 @@ namespace ProductionLaunch
             this.label149.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label149.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label149.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label149.Location = new System.Drawing.Point(1461, 300);
+            this.label149.Location = new System.Drawing.Point(2192, 462);
+            this.label149.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(37, 16);
+            this.label149.Size = new System.Drawing.Size(56, 25);
             this.label149.TabIndex = 647;
             this.label149.Text = "type";
             // 
@@ -2761,9 +2863,10 @@ namespace ProductionLaunch
             this.label148.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label148.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label148.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label148.Location = new System.Drawing.Point(1460, 378);
+            this.label148.Location = new System.Drawing.Point(2190, 582);
+            this.label148.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(82, 16);
+            this.label148.Size = new System.Drawing.Size(132, 25);
             this.label148.TabIndex = 646;
             this.label148.Text = "lenght(mm)";
             // 
@@ -2774,9 +2877,10 @@ namespace ProductionLaunch
             this.label147.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label147.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label147.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label147.Location = new System.Drawing.Point(1390, 378);
+            this.label147.Location = new System.Drawing.Point(2085, 582);
+            this.label147.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(45, 16);
+            this.label147.Size = new System.Drawing.Size(71, 25);
             this.label147.TabIndex = 645;
             this.label147.Text = "RZ(*)";
             // 
@@ -2787,9 +2891,10 @@ namespace ProductionLaunch
             this.label146.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label146.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label146.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label146.Location = new System.Drawing.Point(1320, 378);
+            this.label146.Location = new System.Drawing.Point(1980, 582);
+            this.label146.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(43, 16);
+            this.label146.Size = new System.Drawing.Size(67, 25);
             this.label146.TabIndex = 644;
             this.label146.Text = "RY(°)";
             // 
@@ -2800,9 +2905,10 @@ namespace ProductionLaunch
             this.label145.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label145.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label145.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label145.Location = new System.Drawing.Point(1250, 378);
+            this.label145.Location = new System.Drawing.Point(1875, 582);
+            this.label145.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(43, 16);
+            this.label145.Size = new System.Drawing.Size(69, 25);
             this.label145.TabIndex = 643;
             this.label145.Text = "RX(°)";
             // 
@@ -2813,9 +2919,10 @@ namespace ProductionLaunch
             this.label144.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label144.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label144.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label144.Location = new System.Drawing.Point(1180, 378);
+            this.label144.Location = new System.Drawing.Point(1770, 582);
+            this.label144.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(50, 16);
+            this.label144.Size = new System.Drawing.Size(82, 25);
             this.label144.TabIndex = 642;
             this.label144.Text = "Z(mm)";
             // 
@@ -2826,9 +2933,10 @@ namespace ProductionLaunch
             this.label143.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label143.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label143.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label143.Location = new System.Drawing.Point(1110, 378);
+            this.label143.Location = new System.Drawing.Point(1665, 582);
+            this.label143.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(50, 16);
+            this.label143.Size = new System.Drawing.Size(80, 25);
             this.label143.TabIndex = 641;
             this.label143.Text = "Y(mm)";
             // 
@@ -2839,9 +2947,10 @@ namespace ProductionLaunch
             this.label142.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label142.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label142.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label142.Location = new System.Drawing.Point(1040, 378);
+            this.label142.Location = new System.Drawing.Point(1560, 582);
+            this.label142.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(50, 16);
+            this.label142.Size = new System.Drawing.Size(82, 25);
             this.label142.TabIndex = 640;
             this.label142.Text = "X(mm)";
             // 
@@ -2852,9 +2961,10 @@ namespace ProductionLaunch
             this.label141.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label141.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label141.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label141.Location = new System.Drawing.Point(1285, 300);
+            this.label141.Location = new System.Drawing.Point(1928, 462);
+            this.label141.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(85, 16);
+            this.label141.Size = new System.Drawing.Size(136, 25);
             this.label141.TabIndex = 639;
             this.label141.Text = "model name";
             // 
@@ -2865,9 +2975,10 @@ namespace ProductionLaunch
             this.label140.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label140.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label140.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label140.Location = new System.Drawing.Point(1040, 300);
+            this.label140.Location = new System.Drawing.Point(1560, 462);
+            this.label140.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(74, 16);
+            this.label140.Size = new System.Drawing.Size(114, 25);
             this.label140.TabIndex = 638;
             this.label140.Text = "RFID code";
             // 
@@ -2877,9 +2988,10 @@ namespace ProductionLaunch
             this.textBoxALenght.Enabled = false;
             this.textBoxALenght.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxALenght.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxALenght.Location = new System.Drawing.Point(1460, 400);
+            this.textBoxALenght.Location = new System.Drawing.Point(2190, 615);
+            this.textBoxALenght.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxALenght.Name = "textBoxALenght";
-            this.textBoxALenght.Size = new System.Drawing.Size(64, 31);
+            this.textBoxALenght.Size = new System.Drawing.Size(94, 42);
             this.textBoxALenght.TabIndex = 637;
             this.textBoxALenght.Text = "----";
             // 
@@ -2889,9 +3001,10 @@ namespace ProductionLaunch
             this.textBoxRY.Enabled = false;
             this.textBoxRY.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRY.Location = new System.Drawing.Point(1320, 400);
+            this.textBoxRY.Location = new System.Drawing.Point(1980, 615);
+            this.textBoxRY.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRY.Name = "textBoxRY";
-            this.textBoxRY.Size = new System.Drawing.Size(64, 31);
+            this.textBoxRY.Size = new System.Drawing.Size(94, 42);
             this.textBoxRY.TabIndex = 636;
             this.textBoxRY.Text = "----";
             // 
@@ -2901,9 +3014,10 @@ namespace ProductionLaunch
             this.textBoxRX.Enabled = false;
             this.textBoxRX.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRX.Location = new System.Drawing.Point(1250, 400);
+            this.textBoxRX.Location = new System.Drawing.Point(1875, 615);
+            this.textBoxRX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRX.Name = "textBoxRX";
-            this.textBoxRX.Size = new System.Drawing.Size(64, 31);
+            this.textBoxRX.Size = new System.Drawing.Size(94, 42);
             this.textBoxRX.TabIndex = 635;
             this.textBoxRX.Text = "----";
             // 
@@ -2913,9 +3027,10 @@ namespace ProductionLaunch
             this.textBoxAZ.Enabled = false;
             this.textBoxAZ.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxAZ.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxAZ.Location = new System.Drawing.Point(1180, 400);
+            this.textBoxAZ.Location = new System.Drawing.Point(1770, 615);
+            this.textBoxAZ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxAZ.Name = "textBoxAZ";
-            this.textBoxAZ.Size = new System.Drawing.Size(64, 31);
+            this.textBoxAZ.Size = new System.Drawing.Size(94, 42);
             this.textBoxAZ.TabIndex = 634;
             this.textBoxAZ.Text = "----";
             // 
@@ -2925,9 +3040,10 @@ namespace ProductionLaunch
             this.textBoxAY.Enabled = false;
             this.textBoxAY.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxAY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxAY.Location = new System.Drawing.Point(1110, 400);
+            this.textBoxAY.Location = new System.Drawing.Point(1665, 615);
+            this.textBoxAY.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxAY.Name = "textBoxAY";
-            this.textBoxAY.Size = new System.Drawing.Size(64, 31);
+            this.textBoxAY.Size = new System.Drawing.Size(94, 42);
             this.textBoxAY.TabIndex = 633;
             this.textBoxAY.Text = "----";
             // 
@@ -2937,9 +3053,10 @@ namespace ProductionLaunch
             this.textBoxAX.Enabled = false;
             this.textBoxAX.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxAX.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxAX.Location = new System.Drawing.Point(1040, 400);
+            this.textBoxAX.Location = new System.Drawing.Point(1560, 615);
+            this.textBoxAX.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxAX.Name = "textBoxAX";
-            this.textBoxAX.Size = new System.Drawing.Size(64, 31);
+            this.textBoxAX.Size = new System.Drawing.Size(94, 42);
             this.textBoxAX.TabIndex = 632;
             this.textBoxAX.Text = "----";
             // 
@@ -2949,9 +3066,10 @@ namespace ProductionLaunch
             this.textBoxRZ.Enabled = false;
             this.textBoxRZ.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRZ.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRZ.Location = new System.Drawing.Point(1390, 400);
+            this.textBoxRZ.Location = new System.Drawing.Point(2085, 615);
+            this.textBoxRZ.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRZ.Name = "textBoxRZ";
-            this.textBoxRZ.Size = new System.Drawing.Size(64, 31);
+            this.textBoxRZ.Size = new System.Drawing.Size(94, 42);
             this.textBoxRZ.TabIndex = 631;
             this.textBoxRZ.Text = "----";
             // 
@@ -2962,9 +3080,10 @@ namespace ProductionLaunch
             this.label135.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label135.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label135.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label135.Location = new System.Drawing.Point(1525, 300);
+            this.label135.Location = new System.Drawing.Point(2288, 462);
+            this.label135.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(57, 16);
+            this.label135.Size = new System.Drawing.Size(88, 25);
             this.label135.TabIndex = 629;
             this.label135.Text = "request";
             // 
@@ -2978,10 +3097,11 @@ namespace ProductionLaunch
             this.lbLedRFIDRequestG1A2.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedRFIDRequestG1A2.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedRFIDRequestG1A2.LedSize = new System.Drawing.SizeF(24F, 24F);
-            this.lbLedRFIDRequestG1A2.Location = new System.Drawing.Point(1545, 321);
+            this.lbLedRFIDRequestG1A2.Location = new System.Drawing.Point(2318, 494);
+            this.lbLedRFIDRequestG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDRequestG1A2.Name = "lbLedRFIDRequestG1A2";
             this.lbLedRFIDRequestG1A2.Renderer = null;
-            this.lbLedRFIDRequestG1A2.Size = new System.Drawing.Size(24, 24);
+            this.lbLedRFIDRequestG1A2.Size = new System.Drawing.Size(36, 37);
             this.lbLedRFIDRequestG1A2.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDRequestG1A2.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDRequestG1A2.TabIndex = 628;
@@ -2993,9 +3113,10 @@ namespace ProductionLaunch
             this.label136.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label136.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label136.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label136.Location = new System.Drawing.Point(1588, 300);
+            this.label136.Location = new System.Drawing.Point(2382, 462);
+            this.label136.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(44, 16);
+            this.label136.Size = new System.Drawing.Size(70, 25);
             this.label136.TabIndex = 627;
             this.label136.Text = "result";
             // 
@@ -3009,10 +3130,11 @@ namespace ProductionLaunch
             this.lbLedRFIDResultG1A2.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedRFIDResultG1A2.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedRFIDResultG1A2.LedSize = new System.Drawing.SizeF(24F, 24F);
-            this.lbLedRFIDResultG1A2.Location = new System.Drawing.Point(1598, 321);
+            this.lbLedRFIDResultG1A2.Location = new System.Drawing.Point(2397, 494);
+            this.lbLedRFIDResultG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDResultG1A2.Name = "lbLedRFIDResultG1A2";
             this.lbLedRFIDResultG1A2.Renderer = null;
-            this.lbLedRFIDResultG1A2.Size = new System.Drawing.Size(24, 24);
+            this.lbLedRFIDResultG1A2.Size = new System.Drawing.Size(36, 37);
             this.lbLedRFIDResultG1A2.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDResultG1A2.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDResultG1A2.TabIndex = 626;
@@ -3023,9 +3145,10 @@ namespace ProductionLaunch
             this.textBoxMNameG1A2.Enabled = false;
             this.textBoxMNameG1A2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxMNameG1A2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxMNameG1A2.Location = new System.Drawing.Point(1286, 320);
+            this.textBoxMNameG1A2.Location = new System.Drawing.Point(1929, 492);
+            this.textBoxMNameG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxMNameG1A2.Name = "textBoxMNameG1A2";
-            this.textBoxMNameG1A2.Size = new System.Drawing.Size(64, 33);
+            this.textBoxMNameG1A2.Size = new System.Drawing.Size(94, 46);
             this.textBoxMNameG1A2.TabIndex = 625;
             this.textBoxMNameG1A2.Text = "----";
             // 
@@ -3035,9 +3158,10 @@ namespace ProductionLaunch
             this.textBoxTypeG1A2.Enabled = false;
             this.textBoxTypeG1A2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTypeG1A2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxTypeG1A2.Location = new System.Drawing.Point(1461, 320);
+            this.textBoxTypeG1A2.Location = new System.Drawing.Point(2192, 492);
+            this.textBoxTypeG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxTypeG1A2.Name = "textBoxTypeG1A2";
-            this.textBoxTypeG1A2.Size = new System.Drawing.Size(64, 33);
+            this.textBoxTypeG1A2.Size = new System.Drawing.Size(94, 46);
             this.textBoxTypeG1A2.TabIndex = 624;
             this.textBoxTypeG1A2.Text = "--";
             // 
@@ -3047,9 +3171,10 @@ namespace ProductionLaunch
             this.textBoxSizeG1A2.Enabled = false;
             this.textBoxSizeG1A2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxSizeG1A2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxSizeG1A2.Location = new System.Drawing.Point(1386, 320);
+            this.textBoxSizeG1A2.Location = new System.Drawing.Point(2079, 492);
+            this.textBoxSizeG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxSizeG1A2.Name = "textBoxSizeG1A2";
-            this.textBoxSizeG1A2.Size = new System.Drawing.Size(64, 33);
+            this.textBoxSizeG1A2.Size = new System.Drawing.Size(94, 46);
             this.textBoxSizeG1A2.TabIndex = 623;
             this.textBoxSizeG1A2.Text = "---";
             this.textBoxSizeG1A2.Visible = false;
@@ -3060,9 +3185,10 @@ namespace ProductionLaunch
             this.textBoxRFIDG1A2.Enabled = false;
             this.textBoxRFIDG1A2.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRFIDG1A2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDG1A2.Location = new System.Drawing.Point(1040, 320);
+            this.textBoxRFIDG1A2.Location = new System.Drawing.Point(1560, 492);
+            this.textBoxRFIDG1A2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDG1A2.Name = "textBoxRFIDG1A2";
-            this.textBoxRFIDG1A2.Size = new System.Drawing.Size(237, 33);
+            this.textBoxRFIDG1A2.Size = new System.Drawing.Size(354, 46);
             this.textBoxRFIDG1A2.TabIndex = 622;
             this.textBoxRFIDG1A2.Text = "--------------------";
             // 
@@ -3073,9 +3199,10 @@ namespace ProductionLaunch
             this.label122.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label122.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label122.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label122.Location = new System.Drawing.Point(65, 594);
+            this.label122.Location = new System.Drawing.Point(98, 914);
+            this.label122.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(144, 16);
+            this.label122.Size = new System.Drawing.Size(228, 25);
             this.label122.TabIndex = 621;
             this.label122.Text = "PLC I/O module error";
             // 
@@ -3088,9 +3215,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm8.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm8.Location = new System.Drawing.Point(40, 590);
+            this.buttonR1Alarm8.Location = new System.Drawing.Point(60, 908);
+            this.buttonR1Alarm8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm8.Name = "buttonR1Alarm8";
-            this.buttonR1Alarm8.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm8.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm8.TabIndex = 620;
             this.buttonR1Alarm8.UseVisualStyleBackColor = false;
             // 
@@ -3101,9 +3229,10 @@ namespace ProductionLaunch
             this.label109.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label109.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label109.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label109.Location = new System.Drawing.Point(65, 564);
+            this.label109.Location = new System.Drawing.Point(98, 868);
+            this.label109.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(119, 16);
+            this.label109.Size = new System.Drawing.Size(186, 25);
             this.label109.TabIndex = 619;
             this.label109.Text = "local air pressure";
             // 
@@ -3116,9 +3245,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm7.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm7.Location = new System.Drawing.Point(40, 560);
+            this.buttonR1Alarm7.Location = new System.Drawing.Point(60, 862);
+            this.buttonR1Alarm7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm7.Name = "buttonR1Alarm7";
-            this.buttonR1Alarm7.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm7.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm7.TabIndex = 618;
             this.buttonR1Alarm7.UseVisualStyleBackColor = false;
             // 
@@ -3128,9 +3258,10 @@ namespace ProductionLaunch
             this.buttonPanelUnlockScale.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPanelUnlockScale.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonPanelUnlockScale.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonPanelUnlockScale.Location = new System.Drawing.Point(833, 629);
+            this.buttonPanelUnlockScale.Location = new System.Drawing.Point(1250, 968);
+            this.buttonPanelUnlockScale.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonPanelUnlockScale.Name = "buttonPanelUnlockScale";
-            this.buttonPanelUnlockScale.Size = new System.Drawing.Size(126, 48);
+            this.buttonPanelUnlockScale.Size = new System.Drawing.Size(189, 74);
             this.buttonPanelUnlockScale.TabIndex = 617;
             this.buttonPanelUnlockScale.Text = "unlock HMI";
             this.buttonPanelUnlockScale.UseVisualStyleBackColor = false;
@@ -3142,9 +3273,10 @@ namespace ProductionLaunch
             this.buttonPanelLockScale.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPanelLockScale.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonPanelLockScale.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonPanelLockScale.Location = new System.Drawing.Point(640, 629);
+            this.buttonPanelLockScale.Location = new System.Drawing.Point(960, 968);
+            this.buttonPanelLockScale.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonPanelLockScale.Name = "buttonPanelLockScale";
-            this.buttonPanelLockScale.Size = new System.Drawing.Size(126, 48);
+            this.buttonPanelLockScale.Size = new System.Drawing.Size(189, 74);
             this.buttonPanelLockScale.TabIndex = 616;
             this.buttonPanelLockScale.Text = "lock HMI";
             this.buttonPanelLockScale.UseVisualStyleBackColor = false;
@@ -3156,9 +3288,10 @@ namespace ProductionLaunch
             this.buttonStartZeroScale.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStartZeroScale.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonStartZeroScale.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonStartZeroScale.Location = new System.Drawing.Point(833, 580);
+            this.buttonStartZeroScale.Location = new System.Drawing.Point(1250, 892);
+            this.buttonStartZeroScale.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonStartZeroScale.Name = "buttonStartZeroScale";
-            this.buttonStartZeroScale.Size = new System.Drawing.Size(126, 48);
+            this.buttonStartZeroScale.Size = new System.Drawing.Size(189, 74);
             this.buttonStartZeroScale.TabIndex = 615;
             this.buttonStartZeroScale.Text = "zero";
             this.buttonStartZeroScale.UseVisualStyleBackColor = false;
@@ -3170,9 +3303,10 @@ namespace ProductionLaunch
             this.buttonStartTareScale.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonStartTareScale.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonStartTareScale.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonStartTareScale.Location = new System.Drawing.Point(640, 580);
+            this.buttonStartTareScale.Location = new System.Drawing.Point(960, 892);
+            this.buttonStartTareScale.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonStartTareScale.Name = "buttonStartTareScale";
-            this.buttonStartTareScale.Size = new System.Drawing.Size(126, 48);
+            this.buttonStartTareScale.Size = new System.Drawing.Size(189, 74);
             this.buttonStartTareScale.TabIndex = 614;
             this.buttonStartTareScale.Text = "tare";
             this.buttonStartTareScale.UseVisualStyleBackColor = false;
@@ -3188,14 +3322,15 @@ namespace ProductionLaunch
             0,
             0,
             0});
-            this.numericUpDownGD1Param2.Location = new System.Drawing.Point(840, 440);
+            this.numericUpDownGD1Param2.Location = new System.Drawing.Point(1260, 677);
+            this.numericUpDownGD1Param2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownGD1Param2.Maximum = new decimal(new int[] {
             35000,
             0,
             0,
             0});
             this.numericUpDownGD1Param2.Name = "numericUpDownGD1Param2";
-            this.numericUpDownGD1Param2.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownGD1Param2.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownGD1Param2.TabIndex = 613;
             this.numericUpDownGD1Param2.Value = new decimal(new int[] {
             32800,
@@ -3214,14 +3349,15 @@ namespace ProductionLaunch
             0,
             0,
             0});
-            this.numericUpDownGD1Param1.Location = new System.Drawing.Point(840, 380);
+            this.numericUpDownGD1Param1.Location = new System.Drawing.Point(1260, 585);
+            this.numericUpDownGD1Param1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownGD1Param1.Maximum = new decimal(new int[] {
             35000,
             0,
             0,
             0});
             this.numericUpDownGD1Param1.Name = "numericUpDownGD1Param1";
-            this.numericUpDownGD1Param1.Size = new System.Drawing.Size(120, 43);
+            this.numericUpDownGD1Param1.Size = new System.Drawing.Size(180, 60);
             this.numericUpDownGD1Param1.TabIndex = 612;
             this.numericUpDownGD1Param1.Value = new decimal(new int[] {
             32800,
@@ -3237,9 +3373,10 @@ namespace ProductionLaunch
             this.labelGD1Param2NameEdit.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1Param2NameEdit.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1Param2NameEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1Param2NameEdit.Location = new System.Drawing.Point(640, 440);
+            this.labelGD1Param2NameEdit.Location = new System.Drawing.Point(960, 677);
+            this.labelGD1Param2NameEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1Param2NameEdit.Name = "labelGD1Param2NameEdit";
-            this.labelGD1Param2NameEdit.Size = new System.Drawing.Size(152, 18);
+            this.labelGD1Param2NameEdit.Size = new System.Drawing.Size(224, 29);
             this.labelGD1Param2NameEdit.TabIndex = 611;
             this.labelGD1Param2NameEdit.Text = "d1 param 2 name";
             // 
@@ -3250,9 +3387,10 @@ namespace ProductionLaunch
             this.labelGD1Param1NameEdit.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1Param1NameEdit.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1Param1NameEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1Param1NameEdit.Location = new System.Drawing.Point(640, 380);
+            this.labelGD1Param1NameEdit.Location = new System.Drawing.Point(960, 585);
+            this.labelGD1Param1NameEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1Param1NameEdit.Name = "labelGD1Param1NameEdit";
-            this.labelGD1Param1NameEdit.Size = new System.Drawing.Size(152, 18);
+            this.labelGD1Param1NameEdit.Size = new System.Drawing.Size(224, 29);
             this.labelGD1Param1NameEdit.TabIndex = 610;
             this.labelGD1Param1NameEdit.Text = "d1 param 1 name";
             // 
@@ -3263,9 +3401,10 @@ namespace ProductionLaunch
             this.radioAutomaticReading.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioAutomaticReading.ForeColor = System.Drawing.SystemColors.WindowText;
             this.radioAutomaticReading.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.radioAutomaticReading.Location = new System.Drawing.Point(1180, 135);
+            this.radioAutomaticReading.Location = new System.Drawing.Point(1770, 208);
+            this.radioAutomaticReading.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioAutomaticReading.Name = "radioAutomaticReading";
-            this.radioAutomaticReading.Size = new System.Drawing.Size(175, 22);
+            this.radioAutomaticReading.Size = new System.Drawing.Size(253, 33);
             this.radioAutomaticReading.TabIndex = 488;
             this.radioAutomaticReading.Text = "automatic reading";
             this.radioAutomaticReading.UseVisualStyleBackColor = false;
@@ -3279,9 +3418,10 @@ namespace ProductionLaunch
             this.label108.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label108.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label108.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label108.Location = new System.Drawing.Point(40, 650);
+            this.label108.Location = new System.Drawing.Point(60, 1000);
+            this.label108.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(188, 16);
+            this.label108.Size = new System.Drawing.Size(289, 25);
             this.label108.TabIndex = 607;
             this.label108.Text = "air blow cleaning activation";
             // 
@@ -3300,9 +3440,10 @@ namespace ProductionLaunch
             this.checkBoxR1InclusionCleaning.ImageIndex = 0;
             this.checkBoxR1InclusionCleaning.ImageList = this.imageListIncEsc24;
             this.checkBoxR1InclusionCleaning.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1InclusionCleaning.Location = new System.Drawing.Point(40, 618);
+            this.checkBoxR1InclusionCleaning.Location = new System.Drawing.Point(60, 951);
+            this.checkBoxR1InclusionCleaning.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1InclusionCleaning.Name = "checkBoxR1InclusionCleaning";
-            this.checkBoxR1InclusionCleaning.Size = new System.Drawing.Size(24, 24);
+            this.checkBoxR1InclusionCleaning.Size = new System.Drawing.Size(36, 37);
             this.checkBoxR1InclusionCleaning.TabIndex = 606;
             this.checkBoxR1InclusionCleaning.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxR1InclusionCleaning.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -3324,9 +3465,10 @@ namespace ProductionLaunch
             this.label95.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label95.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label95.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label95.Location = new System.Drawing.Point(957, 1068);
+            this.label95.Location = new System.Drawing.Point(1436, 1643);
+            this.label95.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(117, 16);
+            this.label95.Size = new System.Drawing.Size(182, 25);
             this.label95.TabIndex = 605;
             this.label95.Text = "tank level empty";
             this.label95.Visible = false;
@@ -3340,9 +3482,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm9.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm9.Location = new System.Drawing.Point(652, 1029);
+            this.buttonR3Alarm9.Location = new System.Drawing.Point(978, 1583);
+            this.buttonR3Alarm9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm9.Name = "buttonR3Alarm9";
-            this.buttonR3Alarm9.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm9.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm9.TabIndex = 604;
             this.buttonR3Alarm9.UseVisualStyleBackColor = false;
             this.buttonR3Alarm9.Visible = false;
@@ -3354,9 +3497,10 @@ namespace ProductionLaunch
             this.label107.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label107.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label107.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label107.Location = new System.Drawing.Point(957, 1045);
+            this.label107.Location = new System.Drawing.Point(1436, 1608);
+            this.label107.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(98, 16);
+            this.label107.Size = new System.Drawing.Size(153, 25);
             this.label107.TabIndex = 603;
             this.label107.Text = "tank level low";
             this.label107.Visible = false;
@@ -3370,9 +3514,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm8.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm8.Location = new System.Drawing.Point(652, 999);
+            this.buttonR3Alarm8.Location = new System.Drawing.Point(978, 1537);
+            this.buttonR3Alarm8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm8.Name = "buttonR3Alarm8";
-            this.buttonR3Alarm8.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm8.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm8.TabIndex = 602;
             this.buttonR3Alarm8.UseVisualStyleBackColor = false;
             this.buttonR3Alarm8.Visible = false;
@@ -3384,9 +3529,10 @@ namespace ProductionLaunch
             this.label94.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label94.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label94.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label94.Location = new System.Drawing.Point(365, 594);
+            this.label94.Location = new System.Drawing.Point(548, 914);
+            this.label94.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(117, 16);
+            this.label94.Size = new System.Drawing.Size(182, 25);
             this.label94.TabIndex = 601;
             this.label94.Text = "tank level empty";
             this.label94.Visible = false;
@@ -3400,9 +3546,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm9.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm9.Location = new System.Drawing.Point(340, 590);
+            this.buttonR2Alarm9.Location = new System.Drawing.Point(510, 908);
+            this.buttonR2Alarm9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm9.Name = "buttonR2Alarm9";
-            this.buttonR2Alarm9.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm9.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm9.TabIndex = 600;
             this.buttonR2Alarm9.UseVisualStyleBackColor = false;
             this.buttonR2Alarm9.Visible = false;
@@ -3414,9 +3561,10 @@ namespace ProductionLaunch
             this.label93.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label93.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label93.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label93.Location = new System.Drawing.Point(365, 564);
+            this.label93.Location = new System.Drawing.Point(548, 868);
+            this.label93.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(98, 16);
+            this.label93.Size = new System.Drawing.Size(153, 25);
             this.label93.TabIndex = 599;
             this.label93.Text = "tank level low";
             this.label93.Visible = false;
@@ -3430,9 +3578,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm8.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm8.Location = new System.Drawing.Point(340, 560);
+            this.buttonR2Alarm8.Location = new System.Drawing.Point(510, 862);
+            this.buttonR2Alarm8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm8.Name = "buttonR2Alarm8";
-            this.buttonR2Alarm8.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm8.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm8.TabIndex = 598;
             this.buttonR2Alarm8.UseVisualStyleBackColor = false;
             this.buttonR2Alarm8.Visible = false;
@@ -3443,9 +3592,10 @@ namespace ProductionLaunch
             this.buttonResetCounter.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonResetCounter.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonResetCounter.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonResetCounter.Location = new System.Drawing.Point(750, 933);
+            this.buttonResetCounter.Location = new System.Drawing.Point(1125, 1435);
+            this.buttonResetCounter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonResetCounter.Name = "buttonResetCounter";
-            this.buttonResetCounter.Size = new System.Drawing.Size(146, 48);
+            this.buttonResetCounter.Size = new System.Drawing.Size(219, 74);
             this.buttonResetCounter.TabIndex = 595;
             this.buttonResetCounter.Text = "reset counter";
             this.buttonResetCounter.UseVisualStyleBackColor = false;
@@ -3457,9 +3607,10 @@ namespace ProductionLaunch
             this.textBoxLastCounter.Enabled = false;
             this.textBoxLastCounter.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxLastCounter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxLastCounter.Location = new System.Drawing.Point(640, 933);
+            this.textBoxLastCounter.Location = new System.Drawing.Point(960, 1435);
+            this.textBoxLastCounter.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxLastCounter.Name = "textBoxLastCounter";
-            this.textBoxLastCounter.Size = new System.Drawing.Size(100, 46);
+            this.textBoxLastCounter.Size = new System.Drawing.Size(148, 66);
             this.textBoxLastCounter.TabIndex = 594;
             this.textBoxLastCounter.Text = "0";
             // 
@@ -3469,9 +3620,10 @@ namespace ProductionLaunch
             this.textBoxRFIDModelNameUnload.Enabled = false;
             this.textBoxRFIDModelNameUnload.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRFIDModelNameUnload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDModelNameUnload.Location = new System.Drawing.Point(845, 880);
+            this.textBoxRFIDModelNameUnload.Location = new System.Drawing.Point(1268, 1354);
+            this.textBoxRFIDModelNameUnload.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDModelNameUnload.Name = "textBoxRFIDModelNameUnload";
-            this.textBoxRFIDModelNameUnload.Size = new System.Drawing.Size(48, 31);
+            this.textBoxRFIDModelNameUnload.Size = new System.Drawing.Size(70, 42);
             this.textBoxRFIDModelNameUnload.TabIndex = 593;
             this.textBoxRFIDModelNameUnload.Text = "----";
             // 
@@ -3481,9 +3633,10 @@ namespace ProductionLaunch
             this.textBoxRFIDFootUnload.Enabled = false;
             this.textBoxRFIDFootUnload.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRFIDFootUnload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDFootUnload.Location = new System.Drawing.Point(960, 880);
+            this.textBoxRFIDFootUnload.Location = new System.Drawing.Point(1440, 1354);
+            this.textBoxRFIDFootUnload.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDFootUnload.Name = "textBoxRFIDFootUnload";
-            this.textBoxRFIDFootUnload.Size = new System.Drawing.Size(48, 31);
+            this.textBoxRFIDFootUnload.Size = new System.Drawing.Size(70, 42);
             this.textBoxRFIDFootUnload.TabIndex = 592;
             this.textBoxRFIDFootUnload.Text = "--";
             // 
@@ -3493,9 +3646,10 @@ namespace ProductionLaunch
             this.textBoxRFIDSizeUnload.Enabled = false;
             this.textBoxRFIDSizeUnload.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRFIDSizeUnload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDSizeUnload.Location = new System.Drawing.Point(901, 880);
+            this.textBoxRFIDSizeUnload.Location = new System.Drawing.Point(1352, 1354);
+            this.textBoxRFIDSizeUnload.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDSizeUnload.Name = "textBoxRFIDSizeUnload";
-            this.textBoxRFIDSizeUnload.Size = new System.Drawing.Size(48, 31);
+            this.textBoxRFIDSizeUnload.Size = new System.Drawing.Size(70, 42);
             this.textBoxRFIDSizeUnload.TabIndex = 591;
             this.textBoxRFIDSizeUnload.Text = "---";
             // 
@@ -3505,9 +3659,10 @@ namespace ProductionLaunch
             this.textBoxRFIDCodeUnload.Enabled = false;
             this.textBoxRFIDCodeUnload.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxRFIDCodeUnload.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDCodeUnload.Location = new System.Drawing.Point(640, 880);
+            this.textBoxRFIDCodeUnload.Location = new System.Drawing.Point(960, 1354);
+            this.textBoxRFIDCodeUnload.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDCodeUnload.Name = "textBoxRFIDCodeUnload";
-            this.textBoxRFIDCodeUnload.Size = new System.Drawing.Size(200, 31);
+            this.textBoxRFIDCodeUnload.Size = new System.Drawing.Size(298, 42);
             this.textBoxRFIDCodeUnload.TabIndex = 590;
             this.textBoxRFIDCodeUnload.Text = "--------------------";
             // 
@@ -3517,9 +3672,10 @@ namespace ProductionLaunch
             this.buttonLineTimeoutAlarms.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLineTimeoutAlarms.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
             this.buttonLineTimeoutAlarms.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLineTimeoutAlarms.Location = new System.Drawing.Point(1340, 990);
+            this.buttonLineTimeoutAlarms.Location = new System.Drawing.Point(2010, 1523);
+            this.buttonLineTimeoutAlarms.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonLineTimeoutAlarms.Name = "buttonLineTimeoutAlarms";
-            this.buttonLineTimeoutAlarms.Size = new System.Drawing.Size(120, 24);
+            this.buttonLineTimeoutAlarms.Size = new System.Drawing.Size(180, 37);
             this.buttonLineTimeoutAlarms.TabIndex = 589;
             this.buttonLineTimeoutAlarms.Text = "show alarms";
             this.buttonLineTimeoutAlarms.UseVisualStyleBackColor = false;
@@ -3532,9 +3688,10 @@ namespace ProductionLaunch
             this.buttonManualRead.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonManualRead.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonManualRead.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonManualRead.Location = new System.Drawing.Point(980, 141);
+            this.buttonManualRead.Location = new System.Drawing.Point(1470, 217);
+            this.buttonManualRead.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonManualRead.Name = "buttonManualRead";
-            this.buttonManualRead.Size = new System.Drawing.Size(120, 48);
+            this.buttonManualRead.Size = new System.Drawing.Size(180, 74);
             this.buttonManualRead.TabIndex = 588;
             this.buttonManualRead.Text = "read";
             this.buttonManualRead.UseVisualStyleBackColor = false;
@@ -3547,9 +3704,10 @@ namespace ProductionLaunch
             this.labelRFIDResultString.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFIDResultString.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFIDResultString.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFIDResultString.Location = new System.Drawing.Point(613, 147);
+            this.labelRFIDResultString.Location = new System.Drawing.Point(920, 226);
+            this.labelRFIDResultString.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFIDResultString.Name = "labelRFIDResultString";
-            this.labelRFIDResultString.Size = new System.Drawing.Size(148, 18);
+            this.labelRFIDResultString.Size = new System.Drawing.Size(233, 29);
             this.labelRFIDResultString.TabIndex = 587;
             this.labelRFIDResultString.Text = "rfid result string";
             // 
@@ -3560,9 +3718,10 @@ namespace ProductionLaunch
             this.label47.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label47.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label47.Location = new System.Drawing.Point(863, 121);
+            this.label47.Location = new System.Drawing.Point(1294, 186);
+            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(85, 13);
+            this.label47.Size = new System.Drawing.Size(125, 20);
             this.label47.TabIndex = 586;
             this.label47.Text = "open browser";
             // 
@@ -3573,9 +3732,10 @@ namespace ProductionLaunch
             this.label40.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label40.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label40.Location = new System.Drawing.Point(1122, 1065);
+            this.label40.Location = new System.Drawing.Point(1683, 1638);
+            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(119, 16);
+            this.label40.Size = new System.Drawing.Size(186, 25);
             this.label40.TabIndex = 585;
             this.label40.Text = "local air pressure";
             this.label40.Visible = false;
@@ -3589,9 +3749,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm7.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm7.Location = new System.Drawing.Point(652, 1059);
+            this.buttonR3Alarm7.Location = new System.Drawing.Point(978, 1629);
+            this.buttonR3Alarm7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm7.Name = "buttonR3Alarm7";
-            this.buttonR3Alarm7.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm7.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm7.TabIndex = 584;
             this.buttonR3Alarm7.UseVisualStyleBackColor = false;
             this.buttonR3Alarm7.Visible = false;
@@ -3603,9 +3764,10 @@ namespace ProductionLaunch
             this.label41.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label41.Location = new System.Drawing.Point(1350, 485);
+            this.label41.Location = new System.Drawing.Point(2025, 746);
+            this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(134, 16);
+            this.label41.Size = new System.Drawing.Size(205, 25);
             this.label41.TabIndex = 583;
             this.label41.Text = "lf/rg config sensors";
             // 
@@ -3618,9 +3780,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm6.Location = new System.Drawing.Point(1320, 630);
+            this.buttonR3Alarm6.Location = new System.Drawing.Point(1980, 969);
+            this.buttonR3Alarm6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm6.Name = "buttonR3Alarm6";
-            this.buttonR3Alarm6.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm6.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm6.TabIndex = 582;
             this.buttonR3Alarm6.UseVisualStyleBackColor = false;
             // 
@@ -3631,9 +3794,10 @@ namespace ProductionLaunch
             this.label42.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label42.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label42.Location = new System.Drawing.Point(1350, 605);
+            this.label42.Location = new System.Drawing.Point(2025, 931);
+            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(108, 16);
+            this.label42.Size = new System.Drawing.Size(172, 25);
             this.label42.TabIndex = 581;
             this.label42.Text = "timeout homing";
             // 
@@ -3644,9 +3808,10 @@ namespace ProductionLaunch
             this.label43.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label43.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label43.Location = new System.Drawing.Point(1350, 575);
+            this.label43.Location = new System.Drawing.Point(2025, 885);
+            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(132, 16);
+            this.label43.Size = new System.Drawing.Size(203, 25);
             this.label43.TabIndex = 580;
             this.label43.Text = "timeout centraggio";
             // 
@@ -3657,9 +3822,10 @@ namespace ProductionLaunch
             this.label44.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label44.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label44.Location = new System.Drawing.Point(1350, 545);
+            this.label44.Location = new System.Drawing.Point(2025, 838);
+            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(126, 16);
+            this.label44.Size = new System.Drawing.Size(194, 25);
             this.label44.TabIndex = 579;
             this.label44.Text = "HIWIN connection";
             // 
@@ -3670,9 +3836,10 @@ namespace ProductionLaunch
             this.label45.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label45.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label45.Location = new System.Drawing.Point(1350, 515);
+            this.label45.Location = new System.Drawing.Point(2025, 792);
+            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(81, 16);
+            this.label45.Size = new System.Drawing.Size(129, 25);
             this.label45.TabIndex = 578;
             this.label45.Text = "rfid reading";
             // 
@@ -3683,9 +3850,10 @@ namespace ProductionLaunch
             this.label46.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label46.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label46.Location = new System.Drawing.Point(1350, 635);
+            this.label46.Location = new System.Drawing.Point(2025, 977);
+            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(132, 16);
+            this.label46.Size = new System.Drawing.Size(207, 25);
             this.label46.TabIndex = 577;
             this.label46.Text = "timeout positioning";
             // 
@@ -3698,9 +3866,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm5.Location = new System.Drawing.Point(1320, 600);
+            this.buttonR3Alarm5.Location = new System.Drawing.Point(1980, 923);
+            this.buttonR3Alarm5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm5.Name = "buttonR3Alarm5";
-            this.buttonR3Alarm5.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm5.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm5.TabIndex = 576;
             this.buttonR3Alarm5.UseVisualStyleBackColor = false;
             // 
@@ -3713,9 +3882,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm4.Location = new System.Drawing.Point(1320, 570);
+            this.buttonR3Alarm4.Location = new System.Drawing.Point(1980, 877);
+            this.buttonR3Alarm4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm4.Name = "buttonR3Alarm4";
-            this.buttonR3Alarm4.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm4.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm4.TabIndex = 575;
             this.buttonR3Alarm4.UseVisualStyleBackColor = false;
             // 
@@ -3728,9 +3898,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm3.Location = new System.Drawing.Point(1320, 540);
+            this.buttonR3Alarm3.Location = new System.Drawing.Point(1980, 831);
+            this.buttonR3Alarm3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm3.Name = "buttonR3Alarm3";
-            this.buttonR3Alarm3.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm3.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm3.TabIndex = 574;
             this.buttonR3Alarm3.UseVisualStyleBackColor = false;
             // 
@@ -3743,9 +3914,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm2.Location = new System.Drawing.Point(1320, 510);
+            this.buttonR3Alarm2.Location = new System.Drawing.Point(1980, 785);
+            this.buttonR3Alarm2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm2.Name = "buttonR3Alarm2";
-            this.buttonR3Alarm2.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm2.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm2.TabIndex = 573;
             this.buttonR3Alarm2.UseVisualStyleBackColor = false;
             // 
@@ -3758,9 +3930,10 @@ namespace ProductionLaunch
             this.buttonR3Alarm1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR3Alarm1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR3Alarm1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR3Alarm1.Location = new System.Drawing.Point(1320, 480);
+            this.buttonR3Alarm1.Location = new System.Drawing.Point(1980, 738);
+            this.buttonR3Alarm1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR3Alarm1.Name = "buttonR3Alarm1";
-            this.buttonR3Alarm1.Size = new System.Drawing.Size(20, 20);
+            this.buttonR3Alarm1.Size = new System.Drawing.Size(30, 31);
             this.buttonR3Alarm1.TabIndex = 572;
             this.buttonR3Alarm1.UseVisualStyleBackColor = false;
             // 
@@ -3771,9 +3944,10 @@ namespace ProductionLaunch
             this.label39.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label39.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label39.Location = new System.Drawing.Point(365, 624);
+            this.label39.Location = new System.Drawing.Point(548, 960);
+            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(119, 16);
+            this.label39.Size = new System.Drawing.Size(186, 25);
             this.label39.TabIndex = 571;
             this.label39.Text = "local air pressure";
             this.label39.Visible = false;
@@ -3787,9 +3961,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm7.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm7.Location = new System.Drawing.Point(340, 620);
+            this.buttonR2Alarm7.Location = new System.Drawing.Point(510, 954);
+            this.buttonR2Alarm7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm7.Name = "buttonR2Alarm7";
-            this.buttonR2Alarm7.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm7.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm7.TabIndex = 570;
             this.buttonR2Alarm7.UseVisualStyleBackColor = false;
             this.buttonR2Alarm7.Visible = false;
@@ -3801,9 +3976,10 @@ namespace ProductionLaunch
             this.label33.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label33.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label33.Location = new System.Drawing.Point(365, 534);
+            this.label33.Location = new System.Drawing.Point(548, 822);
+            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(144, 16);
+            this.label33.Size = new System.Drawing.Size(228, 25);
             this.label33.TabIndex = 569;
             this.label33.Text = "PLC I/O module error";
             // 
@@ -3816,9 +3992,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm6.Location = new System.Drawing.Point(340, 530);
+            this.buttonR2Alarm6.Location = new System.Drawing.Point(510, 815);
+            this.buttonR2Alarm6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm6.Name = "buttonR2Alarm6";
-            this.buttonR2Alarm6.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm6.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm6.TabIndex = 568;
             this.buttonR2Alarm6.UseVisualStyleBackColor = false;
             // 
@@ -3829,9 +4006,10 @@ namespace ProductionLaunch
             this.label34.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label34.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label34.Location = new System.Drawing.Point(365, 504);
+            this.label34.Location = new System.Drawing.Point(548, 775);
+            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(119, 16);
+            this.label34.Size = new System.Drawing.Size(186, 25);
             this.label34.TabIndex = 567;
             this.label34.Text = "local air pressure";
             // 
@@ -3842,9 +4020,10 @@ namespace ProductionLaunch
             this.label35.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label35.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label35.Location = new System.Drawing.Point(365, 474);
+            this.label35.Location = new System.Drawing.Point(548, 729);
+            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(67, 16);
+            this.label35.Size = new System.Drawing.Size(103, 25);
             this.label35.TabIndex = 566;
             this.label35.Text = "tool fault";
             // 
@@ -3855,9 +4034,10 @@ namespace ProductionLaunch
             this.label36.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label36.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label36.Location = new System.Drawing.Point(365, 444);
+            this.label36.Location = new System.Drawing.Point(548, 683);
+            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(137, 16);
+            this.label36.Size = new System.Drawing.Size(214, 25);
             this.label36.TabIndex = 565;
             this.label36.Text = "external emergency";
             // 
@@ -3868,9 +4048,10 @@ namespace ProductionLaunch
             this.label37.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label37.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label37.Location = new System.Drawing.Point(365, 414);
+            this.label37.Location = new System.Drawing.Point(548, 637);
+            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(135, 16);
+            this.label37.Size = new System.Drawing.Size(205, 25);
             this.label37.TabIndex = 564;
             this.label37.Text = "PLC I/O connection";
             // 
@@ -3881,9 +4062,10 @@ namespace ProductionLaunch
             this.label38.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label38.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label38.Location = new System.Drawing.Point(365, 380);
+            this.label38.Location = new System.Drawing.Point(548, 585);
+            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(139, 16);
+            this.label38.Size = new System.Drawing.Size(213, 25);
             this.label38.TabIndex = 563;
             this.label38.Text = "machine connection";
             // 
@@ -3896,9 +4078,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm5.Location = new System.Drawing.Point(340, 500);
+            this.buttonR2Alarm5.Location = new System.Drawing.Point(510, 769);
+            this.buttonR2Alarm5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm5.Name = "buttonR2Alarm5";
-            this.buttonR2Alarm5.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm5.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm5.TabIndex = 562;
             this.buttonR2Alarm5.UseVisualStyleBackColor = false;
             // 
@@ -3911,9 +4094,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm4.Location = new System.Drawing.Point(340, 470);
+            this.buttonR2Alarm4.Location = new System.Drawing.Point(510, 723);
+            this.buttonR2Alarm4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm4.Name = "buttonR2Alarm4";
-            this.buttonR2Alarm4.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm4.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm4.TabIndex = 561;
             this.buttonR2Alarm4.UseVisualStyleBackColor = false;
             // 
@@ -3926,9 +4110,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm3.Location = new System.Drawing.Point(340, 440);
+            this.buttonR2Alarm3.Location = new System.Drawing.Point(510, 677);
+            this.buttonR2Alarm3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm3.Name = "buttonR2Alarm3";
-            this.buttonR2Alarm3.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm3.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm3.TabIndex = 560;
             this.buttonR2Alarm3.UseVisualStyleBackColor = false;
             // 
@@ -3941,9 +4126,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR2Alarm2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm2.Location = new System.Drawing.Point(340, 410);
+            this.buttonR2Alarm2.Location = new System.Drawing.Point(510, 631);
+            this.buttonR2Alarm2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm2.Name = "buttonR2Alarm2";
-            this.buttonR2Alarm2.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm2.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm2.TabIndex = 559;
             this.buttonR2Alarm2.UseVisualStyleBackColor = false;
             // 
@@ -3956,9 +4142,10 @@ namespace ProductionLaunch
             this.buttonR2Alarm1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR2Alarm1.ForeColor = System.Drawing.Color.White;
             this.buttonR2Alarm1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR2Alarm1.Location = new System.Drawing.Point(340, 380);
+            this.buttonR2Alarm1.Location = new System.Drawing.Point(510, 585);
+            this.buttonR2Alarm1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR2Alarm1.Name = "buttonR2Alarm1";
-            this.buttonR2Alarm1.Size = new System.Drawing.Size(20, 20);
+            this.buttonR2Alarm1.Size = new System.Drawing.Size(30, 31);
             this.buttonR2Alarm1.TabIndex = 558;
             this.buttonR2Alarm1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.buttonR2Alarm1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -3971,9 +4158,10 @@ namespace ProductionLaunch
             this.label32.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label32.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label32.Location = new System.Drawing.Point(65, 534);
+            this.label32.Location = new System.Drawing.Point(98, 822);
+            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(67, 16);
+            this.label32.Size = new System.Drawing.Size(103, 25);
             this.label32.TabIndex = 557;
             this.label32.Text = "tool fault";
             // 
@@ -3986,9 +4174,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm6.Location = new System.Drawing.Point(40, 530);
+            this.buttonR1Alarm6.Location = new System.Drawing.Point(60, 815);
+            this.buttonR1Alarm6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm6.Name = "buttonR1Alarm6";
-            this.buttonR1Alarm6.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm6.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm6.TabIndex = 556;
             this.buttonR1Alarm6.UseVisualStyleBackColor = false;
             // 
@@ -3999,9 +4188,10 @@ namespace ProductionLaunch
             this.label31.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label31.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label31.Location = new System.Drawing.Point(65, 504);
+            this.label31.Location = new System.Drawing.Point(98, 775);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(137, 16);
+            this.label31.Size = new System.Drawing.Size(214, 25);
             this.label31.TabIndex = 555;
             this.label31.Text = "external emergency";
             // 
@@ -4012,9 +4202,10 @@ namespace ProductionLaunch
             this.label30.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label30.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label30.Location = new System.Drawing.Point(65, 474);
+            this.label30.Location = new System.Drawing.Point(98, 729);
+            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(135, 16);
+            this.label30.Size = new System.Drawing.Size(205, 25);
             this.label30.TabIndex = 554;
             this.label30.Text = "PLC I/O connection";
             // 
@@ -4025,9 +4216,10 @@ namespace ProductionLaunch
             this.label29.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label29.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label29.Location = new System.Drawing.Point(65, 444);
+            this.label29.Location = new System.Drawing.Point(98, 683);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(139, 16);
+            this.label29.Size = new System.Drawing.Size(213, 25);
             this.label29.TabIndex = 553;
             this.label29.Text = "machine connection";
             // 
@@ -4038,9 +4230,10 @@ namespace ProductionLaunch
             this.label28.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label28.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label28.Location = new System.Drawing.Point(65, 414);
+            this.label28.Location = new System.Drawing.Point(98, 637);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(167, 16);
+            this.label28.Size = new System.Drawing.Size(255, 25);
             this.label28.TabIndex = 552;
             this.label28.Text = "CAMOZZI LF connection";
             // 
@@ -4051,9 +4244,10 @@ namespace ProductionLaunch
             this.label27.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label27.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label27.Location = new System.Drawing.Point(65, 384);
+            this.label27.Location = new System.Drawing.Point(98, 591);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(169, 16);
+            this.label27.Size = new System.Drawing.Size(262, 25);
             this.label27.TabIndex = 551;
             this.label27.Text = "CAMOZZI RG connection";
             // 
@@ -4066,9 +4260,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm5.Location = new System.Drawing.Point(40, 500);
+            this.buttonR1Alarm5.Location = new System.Drawing.Point(60, 769);
+            this.buttonR1Alarm5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm5.Name = "buttonR1Alarm5";
-            this.buttonR1Alarm5.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm5.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm5.TabIndex = 550;
             this.buttonR1Alarm5.UseVisualStyleBackColor = false;
             // 
@@ -4081,9 +4276,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm4.Location = new System.Drawing.Point(40, 470);
+            this.buttonR1Alarm4.Location = new System.Drawing.Point(60, 723);
+            this.buttonR1Alarm4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm4.Name = "buttonR1Alarm4";
-            this.buttonR1Alarm4.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm4.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm4.TabIndex = 549;
             this.buttonR1Alarm4.UseVisualStyleBackColor = false;
             // 
@@ -4096,9 +4292,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm3.Location = new System.Drawing.Point(40, 440);
+            this.buttonR1Alarm3.Location = new System.Drawing.Point(60, 677);
+            this.buttonR1Alarm3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm3.Name = "buttonR1Alarm3";
-            this.buttonR1Alarm3.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm3.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm3.TabIndex = 548;
             this.buttonR1Alarm3.UseVisualStyleBackColor = false;
             // 
@@ -4111,9 +4308,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm2.Location = new System.Drawing.Point(40, 410);
+            this.buttonR1Alarm2.Location = new System.Drawing.Point(60, 631);
+            this.buttonR1Alarm2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm2.Name = "buttonR1Alarm2";
-            this.buttonR1Alarm2.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm2.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm2.TabIndex = 547;
             this.buttonR1Alarm2.UseVisualStyleBackColor = false;
             // 
@@ -4126,9 +4324,10 @@ namespace ProductionLaunch
             this.buttonR1Alarm1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonR1Alarm1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonR1Alarm1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonR1Alarm1.Location = new System.Drawing.Point(40, 380);
+            this.buttonR1Alarm1.Location = new System.Drawing.Point(60, 585);
+            this.buttonR1Alarm1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonR1Alarm1.Name = "buttonR1Alarm1";
-            this.buttonR1Alarm1.Size = new System.Drawing.Size(20, 20);
+            this.buttonR1Alarm1.Size = new System.Drawing.Size(30, 31);
             this.buttonR1Alarm1.TabIndex = 546;
             this.buttonR1Alarm1.UseVisualStyleBackColor = false;
             // 
@@ -4143,10 +4342,11 @@ namespace ProductionLaunch
             this.lbLedR3SemGreen.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR3SemGreen.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR3SemGreen.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR3SemGreen.Location = new System.Drawing.Point(1250, 250);
+            this.lbLedR3SemGreen.Location = new System.Drawing.Point(1875, 385);
+            this.lbLedR3SemGreen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR3SemGreen.Name = "lbLedR3SemGreen";
             this.lbLedR3SemGreen.Renderer = null;
-            this.lbLedR3SemGreen.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR3SemGreen.Size = new System.Drawing.Size(30, 31);
             this.lbLedR3SemGreen.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR3SemGreen.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR3SemGreen.TabIndex = 545;
@@ -4163,10 +4363,11 @@ namespace ProductionLaunch
             this.lbLedR3SemOrange.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR3SemOrange.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR3SemOrange.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR3SemOrange.Location = new System.Drawing.Point(1225, 250);
+            this.lbLedR3SemOrange.Location = new System.Drawing.Point(1838, 385);
+            this.lbLedR3SemOrange.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR3SemOrange.Name = "lbLedR3SemOrange";
             this.lbLedR3SemOrange.Renderer = null;
-            this.lbLedR3SemOrange.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR3SemOrange.Size = new System.Drawing.Size(30, 31);
             this.lbLedR3SemOrange.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR3SemOrange.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR3SemOrange.TabIndex = 544;
@@ -4183,10 +4384,11 @@ namespace ProductionLaunch
             this.lbLedR3SemRed.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR3SemRed.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR3SemRed.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR3SemRed.Location = new System.Drawing.Point(1200, 250);
+            this.lbLedR3SemRed.Location = new System.Drawing.Point(1800, 385);
+            this.lbLedR3SemRed.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR3SemRed.Name = "lbLedR3SemRed";
             this.lbLedR3SemRed.Renderer = null;
-            this.lbLedR3SemRed.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR3SemRed.Size = new System.Drawing.Size(30, 31);
             this.lbLedR3SemRed.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR3SemRed.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR3SemRed.TabIndex = 543;
@@ -4203,10 +4405,11 @@ namespace ProductionLaunch
             this.lbLedR2SemGreen.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR2SemGreen.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR2SemGreen.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR2SemGreen.Location = new System.Drawing.Point(550, 250);
+            this.lbLedR2SemGreen.Location = new System.Drawing.Point(825, 385);
+            this.lbLedR2SemGreen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR2SemGreen.Name = "lbLedR2SemGreen";
             this.lbLedR2SemGreen.Renderer = null;
-            this.lbLedR2SemGreen.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR2SemGreen.Size = new System.Drawing.Size(30, 31);
             this.lbLedR2SemGreen.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR2SemGreen.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR2SemGreen.TabIndex = 542;
@@ -4222,10 +4425,11 @@ namespace ProductionLaunch
             this.lbLedR2SemOrange.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR2SemOrange.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR2SemOrange.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR2SemOrange.Location = new System.Drawing.Point(525, 250);
+            this.lbLedR2SemOrange.Location = new System.Drawing.Point(788, 385);
+            this.lbLedR2SemOrange.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR2SemOrange.Name = "lbLedR2SemOrange";
             this.lbLedR2SemOrange.Renderer = null;
-            this.lbLedR2SemOrange.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR2SemOrange.Size = new System.Drawing.Size(30, 31);
             this.lbLedR2SemOrange.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR2SemOrange.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR2SemOrange.TabIndex = 541;
@@ -4241,10 +4445,11 @@ namespace ProductionLaunch
             this.lbLedR2SemRed.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR2SemRed.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR2SemRed.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR2SemRed.Location = new System.Drawing.Point(500, 250);
+            this.lbLedR2SemRed.Location = new System.Drawing.Point(750, 385);
+            this.lbLedR2SemRed.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR2SemRed.Name = "lbLedR2SemRed";
             this.lbLedR2SemRed.Renderer = null;
-            this.lbLedR2SemRed.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR2SemRed.Size = new System.Drawing.Size(30, 31);
             this.lbLedR2SemRed.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR2SemRed.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR2SemRed.TabIndex = 540;
@@ -4260,10 +4465,11 @@ namespace ProductionLaunch
             this.lbLedR1SemGreen.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR1SemGreen.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR1SemGreen.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR1SemGreen.Location = new System.Drawing.Point(250, 250);
+            this.lbLedR1SemGreen.Location = new System.Drawing.Point(375, 385);
+            this.lbLedR1SemGreen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR1SemGreen.Name = "lbLedR1SemGreen";
             this.lbLedR1SemGreen.Renderer = null;
-            this.lbLedR1SemGreen.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR1SemGreen.Size = new System.Drawing.Size(30, 31);
             this.lbLedR1SemGreen.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR1SemGreen.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR1SemGreen.TabIndex = 539;
@@ -4279,10 +4485,11 @@ namespace ProductionLaunch
             this.lbLedR1SemOrange.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR1SemOrange.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR1SemOrange.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR1SemOrange.Location = new System.Drawing.Point(225, 250);
+            this.lbLedR1SemOrange.Location = new System.Drawing.Point(338, 385);
+            this.lbLedR1SemOrange.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR1SemOrange.Name = "lbLedR1SemOrange";
             this.lbLedR1SemOrange.Renderer = null;
-            this.lbLedR1SemOrange.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR1SemOrange.Size = new System.Drawing.Size(30, 31);
             this.lbLedR1SemOrange.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR1SemOrange.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR1SemOrange.TabIndex = 538;
@@ -4298,10 +4505,11 @@ namespace ProductionLaunch
             this.lbLedR1SemRed.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedR1SemRed.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedR1SemRed.LedSize = new System.Drawing.SizeF(20F, 20F);
-            this.lbLedR1SemRed.Location = new System.Drawing.Point(200, 250);
+            this.lbLedR1SemRed.Location = new System.Drawing.Point(300, 385);
+            this.lbLedR1SemRed.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedR1SemRed.Name = "lbLedR1SemRed";
             this.lbLedR1SemRed.Renderer = null;
-            this.lbLedR1SemRed.Size = new System.Drawing.Size(20, 20);
+            this.lbLedR1SemRed.Size = new System.Drawing.Size(30, 31);
             this.lbLedR1SemRed.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedR1SemRed.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedR1SemRed.TabIndex = 537;
@@ -4312,9 +4520,10 @@ namespace ProductionLaunch
             this.buttonGD2RegisterAlarms.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2RegisterAlarms.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
             this.buttonGD2RegisterAlarms.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2RegisterAlarms.Location = new System.Drawing.Point(859, 1017);
+            this.buttonGD2RegisterAlarms.Location = new System.Drawing.Point(1288, 1565);
+            this.buttonGD2RegisterAlarms.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2RegisterAlarms.Name = "buttonGD2RegisterAlarms";
-            this.buttonGD2RegisterAlarms.Size = new System.Drawing.Size(100, 24);
+            this.buttonGD2RegisterAlarms.Size = new System.Drawing.Size(150, 37);
             this.buttonGD2RegisterAlarms.TabIndex = 536;
             this.buttonGD2RegisterAlarms.Text = "show alarms";
             this.buttonGD2RegisterAlarms.UseVisualStyleBackColor = false;
@@ -4330,9 +4539,10 @@ namespace ProductionLaunch
             this.buttonGD2R6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R6.Location = new System.Drawing.Point(977, 1051);
+            this.buttonGD2R6.Location = new System.Drawing.Point(1466, 1617);
+            this.buttonGD2R6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R6.Name = "buttonGD2R6";
-            this.buttonGD2R6.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R6.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R6.TabIndex = 535;
             this.buttonGD2R6.UseVisualStyleBackColor = false;
             this.buttonGD2R6.Visible = false;
@@ -4346,9 +4556,10 @@ namespace ProductionLaunch
             this.buttonGD2R5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R5.Location = new System.Drawing.Point(947, 1051);
+            this.buttonGD2R5.Location = new System.Drawing.Point(1420, 1617);
+            this.buttonGD2R5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R5.Name = "buttonGD2R5";
-            this.buttonGD2R5.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R5.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R5.TabIndex = 534;
             this.buttonGD2R5.UseVisualStyleBackColor = false;
             this.buttonGD2R5.Visible = false;
@@ -4362,9 +4573,10 @@ namespace ProductionLaunch
             this.buttonGD2R4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R4.Location = new System.Drawing.Point(624, 1051);
+            this.buttonGD2R4.Location = new System.Drawing.Point(936, 1617);
+            this.buttonGD2R4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R4.Name = "buttonGD2R4";
-            this.buttonGD2R4.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R4.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R4.TabIndex = 533;
             this.buttonGD2R4.UseVisualStyleBackColor = false;
             this.buttonGD2R4.Visible = false;
@@ -4378,9 +4590,10 @@ namespace ProductionLaunch
             this.buttonGD2R3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R3.Location = new System.Drawing.Point(594, 1051);
+            this.buttonGD2R3.Location = new System.Drawing.Point(891, 1617);
+            this.buttonGD2R3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R3.Name = "buttonGD2R3";
-            this.buttonGD2R3.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R3.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R3.TabIndex = 532;
             this.buttonGD2R3.UseVisualStyleBackColor = false;
             this.buttonGD2R3.Visible = false;
@@ -4394,9 +4607,10 @@ namespace ProductionLaunch
             this.buttonGD2R2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R2.Location = new System.Drawing.Point(564, 1051);
+            this.buttonGD2R2.Location = new System.Drawing.Point(846, 1617);
+            this.buttonGD2R2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R2.Name = "buttonGD2R2";
-            this.buttonGD2R2.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R2.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R2.TabIndex = 531;
             this.buttonGD2R2.UseVisualStyleBackColor = false;
             this.buttonGD2R2.Visible = false;
@@ -4410,9 +4624,10 @@ namespace ProductionLaunch
             this.buttonGD2R1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R1.Location = new System.Drawing.Point(534, 1051);
+            this.buttonGD2R1.Location = new System.Drawing.Point(801, 1617);
+            this.buttonGD2R1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R1.Name = "buttonGD2R1";
-            this.buttonGD2R1.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R1.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R1.TabIndex = 530;
             this.buttonGD2R1.UseVisualStyleBackColor = false;
             this.buttonGD2R1.Visible = false;
@@ -4426,9 +4641,10 @@ namespace ProductionLaunch
             this.buttonGD2R0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2R0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2R0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2R0.Location = new System.Drawing.Point(504, 1051);
+            this.buttonGD2R0.Location = new System.Drawing.Point(756, 1617);
+            this.buttonGD2R0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2R0.Name = "buttonGD2R0";
-            this.buttonGD2R0.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD2R0.Size = new System.Drawing.Size(30, 31);
             this.buttonGD2R0.TabIndex = 529;
             this.buttonGD2R0.UseVisualStyleBackColor = false;
             this.buttonGD2R0.Visible = false;
@@ -4439,9 +4655,10 @@ namespace ProductionLaunch
             this.buttonGD1RegisterAlarms.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1RegisterAlarms.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
             this.buttonGD1RegisterAlarms.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1RegisterAlarms.Location = new System.Drawing.Point(934, 840);
+            this.buttonGD1RegisterAlarms.Location = new System.Drawing.Point(1401, 1292);
+            this.buttonGD1RegisterAlarms.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1RegisterAlarms.Name = "buttonGD1RegisterAlarms";
-            this.buttonGD1RegisterAlarms.Size = new System.Drawing.Size(100, 24);
+            this.buttonGD1RegisterAlarms.Size = new System.Drawing.Size(150, 37);
             this.buttonGD1RegisterAlarms.TabIndex = 528;
             this.buttonGD1RegisterAlarms.Text = "show alarms";
             this.buttonGD1RegisterAlarms.UseVisualStyleBackColor = false;
@@ -4455,9 +4672,10 @@ namespace ProductionLaunch
             this.labelAirPressure.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAirPressure.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelAirPressure.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelAirPressure.Location = new System.Drawing.Point(1340, 970);
+            this.labelAirPressure.Location = new System.Drawing.Point(2010, 1492);
+            this.labelAirPressure.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelAirPressure.Name = "labelAirPressure";
-            this.labelAirPressure.Size = new System.Drawing.Size(94, 16);
+            this.labelAirPressure.Size = new System.Drawing.Size(147, 25);
             this.labelAirPressure.TabIndex = 527;
             this.labelAirPressure.Text = "air pressure";
             // 
@@ -4470,9 +4688,10 @@ namespace ProductionLaunch
             this.buttonGD1R6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R6.Location = new System.Drawing.Point(967, 740);
+            this.buttonGD1R6.Location = new System.Drawing.Point(1450, 1138);
+            this.buttonGD1R6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R6.Name = "buttonGD1R6";
-            this.buttonGD1R6.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R6.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R6.TabIndex = 525;
             this.buttonGD1R6.UseVisualStyleBackColor = false;
             this.buttonGD1R6.Visible = false;
@@ -4486,9 +4705,10 @@ namespace ProductionLaunch
             this.buttonGD1R5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R5.Location = new System.Drawing.Point(937, 740);
+            this.buttonGD1R5.Location = new System.Drawing.Point(1406, 1138);
+            this.buttonGD1R5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R5.Name = "buttonGD1R5";
-            this.buttonGD1R5.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R5.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R5.TabIndex = 524;
             this.buttonGD1R5.UseVisualStyleBackColor = false;
             this.buttonGD1R5.Visible = false;
@@ -4502,9 +4722,10 @@ namespace ProductionLaunch
             this.buttonGD1R4.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R4.Location = new System.Drawing.Point(907, 740);
+            this.buttonGD1R4.Location = new System.Drawing.Point(1360, 1138);
+            this.buttonGD1R4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R4.Name = "buttonGD1R4";
-            this.buttonGD1R4.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R4.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R4.TabIndex = 523;
             this.buttonGD1R4.UseVisualStyleBackColor = false;
             this.buttonGD1R4.Visible = false;
@@ -4518,9 +4739,10 @@ namespace ProductionLaunch
             this.buttonGD1R3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R3.Location = new System.Drawing.Point(877, 740);
+            this.buttonGD1R3.Location = new System.Drawing.Point(1316, 1138);
+            this.buttonGD1R3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R3.Name = "buttonGD1R3";
-            this.buttonGD1R3.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R3.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R3.TabIndex = 522;
             this.buttonGD1R3.UseVisualStyleBackColor = false;
             this.buttonGD1R3.Visible = false;
@@ -4534,9 +4756,10 @@ namespace ProductionLaunch
             this.buttonGD1R2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R2.Location = new System.Drawing.Point(847, 740);
+            this.buttonGD1R2.Location = new System.Drawing.Point(1270, 1138);
+            this.buttonGD1R2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R2.Name = "buttonGD1R2";
-            this.buttonGD1R2.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R2.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R2.TabIndex = 521;
             this.buttonGD1R2.UseVisualStyleBackColor = false;
             // 
@@ -4549,9 +4772,10 @@ namespace ProductionLaunch
             this.buttonGD1R1.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R1.Location = new System.Drawing.Point(708, 740);
+            this.buttonGD1R1.Location = new System.Drawing.Point(1062, 1138);
+            this.buttonGD1R1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R1.Name = "buttonGD1R1";
-            this.buttonGD1R1.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R1.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R1.TabIndex = 520;
             this.buttonGD1R1.UseVisualStyleBackColor = false;
             // 
@@ -4564,9 +4788,10 @@ namespace ProductionLaunch
             this.buttonGD1R0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1R0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1R0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1R0.Location = new System.Drawing.Point(640, 740);
+            this.buttonGD1R0.Location = new System.Drawing.Point(960, 1138);
+            this.buttonGD1R0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1R0.Name = "buttonGD1R0";
-            this.buttonGD1R0.Size = new System.Drawing.Size(20, 20);
+            this.buttonGD1R0.Size = new System.Drawing.Size(30, 31);
             this.buttonGD1R0.TabIndex = 519;
             this.buttonGD1R0.UseVisualStyleBackColor = false;
             // 
@@ -4577,9 +4802,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam4Text.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam4Text.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam4Text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam4Text.Location = new System.Drawing.Point(1212, 1083);
+            this.labelGD2RuntimeParam4Text.Location = new System.Drawing.Point(1818, 1666);
+            this.labelGD2RuntimeParam4Text.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam4Text.Name = "labelGD2RuntimeParam4Text";
-            this.labelGD2RuntimeParam4Text.Size = new System.Drawing.Size(172, 18);
+            this.labelGD2RuntimeParam4Text.Size = new System.Drawing.Size(250, 29);
             this.labelGD2RuntimeParam4Text.TabIndex = 518;
             this.labelGD2RuntimeParam4Text.Text = "gd1 runtime p4 text";
             this.labelGD2RuntimeParam4Text.Visible = false;
@@ -4591,9 +4817,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam3Text.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam3Text.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam3Text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam3Text.Location = new System.Drawing.Point(1532, 1072);
+            this.labelGD2RuntimeParam3Text.Location = new System.Drawing.Point(2298, 1649);
+            this.labelGD2RuntimeParam3Text.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam3Text.Name = "labelGD2RuntimeParam3Text";
-            this.labelGD2RuntimeParam3Text.Size = new System.Drawing.Size(172, 18);
+            this.labelGD2RuntimeParam3Text.Size = new System.Drawing.Size(250, 29);
             this.labelGD2RuntimeParam3Text.TabIndex = 517;
             this.labelGD2RuntimeParam3Text.Text = "gd1 runtime p3 text";
             this.labelGD2RuntimeParam3Text.Visible = false;
@@ -4605,9 +4832,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam2Text.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam2Text.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam2Text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam2Text.Location = new System.Drawing.Point(983, 1050);
+            this.labelGD2RuntimeParam2Text.Location = new System.Drawing.Point(1474, 1615);
+            this.labelGD2RuntimeParam2Text.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam2Text.Name = "labelGD2RuntimeParam2Text";
-            this.labelGD2RuntimeParam2Text.Size = new System.Drawing.Size(172, 18);
+            this.labelGD2RuntimeParam2Text.Size = new System.Drawing.Size(250, 29);
             this.labelGD2RuntimeParam2Text.TabIndex = 516;
             this.labelGD2RuntimeParam2Text.Text = "gd1 runtime p2 text";
             this.labelGD2RuntimeParam2Text.Visible = false;
@@ -4619,9 +4847,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam1Text.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam1Text.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam1Text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam1Text.Location = new System.Drawing.Point(748, 1057);
+            this.labelGD2RuntimeParam1Text.Location = new System.Drawing.Point(1122, 1626);
+            this.labelGD2RuntimeParam1Text.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam1Text.Name = "labelGD2RuntimeParam1Text";
-            this.labelGD2RuntimeParam1Text.Size = new System.Drawing.Size(172, 18);
+            this.labelGD2RuntimeParam1Text.Size = new System.Drawing.Size(250, 29);
             this.labelGD2RuntimeParam1Text.TabIndex = 515;
             this.labelGD2RuntimeParam1Text.Text = "gd1 runtime p1 text";
             this.labelGD2RuntimeParam1Text.Visible = false;
@@ -4633,9 +4862,10 @@ namespace ProductionLaunch
             this.labelGD2MachineStatus.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2MachineStatus.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2MachineStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2MachineStatus.Location = new System.Drawing.Point(718, 1039);
+            this.labelGD2MachineStatus.Location = new System.Drawing.Point(1077, 1598);
+            this.labelGD2MachineStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2MachineStatus.Name = "labelGD2MachineStatus";
-            this.labelGD2MachineStatus.Size = new System.Drawing.Size(140, 18);
+            this.labelGD2MachineStatus.Size = new System.Drawing.Size(217, 29);
             this.labelGD2MachineStatus.TabIndex = 514;
             this.labelGD2MachineStatus.Text = "machine status";
             // 
@@ -4649,9 +4879,10 @@ namespace ProductionLaunch
             this.buttonGD2MachineStatus.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD2MachineStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD2MachineStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD2MachineStatus.Location = new System.Drawing.Point(446, 1051);
+            this.buttonGD2MachineStatus.Location = new System.Drawing.Point(669, 1617);
+            this.buttonGD2MachineStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD2MachineStatus.Name = "buttonGD2MachineStatus";
-            this.buttonGD2MachineStatus.Size = new System.Drawing.Size(24, 24);
+            this.buttonGD2MachineStatus.Size = new System.Drawing.Size(36, 37);
             this.buttonGD2MachineStatus.TabIndex = 513;
             this.buttonGD2MachineStatus.UseVisualStyleBackColor = false;
             this.buttonGD2MachineStatus.Visible = false;
@@ -4663,9 +4894,10 @@ namespace ProductionLaunch
             this.labelGD1RuntimeParam2Text.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1RuntimeParam2Text.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1RuntimeParam2Text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1RuntimeParam2Text.Location = new System.Drawing.Point(640, 530);
+            this.labelGD1RuntimeParam2Text.Location = new System.Drawing.Point(960, 815);
+            this.labelGD1RuntimeParam2Text.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1RuntimeParam2Text.Name = "labelGD1RuntimeParam2Text";
-            this.labelGD1RuntimeParam2Text.Size = new System.Drawing.Size(172, 18);
+            this.labelGD1RuntimeParam2Text.Size = new System.Drawing.Size(250, 29);
             this.labelGD1RuntimeParam2Text.TabIndex = 510;
             this.labelGD1RuntimeParam2Text.Text = "gd1 runtime p2 text";
             // 
@@ -4676,9 +4908,10 @@ namespace ProductionLaunch
             this.labelGD1RuntimeParam1Text.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1RuntimeParam1Text.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1RuntimeParam1Text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1RuntimeParam1Text.Location = new System.Drawing.Point(640, 500);
+            this.labelGD1RuntimeParam1Text.Location = new System.Drawing.Point(960, 769);
+            this.labelGD1RuntimeParam1Text.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1RuntimeParam1Text.Name = "labelGD1RuntimeParam1Text";
-            this.labelGD1RuntimeParam1Text.Size = new System.Drawing.Size(172, 18);
+            this.labelGD1RuntimeParam1Text.Size = new System.Drawing.Size(250, 29);
             this.labelGD1RuntimeParam1Text.TabIndex = 509;
             this.labelGD1RuntimeParam1Text.Text = "gd1 runtime p1 text";
             // 
@@ -4689,9 +4922,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam4.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam4.Location = new System.Drawing.Point(1222, 1044);
+            this.labelGD2RuntimeParam4.Location = new System.Drawing.Point(1833, 1606);
+            this.labelGD2RuntimeParam4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam4.Name = "labelGD2RuntimeParam4";
-            this.labelGD2RuntimeParam4.Size = new System.Drawing.Size(187, 18);
+            this.labelGD2RuntimeParam4.Size = new System.Drawing.Size(289, 29);
             this.labelGD2RuntimeParam4.TabIndex = 508;
             this.labelGD2RuntimeParam4.Text = "gd1 runtime param4";
             this.labelGD2RuntimeParam4.Visible = false;
@@ -4703,9 +4937,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam3.Location = new System.Drawing.Point(1163, 1047);
+            this.labelGD2RuntimeParam3.Location = new System.Drawing.Point(1744, 1611);
+            this.labelGD2RuntimeParam3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam3.Name = "labelGD2RuntimeParam3";
-            this.labelGD2RuntimeParam3.Size = new System.Drawing.Size(187, 18);
+            this.labelGD2RuntimeParam3.Size = new System.Drawing.Size(289, 29);
             this.labelGD2RuntimeParam3.TabIndex = 507;
             this.labelGD2RuntimeParam3.Text = "gd1 runtime param3";
             this.labelGD2RuntimeParam3.Visible = false;
@@ -4717,9 +4952,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam2.Location = new System.Drawing.Point(1219, 1036);
+            this.labelGD2RuntimeParam2.Location = new System.Drawing.Point(1828, 1594);
+            this.labelGD2RuntimeParam2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam2.Name = "labelGD2RuntimeParam2";
-            this.labelGD2RuntimeParam2.Size = new System.Drawing.Size(187, 18);
+            this.labelGD2RuntimeParam2.Size = new System.Drawing.Size(289, 29);
             this.labelGD2RuntimeParam2.TabIndex = 506;
             this.labelGD2RuntimeParam2.Text = "gd1 runtime param2";
             this.labelGD2RuntimeParam2.Visible = false;
@@ -4731,9 +4967,10 @@ namespace ProductionLaunch
             this.labelGD2RuntimeParam1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2RuntimeParam1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2RuntimeParam1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2RuntimeParam1.Location = new System.Drawing.Point(1060, 1054);
+            this.labelGD2RuntimeParam1.Location = new System.Drawing.Point(1590, 1622);
+            this.labelGD2RuntimeParam1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2RuntimeParam1.Name = "labelGD2RuntimeParam1";
-            this.labelGD2RuntimeParam1.Size = new System.Drawing.Size(187, 18);
+            this.labelGD2RuntimeParam1.Size = new System.Drawing.Size(289, 29);
             this.labelGD2RuntimeParam1.TabIndex = 505;
             this.labelGD2RuntimeParam1.Text = "gd1 runtime param1";
             this.labelGD2RuntimeParam1.Visible = false;
@@ -4745,9 +4982,10 @@ namespace ProductionLaunch
             this.labelGD1RuntimeParam2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1RuntimeParam2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1RuntimeParam2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1RuntimeParam2.Location = new System.Drawing.Point(833, 530);
+            this.labelGD1RuntimeParam2.Location = new System.Drawing.Point(1250, 815);
+            this.labelGD1RuntimeParam2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1RuntimeParam2.Name = "labelGD1RuntimeParam2";
-            this.labelGD1RuntimeParam2.Size = new System.Drawing.Size(187, 18);
+            this.labelGD1RuntimeParam2.Size = new System.Drawing.Size(289, 29);
             this.labelGD1RuntimeParam2.TabIndex = 502;
             this.labelGD1RuntimeParam2.Text = "gd1 runtime param2";
             // 
@@ -4758,9 +4996,10 @@ namespace ProductionLaunch
             this.labelGD1RuntimeParam1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1RuntimeParam1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1RuntimeParam1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1RuntimeParam1.Location = new System.Drawing.Point(833, 500);
+            this.labelGD1RuntimeParam1.Location = new System.Drawing.Point(1250, 769);
+            this.labelGD1RuntimeParam1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1RuntimeParam1.Name = "labelGD1RuntimeParam1";
-            this.labelGD1RuntimeParam1.Size = new System.Drawing.Size(187, 18);
+            this.labelGD1RuntimeParam1.Size = new System.Drawing.Size(289, 29);
             this.labelGD1RuntimeParam1.TabIndex = 501;
             this.labelGD1RuntimeParam1.Text = "gd1 runtime param1";
             // 
@@ -4771,9 +5010,10 @@ namespace ProductionLaunch
             this.labelStartStop.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStartStop.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelStartStop.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelStartStop.Location = new System.Drawing.Point(1340, 880);
+            this.labelStartStop.Location = new System.Drawing.Point(2010, 1354);
+            this.labelStartStop.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelStartStop.Name = "labelStartStop";
-            this.labelStartStop.Size = new System.Drawing.Size(83, 16);
+            this.labelStartStop.Size = new System.Drawing.Size(128, 25);
             this.labelStartStop.TabIndex = 500;
             this.labelStartStop.Text = "start/stop";
             // 
@@ -4784,9 +5024,10 @@ namespace ProductionLaunch
             this.labelResetEmergency.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelResetEmergency.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelResetEmergency.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelResetEmergency.Location = new System.Drawing.Point(1340, 940);
+            this.labelResetEmergency.Location = new System.Drawing.Point(2010, 1446);
+            this.labelResetEmergency.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelResetEmergency.Name = "labelResetEmergency";
-            this.labelResetEmergency.Size = new System.Drawing.Size(131, 16);
+            this.labelResetEmergency.Size = new System.Drawing.Size(199, 25);
             this.labelResetEmergency.TabIndex = 499;
             this.labelResetEmergency.Text = "reset emergency";
             // 
@@ -4797,9 +5038,10 @@ namespace ProductionLaunch
             this.labelGD1MachineStatus.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD1MachineStatus.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD1MachineStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD1MachineStatus.Location = new System.Drawing.Point(877, 817);
+            this.labelGD1MachineStatus.Location = new System.Drawing.Point(1316, 1257);
+            this.labelGD1MachineStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD1MachineStatus.Name = "labelGD1MachineStatus";
-            this.labelGD1MachineStatus.Size = new System.Drawing.Size(140, 18);
+            this.labelGD1MachineStatus.Size = new System.Drawing.Size(217, 29);
             this.labelGD1MachineStatus.TabIndex = 498;
             this.labelGD1MachineStatus.Text = "machine status";
             this.labelGD1MachineStatus.Visible = false;
@@ -4814,9 +5056,10 @@ namespace ProductionLaunch
             this.buttonGD1MachineStatus.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonGD1MachineStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonGD1MachineStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonGD1MachineStatus.Location = new System.Drawing.Point(850, 811);
+            this.buttonGD1MachineStatus.Location = new System.Drawing.Point(1275, 1248);
+            this.buttonGD1MachineStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGD1MachineStatus.Name = "buttonGD1MachineStatus";
-            this.buttonGD1MachineStatus.Size = new System.Drawing.Size(24, 24);
+            this.buttonGD1MachineStatus.Size = new System.Drawing.Size(36, 37);
             this.buttonGD1MachineStatus.TabIndex = 497;
             this.buttonGD1MachineStatus.UseVisualStyleBackColor = false;
             this.buttonGD1MachineStatus.Visible = false;
@@ -4828,9 +5071,10 @@ namespace ProductionLaunch
             this.labelLineMachineStatus.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLineMachineStatus.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.labelLineMachineStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelLineMachineStatus.Location = new System.Drawing.Point(2130, 96);
+            this.labelLineMachineStatus.Location = new System.Drawing.Point(3195, 148);
+            this.labelLineMachineStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelLineMachineStatus.Name = "labelLineMachineStatus";
-            this.labelLineMachineStatus.Size = new System.Drawing.Size(119, 16);
+            this.labelLineMachineStatus.Size = new System.Drawing.Size(182, 25);
             this.labelLineMachineStatus.TabIndex = 496;
             this.labelLineMachineStatus.Text = "machine status";
             // 
@@ -4844,9 +5088,10 @@ namespace ProductionLaunch
             this.buttonLineMachineStatus.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLineMachineStatus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonLineMachineStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLineMachineStatus.Location = new System.Drawing.Point(2100, 88);
+            this.buttonLineMachineStatus.Location = new System.Drawing.Point(3150, 135);
+            this.buttonLineMachineStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonLineMachineStatus.Name = "buttonLineMachineStatus";
-            this.buttonLineMachineStatus.Size = new System.Drawing.Size(24, 24);
+            this.buttonLineMachineStatus.Size = new System.Drawing.Size(36, 37);
             this.buttonLineMachineStatus.TabIndex = 495;
             this.buttonLineMachineStatus.UseVisualStyleBackColor = false;
             // 
@@ -4861,10 +5106,11 @@ namespace ProductionLaunch
             this.lbLedMainSemGreen.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedMainSemGreen.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedMainSemGreen.LedSize = new System.Drawing.SizeF(32F, 32F);
-            this.lbLedMainSemGreen.Location = new System.Drawing.Point(1590, 960);
+            this.lbLedMainSemGreen.Location = new System.Drawing.Point(2385, 1477);
+            this.lbLedMainSemGreen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedMainSemGreen.Name = "lbLedMainSemGreen";
             this.lbLedMainSemGreen.Renderer = null;
-            this.lbLedMainSemGreen.Size = new System.Drawing.Size(32, 32);
+            this.lbLedMainSemGreen.Size = new System.Drawing.Size(48, 49);
             this.lbLedMainSemGreen.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedMainSemGreen.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedMainSemGreen.TabIndex = 494;
@@ -4880,10 +5126,11 @@ namespace ProductionLaunch
             this.lbLedMainSemYellow.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedMainSemYellow.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedMainSemYellow.LedSize = new System.Drawing.SizeF(32F, 32F);
-            this.lbLedMainSemYellow.Location = new System.Drawing.Point(1590, 920);
+            this.lbLedMainSemYellow.Location = new System.Drawing.Point(2385, 1415);
+            this.lbLedMainSemYellow.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedMainSemYellow.Name = "lbLedMainSemYellow";
             this.lbLedMainSemYellow.Renderer = null;
-            this.lbLedMainSemYellow.Size = new System.Drawing.Size(32, 32);
+            this.lbLedMainSemYellow.Size = new System.Drawing.Size(48, 49);
             this.lbLedMainSemYellow.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedMainSemYellow.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedMainSemYellow.TabIndex = 493;
@@ -4899,10 +5146,11 @@ namespace ProductionLaunch
             this.lbLedMainSemRed.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedMainSemRed.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedMainSemRed.LedSize = new System.Drawing.SizeF(32F, 32F);
-            this.lbLedMainSemRed.Location = new System.Drawing.Point(1590, 880);
+            this.lbLedMainSemRed.Location = new System.Drawing.Point(2385, 1354);
+            this.lbLedMainSemRed.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedMainSemRed.Name = "lbLedMainSemRed";
             this.lbLedMainSemRed.Renderer = null;
-            this.lbLedMainSemRed.Size = new System.Drawing.Size(32, 32);
+            this.lbLedMainSemRed.Size = new System.Drawing.Size(48, 49);
             this.lbLedMainSemRed.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedMainSemRed.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedMainSemRed.TabIndex = 492;
@@ -4914,9 +5162,10 @@ namespace ProductionLaunch
             this.labelSelectorStatus.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSelectorStatus.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelSelectorStatus.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelSelectorStatus.Location = new System.Drawing.Point(1340, 910);
+            this.labelSelectorStatus.Location = new System.Drawing.Point(2010, 1400);
+            this.labelSelectorStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSelectorStatus.Name = "labelSelectorStatus";
-            this.labelSelectorStatus.Size = new System.Drawing.Size(116, 16);
+            this.labelSelectorStatus.Size = new System.Drawing.Size(178, 25);
             this.labelSelectorStatus.TabIndex = 491;
             this.labelSelectorStatus.Text = "selector status";
             // 
@@ -4927,9 +5176,10 @@ namespace ProductionLaunch
             this.radioManualReading.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioManualReading.ForeColor = System.Drawing.SystemColors.WindowText;
             this.radioManualReading.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.radioManualReading.Location = new System.Drawing.Point(1180, 80);
+            this.radioManualReading.Location = new System.Drawing.Point(1770, 123);
+            this.radioManualReading.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.radioManualReading.Name = "radioManualReading";
-            this.radioManualReading.Size = new System.Drawing.Size(153, 22);
+            this.radioManualReading.Size = new System.Drawing.Size(222, 33);
             this.radioManualReading.TabIndex = 487;
             this.radioManualReading.Text = "manual reading";
             this.radioManualReading.UseVisualStyleBackColor = false;
@@ -4947,10 +5197,11 @@ namespace ProductionLaunch
             this.lbLedRFIDOV2Ready.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDOV2Ready.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDOV2Ready.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDOV2Ready.Location = new System.Drawing.Point(1528, 1045);
+            this.lbLedRFIDOV2Ready.Location = new System.Drawing.Point(2292, 1608);
+            this.lbLedRFIDOV2Ready.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDOV2Ready.Name = "lbLedRFIDOV2Ready";
             this.lbLedRFIDOV2Ready.Renderer = null;
-            this.lbLedRFIDOV2Ready.Size = new System.Drawing.Size(80, 20);
+            this.lbLedRFIDOV2Ready.Size = new System.Drawing.Size(120, 31);
             this.lbLedRFIDOV2Ready.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDOV2Ready.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDOV2Ready.TabIndex = 486;
@@ -4962,9 +5213,10 @@ namespace ProductionLaunch
             this.label21.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label21.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label21.Location = new System.Drawing.Point(800, 40);
+            this.label21.Location = new System.Drawing.Point(1200, 62);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(81, 23);
+            this.label21.Size = new System.Drawing.Size(123, 35);
             this.label21.TabIndex = 485;
             this.label21.Text = "request";
             // 
@@ -4978,10 +5230,11 @@ namespace ProductionLaunch
             this.lbLedRFIDRequest_T0.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedRFIDRequest_T0.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedRFIDRequest_T0.LedSize = new System.Drawing.SizeF(32F, 32F);
-            this.lbLedRFIDRequest_T0.Location = new System.Drawing.Point(820, 80);
+            this.lbLedRFIDRequest_T0.Location = new System.Drawing.Point(1230, 123);
+            this.lbLedRFIDRequest_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDRequest_T0.Name = "lbLedRFIDRequest_T0";
             this.lbLedRFIDRequest_T0.Renderer = null;
-            this.lbLedRFIDRequest_T0.Size = new System.Drawing.Size(36, 36);
+            this.lbLedRFIDRequest_T0.Size = new System.Drawing.Size(54, 55);
             this.lbLedRFIDRequest_T0.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDRequest_T0.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDRequest_T0.TabIndex = 484;
@@ -4991,14 +5244,15 @@ namespace ProductionLaunch
             this.numericUpDownRFIDOnEmptyPallet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownRFIDOnEmptyPallet.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownRFIDOnEmptyPallet.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownRFIDOnEmptyPallet.Location = new System.Drawing.Point(500, 928);
+            this.numericUpDownRFIDOnEmptyPallet.Location = new System.Drawing.Point(750, 1428);
+            this.numericUpDownRFIDOnEmptyPallet.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownRFIDOnEmptyPallet.Maximum = new decimal(new int[] {
             120,
             0,
             0,
             0});
             this.numericUpDownRFIDOnEmptyPallet.Name = "numericUpDownRFIDOnEmptyPallet";
-            this.numericUpDownRFIDOnEmptyPallet.Size = new System.Drawing.Size(74, 37);
+            this.numericUpDownRFIDOnEmptyPallet.Size = new System.Drawing.Size(111, 51);
             this.numericUpDownRFIDOnEmptyPallet.TabIndex = 483;
             this.numericUpDownRFIDOnEmptyPallet.Value = new decimal(new int[] {
             30,
@@ -5014,9 +5268,10 @@ namespace ProductionLaunch
             this.label18.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.label18.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label18.Location = new System.Drawing.Point(340, 928);
+            this.label18.Location = new System.Drawing.Point(510, 1428);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(129, 16);
+            this.label18.Size = new System.Drawing.Size(196, 25);
             this.label18.TabIndex = 482;
             this.label18.Text = "Empty pallet (sec)";
             // 
@@ -5025,14 +5280,15 @@ namespace ProductionLaunch
             this.numericUpDownRFIDReadingTimeout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownRFIDReadingTimeout.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownRFIDReadingTimeout.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownRFIDReadingTimeout.Location = new System.Drawing.Point(500, 972);
+            this.numericUpDownRFIDReadingTimeout.Location = new System.Drawing.Point(750, 1495);
+            this.numericUpDownRFIDReadingTimeout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownRFIDReadingTimeout.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownRFIDReadingTimeout.Name = "numericUpDownRFIDReadingTimeout";
-            this.numericUpDownRFIDReadingTimeout.Size = new System.Drawing.Size(74, 37);
+            this.numericUpDownRFIDReadingTimeout.Size = new System.Drawing.Size(111, 51);
             this.numericUpDownRFIDReadingTimeout.TabIndex = 481;
             this.numericUpDownRFIDReadingTimeout.Value = new decimal(new int[] {
             60,
@@ -5048,9 +5304,10 @@ namespace ProductionLaunch
             this.label17.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.label17.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label17.Location = new System.Drawing.Point(340, 972);
+            this.label17.Location = new System.Drawing.Point(510, 1495);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(153, 16);
+            this.label17.Size = new System.Drawing.Size(235, 25);
             this.label17.TabIndex = 480;
             this.label17.Text = "Reading timeout (sec)";
             // 
@@ -5059,14 +5316,15 @@ namespace ProductionLaunch
             this.numericUpDownRFIDAutoReading.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownRFIDAutoReading.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownRFIDAutoReading.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownRFIDAutoReading.Location = new System.Drawing.Point(500, 880);
+            this.numericUpDownRFIDAutoReading.Location = new System.Drawing.Point(750, 1354);
+            this.numericUpDownRFIDAutoReading.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownRFIDAutoReading.Maximum = new decimal(new int[] {
             120,
             0,
             0,
             0});
             this.numericUpDownRFIDAutoReading.Name = "numericUpDownRFIDAutoReading";
-            this.numericUpDownRFIDAutoReading.Size = new System.Drawing.Size(74, 37);
+            this.numericUpDownRFIDAutoReading.Size = new System.Drawing.Size(111, 51);
             this.numericUpDownRFIDAutoReading.TabIndex = 479;
             this.numericUpDownRFIDAutoReading.Value = new decimal(new int[] {
             2,
@@ -5082,9 +5340,10 @@ namespace ProductionLaunch
             this.label16.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.label16.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label16.Location = new System.Drawing.Point(340, 880);
+            this.label16.Location = new System.Drawing.Point(510, 1354);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(131, 16);
+            this.label16.Size = new System.Drawing.Size(199, 25);
             this.label16.TabIndex = 478;
             this.label16.Text = "Auto reading (sec)";
             // 
@@ -5093,14 +5352,15 @@ namespace ProductionLaunch
             this.numericUpDownGD2Param7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.numericUpDownGD2Param7.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDownGD2Param7.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.numericUpDownGD2Param7.Location = new System.Drawing.Point(1623, 1083);
+            this.numericUpDownGD2Param7.Location = new System.Drawing.Point(2434, 1666);
+            this.numericUpDownGD2Param7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownGD2Param7.Maximum = new decimal(new int[] {
             300,
             0,
             0,
             0});
             this.numericUpDownGD2Param7.Name = "numericUpDownGD2Param7";
-            this.numericUpDownGD2Param7.Size = new System.Drawing.Size(96, 43);
+            this.numericUpDownGD2Param7.Size = new System.Drawing.Size(144, 60);
             this.numericUpDownGD2Param7.TabIndex = 477;
             this.numericUpDownGD2Param7.Value = new decimal(new int[] {
             60,
@@ -5117,9 +5377,10 @@ namespace ProductionLaunch
             this.labelGD2Param7NameEdit.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2Param7NameEdit.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2Param7NameEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2Param7NameEdit.Location = new System.Drawing.Point(249, 1039);
+            this.labelGD2Param7NameEdit.Location = new System.Drawing.Point(374, 1598);
+            this.labelGD2Param7NameEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2Param7NameEdit.Name = "labelGD2Param7NameEdit";
-            this.labelGD2Param7NameEdit.Size = new System.Drawing.Size(152, 18);
+            this.labelGD2Param7NameEdit.Size = new System.Drawing.Size(224, 29);
             this.labelGD2Param7NameEdit.TabIndex = 476;
             this.labelGD2Param7NameEdit.Text = "d2 param 7 name";
             this.labelGD2Param7NameEdit.Visible = false;
@@ -5135,14 +5396,15 @@ namespace ProductionLaunch
             0,
             0,
             65536});
-            this.numericUpDownGD2Param2.Location = new System.Drawing.Point(1460, 1047);
+            this.numericUpDownGD2Param2.Location = new System.Drawing.Point(2190, 1611);
+            this.numericUpDownGD2Param2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownGD2Param2.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownGD2Param2.Name = "numericUpDownGD2Param2";
-            this.numericUpDownGD2Param2.Size = new System.Drawing.Size(96, 43);
+            this.numericUpDownGD2Param2.Size = new System.Drawing.Size(144, 60);
             this.numericUpDownGD2Param2.TabIndex = 474;
             this.numericUpDownGD2Param2.Value = new decimal(new int[] {
             50,
@@ -5163,14 +5425,15 @@ namespace ProductionLaunch
             0,
             0,
             65536});
-            this.numericUpDownGD2Param1.Location = new System.Drawing.Point(1444, 1033);
+            this.numericUpDownGD2Param1.Location = new System.Drawing.Point(2166, 1589);
+            this.numericUpDownGD2Param1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownGD2Param1.Maximum = new decimal(new int[] {
             200,
             0,
             0,
             0});
             this.numericUpDownGD2Param1.Name = "numericUpDownGD2Param1";
-            this.numericUpDownGD2Param1.Size = new System.Drawing.Size(96, 43);
+            this.numericUpDownGD2Param1.Size = new System.Drawing.Size(144, 60);
             this.numericUpDownGD2Param1.TabIndex = 473;
             this.numericUpDownGD2Param1.Value = new decimal(new int[] {
             60,
@@ -5187,9 +5450,10 @@ namespace ProductionLaunch
             this.labelGD2Param2NameEdit.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2Param2NameEdit.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2Param2NameEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2Param2NameEdit.Location = new System.Drawing.Point(990, 1047);
+            this.labelGD2Param2NameEdit.Location = new System.Drawing.Point(1485, 1611);
+            this.labelGD2Param2NameEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2Param2NameEdit.Name = "labelGD2Param2NameEdit";
-            this.labelGD2Param2NameEdit.Size = new System.Drawing.Size(152, 18);
+            this.labelGD2Param2NameEdit.Size = new System.Drawing.Size(224, 29);
             this.labelGD2Param2NameEdit.TabIndex = 471;
             this.labelGD2Param2NameEdit.Text = "d2 param 2 name";
             this.labelGD2Param2NameEdit.Visible = false;
@@ -5201,9 +5465,10 @@ namespace ProductionLaunch
             this.labelGD2Param1NameEdit.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGD2Param1NameEdit.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelGD2Param1NameEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelGD2Param1NameEdit.Location = new System.Drawing.Point(1254, 1033);
+            this.labelGD2Param1NameEdit.Location = new System.Drawing.Point(1881, 1589);
+            this.labelGD2Param1NameEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGD2Param1NameEdit.Name = "labelGD2Param1NameEdit";
-            this.labelGD2Param1NameEdit.Size = new System.Drawing.Size(152, 18);
+            this.labelGD2Param1NameEdit.Size = new System.Drawing.Size(224, 29);
             this.labelGD2Param1NameEdit.TabIndex = 470;
             this.labelGD2Param1NameEdit.Text = "d2 param 1 name";
             this.labelGD2Param1NameEdit.Visible = false;
@@ -5219,10 +5484,11 @@ namespace ProductionLaunch
             this.lbLedRFIDOV1Ready.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDOV1Ready.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDOV1Ready.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDOV1Ready.Location = new System.Drawing.Point(1046, 815);
+            this.lbLedRFIDOV1Ready.Location = new System.Drawing.Point(1569, 1254);
+            this.lbLedRFIDOV1Ready.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDOV1Ready.Name = "lbLedRFIDOV1Ready";
             this.lbLedRFIDOV1Ready.Renderer = null;
-            this.lbLedRFIDOV1Ready.Size = new System.Drawing.Size(80, 20);
+            this.lbLedRFIDOV1Ready.Size = new System.Drawing.Size(120, 31);
             this.lbLedRFIDOV1Ready.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDOV1Ready.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDOV1Ready.TabIndex = 469;
@@ -5239,10 +5505,11 @@ namespace ProductionLaunch
             this.lbLedConnectionG1.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedConnectionG1.LedColor = System.Drawing.Color.Lime;
             this.lbLedConnectionG1.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedConnectionG1.Location = new System.Drawing.Point(1769, 959);
+            this.lbLedConnectionG1.Location = new System.Drawing.Point(2654, 1475);
+            this.lbLedConnectionG1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedConnectionG1.Name = "lbLedConnectionG1";
             this.lbLedConnectionG1.Renderer = null;
-            this.lbLedConnectionG1.Size = new System.Drawing.Size(152, 20);
+            this.lbLedConnectionG1.Size = new System.Drawing.Size(228, 31);
             this.lbLedConnectionG1.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.Off;
             this.lbLedConnectionG1.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedConnectionG1.TabIndex = 460;
@@ -5255,7 +5522,8 @@ namespace ProductionLaunch
             this.checkBoxKeyboard_T0.ImageIndex = 0;
             this.checkBoxKeyboard_T0.ImageList = this.imageListKey;
             this.checkBoxKeyboard_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxKeyboard_T0.Location = new System.Drawing.Point(20, 820);
+            this.checkBoxKeyboard_T0.Location = new System.Drawing.Point(30, 1262);
+            this.checkBoxKeyboard_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxKeyboard_T0.Name = "checkBoxKeyboard_T0";
             this.checkBoxKeyboard_T0.Size = new System.Drawing.Size(86, 86);
             this.checkBoxKeyboard_T0.TabIndex = 459;
@@ -5285,9 +5553,10 @@ namespace ProductionLaunch
             this.checkBoxOven2.ImageIndex = 0;
             this.checkBoxOven2.ImageList = this.imageListMIncEsc;
             this.checkBoxOven2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxOven2.Location = new System.Drawing.Point(1645, 1017);
+            this.checkBoxOven2.Location = new System.Drawing.Point(2468, 1565);
+            this.checkBoxOven2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxOven2.Name = "checkBoxOven2";
-            this.checkBoxOven2.Size = new System.Drawing.Size(64, 64);
+            this.checkBoxOven2.Size = new System.Drawing.Size(96, 98);
             this.checkBoxOven2.TabIndex = 458;
             this.checkBoxOven2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxOven2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -5318,9 +5587,10 @@ namespace ProductionLaunch
             this.checkBoxGD1.ImageIndex = 0;
             this.checkBoxGD1.ImageList = this.imageListMIncEsc;
             this.checkBoxGD1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxGD1.Location = new System.Drawing.Point(640, 300);
+            this.checkBoxGD1.Location = new System.Drawing.Point(960, 462);
+            this.checkBoxGD1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxGD1.Name = "checkBoxGD1";
-            this.checkBoxGD1.Size = new System.Drawing.Size(64, 64);
+            this.checkBoxGD1.Size = new System.Drawing.Size(96, 98);
             this.checkBoxGD1.TabIndex = 457;
             this.checkBoxGD1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxGD1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -5338,10 +5608,11 @@ namespace ProductionLaunch
             this.lbLedRFIDR3Ready.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDR3Ready.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDR3Ready.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDR3Ready.Location = new System.Drawing.Point(1200, 704);
+            this.lbLedRFIDR3Ready.Location = new System.Drawing.Point(1800, 1083);
+            this.lbLedRFIDR3Ready.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDR3Ready.Name = "lbLedRFIDR3Ready";
             this.lbLedRFIDR3Ready.Renderer = null;
-            this.lbLedRFIDR3Ready.Size = new System.Drawing.Size(80, 20);
+            this.lbLedRFIDR3Ready.Size = new System.Drawing.Size(120, 31);
             this.lbLedRFIDR3Ready.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDR3Ready.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDR3Ready.TabIndex = 444;
@@ -5357,10 +5628,11 @@ namespace ProductionLaunch
             this.lbLedRFIDR3RSWareConnection.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDR3RSWareConnection.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDR3RSWareConnection.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDR3RSWareConnection.Location = new System.Drawing.Point(1040, 704);
+            this.lbLedRFIDR3RSWareConnection.Location = new System.Drawing.Point(1560, 1083);
+            this.lbLedRFIDR3RSWareConnection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDR3RSWareConnection.Name = "lbLedRFIDR3RSWareConnection";
             this.lbLedRFIDR3RSWareConnection.Renderer = null;
-            this.lbLedRFIDR3RSWareConnection.Size = new System.Drawing.Size(120, 20);
+            this.lbLedRFIDR3RSWareConnection.Size = new System.Drawing.Size(180, 31);
             this.lbLedRFIDR3RSWareConnection.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDR3RSWareConnection.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDR3RSWareConnection.TabIndex = 443;
@@ -5376,10 +5648,11 @@ namespace ProductionLaunch
             this.lbLedRFIDR2Ready.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDR2Ready.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDR2Ready.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDR2Ready.Location = new System.Drawing.Point(500, 704);
+            this.lbLedRFIDR2Ready.Location = new System.Drawing.Point(750, 1083);
+            this.lbLedRFIDR2Ready.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDR2Ready.Name = "lbLedRFIDR2Ready";
             this.lbLedRFIDR2Ready.Renderer = null;
-            this.lbLedRFIDR2Ready.Size = new System.Drawing.Size(80, 20);
+            this.lbLedRFIDR2Ready.Size = new System.Drawing.Size(120, 31);
             this.lbLedRFIDR2Ready.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDR2Ready.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDR2Ready.TabIndex = 442;
@@ -5395,10 +5668,11 @@ namespace ProductionLaunch
             this.lbLedRFIDR2RSWareConnection.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDR2RSWareConnection.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDR2RSWareConnection.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDR2RSWareConnection.Location = new System.Drawing.Point(340, 704);
+            this.lbLedRFIDR2RSWareConnection.Location = new System.Drawing.Point(510, 1083);
+            this.lbLedRFIDR2RSWareConnection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDR2RSWareConnection.Name = "lbLedRFIDR2RSWareConnection";
             this.lbLedRFIDR2RSWareConnection.Renderer = null;
-            this.lbLedRFIDR2RSWareConnection.Size = new System.Drawing.Size(120, 20);
+            this.lbLedRFIDR2RSWareConnection.Size = new System.Drawing.Size(180, 31);
             this.lbLedRFIDR2RSWareConnection.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDR2RSWareConnection.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDR2RSWareConnection.TabIndex = 441;
@@ -5409,9 +5683,10 @@ namespace ProductionLaunch
             this.comboBoxRFIDLoadRotary_T0.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxRFIDLoadRotary_T0.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.comboBoxRFIDLoadRotary_T0.FormattingEnabled = true;
-            this.comboBoxRFIDLoadRotary_T0.Location = new System.Drawing.Point(1400, 80);
+            this.comboBoxRFIDLoadRotary_T0.Location = new System.Drawing.Point(2100, 123);
+            this.comboBoxRFIDLoadRotary_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxRFIDLoadRotary_T0.Name = "comboBoxRFIDLoadRotary_T0";
-            this.comboBoxRFIDLoadRotary_T0.Size = new System.Drawing.Size(100, 37);
+            this.comboBoxRFIDLoadRotary_T0.Size = new System.Drawing.Size(148, 52);
             this.comboBoxRFIDLoadRotary_T0.TabIndex = 439;
             this.comboBoxRFIDLoadRotary_T0.Text = "TEST";
             // 
@@ -5421,9 +5696,10 @@ namespace ProductionLaunch
             this.buttonLoadRotary.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLoadRotary.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonLoadRotary.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonLoadRotary.Location = new System.Drawing.Point(1520, 80);
+            this.buttonLoadRotary.Location = new System.Drawing.Point(2280, 123);
+            this.buttonLoadRotary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonLoadRotary.Name = "buttonLoadRotary";
-            this.buttonLoadRotary.Size = new System.Drawing.Size(148, 48);
+            this.buttonLoadRotary.Size = new System.Drawing.Size(222, 74);
             this.buttonLoadRotary.TabIndex = 438;
             this.buttonLoadRotary.Text = "update buffer";
             this.buttonLoadRotary.UseVisualStyleBackColor = false;
@@ -5435,9 +5711,10 @@ namespace ProductionLaunch
             this.buttonResetRotary.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonResetRotary.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonResetRotary.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonResetRotary.Location = new System.Drawing.Point(1520, 144);
+            this.buttonResetRotary.Location = new System.Drawing.Point(2280, 222);
+            this.buttonResetRotary.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonResetRotary.Name = "buttonResetRotary";
-            this.buttonResetRotary.Size = new System.Drawing.Size(148, 48);
+            this.buttonResetRotary.Size = new System.Drawing.Size(222, 74);
             this.buttonResetRotary.TabIndex = 437;
             this.buttonResetRotary.Text = "reset buffer";
             this.buttonResetRotary.UseVisualStyleBackColor = false;
@@ -5458,9 +5735,10 @@ namespace ProductionLaunch
             this.checkBoxR3InclusionRG.ImageIndex = 0;
             this.checkBoxR3InclusionRG.ImageList = this.imageListMIncEsc;
             this.checkBoxR3InclusionRG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3InclusionRG.Location = new System.Drawing.Point(1125, 734);
+            this.checkBoxR3InclusionRG.Location = new System.Drawing.Point(1688, 1129);
+            this.checkBoxR3InclusionRG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3InclusionRG.Name = "checkBoxR3InclusionRG";
-            this.checkBoxR3InclusionRG.Size = new System.Drawing.Size(64, 64);
+            this.checkBoxR3InclusionRG.Size = new System.Drawing.Size(96, 98);
             this.checkBoxR3InclusionRG.TabIndex = 435;
             this.checkBoxR3InclusionRG.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxR3InclusionRG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -5482,9 +5760,10 @@ namespace ProductionLaunch
             this.checkBoxR3InclusionLF.ImageIndex = 0;
             this.checkBoxR3InclusionLF.ImageList = this.imageListMIncEsc;
             this.checkBoxR3InclusionLF.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3InclusionLF.Location = new System.Drawing.Point(1041, 730);
+            this.checkBoxR3InclusionLF.Location = new System.Drawing.Point(1562, 1123);
+            this.checkBoxR3InclusionLF.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3InclusionLF.Name = "checkBoxR3InclusionLF";
-            this.checkBoxR3InclusionLF.Size = new System.Drawing.Size(64, 64);
+            this.checkBoxR3InclusionLF.Size = new System.Drawing.Size(96, 98);
             this.checkBoxR3InclusionLF.TabIndex = 436;
             this.checkBoxR3InclusionLF.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxR3InclusionLF.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -5498,9 +5777,10 @@ namespace ProductionLaunch
             this.labelRFIDResult_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFIDResult_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFIDResult_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFIDResult_T0.Location = new System.Drawing.Point(880, 40);
+            this.labelRFIDResult_T0.Location = new System.Drawing.Point(1320, 62);
+            this.labelRFIDResult_T0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFIDResult_T0.Name = "labelRFIDResult_T0";
-            this.labelRFIDResult_T0.Size = new System.Drawing.Size(64, 23);
+            this.labelRFIDResult_T0.Size = new System.Drawing.Size(97, 35);
             this.labelRFIDResult_T0.TabIndex = 433;
             this.labelRFIDResult_T0.Text = "result";
             // 
@@ -5510,9 +5790,10 @@ namespace ProductionLaunch
             this.labelDateTime.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDateTime.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelDateTime.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelDateTime.Location = new System.Drawing.Point(20, 1000);
+            this.labelDateTime.Location = new System.Drawing.Point(30, 1538);
+            this.labelDateTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDateTime.Name = "labelDateTime";
-            this.labelDateTime.Size = new System.Drawing.Size(107, 23);
+            this.labelDateTime.Size = new System.Drawing.Size(159, 35);
             this.labelDateTime.TabIndex = 432;
             this.labelDateTime.Text = "datetime";
             // 
@@ -5527,10 +5808,11 @@ namespace ProductionLaunch
             this.lbLedRFIDR1Ready.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDR1Ready.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDR1Ready.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDR1Ready.Location = new System.Drawing.Point(200, 704);
+            this.lbLedRFIDR1Ready.Location = new System.Drawing.Point(300, 1083);
+            this.lbLedRFIDR1Ready.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDR1Ready.Name = "lbLedRFIDR1Ready";
             this.lbLedRFIDR1Ready.Renderer = null;
-            this.lbLedRFIDR1Ready.Size = new System.Drawing.Size(80, 20);
+            this.lbLedRFIDR1Ready.Size = new System.Drawing.Size(120, 31);
             this.lbLedRFIDR1Ready.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDR1Ready.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDR1Ready.TabIndex = 424;
@@ -5546,10 +5828,11 @@ namespace ProductionLaunch
             this.lbLedRFIDR1RSWareConnection.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Right;
             this.lbLedRFIDR1RSWareConnection.LedColor = System.Drawing.Color.LightGreen;
             this.lbLedRFIDR1RSWareConnection.LedSize = new System.Drawing.SizeF(16F, 16F);
-            this.lbLedRFIDR1RSWareConnection.Location = new System.Drawing.Point(40, 704);
+            this.lbLedRFIDR1RSWareConnection.Location = new System.Drawing.Point(60, 1083);
+            this.lbLedRFIDR1RSWareConnection.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDR1RSWareConnection.Name = "lbLedRFIDR1RSWareConnection";
             this.lbLedRFIDR1RSWareConnection.Renderer = null;
-            this.lbLedRFIDR1RSWareConnection.Size = new System.Drawing.Size(120, 20);
+            this.lbLedRFIDR1RSWareConnection.Size = new System.Drawing.Size(180, 31);
             this.lbLedRFIDR1RSWareConnection.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDR1RSWareConnection.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDR1RSWareConnection.TabIndex = 423;
@@ -5569,9 +5852,10 @@ namespace ProductionLaunch
             this.checkBoxR2Inclusion.ImageIndex = 0;
             this.checkBoxR2Inclusion.ImageList = this.imageListMIncEsc;
             this.checkBoxR2Inclusion.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Inclusion.Location = new System.Drawing.Point(340, 300);
+            this.checkBoxR2Inclusion.Location = new System.Drawing.Point(510, 462);
+            this.checkBoxR2Inclusion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Inclusion.Name = "checkBoxR2Inclusion";
-            this.checkBoxR2Inclusion.Size = new System.Drawing.Size(64, 64);
+            this.checkBoxR2Inclusion.Size = new System.Drawing.Size(96, 98);
             this.checkBoxR2Inclusion.TabIndex = 422;
             this.checkBoxR2Inclusion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxR2Inclusion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -5593,9 +5877,10 @@ namespace ProductionLaunch
             this.checkBoxR1Inclusion.ImageIndex = 0;
             this.checkBoxR1Inclusion.ImageList = this.imageListMIncEsc;
             this.checkBoxR1Inclusion.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Inclusion.Location = new System.Drawing.Point(40, 300);
+            this.checkBoxR1Inclusion.Location = new System.Drawing.Point(60, 462);
+            this.checkBoxR1Inclusion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Inclusion.Name = "checkBoxR1Inclusion";
-            this.checkBoxR1Inclusion.Size = new System.Drawing.Size(64, 64);
+            this.checkBoxR1Inclusion.Size = new System.Drawing.Size(96, 98);
             this.checkBoxR1Inclusion.TabIndex = 421;
             this.checkBoxR1Inclusion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.checkBoxR1Inclusion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -5608,9 +5893,10 @@ namespace ProductionLaunch
             this.buttonRFIDModify_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRFIDModify_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.buttonRFIDModify_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonRFIDModify_T0.Location = new System.Drawing.Point(980, 80);
+            this.buttonRFIDModify_T0.Location = new System.Drawing.Point(1470, 123);
+            this.buttonRFIDModify_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonRFIDModify_T0.Name = "buttonRFIDModify_T0";
-            this.buttonRFIDModify_T0.Size = new System.Drawing.Size(120, 48);
+            this.buttonRFIDModify_T0.Size = new System.Drawing.Size(180, 74);
             this.buttonRFIDModify_T0.TabIndex = 417;
             this.buttonRFIDModify_T0.Text = "modify";
             this.buttonRFIDModify_T0.UseVisualStyleBackColor = false;
@@ -5624,9 +5910,10 @@ namespace ProductionLaunch
             this.labelRFIDVariant_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFIDVariant_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFIDVariant_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFIDVariant_T0.Location = new System.Drawing.Point(680, 40);
+            this.labelRFIDVariant_T0.Location = new System.Drawing.Point(1020, 62);
+            this.labelRFIDVariant_T0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFIDVariant_T0.Name = "labelRFIDVariant_T0";
-            this.labelRFIDVariant_T0.Size = new System.Drawing.Size(76, 23);
+            this.labelRFIDVariant_T0.Size = new System.Drawing.Size(115, 35);
             this.labelRFIDVariant_T0.TabIndex = 416;
             this.labelRFIDVariant_T0.Text = "variant";
             this.labelRFIDVariant_T0.Visible = false;
@@ -5638,9 +5925,10 @@ namespace ProductionLaunch
             this.comboBoxRFIDVariant_T0.Font = new System.Drawing.Font("Verdana", 21.75F);
             this.comboBoxRFIDVariant_T0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.comboBoxRFIDVariant_T0.FormattingEnabled = true;
-            this.comboBoxRFIDVariant_T0.Location = new System.Drawing.Point(680, 80);
+            this.comboBoxRFIDVariant_T0.Location = new System.Drawing.Point(1020, 123);
+            this.comboBoxRFIDVariant_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxRFIDVariant_T0.Name = "comboBoxRFIDVariant_T0";
-            this.comboBoxRFIDVariant_T0.Size = new System.Drawing.Size(100, 43);
+            this.comboBoxRFIDVariant_T0.Size = new System.Drawing.Size(148, 61);
             this.comboBoxRFIDVariant_T0.TabIndex = 415;
             this.comboBoxRFIDVariant_T0.Text = "00";
             this.comboBoxRFIDVariant_T0.Visible = false;
@@ -5655,10 +5943,11 @@ namespace ProductionLaunch
             this.lbLedRFIDResult_T0.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedRFIDResult_T0.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedRFIDResult_T0.LedSize = new System.Drawing.SizeF(32F, 32F);
-            this.lbLedRFIDResult_T0.Location = new System.Drawing.Point(890, 80);
+            this.lbLedRFIDResult_T0.Location = new System.Drawing.Point(1335, 123);
+            this.lbLedRFIDResult_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedRFIDResult_T0.Name = "lbLedRFIDResult_T0";
             this.lbLedRFIDResult_T0.Renderer = null;
-            this.lbLedRFIDResult_T0.Size = new System.Drawing.Size(36, 36);
+            this.lbLedRFIDResult_T0.Size = new System.Drawing.Size(54, 55);
             this.lbLedRFIDResult_T0.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedRFIDResult_T0.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedRFIDResult_T0.TabIndex = 414;
@@ -5671,9 +5960,10 @@ namespace ProductionLaunch
             this.labelRFIDFoot_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFIDFoot_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFIDFoot_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFIDFoot_T0.Location = new System.Drawing.Point(600, 40);
+            this.labelRFIDFoot_T0.Location = new System.Drawing.Point(900, 62);
+            this.labelRFIDFoot_T0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFIDFoot_T0.Name = "labelRFIDFoot_T0";
-            this.labelRFIDFoot_T0.Size = new System.Drawing.Size(51, 23);
+            this.labelRFIDFoot_T0.Size = new System.Drawing.Size(78, 35);
             this.labelRFIDFoot_T0.TabIndex = 413;
             this.labelRFIDFoot_T0.Text = "type";
             this.labelRFIDFoot_T0.Visible = false;
@@ -5685,9 +5975,10 @@ namespace ProductionLaunch
             this.labelRFIDSize_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFIDSize_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFIDSize_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFIDSize_T0.Location = new System.Drawing.Point(520, 40);
+            this.labelRFIDSize_T0.Location = new System.Drawing.Point(780, 62);
+            this.labelRFIDSize_T0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFIDSize_T0.Name = "labelRFIDSize_T0";
-            this.labelRFIDSize_T0.Size = new System.Drawing.Size(47, 23);
+            this.labelRFIDSize_T0.Size = new System.Drawing.Size(71, 35);
             this.labelRFIDSize_T0.TabIndex = 412;
             this.labelRFIDSize_T0.Text = "size";
             this.labelRFIDSize_T0.Visible = false;
@@ -5699,9 +5990,10 @@ namespace ProductionLaunch
             this.labelRFIDModelName_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFIDModelName_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFIDModelName_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFIDModelName_T0.Location = new System.Drawing.Point(380, 40);
+            this.labelRFIDModelName_T0.Location = new System.Drawing.Point(570, 62);
+            this.labelRFIDModelName_T0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFIDModelName_T0.Name = "labelRFIDModelName_T0";
-            this.labelRFIDModelName_T0.Size = new System.Drawing.Size(128, 23);
+            this.labelRFIDModelName_T0.Size = new System.Drawing.Size(195, 35);
             this.labelRFIDModelName_T0.TabIndex = 411;
             this.labelRFIDModelName_T0.Text = "model name";
             // 
@@ -5712,9 +6004,10 @@ namespace ProductionLaunch
             this.labelRFID_T0.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRFID_T0.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelRFID_T0.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRFID_T0.Location = new System.Drawing.Point(40, 40);
+            this.labelRFID_T0.Location = new System.Drawing.Point(60, 62);
+            this.labelRFID_T0.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRFID_T0.Name = "labelRFID_T0";
-            this.labelRFID_T0.Size = new System.Drawing.Size(109, 23);
+            this.labelRFID_T0.Size = new System.Drawing.Size(165, 35);
             this.labelRFID_T0.TabIndex = 410;
             this.labelRFID_T0.Text = "RFID code";
             // 
@@ -5724,9 +6017,10 @@ namespace ProductionLaunch
             this.comboBoxRFIDModelName_T0.Font = new System.Drawing.Font("Verdana", 21.75F);
             this.comboBoxRFIDModelName_T0.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.comboBoxRFIDModelName_T0.FormattingEnabled = true;
-            this.comboBoxRFIDModelName_T0.Location = new System.Drawing.Point(380, 80);
+            this.comboBoxRFIDModelName_T0.Location = new System.Drawing.Point(570, 123);
+            this.comboBoxRFIDModelName_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxRFIDModelName_T0.Name = "comboBoxRFIDModelName_T0";
-            this.comboBoxRFIDModelName_T0.Size = new System.Drawing.Size(120, 43);
+            this.comboBoxRFIDModelName_T0.Size = new System.Drawing.Size(178, 61);
             this.comboBoxRFIDModelName_T0.TabIndex = 409;
             this.comboBoxRFIDModelName_T0.Text = "TEST";
             this.comboBoxRFIDModelName_T0.SelectedIndexChanged += new System.EventHandler(this.comboBoxRFIDModelName_T0_SelectedIndexChanged);
@@ -5737,9 +6031,10 @@ namespace ProductionLaunch
             this.textBoxRFIDFoot_T0.Enabled = false;
             this.textBoxRFIDFoot_T0.Font = new System.Drawing.Font("Verdana", 21.75F);
             this.textBoxRFIDFoot_T0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDFoot_T0.Location = new System.Drawing.Point(600, 80);
+            this.textBoxRFIDFoot_T0.Location = new System.Drawing.Point(900, 123);
+            this.textBoxRFIDFoot_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDFoot_T0.Name = "textBoxRFIDFoot_T0";
-            this.textBoxRFIDFoot_T0.Size = new System.Drawing.Size(64, 43);
+            this.textBoxRFIDFoot_T0.Size = new System.Drawing.Size(94, 60);
             this.textBoxRFIDFoot_T0.TabIndex = 408;
             this.textBoxRFIDFoot_T0.Text = "--";
             this.textBoxRFIDFoot_T0.Visible = false;
@@ -5750,9 +6045,10 @@ namespace ProductionLaunch
             this.textBoxRFIDSize_T0.Enabled = false;
             this.textBoxRFIDSize_T0.Font = new System.Drawing.Font("Verdana", 21.75F);
             this.textBoxRFIDSize_T0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFIDSize_T0.Location = new System.Drawing.Point(520, 80);
+            this.textBoxRFIDSize_T0.Location = new System.Drawing.Point(780, 123);
+            this.textBoxRFIDSize_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFIDSize_T0.Name = "textBoxRFIDSize_T0";
-            this.textBoxRFIDSize_T0.Size = new System.Drawing.Size(64, 43);
+            this.textBoxRFIDSize_T0.Size = new System.Drawing.Size(94, 60);
             this.textBoxRFIDSize_T0.TabIndex = 407;
             this.textBoxRFIDSize_T0.Text = "---";
             this.textBoxRFIDSize_T0.Visible = false;
@@ -5763,9 +6059,10 @@ namespace ProductionLaunch
             this.textBoxRFID_T0.Enabled = false;
             this.textBoxRFID_T0.Font = new System.Drawing.Font("Verdana", 21.75F);
             this.textBoxRFID_T0.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(163)))), ((int)(((byte)(161)))));
-            this.textBoxRFID_T0.Location = new System.Drawing.Point(40, 80);
+            this.textBoxRFID_T0.Location = new System.Drawing.Point(60, 123);
+            this.textBoxRFID_T0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxRFID_T0.Name = "textBoxRFID_T0";
-            this.textBoxRFID_T0.Size = new System.Drawing.Size(320, 43);
+            this.textBoxRFID_T0.Size = new System.Drawing.Size(478, 60);
             this.textBoxRFID_T0.TabIndex = 399;
             this.textBoxRFID_T0.Text = "--------------------";
             // 
@@ -5795,7 +6092,8 @@ namespace ProductionLaunch
             tabPageFormatStyle3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tabPageFormatStyle3.Padding = new System.Windows.Forms.Padding(10, 10, 10, 5);
             this.tabPageT4_1.FormatStyle = tabPageFormatStyle3;
-            this.tabPageT4_1.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT4_1.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT4_1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT4_1.Name = "tabPageT4_1";
             tabPageColorStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle7.BackFadeColor = System.Drawing.Color.Transparent;
@@ -5812,13 +6110,13 @@ namespace ProductionLaunch
             tabPageColorStyle21.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             tabPageColorStyle21.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             this.tabPageT4_1.SelectedStyle = tabPageColorStyle21;
-            this.tabPageT4_1.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4_1.Size = new System.Drawing.Size(0, 0);
             this.tabPageT4_1.StyleFromParent = false;
             this.tabPageT4_1.TabIndex = 14;
             this.tabPageT4_1.Tag = treeNode8;
             this.tabPageT4_1.Text = "     nodes     ";
             this.tabPageT4_1.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4_1.TextBounds")));
-            this.tabPageT4_1.TextSize = new System.Drawing.SizeF(83.41926F, 21.44531F);
+            this.tabPageT4_1.TextSize = new System.Drawing.SizeF(0F, 0F);
             this.tabPageT4_1.UseParentTabStripPlacement = false;
             // 
             // pictureBoxPLCSecurityNode
@@ -5828,9 +6126,10 @@ namespace ProductionLaunch
             this.pictureBoxPLCSecurityNode.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPLCSecurityNode.Image")));
             this.pictureBoxPLCSecurityNode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxPLCSecurityNode.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxPLCSecurityNode.InitialImage")));
-            this.pictureBoxPLCSecurityNode.Location = new System.Drawing.Point(606, 20);
+            this.pictureBoxPLCSecurityNode.Location = new System.Drawing.Point(909, 31);
+            this.pictureBoxPLCSecurityNode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxPLCSecurityNode.Name = "pictureBoxPLCSecurityNode";
-            this.pictureBoxPLCSecurityNode.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxPLCSecurityNode.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxPLCSecurityNode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxPLCSecurityNode.TabIndex = 422;
             this.pictureBoxPLCSecurityNode.TabStop = false;
@@ -5840,9 +6139,10 @@ namespace ProductionLaunch
             this.label92.AutoSize = true;
             this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.label92.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.Location = new System.Drawing.Point(606, 110);
+            this.label92.Location = new System.Drawing.Point(909, 169);
+            this.label92.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(185, 16);
+            this.label92.Size = new System.Drawing.Size(288, 25);
             this.label92.TabIndex = 423;
             this.label92.Text = "SECURITY - 172.31.20.180";
             // 
@@ -5851,9 +6151,10 @@ namespace ProductionLaunch
             this.label79.AutoSize = true;
             this.label79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.label79.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.Location = new System.Drawing.Point(374, 110);
+            this.label79.Location = new System.Drawing.Point(561, 169);
+            this.label79.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(186, 16);
+            this.label79.Size = new System.Drawing.Size(293, 25);
             this.label79.TabIndex = 421;
             this.label79.Text = "WAGO LINE - 172.31.20.10";
             // 
@@ -5864,9 +6165,10 @@ namespace ProductionLaunch
             this.pictureBoxWagoLineNode.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoLineNode.Image")));
             this.pictureBoxWagoLineNode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxWagoLineNode.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoLineNode.InitialImage")));
-            this.pictureBoxWagoLineNode.Location = new System.Drawing.Point(417, 20);
+            this.pictureBoxWagoLineNode.Location = new System.Drawing.Point(626, 31);
+            this.pictureBoxWagoLineNode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxWagoLineNode.Name = "pictureBoxWagoLineNode";
-            this.pictureBoxWagoLineNode.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxWagoLineNode.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxWagoLineNode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxWagoLineNode.TabIndex = 420;
             this.pictureBoxWagoLineNode.TabStop = false;
@@ -5876,9 +6178,10 @@ namespace ProductionLaunch
             this.label78.AutoSize = true;
             this.label78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.label78.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.Location = new System.Drawing.Point(216, 690);
+            this.label78.Location = new System.Drawing.Point(324, 1062);
+            this.label78.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(181, 16);
+            this.label78.Size = new System.Drawing.Size(286, 25);
             this.label78.TabIndex = 419;
             this.label78.Text = "WAGO R3 - 172.31.20.168";
             // 
@@ -5889,9 +6192,10 @@ namespace ProductionLaunch
             this.pictureBoxWagoR3Node.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoR3Node.Image")));
             this.pictureBoxWagoR3Node.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxWagoR3Node.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoR3Node.InitialImage")));
-            this.pictureBoxWagoR3Node.Location = new System.Drawing.Point(216, 600);
+            this.pictureBoxWagoR3Node.Location = new System.Drawing.Point(324, 923);
+            this.pictureBoxWagoR3Node.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxWagoR3Node.Name = "pictureBoxWagoR3Node";
-            this.pictureBoxWagoR3Node.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxWagoR3Node.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxWagoR3Node.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxWagoR3Node.TabIndex = 418;
             this.pictureBoxWagoR3Node.TabStop = false;
@@ -5903,9 +6207,10 @@ namespace ProductionLaunch
             this.pictureBoxR3Node.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxR3Node.Image")));
             this.pictureBoxR3Node.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxR3Node.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxR3Node.InitialImage")));
-            this.pictureBoxR3Node.Location = new System.Drawing.Point(24, 560);
+            this.pictureBoxR3Node.Location = new System.Drawing.Point(36, 862);
+            this.pictureBoxR3Node.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxR3Node.Name = "pictureBoxR3Node";
-            this.pictureBoxR3Node.Size = new System.Drawing.Size(120, 120);
+            this.pictureBoxR3Node.Size = new System.Drawing.Size(180, 185);
             this.pictureBoxR3Node.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxR3Node.TabIndex = 417;
             this.pictureBoxR3Node.TabStop = false;
@@ -5915,9 +6220,10 @@ namespace ProductionLaunch
             this.label77.AutoSize = true;
             this.label77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.label77.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.Location = new System.Drawing.Point(25, 690);
+            this.label77.Location = new System.Drawing.Point(38, 1062);
+            this.label77.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(135, 16);
+            this.label77.Size = new System.Drawing.Size(213, 25);
             this.label77.TabIndex = 416;
             this.label77.Text = "R3 - 172.31.10.167";
             // 
@@ -5931,10 +6237,11 @@ namespace ProductionLaunch
             this.lbLedKeepAliveW.LabelPosition = LBSoft.IndustrialCtrls.Leds.LBLed.LedLabelPosition.Top;
             this.lbLedKeepAliveW.LedColor = System.Drawing.Color.DarkGreen;
             this.lbLedKeepAliveW.LedSize = new System.Drawing.SizeF(32F, 32F);
-            this.lbLedKeepAliveW.Location = new System.Drawing.Point(27, 746);
+            this.lbLedKeepAliveW.Location = new System.Drawing.Point(40, 1148);
+            this.lbLedKeepAliveW.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lbLedKeepAliveW.Name = "lbLedKeepAliveW";
             this.lbLedKeepAliveW.Renderer = null;
-            this.lbLedKeepAliveW.Size = new System.Drawing.Size(36, 36);
+            this.lbLedKeepAliveW.Size = new System.Drawing.Size(54, 55);
             this.lbLedKeepAliveW.State = LBSoft.IndustrialCtrls.Leds.LBLed.LedState.On;
             this.lbLedKeepAliveW.Style = LBSoft.IndustrialCtrls.Leds.LBLed.LedStyle.Circular;
             this.lbLedKeepAliveW.TabIndex = 415;
@@ -5945,9 +6252,10 @@ namespace ProductionLaunch
             this.labelWagoR2TCP.AutoSize = true;
             this.labelWagoR2TCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.labelWagoR2TCP.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelWagoR2TCP.Location = new System.Drawing.Point(216, 510);
+            this.labelWagoR2TCP.Location = new System.Drawing.Point(324, 785);
+            this.labelWagoR2TCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWagoR2TCP.Name = "labelWagoR2TCP";
-            this.labelWagoR2TCP.Size = new System.Drawing.Size(181, 16);
+            this.labelWagoR2TCP.Size = new System.Drawing.Size(286, 25);
             this.labelWagoR2TCP.TabIndex = 127;
             this.labelWagoR2TCP.Text = "WAGO R2 - 172.31.20.158";
             // 
@@ -5958,9 +6266,10 @@ namespace ProductionLaunch
             this.pictureBoxWagoR2Node.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoR2Node.Image")));
             this.pictureBoxWagoR2Node.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxWagoR2Node.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoR2Node.InitialImage")));
-            this.pictureBoxWagoR2Node.Location = new System.Drawing.Point(216, 420);
+            this.pictureBoxWagoR2Node.Location = new System.Drawing.Point(324, 646);
+            this.pictureBoxWagoR2Node.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxWagoR2Node.Name = "pictureBoxWagoR2Node";
-            this.pictureBoxWagoR2Node.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxWagoR2Node.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxWagoR2Node.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxWagoR2Node.TabIndex = 125;
             this.pictureBoxWagoR2Node.TabStop = false;
@@ -5970,9 +6279,10 @@ namespace ProductionLaunch
             this.labelWagoR1TCP.AutoSize = true;
             this.labelWagoR1TCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.labelWagoR1TCP.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelWagoR1TCP.Location = new System.Drawing.Point(216, 330);
+            this.labelWagoR1TCP.Location = new System.Drawing.Point(324, 508);
+            this.labelWagoR1TCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelWagoR1TCP.Name = "labelWagoR1TCP";
-            this.labelWagoR1TCP.Size = new System.Drawing.Size(181, 16);
+            this.labelWagoR1TCP.Size = new System.Drawing.Size(286, 25);
             this.labelWagoR1TCP.TabIndex = 126;
             this.labelWagoR1TCP.Text = "WAGO R1 - 172.31.20.148";
             // 
@@ -5983,9 +6293,10 @@ namespace ProductionLaunch
             this.pictureBoxR2Node.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxR2Node.Image")));
             this.pictureBoxR2Node.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxR2Node.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxR2Node.InitialImage")));
-            this.pictureBoxR2Node.Location = new System.Drawing.Point(20, 380);
+            this.pictureBoxR2Node.Location = new System.Drawing.Point(30, 585);
+            this.pictureBoxR2Node.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxR2Node.Name = "pictureBoxR2Node";
-            this.pictureBoxR2Node.Size = new System.Drawing.Size(120, 120);
+            this.pictureBoxR2Node.Size = new System.Drawing.Size(180, 185);
             this.pictureBoxR2Node.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxR2Node.TabIndex = 117;
             this.pictureBoxR2Node.TabStop = false;
@@ -5995,9 +6306,10 @@ namespace ProductionLaunch
             this.labelR2TCP.AutoSize = true;
             this.labelR2TCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.labelR2TCP.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelR2TCP.Location = new System.Drawing.Point(20, 510);
+            this.labelR2TCP.Location = new System.Drawing.Point(30, 785);
+            this.labelR2TCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2TCP.Name = "labelR2TCP";
-            this.labelR2TCP.Size = new System.Drawing.Size(135, 16);
+            this.labelR2TCP.Size = new System.Drawing.Size(213, 25);
             this.labelR2TCP.TabIndex = 115;
             this.labelR2TCP.Text = "R2 - 172.31.10.157";
             // 
@@ -6008,9 +6320,10 @@ namespace ProductionLaunch
             this.pictureBoxWagoR1Node.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoR1Node.Image")));
             this.pictureBoxWagoR1Node.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxWagoR1Node.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxWagoR1Node.InitialImage")));
-            this.pictureBoxWagoR1Node.Location = new System.Drawing.Point(216, 240);
+            this.pictureBoxWagoR1Node.Location = new System.Drawing.Point(324, 369);
+            this.pictureBoxWagoR1Node.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxWagoR1Node.Name = "pictureBoxWagoR1Node";
-            this.pictureBoxWagoR1Node.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxWagoR1Node.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxWagoR1Node.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxWagoR1Node.TabIndex = 124;
             this.pictureBoxWagoR1Node.TabStop = false;
@@ -6022,9 +6335,10 @@ namespace ProductionLaunch
             this.pictureBoxIOTNode.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxIOTNode.Image")));
             this.pictureBoxIOTNode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxIOTNode.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxIOTNode.InitialImage")));
-            this.pictureBoxIOTNode.Location = new System.Drawing.Point(20, 20);
+            this.pictureBoxIOTNode.Location = new System.Drawing.Point(30, 31);
+            this.pictureBoxIOTNode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxIOTNode.Name = "pictureBoxIOTNode";
-            this.pictureBoxIOTNode.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxIOTNode.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxIOTNode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxIOTNode.TabIndex = 105;
             this.pictureBoxIOTNode.TabStop = false;
@@ -6036,9 +6350,10 @@ namespace ProductionLaunch
             this.pictureBoxR1Node.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxR1Node.Image")));
             this.pictureBoxR1Node.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxR1Node.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxR1Node.InitialImage")));
-            this.pictureBoxR1Node.Location = new System.Drawing.Point(20, 200);
+            this.pictureBoxR1Node.Location = new System.Drawing.Point(30, 308);
+            this.pictureBoxR1Node.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxR1Node.Name = "pictureBoxR1Node";
-            this.pictureBoxR1Node.Size = new System.Drawing.Size(120, 120);
+            this.pictureBoxR1Node.Size = new System.Drawing.Size(180, 185);
             this.pictureBoxR1Node.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxR1Node.TabIndex = 116;
             this.pictureBoxR1Node.TabStop = false;
@@ -6048,9 +6363,10 @@ namespace ProductionLaunch
             this.labelR1TCP.AutoSize = true;
             this.labelR1TCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.labelR1TCP.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelR1TCP.Location = new System.Drawing.Point(20, 330);
+            this.labelR1TCP.Location = new System.Drawing.Point(30, 508);
+            this.labelR1TCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1TCP.Name = "labelR1TCP";
-            this.labelR1TCP.Size = new System.Drawing.Size(135, 16);
+            this.labelR1TCP.Size = new System.Drawing.Size(213, 25);
             this.labelR1TCP.TabIndex = 114;
             this.labelR1TCP.Text = "R1 - 172.31.10.147";
             // 
@@ -6059,9 +6375,10 @@ namespace ProductionLaunch
             this.labelIOTTCP.AutoSize = true;
             this.labelIOTTCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.labelIOTTCP.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelIOTTCP.Location = new System.Drawing.Point(20, 110);
+            this.labelIOTTCP.Location = new System.Drawing.Point(30, 169);
+            this.labelIOTTCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelIOTTCP.Name = "labelIOTTCP";
-            this.labelIOTTCP.Size = new System.Drawing.Size(143, 16);
+            this.labelIOTTCP.Size = new System.Drawing.Size(222, 25);
             this.labelIOTTCP.TabIndex = 111;
             this.labelIOTTCP.Text = "IOT - 172.31.20.130";
             // 
@@ -6072,9 +6389,10 @@ namespace ProductionLaunch
             this.pictureBoxPLCNode.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPLCNode.Image")));
             this.pictureBoxPLCNode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBoxPLCNode.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxPLCNode.InitialImage")));
-            this.pictureBoxPLCNode.Location = new System.Drawing.Point(210, 20);
+            this.pictureBoxPLCNode.Location = new System.Drawing.Point(315, 31);
+            this.pictureBoxPLCNode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBoxPLCNode.Name = "pictureBoxPLCNode";
-            this.pictureBoxPLCNode.Size = new System.Drawing.Size(80, 80);
+            this.pictureBoxPLCNode.Size = new System.Drawing.Size(120, 123);
             this.pictureBoxPLCNode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxPLCNode.TabIndex = 98;
             this.pictureBoxPLCNode.TabStop = false;
@@ -6084,9 +6402,10 @@ namespace ProductionLaunch
             this.labelPLCTCP.AutoSize = true;
             this.labelPLCTCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(233)))), ((int)(((byte)(243)))));
             this.labelPLCTCP.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPLCTCP.Location = new System.Drawing.Point(210, 110);
+            this.labelPLCTCP.Location = new System.Drawing.Point(315, 169);
+            this.labelPLCTCP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPLCTCP.Name = "labelPLCTCP";
-            this.labelPLCTCP.Size = new System.Drawing.Size(137, 16);
+            this.labelPLCTCP.Size = new System.Drawing.Size(214, 25);
             this.labelPLCTCP.TabIndex = 106;
             this.labelPLCTCP.Text = "MAIN - 172.31.20.5";
             // 
@@ -6104,7 +6423,7 @@ namespace ProductionLaunch
             tabPageColorStyle8.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT4.HoverStyle = tabPageColorStyle8;
             this.tabPageT4.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT4.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT4.Name = "tabPageT4";
             tabPageColorStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle9.BackFadeColor = System.Drawing.Color.Transparent;
@@ -6128,7 +6447,7 @@ namespace ProductionLaunch
             tabPageColorStyle20.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle20.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT4.SelectedStyle = tabPageColorStyle20;
-            this.tabPageT4.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT4.StyleFromParent = false;
             this.tabPageT4.TabIndex = 13;
             treeNode8.Name = "";
@@ -6140,7 +6459,7 @@ namespace ProductionLaunch
             this.tabPageT4.Tag = treeNode9;
             this.tabPageT4.Text = "diagnostics";
             this.tabPageT4.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4.TextBounds")));
-            this.tabPageT4.TextSize = new System.Drawing.SizeF(115.7689F, 25.4663F);
+            this.tabPageT4.TextSize = new System.Drawing.SizeF(173.6533F, 38.19946F);
             this.tabPageT4.Visible = false;
             // 
             // tabPageT4_2
@@ -6149,7 +6468,8 @@ namespace ProductionLaunch
             tabPageFormatStyle5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tabPageFormatStyle5.Padding = new System.Windows.Forms.Padding(10, 10, 10, 5);
             this.tabPageT4_2.FormatStyle = tabPageFormatStyle5;
-            this.tabPageT4_2.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT4_2.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT4_2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT4_2.Name = "tabPageT4_2";
             tabPageColorStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle10.BackFadeColor = System.Drawing.Color.Transparent;
@@ -6166,7 +6486,7 @@ namespace ProductionLaunch
             tabPageColorStyle11.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             tabPageColorStyle11.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.tabPageT4_2.SelectedStyle = tabPageColorStyle11;
-            this.tabPageT4_2.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4_2.Size = new System.Drawing.Size(0, 0);
             this.tabPageT4_2.StyleFromParent = false;
             this.tabPageT4_2.TabIndex = 15;
             treeNode3.Name = "";
@@ -6175,7 +6495,7 @@ namespace ProductionLaunch
             this.tabPageT4_2.Tag = treeNode3;
             this.tabPageT4_2.Text = "  input R1  ";
             this.tabPageT4_2.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4_2.TextBounds")));
-            this.tabPageT4_2.TextSize = new System.Drawing.SizeF(86.80207F, 21.44531F);
+            this.tabPageT4_2.TextSize = new System.Drawing.SizeF(0F, 0F);
             this.tabPageT4_2.UseParentTabStripPlacement = false;
             this.tabPageT4_2.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPageT4_2_Paint);
             // 
@@ -6187,7 +6507,8 @@ namespace ProductionLaunch
             this.checkBox7.ImageIndex = 0;
             this.checkBox7.ImageList = this.imageListKey;
             this.checkBox7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBox7.Location = new System.Drawing.Point(980, 939);
+            this.checkBox7.Location = new System.Drawing.Point(1470, 1445);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(86, 86);
             this.checkBox7.TabIndex = 296;
@@ -6201,7 +6522,8 @@ namespace ProductionLaunch
             tabPageFormatStyle6.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tabPageFormatStyle6.Padding = new System.Windows.Forms.Padding(10, 10, 10, 5);
             this.tabPageT4_3.FormatStyle = tabPageFormatStyle6;
-            this.tabPageT4_3.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT4_3.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT4_3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT4_3.Name = "tabPageT4_3";
             tabPageColorStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle12.BackFadeColor = System.Drawing.Color.Transparent;
@@ -6218,7 +6540,7 @@ namespace ProductionLaunch
             tabPageColorStyle13.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             tabPageColorStyle13.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.tabPageT4_3.SelectedStyle = tabPageColorStyle13;
-            this.tabPageT4_3.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4_3.Size = new System.Drawing.Size(0, 0);
             this.tabPageT4_3.StyleFromParent = false;
             this.tabPageT4_3.TabIndex = 26;
             treeNode4.Name = "";
@@ -6227,7 +6549,7 @@ namespace ProductionLaunch
             this.tabPageT4_3.Tag = treeNode4;
             this.tabPageT4_3.Text = "output R1";
             this.tabPageT4_3.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4_3.TextBounds")));
-            this.tabPageT4_3.TextSize = new System.Drawing.SizeF(87.17707F, 21.44531F);
+            this.tabPageT4_3.TextSize = new System.Drawing.SizeF(0F, 0F);
             this.tabPageT4_3.UseParentTabStripPlacement = false;
             // 
             // tabPageT4_4
@@ -6235,7 +6557,8 @@ namespace ProductionLaunch
             tabPageFormatStyle7.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tabPageFormatStyle7.Padding = new System.Windows.Forms.Padding(10, 10, 10, 5);
             this.tabPageT4_4.FormatStyle = tabPageFormatStyle7;
-            this.tabPageT4_4.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT4_4.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT4_4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT4_4.Name = "tabPageT4_4";
             tabPageColorStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle14.BackFadeColor = System.Drawing.Color.Transparent;
@@ -6252,7 +6575,7 @@ namespace ProductionLaunch
             tabPageColorStyle15.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             tabPageColorStyle15.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.tabPageT4_4.SelectedStyle = tabPageColorStyle15;
-            this.tabPageT4_4.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4_4.Size = new System.Drawing.Size(0, 0);
             this.tabPageT4_4.StyleFromParent = false;
             this.tabPageT4_4.TabIndex = 27;
             treeNode5.Name = "";
@@ -6261,7 +6584,7 @@ namespace ProductionLaunch
             this.tabPageT4_4.Tag = treeNode5;
             this.tabPageT4_4.Text = "  input R2  ";
             this.tabPageT4_4.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4_4.TextBounds")));
-            this.tabPageT4_4.TextSize = new System.Drawing.SizeF(86.80207F, 21.44531F);
+            this.tabPageT4_4.TextSize = new System.Drawing.SizeF(0F, 0F);
             this.tabPageT4_4.UseParentTabStripPlacement = false;
             // 
             // tabPageT4_5
@@ -6269,7 +6592,8 @@ namespace ProductionLaunch
             tabPageFormatStyle8.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tabPageFormatStyle8.Padding = new System.Windows.Forms.Padding(10, 10, 10, 5);
             this.tabPageT4_5.FormatStyle = tabPageFormatStyle8;
-            this.tabPageT4_5.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT4_5.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT4_5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT4_5.Name = "tabPageT4_5";
             tabPageColorStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle16.BackFadeColor = System.Drawing.Color.Transparent;
@@ -6286,7 +6610,7 @@ namespace ProductionLaunch
             tabPageColorStyle17.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             tabPageColorStyle17.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.tabPageT4_5.SelectedStyle = tabPageColorStyle17;
-            this.tabPageT4_5.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4_5.Size = new System.Drawing.Size(0, 0);
             this.tabPageT4_5.StyleFromParent = false;
             this.tabPageT4_5.TabIndex = 29;
             treeNode6.Name = "";
@@ -6295,7 +6619,7 @@ namespace ProductionLaunch
             this.tabPageT4_5.Tag = treeNode6;
             this.tabPageT4_5.Text = "output R2";
             this.tabPageT4_5.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4_5.TextBounds")));
-            this.tabPageT4_5.TextSize = new System.Drawing.SizeF(87.17707F, 21.44531F);
+            this.tabPageT4_5.TextSize = new System.Drawing.SizeF(0F, 0F);
             this.tabPageT4_5.UseParentTabStripPlacement = false;
             // 
             // tabPageT4_6
@@ -6433,7 +6757,8 @@ namespace ProductionLaunch
             tabPageFormatStyle9.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             tabPageFormatStyle9.Padding = new System.Windows.Forms.Padding(10, 10, 10, 5);
             this.tabPageT4_6.FormatStyle = tabPageFormatStyle9;
-            this.tabPageT4_6.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT4_6.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT4_6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT4_6.Name = "tabPageT4_6";
             tabPageColorStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle18.BackFadeColor = System.Drawing.Color.Transparent;
@@ -6450,7 +6775,7 @@ namespace ProductionLaunch
             tabPageColorStyle19.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             tabPageColorStyle19.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.tabPageT4_6.SelectedStyle = tabPageColorStyle19;
-            this.tabPageT4_6.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT4_6.Size = new System.Drawing.Size(0, 0);
             this.tabPageT4_6.StyleFromParent = false;
             this.tabPageT4_6.TabIndex = 30;
             treeNode7.Name = "";
@@ -6459,7 +6784,7 @@ namespace ProductionLaunch
             this.tabPageT4_6.Tag = treeNode7;
             this.tabPageT4_6.Text = "     alarms     ";
             this.tabPageT4_6.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT4_6.TextBounds")));
-            this.tabPageT4_6.TextSize = new System.Drawing.SizeF(90.28645F, 21.44531F);
+            this.tabPageT4_6.TextSize = new System.Drawing.SizeF(0F, 0F);
             this.tabPageT4_6.UseParentTabStripPlacement = false;
             this.tabPageT4_6.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPageT4_6_Paint);
             // 
@@ -6470,9 +6795,10 @@ namespace ProductionLaunch
             this.label110.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label110.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label110.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label110.Location = new System.Drawing.Point(687, 624);
+            this.label110.Location = new System.Drawing.Point(1030, 960);
+            this.label110.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(43, 13);
+            this.label110.Size = new System.Drawing.Size(64, 20);
             this.label110.TabIndex = 802;
             this.label110.Text = "ST108";
             // 
@@ -6483,9 +6809,10 @@ namespace ProductionLaunch
             this.label111.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label111.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label111.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label111.Location = new System.Drawing.Point(627, 624);
+            this.label111.Location = new System.Drawing.Point(940, 960);
+            this.label111.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(43, 13);
+            this.label111.Size = new System.Drawing.Size(64, 20);
             this.label111.TabIndex = 801;
             this.label111.Text = "ST107";
             // 
@@ -6496,9 +6823,10 @@ namespace ProductionLaunch
             this.label112.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label112.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label112.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label112.Location = new System.Drawing.Point(567, 624);
+            this.label112.Location = new System.Drawing.Point(850, 960);
+            this.label112.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(43, 13);
+            this.label112.Size = new System.Drawing.Size(64, 20);
             this.label112.TabIndex = 800;
             this.label112.Text = "ST106";
             // 
@@ -6509,9 +6837,10 @@ namespace ProductionLaunch
             this.label113.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label113.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label113.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label113.Location = new System.Drawing.Point(507, 624);
+            this.label113.Location = new System.Drawing.Point(760, 960);
+            this.label113.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(43, 13);
+            this.label113.Size = new System.Drawing.Size(64, 20);
             this.label113.TabIndex = 799;
             this.label113.Text = "ST105";
             // 
@@ -6522,9 +6851,10 @@ namespace ProductionLaunch
             this.label114.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label114.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label114.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label114.Location = new System.Drawing.Point(447, 624);
+            this.label114.Location = new System.Drawing.Point(670, 960);
+            this.label114.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(43, 13);
+            this.label114.Size = new System.Drawing.Size(64, 20);
             this.label114.TabIndex = 798;
             this.label114.Text = "ST104";
             // 
@@ -6535,9 +6865,10 @@ namespace ProductionLaunch
             this.label115.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label115.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label115.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label115.Location = new System.Drawing.Point(387, 624);
+            this.label115.Location = new System.Drawing.Point(580, 960);
+            this.label115.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(43, 13);
+            this.label115.Size = new System.Drawing.Size(64, 20);
             this.label115.TabIndex = 797;
             this.label115.Text = "ST103";
             // 
@@ -6548,9 +6879,10 @@ namespace ProductionLaunch
             this.label116.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label116.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label116.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label116.Location = new System.Drawing.Point(267, 624);
+            this.label116.Location = new System.Drawing.Point(400, 960);
+            this.label116.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(43, 13);
+            this.label116.Size = new System.Drawing.Size(64, 20);
             this.label116.TabIndex = 796;
             this.label116.Text = "ST101";
             // 
@@ -6561,9 +6893,10 @@ namespace ProductionLaunch
             this.label117.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label117.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label117.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label117.Location = new System.Drawing.Point(327, 624);
+            this.label117.Location = new System.Drawing.Point(490, 960);
+            this.label117.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(43, 13);
+            this.label117.Size = new System.Drawing.Size(64, 20);
             this.label117.TabIndex = 795;
             this.label117.Text = "ST102";
             // 
@@ -6574,9 +6907,10 @@ namespace ProductionLaunch
             this.label118.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label118.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label118.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label118.Location = new System.Drawing.Point(207, 624);
+            this.label118.Location = new System.Drawing.Point(310, 960);
+            this.label118.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(43, 13);
+            this.label118.Size = new System.Drawing.Size(64, 20);
             this.label118.TabIndex = 794;
             this.label118.Text = "ST100";
             // 
@@ -6587,9 +6921,10 @@ namespace ProductionLaunch
             this.label119.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label119.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label119.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label119.Location = new System.Drawing.Point(147, 624);
+            this.label119.Location = new System.Drawing.Point(220, 960);
+            this.label119.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(36, 13);
+            this.label119.Size = new System.Drawing.Size(53, 20);
             this.label119.TabIndex = 793;
             this.label119.Text = "ST99";
             // 
@@ -6600,9 +6935,10 @@ namespace ProductionLaunch
             this.label120.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label120.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label120.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label120.Location = new System.Drawing.Point(87, 624);
+            this.label120.Location = new System.Drawing.Point(130, 960);
+            this.label120.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(36, 13);
+            this.label120.Size = new System.Drawing.Size(53, 20);
             this.label120.TabIndex = 792;
             this.label120.Text = "ST98";
             // 
@@ -6613,9 +6949,10 @@ namespace ProductionLaunch
             this.label121.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label121.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label121.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label121.Location = new System.Drawing.Point(27, 624);
+            this.label121.Location = new System.Drawing.Point(40, 960);
+            this.label121.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(36, 13);
+            this.label121.Size = new System.Drawing.Size(53, 20);
             this.label121.TabIndex = 791;
             this.label121.Text = "ST97";
             // 
@@ -6628,9 +6965,10 @@ namespace ProductionLaunch
             this.buttonAlarm114.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm114.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm114.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm114.Location = new System.Drawing.Point(687, 584);
+            this.buttonAlarm114.Location = new System.Drawing.Point(1030, 898);
+            this.buttonAlarm114.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm114.Name = "buttonAlarm114";
-            this.buttonAlarm114.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm114.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm114.TabIndex = 790;
             this.buttonAlarm114.UseVisualStyleBackColor = false;
             // 
@@ -6643,9 +6981,10 @@ namespace ProductionLaunch
             this.buttonAlarm113.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm113.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm113.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm113.Location = new System.Drawing.Point(627, 584);
+            this.buttonAlarm113.Location = new System.Drawing.Point(940, 898);
+            this.buttonAlarm113.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm113.Name = "buttonAlarm113";
-            this.buttonAlarm113.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm113.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm113.TabIndex = 789;
             this.buttonAlarm113.UseVisualStyleBackColor = false;
             // 
@@ -6658,9 +6997,10 @@ namespace ProductionLaunch
             this.buttonAlarm112.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm112.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm112.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm112.Location = new System.Drawing.Point(567, 584);
+            this.buttonAlarm112.Location = new System.Drawing.Point(850, 898);
+            this.buttonAlarm112.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm112.Name = "buttonAlarm112";
-            this.buttonAlarm112.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm112.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm112.TabIndex = 788;
             this.buttonAlarm112.UseVisualStyleBackColor = false;
             // 
@@ -6673,9 +7013,10 @@ namespace ProductionLaunch
             this.buttonAlarm111.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm111.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm111.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm111.Location = new System.Drawing.Point(507, 584);
+            this.buttonAlarm111.Location = new System.Drawing.Point(760, 898);
+            this.buttonAlarm111.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm111.Name = "buttonAlarm111";
-            this.buttonAlarm111.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm111.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm111.TabIndex = 787;
             this.buttonAlarm111.UseVisualStyleBackColor = false;
             // 
@@ -6688,9 +7029,10 @@ namespace ProductionLaunch
             this.buttonAlarm110.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm110.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm110.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm110.Location = new System.Drawing.Point(447, 584);
+            this.buttonAlarm110.Location = new System.Drawing.Point(670, 898);
+            this.buttonAlarm110.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm110.Name = "buttonAlarm110";
-            this.buttonAlarm110.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm110.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm110.TabIndex = 786;
             this.buttonAlarm110.UseVisualStyleBackColor = false;
             // 
@@ -6703,9 +7045,10 @@ namespace ProductionLaunch
             this.buttonAlarm109.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm109.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm109.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm109.Location = new System.Drawing.Point(387, 584);
+            this.buttonAlarm109.Location = new System.Drawing.Point(580, 898);
+            this.buttonAlarm109.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm109.Name = "buttonAlarm109";
-            this.buttonAlarm109.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm109.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm109.TabIndex = 785;
             this.buttonAlarm109.UseVisualStyleBackColor = false;
             // 
@@ -6718,9 +7061,10 @@ namespace ProductionLaunch
             this.buttonAlarm108.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm108.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm108.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm108.Location = new System.Drawing.Point(327, 584);
+            this.buttonAlarm108.Location = new System.Drawing.Point(490, 898);
+            this.buttonAlarm108.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm108.Name = "buttonAlarm108";
-            this.buttonAlarm108.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm108.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm108.TabIndex = 784;
             this.buttonAlarm108.UseVisualStyleBackColor = false;
             // 
@@ -6733,9 +7077,10 @@ namespace ProductionLaunch
             this.buttonAlarm107.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm107.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm107.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm107.Location = new System.Drawing.Point(267, 584);
+            this.buttonAlarm107.Location = new System.Drawing.Point(400, 898);
+            this.buttonAlarm107.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm107.Name = "buttonAlarm107";
-            this.buttonAlarm107.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm107.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm107.TabIndex = 783;
             this.buttonAlarm107.UseVisualStyleBackColor = false;
             // 
@@ -6748,9 +7093,10 @@ namespace ProductionLaunch
             this.buttonAlarm106.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm106.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm106.Location = new System.Drawing.Point(207, 584);
+            this.buttonAlarm106.Location = new System.Drawing.Point(310, 898);
+            this.buttonAlarm106.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm106.Name = "buttonAlarm106";
-            this.buttonAlarm106.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm106.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm106.TabIndex = 782;
             this.buttonAlarm106.UseVisualStyleBackColor = false;
             // 
@@ -6763,9 +7109,10 @@ namespace ProductionLaunch
             this.buttonAlarm105.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm105.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm105.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm105.Location = new System.Drawing.Point(147, 584);
+            this.buttonAlarm105.Location = new System.Drawing.Point(220, 898);
+            this.buttonAlarm105.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm105.Name = "buttonAlarm105";
-            this.buttonAlarm105.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm105.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm105.TabIndex = 781;
             this.buttonAlarm105.UseVisualStyleBackColor = false;
             // 
@@ -6778,9 +7125,10 @@ namespace ProductionLaunch
             this.buttonAlarm104.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm104.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm104.Location = new System.Drawing.Point(87, 584);
+            this.buttonAlarm104.Location = new System.Drawing.Point(130, 898);
+            this.buttonAlarm104.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm104.Name = "buttonAlarm104";
-            this.buttonAlarm104.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm104.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm104.TabIndex = 780;
             this.buttonAlarm104.UseVisualStyleBackColor = false;
             // 
@@ -6793,9 +7141,10 @@ namespace ProductionLaunch
             this.buttonAlarm103.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm103.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm103.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm103.Location = new System.Drawing.Point(27, 584);
+            this.buttonAlarm103.Location = new System.Drawing.Point(40, 898);
+            this.buttonAlarm103.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm103.Name = "buttonAlarm103";
-            this.buttonAlarm103.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm103.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm103.TabIndex = 779;
             this.buttonAlarm103.UseVisualStyleBackColor = false;
             // 
@@ -6806,9 +7155,10 @@ namespace ProductionLaunch
             this.label96.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label96.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label96.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label96.Location = new System.Drawing.Point(624, 484);
+            this.label96.Location = new System.Drawing.Point(936, 745);
+            this.label96.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(36, 13);
+            this.label96.Size = new System.Drawing.Size(53, 20);
             this.label96.TabIndex = 778;
             this.label96.Text = "ST75";
             // 
@@ -6819,9 +7169,10 @@ namespace ProductionLaunch
             this.label97.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label97.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label97.Location = new System.Drawing.Point(564, 484);
+            this.label97.Location = new System.Drawing.Point(846, 745);
+            this.label97.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(36, 13);
+            this.label97.Size = new System.Drawing.Size(53, 20);
             this.label97.TabIndex = 777;
             this.label97.Text = "ST74";
             // 
@@ -6832,9 +7183,10 @@ namespace ProductionLaunch
             this.label98.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label98.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label98.Location = new System.Drawing.Point(504, 484);
+            this.label98.Location = new System.Drawing.Point(756, 745);
+            this.label98.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(36, 13);
+            this.label98.Size = new System.Drawing.Size(53, 20);
             this.label98.TabIndex = 776;
             this.label98.Text = "ST73";
             // 
@@ -6845,9 +7197,10 @@ namespace ProductionLaunch
             this.label99.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label99.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label99.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label99.Location = new System.Drawing.Point(444, 484);
+            this.label99.Location = new System.Drawing.Point(666, 745);
+            this.label99.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(36, 13);
+            this.label99.Size = new System.Drawing.Size(53, 20);
             this.label99.TabIndex = 775;
             this.label99.Text = "ST72";
             // 
@@ -6858,9 +7211,10 @@ namespace ProductionLaunch
             this.label100.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label100.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label100.Location = new System.Drawing.Point(384, 484);
+            this.label100.Location = new System.Drawing.Point(576, 745);
+            this.label100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(36, 13);
+            this.label100.Size = new System.Drawing.Size(53, 20);
             this.label100.TabIndex = 774;
             this.label100.Text = "ST71";
             // 
@@ -6871,9 +7225,10 @@ namespace ProductionLaunch
             this.label101.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label101.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label101.Location = new System.Drawing.Point(264, 484);
+            this.label101.Location = new System.Drawing.Point(396, 745);
+            this.label101.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(36, 13);
+            this.label101.Size = new System.Drawing.Size(53, 20);
             this.label101.TabIndex = 773;
             this.label101.Text = "ST69";
             // 
@@ -6884,9 +7239,10 @@ namespace ProductionLaunch
             this.label102.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label102.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label102.Location = new System.Drawing.Point(324, 484);
+            this.label102.Location = new System.Drawing.Point(486, 745);
+            this.label102.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(36, 13);
+            this.label102.Size = new System.Drawing.Size(53, 20);
             this.label102.TabIndex = 772;
             this.label102.Text = "ST70";
             // 
@@ -6897,9 +7253,10 @@ namespace ProductionLaunch
             this.label103.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label103.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label103.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label103.Location = new System.Drawing.Point(204, 484);
+            this.label103.Location = new System.Drawing.Point(306, 745);
+            this.label103.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(36, 13);
+            this.label103.Size = new System.Drawing.Size(53, 20);
             this.label103.TabIndex = 771;
             this.label103.Text = "ST68";
             // 
@@ -6910,9 +7267,10 @@ namespace ProductionLaunch
             this.label104.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label104.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label104.Location = new System.Drawing.Point(144, 484);
+            this.label104.Location = new System.Drawing.Point(216, 745);
+            this.label104.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(36, 13);
+            this.label104.Size = new System.Drawing.Size(53, 20);
             this.label104.TabIndex = 770;
             this.label104.Text = "ST67";
             // 
@@ -6923,9 +7281,10 @@ namespace ProductionLaunch
             this.label105.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label105.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label105.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label105.Location = new System.Drawing.Point(84, 484);
+            this.label105.Location = new System.Drawing.Point(126, 745);
+            this.label105.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(36, 13);
+            this.label105.Size = new System.Drawing.Size(53, 20);
             this.label105.TabIndex = 769;
             this.label105.Text = "ST66";
             // 
@@ -6936,9 +7295,10 @@ namespace ProductionLaunch
             this.label106.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label106.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label106.Location = new System.Drawing.Point(24, 484);
+            this.label106.Location = new System.Drawing.Point(36, 745);
+            this.label106.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(36, 13);
+            this.label106.Size = new System.Drawing.Size(53, 20);
             this.label106.TabIndex = 768;
             this.label106.Text = "ST65";
             // 
@@ -6951,9 +7311,10 @@ namespace ProductionLaunch
             this.buttonAlarm102.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm102.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm102.Location = new System.Drawing.Point(624, 444);
+            this.buttonAlarm102.Location = new System.Drawing.Point(936, 683);
+            this.buttonAlarm102.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm102.Name = "buttonAlarm102";
-            this.buttonAlarm102.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm102.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm102.TabIndex = 767;
             this.buttonAlarm102.UseVisualStyleBackColor = false;
             // 
@@ -6966,9 +7327,10 @@ namespace ProductionLaunch
             this.buttonAlarm101.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm101.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm101.Location = new System.Drawing.Point(564, 444);
+            this.buttonAlarm101.Location = new System.Drawing.Point(846, 683);
+            this.buttonAlarm101.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm101.Name = "buttonAlarm101";
-            this.buttonAlarm101.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm101.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm101.TabIndex = 766;
             this.buttonAlarm101.UseVisualStyleBackColor = false;
             // 
@@ -6981,9 +7343,10 @@ namespace ProductionLaunch
             this.buttonAlarm100.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm100.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm100.Location = new System.Drawing.Point(504, 444);
+            this.buttonAlarm100.Location = new System.Drawing.Point(756, 683);
+            this.buttonAlarm100.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm100.Name = "buttonAlarm100";
-            this.buttonAlarm100.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm100.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm100.TabIndex = 765;
             this.buttonAlarm100.UseVisualStyleBackColor = false;
             // 
@@ -6996,9 +7359,10 @@ namespace ProductionLaunch
             this.buttonAlarm99.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm99.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm99.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm99.Location = new System.Drawing.Point(444, 444);
+            this.buttonAlarm99.Location = new System.Drawing.Point(666, 683);
+            this.buttonAlarm99.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm99.Name = "buttonAlarm99";
-            this.buttonAlarm99.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm99.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm99.TabIndex = 764;
             this.buttonAlarm99.UseVisualStyleBackColor = false;
             // 
@@ -7011,9 +7375,10 @@ namespace ProductionLaunch
             this.buttonAlarm98.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm98.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm98.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm98.Location = new System.Drawing.Point(384, 444);
+            this.buttonAlarm98.Location = new System.Drawing.Point(576, 683);
+            this.buttonAlarm98.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm98.Name = "buttonAlarm98";
-            this.buttonAlarm98.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm98.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm98.TabIndex = 763;
             this.buttonAlarm98.UseVisualStyleBackColor = false;
             // 
@@ -7026,9 +7391,10 @@ namespace ProductionLaunch
             this.buttonAlarm97.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm97.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm97.Location = new System.Drawing.Point(324, 444);
+            this.buttonAlarm97.Location = new System.Drawing.Point(486, 683);
+            this.buttonAlarm97.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm97.Name = "buttonAlarm97";
-            this.buttonAlarm97.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm97.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm97.TabIndex = 762;
             this.buttonAlarm97.UseVisualStyleBackColor = false;
             // 
@@ -7041,9 +7407,10 @@ namespace ProductionLaunch
             this.buttonAlarm96.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm96.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm96.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm96.Location = new System.Drawing.Point(264, 444);
+            this.buttonAlarm96.Location = new System.Drawing.Point(396, 683);
+            this.buttonAlarm96.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm96.Name = "buttonAlarm96";
-            this.buttonAlarm96.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm96.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm96.TabIndex = 761;
             this.buttonAlarm96.UseVisualStyleBackColor = false;
             // 
@@ -7056,9 +7423,10 @@ namespace ProductionLaunch
             this.buttonAlarm95.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm95.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm95.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm95.Location = new System.Drawing.Point(204, 444);
+            this.buttonAlarm95.Location = new System.Drawing.Point(306, 683);
+            this.buttonAlarm95.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm95.Name = "buttonAlarm95";
-            this.buttonAlarm95.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm95.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm95.TabIndex = 760;
             this.buttonAlarm95.UseVisualStyleBackColor = false;
             // 
@@ -7071,9 +7439,10 @@ namespace ProductionLaunch
             this.buttonAlarm94.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm94.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm94.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm94.Location = new System.Drawing.Point(144, 444);
+            this.buttonAlarm94.Location = new System.Drawing.Point(216, 683);
+            this.buttonAlarm94.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm94.Name = "buttonAlarm94";
-            this.buttonAlarm94.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm94.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm94.TabIndex = 759;
             this.buttonAlarm94.UseVisualStyleBackColor = false;
             // 
@@ -7086,9 +7455,10 @@ namespace ProductionLaunch
             this.buttonAlarm93.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm93.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm93.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm93.Location = new System.Drawing.Point(84, 444);
+            this.buttonAlarm93.Location = new System.Drawing.Point(126, 683);
+            this.buttonAlarm93.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm93.Name = "buttonAlarm93";
-            this.buttonAlarm93.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm93.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm93.TabIndex = 758;
             this.buttonAlarm93.UseVisualStyleBackColor = false;
             // 
@@ -7101,9 +7471,10 @@ namespace ProductionLaunch
             this.buttonAlarm92.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm92.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm92.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm92.Location = new System.Drawing.Point(24, 444);
+            this.buttonAlarm92.Location = new System.Drawing.Point(36, 683);
+            this.buttonAlarm92.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm92.Name = "buttonAlarm92";
-            this.buttonAlarm92.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm92.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm92.TabIndex = 757;
             this.buttonAlarm92.UseVisualStyleBackColor = false;
             // 
@@ -7114,9 +7485,10 @@ namespace ProductionLaunch
             this.label80.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label80.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label80.Location = new System.Drawing.Point(684, 344);
+            this.label80.Location = new System.Drawing.Point(1026, 529);
+            this.label80.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(36, 13);
+            this.label80.Size = new System.Drawing.Size(53, 20);
             this.label80.TabIndex = 756;
             this.label80.Text = "ST44";
             // 
@@ -7127,9 +7499,10 @@ namespace ProductionLaunch
             this.label81.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label81.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label81.Location = new System.Drawing.Point(624, 344);
+            this.label81.Location = new System.Drawing.Point(936, 529);
+            this.label81.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(36, 13);
+            this.label81.Size = new System.Drawing.Size(53, 20);
             this.label81.TabIndex = 755;
             this.label81.Text = "ST43";
             // 
@@ -7140,9 +7513,10 @@ namespace ProductionLaunch
             this.label82.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label82.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label82.Location = new System.Drawing.Point(564, 344);
+            this.label82.Location = new System.Drawing.Point(846, 529);
+            this.label82.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(36, 13);
+            this.label82.Size = new System.Drawing.Size(53, 20);
             this.label82.TabIndex = 754;
             this.label82.Text = "ST42";
             // 
@@ -7153,9 +7527,10 @@ namespace ProductionLaunch
             this.label83.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label83.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label83.Location = new System.Drawing.Point(504, 344);
+            this.label83.Location = new System.Drawing.Point(756, 529);
+            this.label83.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(36, 13);
+            this.label83.Size = new System.Drawing.Size(53, 20);
             this.label83.TabIndex = 753;
             this.label83.Text = "ST41";
             // 
@@ -7166,9 +7541,10 @@ namespace ProductionLaunch
             this.label84.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label84.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label84.Location = new System.Drawing.Point(444, 344);
+            this.label84.Location = new System.Drawing.Point(666, 529);
+            this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(36, 13);
+            this.label84.Size = new System.Drawing.Size(53, 20);
             this.label84.TabIndex = 752;
             this.label84.Text = "ST40";
             // 
@@ -7179,9 +7555,10 @@ namespace ProductionLaunch
             this.label85.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label85.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label85.Location = new System.Drawing.Point(384, 344);
+            this.label85.Location = new System.Drawing.Point(576, 529);
+            this.label85.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(36, 13);
+            this.label85.Size = new System.Drawing.Size(53, 20);
             this.label85.TabIndex = 751;
             this.label85.Text = "ST39";
             // 
@@ -7192,9 +7569,10 @@ namespace ProductionLaunch
             this.label86.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label86.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label86.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label86.Location = new System.Drawing.Point(264, 344);
+            this.label86.Location = new System.Drawing.Point(396, 529);
+            this.label86.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(36, 13);
+            this.label86.Size = new System.Drawing.Size(53, 20);
             this.label86.TabIndex = 750;
             this.label86.Text = "ST37";
             // 
@@ -7205,9 +7583,10 @@ namespace ProductionLaunch
             this.label87.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label87.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label87.Location = new System.Drawing.Point(324, 344);
+            this.label87.Location = new System.Drawing.Point(486, 529);
+            this.label87.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(36, 13);
+            this.label87.Size = new System.Drawing.Size(53, 20);
             this.label87.TabIndex = 749;
             this.label87.Text = "ST38";
             // 
@@ -7218,9 +7597,10 @@ namespace ProductionLaunch
             this.label88.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label88.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label88.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label88.Location = new System.Drawing.Point(204, 344);
+            this.label88.Location = new System.Drawing.Point(306, 529);
+            this.label88.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(36, 13);
+            this.label88.Size = new System.Drawing.Size(53, 20);
             this.label88.TabIndex = 748;
             this.label88.Text = "ST36";
             // 
@@ -7231,9 +7611,10 @@ namespace ProductionLaunch
             this.label89.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label89.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label89.Location = new System.Drawing.Point(144, 344);
+            this.label89.Location = new System.Drawing.Point(216, 529);
+            this.label89.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(36, 13);
+            this.label89.Size = new System.Drawing.Size(53, 20);
             this.label89.TabIndex = 747;
             this.label89.Text = "ST35";
             // 
@@ -7244,9 +7625,10 @@ namespace ProductionLaunch
             this.label90.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label90.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label90.Location = new System.Drawing.Point(84, 344);
+            this.label90.Location = new System.Drawing.Point(126, 529);
+            this.label90.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(36, 13);
+            this.label90.Size = new System.Drawing.Size(53, 20);
             this.label90.TabIndex = 746;
             this.label90.Text = "ST34";
             // 
@@ -7257,9 +7639,10 @@ namespace ProductionLaunch
             this.label91.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label91.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label91.Location = new System.Drawing.Point(24, 344);
+            this.label91.Location = new System.Drawing.Point(36, 529);
+            this.label91.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(36, 13);
+            this.label91.Size = new System.Drawing.Size(53, 20);
             this.label91.TabIndex = 745;
             this.label91.Text = "ST33";
             // 
@@ -7272,9 +7655,10 @@ namespace ProductionLaunch
             this.buttonAlarm91.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm91.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm91.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm91.Location = new System.Drawing.Point(684, 304);
+            this.buttonAlarm91.Location = new System.Drawing.Point(1026, 468);
+            this.buttonAlarm91.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm91.Name = "buttonAlarm91";
-            this.buttonAlarm91.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm91.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm91.TabIndex = 744;
             this.buttonAlarm91.UseVisualStyleBackColor = false;
             // 
@@ -7287,9 +7671,10 @@ namespace ProductionLaunch
             this.buttonAlarm90.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm90.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm90.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm90.Location = new System.Drawing.Point(624, 304);
+            this.buttonAlarm90.Location = new System.Drawing.Point(936, 468);
+            this.buttonAlarm90.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm90.Name = "buttonAlarm90";
-            this.buttonAlarm90.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm90.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm90.TabIndex = 743;
             this.buttonAlarm90.UseVisualStyleBackColor = false;
             // 
@@ -7302,9 +7687,10 @@ namespace ProductionLaunch
             this.buttonAlarm89.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm89.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm89.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm89.Location = new System.Drawing.Point(564, 304);
+            this.buttonAlarm89.Location = new System.Drawing.Point(846, 468);
+            this.buttonAlarm89.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm89.Name = "buttonAlarm89";
-            this.buttonAlarm89.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm89.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm89.TabIndex = 742;
             this.buttonAlarm89.UseVisualStyleBackColor = false;
             // 
@@ -7317,9 +7703,10 @@ namespace ProductionLaunch
             this.buttonAlarm88.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm88.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm88.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm88.Location = new System.Drawing.Point(504, 304);
+            this.buttonAlarm88.Location = new System.Drawing.Point(756, 468);
+            this.buttonAlarm88.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm88.Name = "buttonAlarm88";
-            this.buttonAlarm88.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm88.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm88.TabIndex = 741;
             this.buttonAlarm88.UseVisualStyleBackColor = false;
             // 
@@ -7332,9 +7719,10 @@ namespace ProductionLaunch
             this.buttonAlarm87.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm87.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm87.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm87.Location = new System.Drawing.Point(444, 304);
+            this.buttonAlarm87.Location = new System.Drawing.Point(666, 468);
+            this.buttonAlarm87.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm87.Name = "buttonAlarm87";
-            this.buttonAlarm87.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm87.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm87.TabIndex = 740;
             this.buttonAlarm87.UseVisualStyleBackColor = false;
             // 
@@ -7347,9 +7735,10 @@ namespace ProductionLaunch
             this.buttonAlarm86.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm86.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm86.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm86.Location = new System.Drawing.Point(384, 304);
+            this.buttonAlarm86.Location = new System.Drawing.Point(576, 468);
+            this.buttonAlarm86.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm86.Name = "buttonAlarm86";
-            this.buttonAlarm86.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm86.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm86.TabIndex = 739;
             this.buttonAlarm86.UseVisualStyleBackColor = false;
             // 
@@ -7362,9 +7751,10 @@ namespace ProductionLaunch
             this.buttonAlarm85.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm85.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm85.Location = new System.Drawing.Point(324, 304);
+            this.buttonAlarm85.Location = new System.Drawing.Point(486, 468);
+            this.buttonAlarm85.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm85.Name = "buttonAlarm85";
-            this.buttonAlarm85.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm85.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm85.TabIndex = 738;
             this.buttonAlarm85.UseVisualStyleBackColor = false;
             // 
@@ -7377,9 +7767,10 @@ namespace ProductionLaunch
             this.buttonAlarm84.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm84.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm84.Location = new System.Drawing.Point(264, 304);
+            this.buttonAlarm84.Location = new System.Drawing.Point(396, 468);
+            this.buttonAlarm84.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm84.Name = "buttonAlarm84";
-            this.buttonAlarm84.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm84.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm84.TabIndex = 737;
             this.buttonAlarm84.UseVisualStyleBackColor = false;
             // 
@@ -7392,9 +7783,10 @@ namespace ProductionLaunch
             this.buttonAlarm83.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm83.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm83.Location = new System.Drawing.Point(204, 304);
+            this.buttonAlarm83.Location = new System.Drawing.Point(306, 468);
+            this.buttonAlarm83.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm83.Name = "buttonAlarm83";
-            this.buttonAlarm83.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm83.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm83.TabIndex = 736;
             this.buttonAlarm83.UseVisualStyleBackColor = false;
             // 
@@ -7407,9 +7799,10 @@ namespace ProductionLaunch
             this.buttonAlarm82.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm82.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm82.Location = new System.Drawing.Point(144, 304);
+            this.buttonAlarm82.Location = new System.Drawing.Point(216, 468);
+            this.buttonAlarm82.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm82.Name = "buttonAlarm82";
-            this.buttonAlarm82.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm82.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm82.TabIndex = 735;
             this.buttonAlarm82.UseVisualStyleBackColor = false;
             // 
@@ -7422,9 +7815,10 @@ namespace ProductionLaunch
             this.buttonAlarm81.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm81.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm81.Location = new System.Drawing.Point(84, 304);
+            this.buttonAlarm81.Location = new System.Drawing.Point(126, 468);
+            this.buttonAlarm81.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm81.Name = "buttonAlarm81";
-            this.buttonAlarm81.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm81.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm81.TabIndex = 734;
             this.buttonAlarm81.UseVisualStyleBackColor = false;
             // 
@@ -7437,9 +7831,10 @@ namespace ProductionLaunch
             this.buttonAlarm80.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm80.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm80.Location = new System.Drawing.Point(24, 304);
+            this.buttonAlarm80.Location = new System.Drawing.Point(36, 468);
+            this.buttonAlarm80.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm80.Name = "buttonAlarm80";
-            this.buttonAlarm80.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm80.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm80.TabIndex = 733;
             this.buttonAlarm80.UseVisualStyleBackColor = false;
             // 
@@ -7450,9 +7845,10 @@ namespace ProductionLaunch
             this.label62.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label62.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label62.Location = new System.Drawing.Point(864, 204);
+            this.label62.Location = new System.Drawing.Point(1296, 314);
+            this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(36, 13);
+            this.label62.Size = new System.Drawing.Size(53, 20);
             this.label62.TabIndex = 732;
             this.label62.Text = "ST15";
             // 
@@ -7463,9 +7859,10 @@ namespace ProductionLaunch
             this.label63.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label63.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label63.Location = new System.Drawing.Point(804, 204);
+            this.label63.Location = new System.Drawing.Point(1206, 314);
+            this.label63.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(36, 13);
+            this.label63.Size = new System.Drawing.Size(53, 20);
             this.label63.TabIndex = 731;
             this.label63.Text = "ST14";
             // 
@@ -7476,9 +7873,10 @@ namespace ProductionLaunch
             this.label64.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label64.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label64.Location = new System.Drawing.Point(744, 204);
+            this.label64.Location = new System.Drawing.Point(1116, 314);
+            this.label64.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(36, 13);
+            this.label64.Size = new System.Drawing.Size(53, 20);
             this.label64.TabIndex = 730;
             this.label64.Text = "ST13";
             // 
@@ -7489,9 +7887,10 @@ namespace ProductionLaunch
             this.label65.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label65.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label65.Location = new System.Drawing.Point(684, 204);
+            this.label65.Location = new System.Drawing.Point(1026, 314);
+            this.label65.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(36, 13);
+            this.label65.Size = new System.Drawing.Size(53, 20);
             this.label65.TabIndex = 729;
             this.label65.Text = "ST12";
             // 
@@ -7502,9 +7901,10 @@ namespace ProductionLaunch
             this.label66.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label66.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label66.Location = new System.Drawing.Point(624, 204);
+            this.label66.Location = new System.Drawing.Point(936, 314);
+            this.label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(36, 13);
+            this.label66.Size = new System.Drawing.Size(53, 20);
             this.label66.TabIndex = 728;
             this.label66.Text = "ST11";
             // 
@@ -7515,9 +7915,10 @@ namespace ProductionLaunch
             this.label67.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label67.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label67.Location = new System.Drawing.Point(564, 204);
+            this.label67.Location = new System.Drawing.Point(846, 314);
+            this.label67.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(36, 13);
+            this.label67.Size = new System.Drawing.Size(53, 20);
             this.label67.TabIndex = 727;
             this.label67.Text = "ST10";
             // 
@@ -7528,9 +7929,10 @@ namespace ProductionLaunch
             this.label68.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label68.Location = new System.Drawing.Point(504, 204);
+            this.label68.Location = new System.Drawing.Point(756, 314);
+            this.label68.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(29, 13);
+            this.label68.Size = new System.Drawing.Size(42, 20);
             this.label68.TabIndex = 726;
             this.label68.Text = "ST9";
             // 
@@ -7541,9 +7943,10 @@ namespace ProductionLaunch
             this.label69.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label69.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label69.Location = new System.Drawing.Point(444, 204);
+            this.label69.Location = new System.Drawing.Point(666, 314);
+            this.label69.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(29, 13);
+            this.label69.Size = new System.Drawing.Size(42, 20);
             this.label69.TabIndex = 725;
             this.label69.Text = "ST8";
             // 
@@ -7554,9 +7957,10 @@ namespace ProductionLaunch
             this.label70.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label70.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label70.Location = new System.Drawing.Point(384, 204);
+            this.label70.Location = new System.Drawing.Point(576, 314);
+            this.label70.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(29, 13);
+            this.label70.Size = new System.Drawing.Size(42, 20);
             this.label70.TabIndex = 724;
             this.label70.Text = "ST7";
             // 
@@ -7567,9 +7971,10 @@ namespace ProductionLaunch
             this.label71.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label71.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label71.Location = new System.Drawing.Point(264, 204);
+            this.label71.Location = new System.Drawing.Point(396, 314);
+            this.label71.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(29, 13);
+            this.label71.Size = new System.Drawing.Size(42, 20);
             this.label71.TabIndex = 723;
             this.label71.Text = "ST5";
             // 
@@ -7580,9 +7985,10 @@ namespace ProductionLaunch
             this.label72.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label72.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label72.Location = new System.Drawing.Point(324, 204);
+            this.label72.Location = new System.Drawing.Point(486, 314);
+            this.label72.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(29, 13);
+            this.label72.Size = new System.Drawing.Size(42, 20);
             this.label72.TabIndex = 722;
             this.label72.Text = "ST6";
             // 
@@ -7593,9 +7999,10 @@ namespace ProductionLaunch
             this.label73.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label73.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label73.Location = new System.Drawing.Point(204, 204);
+            this.label73.Location = new System.Drawing.Point(306, 314);
+            this.label73.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(29, 13);
+            this.label73.Size = new System.Drawing.Size(42, 20);
             this.label73.TabIndex = 721;
             this.label73.Text = "ST4";
             // 
@@ -7606,9 +8013,10 @@ namespace ProductionLaunch
             this.label74.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label74.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label74.Location = new System.Drawing.Point(144, 204);
+            this.label74.Location = new System.Drawing.Point(216, 314);
+            this.label74.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(29, 13);
+            this.label74.Size = new System.Drawing.Size(42, 20);
             this.label74.TabIndex = 720;
             this.label74.Text = "ST3";
             // 
@@ -7619,9 +8027,10 @@ namespace ProductionLaunch
             this.label75.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label75.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label75.Location = new System.Drawing.Point(84, 204);
+            this.label75.Location = new System.Drawing.Point(126, 314);
+            this.label75.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(29, 13);
+            this.label75.Size = new System.Drawing.Size(42, 20);
             this.label75.TabIndex = 719;
             this.label75.Text = "ST2";
             // 
@@ -7632,9 +8041,10 @@ namespace ProductionLaunch
             this.label76.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label76.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label76.Location = new System.Drawing.Point(24, 204);
+            this.label76.Location = new System.Drawing.Point(36, 314);
+            this.label76.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(29, 13);
+            this.label76.Size = new System.Drawing.Size(42, 20);
             this.label76.TabIndex = 718;
             this.label76.Text = "ST1";
             // 
@@ -7647,9 +8057,10 @@ namespace ProductionLaunch
             this.buttonAlarm78.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm78.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm78.Location = new System.Drawing.Point(804, 164);
+            this.buttonAlarm78.Location = new System.Drawing.Point(1206, 252);
+            this.buttonAlarm78.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm78.Name = "buttonAlarm78";
-            this.buttonAlarm78.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm78.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm78.TabIndex = 717;
             this.buttonAlarm78.UseVisualStyleBackColor = false;
             // 
@@ -7662,9 +8073,10 @@ namespace ProductionLaunch
             this.buttonAlarm79.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm79.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm79.Location = new System.Drawing.Point(864, 164);
+            this.buttonAlarm79.Location = new System.Drawing.Point(1296, 252);
+            this.buttonAlarm79.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm79.Name = "buttonAlarm79";
-            this.buttonAlarm79.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm79.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm79.TabIndex = 716;
             this.buttonAlarm79.UseVisualStyleBackColor = false;
             // 
@@ -7677,9 +8089,10 @@ namespace ProductionLaunch
             this.buttonAlarm77.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm77.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm77.Location = new System.Drawing.Point(744, 164);
+            this.buttonAlarm77.Location = new System.Drawing.Point(1116, 252);
+            this.buttonAlarm77.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm77.Name = "buttonAlarm77";
-            this.buttonAlarm77.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm77.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm77.TabIndex = 715;
             this.buttonAlarm77.UseVisualStyleBackColor = false;
             // 
@@ -7692,9 +8105,10 @@ namespace ProductionLaunch
             this.buttonAlarm76.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm76.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm76.Location = new System.Drawing.Point(684, 164);
+            this.buttonAlarm76.Location = new System.Drawing.Point(1026, 252);
+            this.buttonAlarm76.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm76.Name = "buttonAlarm76";
-            this.buttonAlarm76.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm76.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm76.TabIndex = 714;
             this.buttonAlarm76.UseVisualStyleBackColor = false;
             // 
@@ -7707,9 +8121,10 @@ namespace ProductionLaunch
             this.buttonAlarm75.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm75.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm75.Location = new System.Drawing.Point(624, 164);
+            this.buttonAlarm75.Location = new System.Drawing.Point(936, 252);
+            this.buttonAlarm75.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm75.Name = "buttonAlarm75";
-            this.buttonAlarm75.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm75.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm75.TabIndex = 713;
             this.buttonAlarm75.UseVisualStyleBackColor = false;
             // 
@@ -7722,9 +8137,10 @@ namespace ProductionLaunch
             this.buttonAlarm74.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm74.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm74.Location = new System.Drawing.Point(564, 164);
+            this.buttonAlarm74.Location = new System.Drawing.Point(846, 252);
+            this.buttonAlarm74.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm74.Name = "buttonAlarm74";
-            this.buttonAlarm74.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm74.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm74.TabIndex = 712;
             this.buttonAlarm74.UseVisualStyleBackColor = false;
             // 
@@ -7737,9 +8153,10 @@ namespace ProductionLaunch
             this.buttonAlarm73.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm73.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm73.Location = new System.Drawing.Point(504, 164);
+            this.buttonAlarm73.Location = new System.Drawing.Point(756, 252);
+            this.buttonAlarm73.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm73.Name = "buttonAlarm73";
-            this.buttonAlarm73.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm73.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm73.TabIndex = 711;
             this.buttonAlarm73.UseVisualStyleBackColor = false;
             // 
@@ -7752,9 +8169,10 @@ namespace ProductionLaunch
             this.buttonAlarm72.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm72.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm72.Location = new System.Drawing.Point(444, 164);
+            this.buttonAlarm72.Location = new System.Drawing.Point(666, 252);
+            this.buttonAlarm72.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm72.Name = "buttonAlarm72";
-            this.buttonAlarm72.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm72.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm72.TabIndex = 710;
             this.buttonAlarm72.UseVisualStyleBackColor = false;
             // 
@@ -7767,9 +8185,10 @@ namespace ProductionLaunch
             this.buttonAlarm71.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm71.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm71.Location = new System.Drawing.Point(384, 164);
+            this.buttonAlarm71.Location = new System.Drawing.Point(576, 252);
+            this.buttonAlarm71.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm71.Name = "buttonAlarm71";
-            this.buttonAlarm71.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm71.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm71.TabIndex = 709;
             this.buttonAlarm71.UseVisualStyleBackColor = false;
             // 
@@ -7782,9 +8201,10 @@ namespace ProductionLaunch
             this.buttonAlarm70.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm70.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm70.Location = new System.Drawing.Point(324, 164);
+            this.buttonAlarm70.Location = new System.Drawing.Point(486, 252);
+            this.buttonAlarm70.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm70.Name = "buttonAlarm70";
-            this.buttonAlarm70.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm70.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm70.TabIndex = 708;
             this.buttonAlarm70.UseVisualStyleBackColor = false;
             // 
@@ -7797,9 +8217,10 @@ namespace ProductionLaunch
             this.buttonAlarm69.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm69.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm69.Location = new System.Drawing.Point(264, 164);
+            this.buttonAlarm69.Location = new System.Drawing.Point(396, 252);
+            this.buttonAlarm69.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm69.Name = "buttonAlarm69";
-            this.buttonAlarm69.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm69.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm69.TabIndex = 707;
             this.buttonAlarm69.UseVisualStyleBackColor = false;
             // 
@@ -7812,9 +8233,10 @@ namespace ProductionLaunch
             this.buttonAlarm68.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm68.Location = new System.Drawing.Point(204, 164);
+            this.buttonAlarm68.Location = new System.Drawing.Point(306, 252);
+            this.buttonAlarm68.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm68.Name = "buttonAlarm68";
-            this.buttonAlarm68.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm68.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm68.TabIndex = 706;
             this.buttonAlarm68.UseVisualStyleBackColor = false;
             // 
@@ -7827,9 +8249,10 @@ namespace ProductionLaunch
             this.buttonAlarm67.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm67.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm67.Location = new System.Drawing.Point(144, 164);
+            this.buttonAlarm67.Location = new System.Drawing.Point(216, 252);
+            this.buttonAlarm67.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm67.Name = "buttonAlarm67";
-            this.buttonAlarm67.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm67.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm67.TabIndex = 705;
             this.buttonAlarm67.UseVisualStyleBackColor = false;
             // 
@@ -7842,9 +8265,10 @@ namespace ProductionLaunch
             this.buttonAlarm66.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm66.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm66.Location = new System.Drawing.Point(84, 164);
+            this.buttonAlarm66.Location = new System.Drawing.Point(126, 252);
+            this.buttonAlarm66.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm66.Name = "buttonAlarm66";
-            this.buttonAlarm66.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm66.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm66.TabIndex = 704;
             this.buttonAlarm66.UseVisualStyleBackColor = false;
             // 
@@ -7857,9 +8281,10 @@ namespace ProductionLaunch
             this.buttonAlarm65.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAlarm65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAlarm65.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAlarm65.Location = new System.Drawing.Point(24, 164);
+            this.buttonAlarm65.Location = new System.Drawing.Point(36, 252);
+            this.buttonAlarm65.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAlarm65.Name = "buttonAlarm65";
-            this.buttonAlarm65.Size = new System.Drawing.Size(20, 20);
+            this.buttonAlarm65.Size = new System.Drawing.Size(30, 31);
             this.buttonAlarm65.TabIndex = 703;
             this.buttonAlarm65.UseVisualStyleBackColor = false;
             // 
@@ -7870,9 +8295,10 @@ namespace ProductionLaunch
             this.label61.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label61.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label61.Location = new System.Drawing.Point(864, 64);
+            this.label61.Location = new System.Drawing.Point(1296, 98);
+            this.label61.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(57, 13);
+            this.label61.Size = new System.Drawing.Size(86, 20);
             this.label61.TabIndex = 702;
             this.label61.Text = "dehum 2";
             // 
@@ -7883,9 +8309,10 @@ namespace ProductionLaunch
             this.label60.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label60.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label60.Location = new System.Drawing.Point(804, 64);
+            this.label60.Location = new System.Drawing.Point(1206, 98);
+            this.label60.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(57, 13);
+            this.label60.Size = new System.Drawing.Size(86, 20);
             this.label60.TabIndex = 701;
             this.label60.Text = "dehum 1";
             // 
@@ -7896,9 +8323,10 @@ namespace ProductionLaunch
             this.label59.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label59.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label59.Location = new System.Drawing.Point(744, 64);
+            this.label59.Location = new System.Drawing.Point(1116, 98);
+            this.label59.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(48, 13);
+            this.label59.Size = new System.Drawing.Size(71, 20);
             this.label59.TabIndex = 700;
             this.label59.Text = "EXT R3";
             // 
@@ -7909,9 +8337,10 @@ namespace ProductionLaunch
             this.label58.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label58.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label58.Location = new System.Drawing.Point(684, 64);
+            this.label58.Location = new System.Drawing.Point(1026, 98);
+            this.label58.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(40, 13);
+            this.label58.Size = new System.Drawing.Size(58, 20);
             this.label58.TabIndex = 699;
             this.label58.Text = "TP R3";
             // 
@@ -7922,9 +8351,10 @@ namespace ProductionLaunch
             this.label57.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label57.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label57.Location = new System.Drawing.Point(624, 64);
+            this.label57.Location = new System.Drawing.Point(936, 98);
+            this.label57.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(48, 13);
+            this.label57.Size = new System.Drawing.Size(71, 20);
             this.label57.TabIndex = 698;
             this.label57.Text = "EXT R2";
             // 
@@ -7935,9 +8365,10 @@ namespace ProductionLaunch
             this.label56.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label56.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label56.Location = new System.Drawing.Point(564, 64);
+            this.label56.Location = new System.Drawing.Point(846, 98);
+            this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(40, 13);
+            this.label56.Size = new System.Drawing.Size(58, 20);
             this.label56.TabIndex = 697;
             this.label56.Text = "TP R2";
             // 
@@ -7948,9 +8379,10 @@ namespace ProductionLaunch
             this.label55.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label55.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label55.Location = new System.Drawing.Point(504, 64);
+            this.label55.Location = new System.Drawing.Point(756, 98);
+            this.label55.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(48, 13);
+            this.label55.Size = new System.Drawing.Size(71, 20);
             this.label55.TabIndex = 696;
             this.label55.Text = "EXT R1";
             // 
@@ -7961,9 +8393,10 @@ namespace ProductionLaunch
             this.label54.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label54.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label54.Location = new System.Drawing.Point(444, 64);
+            this.label54.Location = new System.Drawing.Point(666, 98);
+            this.label54.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(40, 13);
+            this.label54.Size = new System.Drawing.Size(58, 20);
             this.label54.TabIndex = 695;
             this.label54.Text = "TP R1";
             // 
@@ -7974,9 +8407,10 @@ namespace ProductionLaunch
             this.label53.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label53.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label53.Location = new System.Drawing.Point(384, 64);
+            this.label53.Location = new System.Drawing.Point(576, 98);
+            this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(45, 13);
+            this.label53.Size = new System.Drawing.Size(67, 20);
             this.label53.TabIndex = 694;
             this.label53.Text = "unload";
             // 
@@ -7987,9 +8421,10 @@ namespace ProductionLaunch
             this.label52.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label52.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label52.Location = new System.Drawing.Point(264, 64);
+            this.label52.Location = new System.Drawing.Point(396, 98);
+            this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(43, 13);
+            this.label52.Size = new System.Drawing.Size(63, 20);
             this.label52.TabIndex = 693;
             this.label52.Text = "react1";
             // 
@@ -8000,9 +8435,10 @@ namespace ProductionLaunch
             this.label51.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label51.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label51.Location = new System.Drawing.Point(324, 64);
+            this.label51.Location = new System.Drawing.Point(486, 98);
+            this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(43, 13);
+            this.label51.Size = new System.Drawing.Size(63, 20);
             this.label51.TabIndex = 692;
             this.label51.Text = "react2";
             // 
@@ -8013,9 +8449,10 @@ namespace ProductionLaunch
             this.label50.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label50.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label50.Location = new System.Drawing.Point(204, 64);
+            this.label50.Location = new System.Drawing.Point(306, 98);
+            this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(39, 13);
+            this.label50.Size = new System.Drawing.Size(58, 20);
             this.label50.TabIndex = 691;
             this.label50.Text = "man1";
             // 
@@ -8026,9 +8463,10 @@ namespace ProductionLaunch
             this.label49.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label49.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label49.Location = new System.Drawing.Point(144, 64);
+            this.label49.Location = new System.Drawing.Point(216, 98);
+            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(21, 13);
+            this.label49.Size = new System.Drawing.Size(31, 20);
             this.label49.TabIndex = 690;
             this.label49.Text = "fl2";
             // 
@@ -8039,9 +8477,10 @@ namespace ProductionLaunch
             this.label48.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label48.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label48.Location = new System.Drawing.Point(84, 64);
+            this.label48.Location = new System.Drawing.Point(126, 98);
+            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(21, 13);
+            this.label48.Size = new System.Drawing.Size(31, 20);
             this.label48.TabIndex = 689;
             this.label48.Text = "fl1";
             // 
@@ -8052,9 +8491,10 @@ namespace ProductionLaunch
             this.label8.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label8.Location = new System.Drawing.Point(24, 64);
+            this.label8.Location = new System.Drawing.Point(36, 98);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.Size = new System.Drawing.Size(45, 20);
             this.label8.TabIndex = 688;
             this.label8.Text = "load";
             // 
@@ -8067,9 +8507,10 @@ namespace ProductionLaunch
             this.buttonAllarm43.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm43.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm43.Location = new System.Drawing.Point(804, 24);
+            this.buttonAllarm43.Location = new System.Drawing.Point(1206, 37);
+            this.buttonAllarm43.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm43.Name = "buttonAllarm43";
-            this.buttonAllarm43.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm43.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm43.TabIndex = 687;
             this.buttonAllarm43.UseVisualStyleBackColor = false;
             // 
@@ -8082,9 +8523,10 @@ namespace ProductionLaunch
             this.buttonAllarm44.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm44.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm44.Location = new System.Drawing.Point(864, 24);
+            this.buttonAllarm44.Location = new System.Drawing.Point(1296, 37);
+            this.buttonAllarm44.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm44.Name = "buttonAllarm44";
-            this.buttonAllarm44.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm44.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm44.TabIndex = 686;
             this.buttonAllarm44.UseVisualStyleBackColor = false;
             // 
@@ -8097,9 +8539,10 @@ namespace ProductionLaunch
             this.buttonAllarm42.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm42.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm42.Location = new System.Drawing.Point(744, 24);
+            this.buttonAllarm42.Location = new System.Drawing.Point(1116, 37);
+            this.buttonAllarm42.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm42.Name = "buttonAllarm42";
-            this.buttonAllarm42.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm42.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm42.TabIndex = 685;
             this.buttonAllarm42.UseVisualStyleBackColor = false;
             // 
@@ -8112,9 +8555,10 @@ namespace ProductionLaunch
             this.buttonAllarm41.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm41.Location = new System.Drawing.Point(684, 24);
+            this.buttonAllarm41.Location = new System.Drawing.Point(1026, 37);
+            this.buttonAllarm41.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm41.Name = "buttonAllarm41";
-            this.buttonAllarm41.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm41.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm41.TabIndex = 684;
             this.buttonAllarm41.UseVisualStyleBackColor = false;
             // 
@@ -8127,9 +8571,10 @@ namespace ProductionLaunch
             this.buttonAllarm40.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm40.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm40.Location = new System.Drawing.Point(624, 24);
+            this.buttonAllarm40.Location = new System.Drawing.Point(936, 37);
+            this.buttonAllarm40.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm40.Name = "buttonAllarm40";
-            this.buttonAllarm40.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm40.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm40.TabIndex = 683;
             this.buttonAllarm40.UseVisualStyleBackColor = false;
             // 
@@ -8142,9 +8587,10 @@ namespace ProductionLaunch
             this.buttonAllarm39.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm39.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm39.Location = new System.Drawing.Point(564, 24);
+            this.buttonAllarm39.Location = new System.Drawing.Point(846, 37);
+            this.buttonAllarm39.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm39.Name = "buttonAllarm39";
-            this.buttonAllarm39.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm39.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm39.TabIndex = 682;
             this.buttonAllarm39.UseVisualStyleBackColor = false;
             // 
@@ -8157,9 +8603,10 @@ namespace ProductionLaunch
             this.buttonAllarm38.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm38.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm38.Location = new System.Drawing.Point(504, 24);
+            this.buttonAllarm38.Location = new System.Drawing.Point(756, 37);
+            this.buttonAllarm38.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm38.Name = "buttonAllarm38";
-            this.buttonAllarm38.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm38.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm38.TabIndex = 681;
             this.buttonAllarm38.UseVisualStyleBackColor = false;
             // 
@@ -8172,9 +8619,10 @@ namespace ProductionLaunch
             this.buttonAllarm37.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm37.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm37.Location = new System.Drawing.Point(444, 24);
+            this.buttonAllarm37.Location = new System.Drawing.Point(666, 37);
+            this.buttonAllarm37.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm37.Name = "buttonAllarm37";
-            this.buttonAllarm37.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm37.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm37.TabIndex = 680;
             this.buttonAllarm37.UseVisualStyleBackColor = false;
             // 
@@ -8187,9 +8635,10 @@ namespace ProductionLaunch
             this.buttonAllarm36.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm36.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm36.Location = new System.Drawing.Point(384, 24);
+            this.buttonAllarm36.Location = new System.Drawing.Point(576, 37);
+            this.buttonAllarm36.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm36.Name = "buttonAllarm36";
-            this.buttonAllarm36.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm36.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm36.TabIndex = 679;
             this.buttonAllarm36.UseVisualStyleBackColor = false;
             // 
@@ -8202,9 +8651,10 @@ namespace ProductionLaunch
             this.buttonAllarm35.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm35.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm35.Location = new System.Drawing.Point(324, 24);
+            this.buttonAllarm35.Location = new System.Drawing.Point(486, 37);
+            this.buttonAllarm35.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm35.Name = "buttonAllarm35";
-            this.buttonAllarm35.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm35.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm35.TabIndex = 678;
             this.buttonAllarm35.UseVisualStyleBackColor = false;
             // 
@@ -8217,9 +8667,10 @@ namespace ProductionLaunch
             this.buttonAllarm34.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm34.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm34.Location = new System.Drawing.Point(264, 24);
+            this.buttonAllarm34.Location = new System.Drawing.Point(396, 37);
+            this.buttonAllarm34.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm34.Name = "buttonAllarm34";
-            this.buttonAllarm34.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm34.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm34.TabIndex = 677;
             this.buttonAllarm34.UseVisualStyleBackColor = false;
             // 
@@ -8232,9 +8683,10 @@ namespace ProductionLaunch
             this.buttonAllarm33.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm33.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm33.Location = new System.Drawing.Point(204, 24);
+            this.buttonAllarm33.Location = new System.Drawing.Point(306, 37);
+            this.buttonAllarm33.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm33.Name = "buttonAllarm33";
-            this.buttonAllarm33.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm33.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm33.TabIndex = 676;
             this.buttonAllarm33.UseVisualStyleBackColor = false;
             // 
@@ -8247,9 +8699,10 @@ namespace ProductionLaunch
             this.buttonAllarm32.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm32.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm32.Location = new System.Drawing.Point(144, 24);
+            this.buttonAllarm32.Location = new System.Drawing.Point(216, 37);
+            this.buttonAllarm32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm32.Name = "buttonAllarm32";
-            this.buttonAllarm32.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm32.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm32.TabIndex = 675;
             this.buttonAllarm32.UseVisualStyleBackColor = false;
             // 
@@ -8262,9 +8715,10 @@ namespace ProductionLaunch
             this.buttonAllarm31.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm31.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm31.Location = new System.Drawing.Point(84, 24);
+            this.buttonAllarm31.Location = new System.Drawing.Point(126, 37);
+            this.buttonAllarm31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm31.Name = "buttonAllarm31";
-            this.buttonAllarm31.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm31.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm31.TabIndex = 674;
             this.buttonAllarm31.UseVisualStyleBackColor = false;
             // 
@@ -8277,9 +8731,10 @@ namespace ProductionLaunch
             this.buttonAllarm30.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAllarm30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.buttonAllarm30.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAllarm30.Location = new System.Drawing.Point(24, 24);
+            this.buttonAllarm30.Location = new System.Drawing.Point(36, 37);
+            this.buttonAllarm30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAllarm30.Name = "buttonAllarm30";
-            this.buttonAllarm30.Size = new System.Drawing.Size(20, 20);
+            this.buttonAllarm30.Size = new System.Drawing.Size(30, 31);
             this.buttonAllarm30.TabIndex = 673;
             this.buttonAllarm30.UseVisualStyleBackColor = false;
             // 
@@ -8299,7 +8754,7 @@ namespace ProductionLaunch
             tabPageColorStyle22.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT1.HoverStyle = tabPageColorStyle22;
             this.tabPageT1.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT1.Name = "tabPageT1";
             tabPageColorStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle23.BackFadeColor = System.Drawing.Color.Transparent;
@@ -8316,7 +8771,7 @@ namespace ProductionLaunch
             tabPageColorStyle24.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle24.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT1.SelectedStyle = tabPageColorStyle24;
-            this.tabPageT1.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT1.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT1.StyleFromParent = false;
             this.tabPageT1.TabIndex = 4;
             treeNode10.Name = "";
@@ -8325,17 +8780,18 @@ namespace ProductionLaunch
             this.tabPageT1.Tag = treeNode10;
             this.tabPageT1.Text = "Recipe      ";
             this.tabPageT1.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT1.TextBounds")));
-            this.tabPageT1.TextSize = new System.Drawing.SizeF(71.02423F, 25.4663F);
+            this.tabPageT1.TextSize = new System.Drawing.SizeF(106.5364F, 38.19946F);
             // 
             // tabControlRobotCode
             // 
             this.tabControlRobotCode.Controls.Add(this.tabPage5);
             this.tabControlRobotCode.Controls.Add(this.tabPage6);
             this.tabControlRobotCode.Font = new System.Drawing.Font("Verdana", 12F);
-            this.tabControlRobotCode.Location = new System.Drawing.Point(20, 20);
+            this.tabControlRobotCode.Location = new System.Drawing.Point(30, 31);
+            this.tabControlRobotCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabControlRobotCode.Name = "tabControlRobotCode";
             this.tabControlRobotCode.SelectedIndex = 0;
-            this.tabControlRobotCode.Size = new System.Drawing.Size(1300, 720);
+            this.tabControlRobotCode.Size = new System.Drawing.Size(1950, 1108);
             this.tabControlRobotCode.TabIndex = 123;
             // 
             // tabPage5
@@ -8397,10 +8853,11 @@ namespace ProductionLaunch
             this.tabPage5.Controls.Add(this.labelR3Aux1_00);
             this.tabPage5.Controls.Add(this.checkBoxR1Aux1_00);
             this.tabPage5.Controls.Add(this.labelR1Aux0_00);
-            this.tabPage5.Location = new System.Drawing.Point(4, 27);
+            this.tabPage5.Location = new System.Drawing.Point(4, 38);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1292, 689);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage5.Size = new System.Drawing.Size(1942, 1066);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "add new model name";
             // 
@@ -8417,9 +8874,10 @@ namespace ProductionLaunch
             this.checkBoxR4Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR4Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR4Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR4Aux0_00.Location = new System.Drawing.Point(788, 89);
+            this.checkBoxR4Aux0_00.Location = new System.Drawing.Point(1182, 137);
+            this.checkBoxR4Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR4Aux0_00.Name = "checkBoxR4Aux0_00";
-            this.checkBoxR4Aux0_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR4Aux0_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR4Aux0_00.TabIndex = 130;
             this.checkBoxR4Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxR4Aux0_00.Visible = false;
@@ -8432,9 +8890,10 @@ namespace ProductionLaunch
             this.labelR4Aux1_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Aux1_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Aux1_00.Location = new System.Drawing.Point(873, 130);
+            this.labelR4Aux1_00.Location = new System.Drawing.Point(1310, 200);
+            this.labelR4Aux1_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Aux1_00.Name = "labelR4Aux1_00";
-            this.labelR4Aux1_00.Size = new System.Drawing.Size(66, 13);
+            this.labelR4Aux1_00.Size = new System.Drawing.Size(99, 20);
             this.labelR4Aux1_00.TabIndex = 133;
             this.labelR4Aux1_00.Text = "side brush";
             this.labelR4Aux1_00.Visible = false;
@@ -8452,9 +8911,10 @@ namespace ProductionLaunch
             this.checkBoxR4Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR4Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR4Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR4Aux1_00.Location = new System.Drawing.Point(788, 129);
+            this.checkBoxR4Aux1_00.Location = new System.Drawing.Point(1182, 198);
+            this.checkBoxR4Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR4Aux1_00.Name = "checkBoxR4Aux1_00";
-            this.checkBoxR4Aux1_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR4Aux1_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR4Aux1_00.TabIndex = 131;
             this.checkBoxR4Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxR4Aux1_00.Visible = false;
@@ -8473,9 +8933,10 @@ namespace ProductionLaunch
             this.checkBoxR4Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR4Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR4Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR4Aux2_00.Location = new System.Drawing.Point(788, 169);
+            this.checkBoxR4Aux2_00.Location = new System.Drawing.Point(1182, 260);
+            this.checkBoxR4Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR4Aux2_00.Name = "checkBoxR4Aux2_00";
-            this.checkBoxR4Aux2_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR4Aux2_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR4Aux2_00.TabIndex = 132;
             this.checkBoxR4Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxR4Aux2_00.Visible = false;
@@ -8488,9 +8949,10 @@ namespace ProductionLaunch
             this.labelR4Aux0_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Aux0_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Aux0_00.Location = new System.Drawing.Point(873, 89);
+            this.labelR4Aux0_00.Location = new System.Drawing.Point(1310, 137);
+            this.labelR4Aux0_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Aux0_00.Name = "labelR4Aux0_00";
-            this.labelR4Aux0_00.Size = new System.Drawing.Size(83, 13);
+            this.labelR4Aux0_00.Size = new System.Drawing.Size(126, 20);
             this.labelR4Aux0_00.TabIndex = 134;
             this.labelR4Aux0_00.Text = "bottom brush";
             this.labelR4Aux0_00.Visible = false;
@@ -8508,9 +8970,10 @@ namespace ProductionLaunch
             this.checkBoxR4Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR4Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR4Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR4Aux0_01.Location = new System.Drawing.Point(788, 209);
+            this.checkBoxR4Aux0_01.Location = new System.Drawing.Point(1182, 322);
+            this.checkBoxR4Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR4Aux0_01.Name = "checkBoxR4Aux0_01";
-            this.checkBoxR4Aux0_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR4Aux0_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR4Aux0_01.TabIndex = 135;
             this.checkBoxR4Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxR4Aux0_01.Visible = false;
@@ -8528,9 +8991,10 @@ namespace ProductionLaunch
             this.checkBoxR4Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR4Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR4Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR4Aux1_01.Location = new System.Drawing.Point(788, 249);
+            this.checkBoxR4Aux1_01.Location = new System.Drawing.Point(1182, 383);
+            this.checkBoxR4Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR4Aux1_01.Name = "checkBoxR4Aux1_01";
-            this.checkBoxR4Aux1_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR4Aux1_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR4Aux1_01.TabIndex = 136;
             this.checkBoxR4Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxR4Aux1_01.Visible = false;
@@ -8542,9 +9006,10 @@ namespace ProductionLaunch
             this.labelR4Aux2_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Aux2_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Aux2_01.Location = new System.Drawing.Point(873, 289);
+            this.labelR4Aux2_01.Location = new System.Drawing.Point(1310, 445);
+            this.labelR4Aux2_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Aux2_01.Name = "labelR4Aux2_01";
-            this.labelR4Aux2_01.Size = new System.Drawing.Size(96, 13);
+            this.labelR4Aux2_01.Size = new System.Drawing.Size(142, 20);
             this.labelR4Aux2_01.TabIndex = 141;
             this.labelR4Aux2_01.Text = "blocc. anteriore";
             this.labelR4Aux2_01.Visible = false;
@@ -8556,9 +9021,10 @@ namespace ProductionLaunch
             this.labelR4Aux2_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Aux2_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Aux2_00.Location = new System.Drawing.Point(873, 169);
+            this.labelR4Aux2_00.Location = new System.Drawing.Point(1310, 260);
+            this.labelR4Aux2_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Aux2_00.Name = "labelR4Aux2_00";
-            this.labelR4Aux2_00.Size = new System.Drawing.Size(82, 13);
+            this.labelR4Aux2_00.Size = new System.Drawing.Size(125, 20);
             this.labelR4Aux2_00.TabIndex = 137;
             this.labelR4Aux2_00.Text = "b. paintbrush";
             this.labelR4Aux2_00.Visible = false;
@@ -8576,9 +9042,10 @@ namespace ProductionLaunch
             this.checkBoxR4Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR4Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR4Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR4Aux2_01.Location = new System.Drawing.Point(788, 289);
+            this.checkBoxR4Aux2_01.Location = new System.Drawing.Point(1182, 445);
+            this.checkBoxR4Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR4Aux2_01.Name = "checkBoxR4Aux2_01";
-            this.checkBoxR4Aux2_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR4Aux2_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR4Aux2_01.TabIndex = 140;
             this.checkBoxR4Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxR4Aux2_01.Visible = false;
@@ -8590,9 +9057,10 @@ namespace ProductionLaunch
             this.labelR4Aux0_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Aux0_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Aux0_01.Location = new System.Drawing.Point(873, 209);
+            this.labelR4Aux0_01.Location = new System.Drawing.Point(1310, 322);
+            this.labelR4Aux0_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Aux0_01.Name = "labelR4Aux0_01";
-            this.labelR4Aux0_01.Size = new System.Drawing.Size(82, 13);
+            this.labelR4Aux0_01.Size = new System.Drawing.Size(125, 20);
             this.labelR4Aux0_01.TabIndex = 138;
             this.labelR4Aux0_01.Text = "non utilizzato";
             this.labelR4Aux0_01.Visible = false;
@@ -8604,9 +9072,10 @@ namespace ProductionLaunch
             this.labelR4Aux1_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Aux1_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Aux1_01.Location = new System.Drawing.Point(873, 249);
+            this.labelR4Aux1_01.Location = new System.Drawing.Point(1310, 383);
+            this.labelR4Aux1_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Aux1_01.Name = "labelR4Aux1_01";
-            this.labelR4Aux1_01.Size = new System.Drawing.Size(82, 13);
+            this.labelR4Aux1_01.Size = new System.Drawing.Size(125, 20);
             this.labelR4Aux1_01.TabIndex = 139;
             this.labelR4Aux1_01.Text = "non utilizzato";
             this.labelR4Aux1_01.Visible = false;
@@ -8618,9 +9087,10 @@ namespace ProductionLaunch
             this.labelR2Aux2_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Aux2_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Aux2_01.Location = new System.Drawing.Point(497, 294);
+            this.labelR2Aux2_01.Location = new System.Drawing.Point(746, 452);
+            this.labelR2Aux2_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Aux2_01.Name = "labelR2Aux2_01";
-            this.labelR2Aux2_01.Size = new System.Drawing.Size(66, 13);
+            this.labelR2Aux2_01.Size = new System.Drawing.Size(99, 20);
             this.labelR2Aux2_01.TabIndex = 129;
             this.labelR2Aux2_01.Text = "side brush";
             this.labelR2Aux2_01.Visible = false;
@@ -8638,9 +9108,10 @@ namespace ProductionLaunch
             this.checkBoxR2Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR2Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR2Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Aux2_01.Location = new System.Drawing.Point(420, 290);
+            this.checkBoxR2Aux2_01.Location = new System.Drawing.Point(630, 446);
+            this.checkBoxR2Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Aux2_01.Name = "checkBoxR2Aux2_01";
-            this.checkBoxR2Aux2_01.Size = new System.Drawing.Size(70, 32);
+            this.checkBoxR2Aux2_01.Size = new System.Drawing.Size(105, 49);
             this.checkBoxR2Aux2_01.TabIndex = 128;
             this.checkBoxR2Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxR2Aux2_01.Visible = false;
@@ -8666,50 +9137,55 @@ namespace ProductionLaunch
             this.grouperManageD4.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.grouperManageD4.GroupImage = null;
             this.grouperManageD4.GroupTitle = "";
-            this.grouperManageD4.Location = new System.Drawing.Point(760, 367);
+            this.grouperManageD4.Location = new System.Drawing.Point(1140, 557);
+            this.grouperManageD4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grouperManageD4.Name = "grouperManageD4";
-            this.grouperManageD4.Padding = new System.Windows.Forms.Padding(23, 20, 23, 20);
+            this.grouperManageD4.Padding = new System.Windows.Forms.Padding(34, 31, 34, 31);
             this.grouperManageD4.PaintGroupBox = false;
             this.grouperManageD4.RoundCorners = 5;
             this.grouperManageD4.ShadowColor = System.Drawing.Color.Transparent;
             this.grouperManageD4.ShadowControl = false;
             this.grouperManageD4.ShadowThickness = 5;
-            this.grouperManageD4.Size = new System.Drawing.Size(240, 280);
+            this.grouperManageD4.Size = new System.Drawing.Size(360, 431);
             this.grouperManageD4.TabIndex = 127;
             // 
             // textBoxManageD4Param4
             // 
             this.textBoxManageD4Param4.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD4Param4.Location = new System.Drawing.Point(150, 220);
+            this.textBoxManageD4Param4.Location = new System.Drawing.Point(225, 338);
+            this.textBoxManageD4Param4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD4Param4.Name = "textBoxManageD4Param4";
-            this.textBoxManageD4Param4.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD4Param4.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD4Param4.TabIndex = 125;
             this.textBoxManageD4Param4.Text = "600";
             // 
             // textBoxManageD4Param2
             // 
             this.textBoxManageD4Param2.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD4Param2.Location = new System.Drawing.Point(150, 100);
+            this.textBoxManageD4Param2.Location = new System.Drawing.Point(225, 154);
+            this.textBoxManageD4Param2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD4Param2.Name = "textBoxManageD4Param2";
-            this.textBoxManageD4Param2.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD4Param2.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD4Param2.TabIndex = 124;
             this.textBoxManageD4Param2.Text = "3";
             // 
             // textBoxManageD4Param3
             // 
             this.textBoxManageD4Param3.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD4Param3.Location = new System.Drawing.Point(150, 160);
+            this.textBoxManageD4Param3.Location = new System.Drawing.Point(225, 246);
+            this.textBoxManageD4Param3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD4Param3.Name = "textBoxManageD4Param3";
-            this.textBoxManageD4Param3.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD4Param3.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD4Param3.TabIndex = 123;
             this.textBoxManageD4Param3.Text = "1200";
             // 
             // textBoxManageD4Param1
             // 
             this.textBoxManageD4Param1.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD4Param1.Location = new System.Drawing.Point(150, 40);
+            this.textBoxManageD4Param1.Location = new System.Drawing.Point(225, 62);
+            this.textBoxManageD4Param1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD4Param1.Name = "textBoxManageD4Param1";
-            this.textBoxManageD4Param1.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD4Param1.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD4Param1.TabIndex = 122;
             this.textBoxManageD4Param1.Text = "1";
             // 
@@ -8720,9 +9196,10 @@ namespace ProductionLaunch
             this.labelManageD4Param4Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD4Param4Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD4Param4Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD4Param4Name.Location = new System.Drawing.Point(5, 220);
+            this.labelManageD4Param4Name.Location = new System.Drawing.Point(8, 338);
+            this.labelManageD4Param4Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD4Param4Name.Name = "labelManageD4Param4Name";
-            this.labelManageD4Param4Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD4Param4Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD4Param4Name.TabIndex = 121;
             this.labelManageD4Param4Name.Text = "d4 param 4 name";
             // 
@@ -8733,9 +9210,10 @@ namespace ProductionLaunch
             this.labelManageD4Param3Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD4Param3Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD4Param3Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD4Param3Name.Location = new System.Drawing.Point(5, 160);
+            this.labelManageD4Param3Name.Location = new System.Drawing.Point(8, 246);
+            this.labelManageD4Param3Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD4Param3Name.Name = "labelManageD4Param3Name";
-            this.labelManageD4Param3Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD4Param3Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD4Param3Name.TabIndex = 120;
             this.labelManageD4Param3Name.Text = "d4 param 3 name";
             // 
@@ -8746,9 +9224,10 @@ namespace ProductionLaunch
             this.labelManageD4Param2Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD4Param2Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD4Param2Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD4Param2Name.Location = new System.Drawing.Point(5, 100);
+            this.labelManageD4Param2Name.Location = new System.Drawing.Point(8, 154);
+            this.labelManageD4Param2Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD4Param2Name.Name = "labelManageD4Param2Name";
-            this.labelManageD4Param2Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD4Param2Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD4Param2Name.TabIndex = 119;
             this.labelManageD4Param2Name.Text = "d4 param 2 name";
             // 
@@ -8759,9 +9238,10 @@ namespace ProductionLaunch
             this.labelManageD4Param1Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD4Param1Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD4Param1Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD4Param1Name.Location = new System.Drawing.Point(5, 40);
+            this.labelManageD4Param1Name.Location = new System.Drawing.Point(8, 62);
+            this.labelManageD4Param1Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD4Param1Name.Name = "labelManageD4Param1Name";
-            this.labelManageD4Param1Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD4Param1Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD4Param1Name.TabIndex = 118;
             this.labelManageD4Param1Name.Text = "d4 param 1 name";
             // 
@@ -8772,9 +9252,10 @@ namespace ProductionLaunch
             this.labelManageD4Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD4Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD4Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD4Name.Location = new System.Drawing.Point(25, 0);
+            this.labelManageD4Name.Location = new System.Drawing.Point(38, 0);
+            this.labelManageD4Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD4Name.Name = "labelManageD4Name";
-            this.labelManageD4Name.Size = new System.Drawing.Size(63, 16);
+            this.labelManageD4Name.Size = new System.Drawing.Size(100, 25);
             this.labelManageD4Name.TabIndex = 23;
             this.labelManageD4Name.Text = "d4 name";
             // 
@@ -8799,50 +9280,55 @@ namespace ProductionLaunch
             this.grouperManageD3.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.grouperManageD3.GroupImage = null;
             this.grouperManageD3.GroupTitle = "";
-            this.grouperManageD3.Location = new System.Drawing.Point(515, 367);
+            this.grouperManageD3.Location = new System.Drawing.Point(772, 557);
+            this.grouperManageD3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grouperManageD3.Name = "grouperManageD3";
-            this.grouperManageD3.Padding = new System.Windows.Forms.Padding(23, 20, 23, 20);
+            this.grouperManageD3.Padding = new System.Windows.Forms.Padding(34, 31, 34, 31);
             this.grouperManageD3.PaintGroupBox = false;
             this.grouperManageD3.RoundCorners = 5;
             this.grouperManageD3.ShadowColor = System.Drawing.Color.Transparent;
             this.grouperManageD3.ShadowControl = false;
             this.grouperManageD3.ShadowThickness = 5;
-            this.grouperManageD3.Size = new System.Drawing.Size(240, 280);
+            this.grouperManageD3.Size = new System.Drawing.Size(360, 431);
             this.grouperManageD3.TabIndex = 126;
             // 
             // textBoxManageD3Param4
             // 
             this.textBoxManageD3Param4.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD3Param4.Location = new System.Drawing.Point(150, 220);
+            this.textBoxManageD3Param4.Location = new System.Drawing.Point(225, 338);
+            this.textBoxManageD3Param4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD3Param4.Name = "textBoxManageD3Param4";
-            this.textBoxManageD3Param4.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD3Param4.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD3Param4.TabIndex = 125;
             this.textBoxManageD3Param4.Text = "0";
             // 
             // textBoxManageD3Param2
             // 
             this.textBoxManageD3Param2.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD3Param2.Location = new System.Drawing.Point(150, 100);
+            this.textBoxManageD3Param2.Location = new System.Drawing.Point(225, 154);
+            this.textBoxManageD3Param2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD3Param2.Name = "textBoxManageD3Param2";
-            this.textBoxManageD3Param2.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD3Param2.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD3Param2.TabIndex = 124;
             this.textBoxManageD3Param2.Text = "0.5";
             // 
             // textBoxManageD3Param3
             // 
             this.textBoxManageD3Param3.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD3Param3.Location = new System.Drawing.Point(150, 160);
+            this.textBoxManageD3Param3.Location = new System.Drawing.Point(225, 246);
+            this.textBoxManageD3Param3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD3Param3.Name = "textBoxManageD3Param3";
-            this.textBoxManageD3Param3.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD3Param3.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD3Param3.TabIndex = 123;
             this.textBoxManageD3Param3.Text = "0";
             // 
             // textBoxManageD3Param1
             // 
             this.textBoxManageD3Param1.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD3Param1.Location = new System.Drawing.Point(150, 40);
+            this.textBoxManageD3Param1.Location = new System.Drawing.Point(225, 62);
+            this.textBoxManageD3Param1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD3Param1.Name = "textBoxManageD3Param1";
-            this.textBoxManageD3Param1.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD3Param1.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD3Param1.TabIndex = 122;
             this.textBoxManageD3Param1.Text = "2.3";
             // 
@@ -8853,9 +9339,10 @@ namespace ProductionLaunch
             this.labelManageD3Param4Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD3Param4Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD3Param4Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD3Param4Name.Location = new System.Drawing.Point(5, 220);
+            this.labelManageD3Param4Name.Location = new System.Drawing.Point(8, 338);
+            this.labelManageD3Param4Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD3Param4Name.Name = "labelManageD3Param4Name";
-            this.labelManageD3Param4Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD3Param4Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD3Param4Name.TabIndex = 121;
             this.labelManageD3Param4Name.Text = "d3 param 4 name";
             // 
@@ -8866,9 +9353,10 @@ namespace ProductionLaunch
             this.labelManageD3Param3Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD3Param3Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD3Param3Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD3Param3Name.Location = new System.Drawing.Point(5, 160);
+            this.labelManageD3Param3Name.Location = new System.Drawing.Point(8, 246);
+            this.labelManageD3Param3Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD3Param3Name.Name = "labelManageD3Param3Name";
-            this.labelManageD3Param3Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD3Param3Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD3Param3Name.TabIndex = 120;
             this.labelManageD3Param3Name.Text = "d3 param 3 name";
             // 
@@ -8879,9 +9367,10 @@ namespace ProductionLaunch
             this.labelManageD3Param2Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD3Param2Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD3Param2Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD3Param2Name.Location = new System.Drawing.Point(5, 100);
+            this.labelManageD3Param2Name.Location = new System.Drawing.Point(8, 154);
+            this.labelManageD3Param2Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD3Param2Name.Name = "labelManageD3Param2Name";
-            this.labelManageD3Param2Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD3Param2Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD3Param2Name.TabIndex = 119;
             this.labelManageD3Param2Name.Text = "d3 param 2 name";
             // 
@@ -8892,9 +9381,10 @@ namespace ProductionLaunch
             this.labelManageD3Param1Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD3Param1Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD3Param1Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD3Param1Name.Location = new System.Drawing.Point(5, 40);
+            this.labelManageD3Param1Name.Location = new System.Drawing.Point(8, 62);
+            this.labelManageD3Param1Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD3Param1Name.Name = "labelManageD3Param1Name";
-            this.labelManageD3Param1Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD3Param1Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD3Param1Name.TabIndex = 118;
             this.labelManageD3Param1Name.Text = "d3 param 1 name";
             // 
@@ -8905,9 +9395,10 @@ namespace ProductionLaunch
             this.labelManageD3Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD3Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD3Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD3Name.Location = new System.Drawing.Point(25, 0);
+            this.labelManageD3Name.Location = new System.Drawing.Point(38, 0);
+            this.labelManageD3Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD3Name.Name = "labelManageD3Name";
-            this.labelManageD3Name.Size = new System.Drawing.Size(63, 16);
+            this.labelManageD3Name.Size = new System.Drawing.Size(100, 25);
             this.labelManageD3Name.TabIndex = 23;
             this.labelManageD3Name.Text = "d3 name";
             // 
@@ -8932,50 +9423,55 @@ namespace ProductionLaunch
             this.grouperManageD2.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.grouperManageD2.GroupImage = null;
             this.grouperManageD2.GroupTitle = "";
-            this.grouperManageD2.Location = new System.Drawing.Point(260, 367);
+            this.grouperManageD2.Location = new System.Drawing.Point(390, 557);
+            this.grouperManageD2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grouperManageD2.Name = "grouperManageD2";
-            this.grouperManageD2.Padding = new System.Windows.Forms.Padding(23, 20, 23, 20);
+            this.grouperManageD2.Padding = new System.Windows.Forms.Padding(34, 31, 34, 31);
             this.grouperManageD2.PaintGroupBox = false;
             this.grouperManageD2.RoundCorners = 5;
             this.grouperManageD2.ShadowColor = System.Drawing.Color.Transparent;
             this.grouperManageD2.ShadowControl = false;
             this.grouperManageD2.ShadowThickness = 5;
-            this.grouperManageD2.Size = new System.Drawing.Size(240, 280);
+            this.grouperManageD2.Size = new System.Drawing.Size(360, 431);
             this.grouperManageD2.TabIndex = 125;
             // 
             // textBoxManageD2Param4
             // 
             this.textBoxManageD2Param4.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD2Param4.Location = new System.Drawing.Point(150, 220);
+            this.textBoxManageD2Param4.Location = new System.Drawing.Point(225, 338);
+            this.textBoxManageD2Param4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD2Param4.Name = "textBoxManageD2Param4";
-            this.textBoxManageD2Param4.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD2Param4.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD2Param4.TabIndex = 125;
             this.textBoxManageD2Param4.Text = "0";
             // 
             // textBoxManageD2Param2
             // 
             this.textBoxManageD2Param2.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD2Param2.Location = new System.Drawing.Point(150, 100);
+            this.textBoxManageD2Param2.Location = new System.Drawing.Point(225, 154);
+            this.textBoxManageD2Param2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD2Param2.Name = "textBoxManageD2Param2";
-            this.textBoxManageD2Param2.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD2Param2.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD2Param2.TabIndex = 124;
             this.textBoxManageD2Param2.Text = "0";
             // 
             // textBoxManageD2Param3
             // 
             this.textBoxManageD2Param3.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD2Param3.Location = new System.Drawing.Point(150, 160);
+            this.textBoxManageD2Param3.Location = new System.Drawing.Point(225, 246);
+            this.textBoxManageD2Param3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD2Param3.Name = "textBoxManageD2Param3";
-            this.textBoxManageD2Param3.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD2Param3.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD2Param3.TabIndex = 123;
             this.textBoxManageD2Param3.Text = "0";
             // 
             // textBoxManageD2Param1
             // 
             this.textBoxManageD2Param1.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD2Param1.Location = new System.Drawing.Point(150, 40);
+            this.textBoxManageD2Param1.Location = new System.Drawing.Point(225, 62);
+            this.textBoxManageD2Param1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD2Param1.Name = "textBoxManageD2Param1";
-            this.textBoxManageD2Param1.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD2Param1.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD2Param1.TabIndex = 122;
             this.textBoxManageD2Param1.Text = "0";
             // 
@@ -8986,9 +9482,10 @@ namespace ProductionLaunch
             this.labelManageD2Param4Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD2Param4Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD2Param4Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD2Param4Name.Location = new System.Drawing.Point(5, 220);
+            this.labelManageD2Param4Name.Location = new System.Drawing.Point(8, 338);
+            this.labelManageD2Param4Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD2Param4Name.Name = "labelManageD2Param4Name";
-            this.labelManageD2Param4Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD2Param4Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD2Param4Name.TabIndex = 121;
             this.labelManageD2Param4Name.Text = "d2 param 4 name";
             // 
@@ -8999,9 +9496,10 @@ namespace ProductionLaunch
             this.labelManageD2Param3Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD2Param3Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD2Param3Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD2Param3Name.Location = new System.Drawing.Point(5, 160);
+            this.labelManageD2Param3Name.Location = new System.Drawing.Point(8, 246);
+            this.labelManageD2Param3Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD2Param3Name.Name = "labelManageD2Param3Name";
-            this.labelManageD2Param3Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD2Param3Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD2Param3Name.TabIndex = 120;
             this.labelManageD2Param3Name.Text = "d2 param 3 name";
             // 
@@ -9012,9 +9510,10 @@ namespace ProductionLaunch
             this.labelManageD2Param2Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD2Param2Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD2Param2Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD2Param2Name.Location = new System.Drawing.Point(5, 100);
+            this.labelManageD2Param2Name.Location = new System.Drawing.Point(8, 154);
+            this.labelManageD2Param2Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD2Param2Name.Name = "labelManageD2Param2Name";
-            this.labelManageD2Param2Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD2Param2Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD2Param2Name.TabIndex = 119;
             this.labelManageD2Param2Name.Text = "d2 param 2 name";
             // 
@@ -9025,9 +9524,10 @@ namespace ProductionLaunch
             this.labelManageD2Param1Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD2Param1Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD2Param1Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD2Param1Name.Location = new System.Drawing.Point(5, 40);
+            this.labelManageD2Param1Name.Location = new System.Drawing.Point(8, 62);
+            this.labelManageD2Param1Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD2Param1Name.Name = "labelManageD2Param1Name";
-            this.labelManageD2Param1Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD2Param1Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD2Param1Name.TabIndex = 118;
             this.labelManageD2Param1Name.Text = "d2 param 1 name";
             // 
@@ -9038,9 +9538,10 @@ namespace ProductionLaunch
             this.labelManageD2Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD2Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD2Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD2Name.Location = new System.Drawing.Point(25, 0);
+            this.labelManageD2Name.Location = new System.Drawing.Point(38, 0);
+            this.labelManageD2Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD2Name.Name = "labelManageD2Name";
-            this.labelManageD2Name.Size = new System.Drawing.Size(63, 16);
+            this.labelManageD2Name.Size = new System.Drawing.Size(100, 25);
             this.labelManageD2Name.TabIndex = 23;
             this.labelManageD2Name.Text = "d2 name";
             // 
@@ -9065,50 +9566,55 @@ namespace ProductionLaunch
             this.grouperManageD1.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.grouperManageD1.GroupImage = null;
             this.grouperManageD1.GroupTitle = "";
-            this.grouperManageD1.Location = new System.Drawing.Point(10, 356);
+            this.grouperManageD1.Location = new System.Drawing.Point(15, 540);
+            this.grouperManageD1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.grouperManageD1.Name = "grouperManageD1";
-            this.grouperManageD1.Padding = new System.Windows.Forms.Padding(23, 20, 23, 20);
+            this.grouperManageD1.Padding = new System.Windows.Forms.Padding(34, 31, 34, 31);
             this.grouperManageD1.PaintGroupBox = false;
             this.grouperManageD1.RoundCorners = 5;
             this.grouperManageD1.ShadowColor = System.Drawing.Color.Transparent;
             this.grouperManageD1.ShadowControl = false;
             this.grouperManageD1.ShadowThickness = 5;
-            this.grouperManageD1.Size = new System.Drawing.Size(240, 280);
+            this.grouperManageD1.Size = new System.Drawing.Size(360, 431);
             this.grouperManageD1.TabIndex = 124;
             // 
             // textBoxManageD1Param4
             // 
             this.textBoxManageD1Param4.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD1Param4.Location = new System.Drawing.Point(150, 220);
+            this.textBoxManageD1Param4.Location = new System.Drawing.Point(225, 338);
+            this.textBoxManageD1Param4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD1Param4.Name = "textBoxManageD1Param4";
-            this.textBoxManageD1Param4.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD1Param4.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD1Param4.TabIndex = 125;
             this.textBoxManageD1Param4.Text = "0";
             // 
             // textBoxManageD1Param2
             // 
             this.textBoxManageD1Param2.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD1Param2.Location = new System.Drawing.Point(150, 100);
+            this.textBoxManageD1Param2.Location = new System.Drawing.Point(225, 154);
+            this.textBoxManageD1Param2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD1Param2.Name = "textBoxManageD1Param2";
-            this.textBoxManageD1Param2.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD1Param2.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD1Param2.TabIndex = 124;
             this.textBoxManageD1Param2.Text = "4.5";
             // 
             // textBoxManageD1Param3
             // 
             this.textBoxManageD1Param3.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD1Param3.Location = new System.Drawing.Point(150, 160);
+            this.textBoxManageD1Param3.Location = new System.Drawing.Point(225, 246);
+            this.textBoxManageD1Param3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD1Param3.Name = "textBoxManageD1Param3";
-            this.textBoxManageD1Param3.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD1Param3.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD1Param3.TabIndex = 123;
             this.textBoxManageD1Param3.Text = "0";
             // 
             // textBoxManageD1Param1
             // 
             this.textBoxManageD1Param1.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.textBoxManageD1Param1.Location = new System.Drawing.Point(150, 40);
+            this.textBoxManageD1Param1.Location = new System.Drawing.Point(225, 62);
+            this.textBoxManageD1Param1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageD1Param1.Name = "textBoxManageD1Param1";
-            this.textBoxManageD1Param1.Size = new System.Drawing.Size(80, 31);
+            this.textBoxManageD1Param1.Size = new System.Drawing.Size(118, 42);
             this.textBoxManageD1Param1.TabIndex = 122;
             this.textBoxManageD1Param1.Text = "1";
             // 
@@ -9119,9 +9625,10 @@ namespace ProductionLaunch
             this.labelManageD1Param4Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD1Param4Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD1Param4Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD1Param4Name.Location = new System.Drawing.Point(5, 220);
+            this.labelManageD1Param4Name.Location = new System.Drawing.Point(8, 338);
+            this.labelManageD1Param4Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD1Param4Name.Name = "labelManageD1Param4Name";
-            this.labelManageD1Param4Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD1Param4Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD1Param4Name.TabIndex = 121;
             this.labelManageD1Param4Name.Text = "d1 param 4 name";
             // 
@@ -9132,9 +9639,10 @@ namespace ProductionLaunch
             this.labelManageD1Param3Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD1Param3Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD1Param3Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD1Param3Name.Location = new System.Drawing.Point(5, 160);
+            this.labelManageD1Param3Name.Location = new System.Drawing.Point(8, 246);
+            this.labelManageD1Param3Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD1Param3Name.Name = "labelManageD1Param3Name";
-            this.labelManageD1Param3Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD1Param3Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD1Param3Name.TabIndex = 120;
             this.labelManageD1Param3Name.Text = "d1 param 3 name";
             // 
@@ -9145,9 +9653,10 @@ namespace ProductionLaunch
             this.labelManageD1Param2Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD1Param2Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD1Param2Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD1Param2Name.Location = new System.Drawing.Point(5, 100);
+            this.labelManageD1Param2Name.Location = new System.Drawing.Point(8, 154);
+            this.labelManageD1Param2Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD1Param2Name.Name = "labelManageD1Param2Name";
-            this.labelManageD1Param2Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD1Param2Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD1Param2Name.TabIndex = 119;
             this.labelManageD1Param2Name.Text = "d1 param 2 name";
             // 
@@ -9158,9 +9667,10 @@ namespace ProductionLaunch
             this.labelManageD1Param1Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD1Param1Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD1Param1Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD1Param1Name.Location = new System.Drawing.Point(5, 40);
+            this.labelManageD1Param1Name.Location = new System.Drawing.Point(8, 62);
+            this.labelManageD1Param1Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD1Param1Name.Name = "labelManageD1Param1Name";
-            this.labelManageD1Param1Name.Size = new System.Drawing.Size(121, 16);
+            this.labelManageD1Param1Name.Size = new System.Drawing.Size(191, 25);
             this.labelManageD1Param1Name.TabIndex = 118;
             this.labelManageD1Param1Name.Text = "d1 param 1 name";
             // 
@@ -9171,9 +9681,10 @@ namespace ProductionLaunch
             this.labelManageD1Name.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.labelManageD1Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelManageD1Name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelManageD1Name.Location = new System.Drawing.Point(25, 0);
+            this.labelManageD1Name.Location = new System.Drawing.Point(38, 0);
+            this.labelManageD1Name.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelManageD1Name.Name = "labelManageD1Name";
-            this.labelManageD1Name.Size = new System.Drawing.Size(63, 16);
+            this.labelManageD1Name.Size = new System.Drawing.Size(100, 25);
             this.labelManageD1Name.TabIndex = 23;
             this.labelManageD1Name.Text = "d1 name";
             // 
@@ -9182,9 +9693,10 @@ namespace ProductionLaunch
             this.buttonAddNeRobotCodew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(221)))), ((int)(((byte)(228)))));
             this.buttonAddNeRobotCodew.Font = new System.Drawing.Font("Verdana", 12F);
             this.buttonAddNeRobotCodew.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonAddNeRobotCodew.Location = new System.Drawing.Point(788, 26);
+            this.buttonAddNeRobotCodew.Location = new System.Drawing.Point(1182, 40);
+            this.buttonAddNeRobotCodew.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonAddNeRobotCodew.Name = "buttonAddNeRobotCodew";
-            this.buttonAddNeRobotCodew.Size = new System.Drawing.Size(191, 48);
+            this.buttonAddNeRobotCodew.Size = new System.Drawing.Size(286, 74);
             this.buttonAddNeRobotCodew.TabIndex = 11;
             this.buttonAddNeRobotCodew.Text = "add model name";
             this.buttonAddNeRobotCodew.UseVisualStyleBackColor = false;
@@ -9197,9 +9709,10 @@ namespace ProductionLaunch
             this.labelR2Aux1_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Aux1_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Aux1_01.Location = new System.Drawing.Point(497, 250);
+            this.labelR2Aux1_01.Location = new System.Drawing.Point(746, 385);
+            this.labelR2Aux1_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Aux1_01.Name = "labelR2Aux1_01";
-            this.labelR2Aux1_01.Size = new System.Drawing.Size(66, 13);
+            this.labelR2Aux1_01.Size = new System.Drawing.Size(99, 20);
             this.labelR2Aux1_01.TabIndex = 121;
             this.labelR2Aux1_01.Text = "side brush";
             this.labelR2Aux1_01.Visible = false;
@@ -9211,9 +9724,10 @@ namespace ProductionLaunch
             this.labelR2Aux0_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Aux0_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Aux0_01.Location = new System.Drawing.Point(497, 210);
+            this.labelR2Aux0_01.Location = new System.Drawing.Point(746, 323);
+            this.labelR2Aux0_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Aux0_01.Name = "labelR2Aux0_01";
-            this.labelR2Aux0_01.Size = new System.Drawing.Size(83, 13);
+            this.labelR2Aux0_01.Size = new System.Drawing.Size(126, 20);
             this.labelR2Aux0_01.TabIndex = 120;
             this.labelR2Aux0_01.Text = "bottom brush";
             this.labelR2Aux0_01.Visible = false;
@@ -9222,9 +9736,10 @@ namespace ProductionLaunch
             // 
             this.label14.AutoSize = true;
             this.label14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label14.Location = new System.Drawing.Point(30, 90);
+            this.label14.Location = new System.Drawing.Point(45, 138);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(157, 18);
+            this.label14.Size = new System.Drawing.Size(231, 29);
             this.label14.TabIndex = 8;
             this.label14.Text = "robot working flag";
             // 
@@ -9235,9 +9750,10 @@ namespace ProductionLaunch
             this.labelR2Aux2_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Aux2_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Aux2_00.Location = new System.Drawing.Point(497, 170);
+            this.labelR2Aux2_00.Location = new System.Drawing.Point(746, 262);
+            this.labelR2Aux2_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Aux2_00.Name = "labelR2Aux2_00";
-            this.labelR2Aux2_00.Size = new System.Drawing.Size(82, 13);
+            this.labelR2Aux2_00.Size = new System.Drawing.Size(125, 20);
             this.labelR2Aux2_00.TabIndex = 119;
             this.labelR2Aux2_00.Text = "b. paintbrush";
             // 
@@ -9245,9 +9761,10 @@ namespace ProductionLaunch
             // 
             this.labelRobotCode.AutoSize = true;
             this.labelRobotCode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelRobotCode.Location = new System.Drawing.Point(30, 30);
+            this.labelRobotCode.Location = new System.Drawing.Point(45, 46);
+            this.labelRobotCode.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelRobotCode.Name = "labelRobotCode";
-            this.labelRobotCode.Size = new System.Drawing.Size(109, 18);
+            this.labelRobotCode.Size = new System.Drawing.Size(160, 29);
             this.labelRobotCode.TabIndex = 6;
             this.labelRobotCode.Text = "model name";
             // 
@@ -9264,9 +9781,10 @@ namespace ProductionLaunch
             this.checkBoxR2Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR2Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR2Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Aux1_01.Location = new System.Drawing.Point(420, 250);
+            this.checkBoxR2Aux1_01.Location = new System.Drawing.Point(630, 385);
+            this.checkBoxR2Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Aux1_01.Name = "checkBoxR2Aux1_01";
-            this.checkBoxR2Aux1_01.Size = new System.Drawing.Size(70, 32);
+            this.checkBoxR2Aux1_01.Size = new System.Drawing.Size(105, 49);
             this.checkBoxR2Aux1_01.TabIndex = 118;
             this.checkBoxR2Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxR2Aux1_01.Visible = false;
@@ -9276,9 +9794,10 @@ namespace ProductionLaunch
             this.textBoxManageRobotCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(161)))), ((int)(((byte)(244)))));
             this.textBoxManageRobotCode.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.textBoxManageRobotCode.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.textBoxManageRobotCode.Location = new System.Drawing.Point(228, 30);
+            this.textBoxManageRobotCode.Location = new System.Drawing.Point(342, 46);
+            this.textBoxManageRobotCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBoxManageRobotCode.Name = "textBoxManageRobotCode";
-            this.textBoxManageRobotCode.Size = new System.Drawing.Size(159, 31);
+            this.textBoxManageRobotCode.Size = new System.Drawing.Size(236, 42);
             this.textBoxManageRobotCode.TabIndex = 0;
             // 
             // checkBoxR2Aux0_01
@@ -9294,9 +9813,10 @@ namespace ProductionLaunch
             this.checkBoxR2Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR2Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR2Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Aux0_01.Location = new System.Drawing.Point(420, 210);
+            this.checkBoxR2Aux0_01.Location = new System.Drawing.Point(630, 323);
+            this.checkBoxR2Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Aux0_01.Name = "checkBoxR2Aux0_01";
-            this.checkBoxR2Aux0_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR2Aux0_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR2Aux0_01.TabIndex = 117;
             this.checkBoxR2Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxR2Aux0_01.Visible = false;
@@ -9314,9 +9834,10 @@ namespace ProductionLaunch
             this.checkBoxR3Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR3Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR3Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3Aux0_00.Location = new System.Drawing.Point(599, 90);
+            this.checkBoxR3Aux0_00.Location = new System.Drawing.Point(898, 138);
+            this.checkBoxR3Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3Aux0_00.Name = "checkBoxR3Aux0_00";
-            this.checkBoxR3Aux0_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR3Aux0_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR3Aux0_00.TabIndex = 90;
             this.checkBoxR3Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxR3Aux0_00.CheckStateChanged += new System.EventHandler(this.checkBoxR3Aux0_00_CheckStateChanged);
@@ -9328,9 +9849,10 @@ namespace ProductionLaunch
             this.labelR2Aux1_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Aux1_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Aux1_00.Location = new System.Drawing.Point(497, 130);
+            this.labelR2Aux1_00.Location = new System.Drawing.Point(746, 200);
+            this.labelR2Aux1_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Aux1_00.Name = "labelR2Aux1_00";
-            this.labelR2Aux1_00.Size = new System.Drawing.Size(66, 13);
+            this.labelR2Aux1_00.Size = new System.Drawing.Size(99, 20);
             this.labelR2Aux1_00.TabIndex = 116;
             this.labelR2Aux1_00.Text = "side brush";
             // 
@@ -9341,9 +9863,10 @@ namespace ProductionLaunch
             this.labelR1Aux1_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Aux1_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Aux1_00.Location = new System.Drawing.Point(299, 130);
+            this.labelR1Aux1_00.Location = new System.Drawing.Point(448, 200);
+            this.labelR1Aux1_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Aux1_00.Name = "labelR1Aux1_00";
-            this.labelR1Aux1_00.Size = new System.Drawing.Size(66, 13);
+            this.labelR1Aux1_00.Size = new System.Drawing.Size(99, 20);
             this.labelR1Aux1_00.TabIndex = 93;
             this.labelR1Aux1_00.Text = "side brush";
             // 
@@ -9354,9 +9877,10 @@ namespace ProductionLaunch
             this.labelR2Aux0_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Aux0_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Aux0_00.Location = new System.Drawing.Point(497, 90);
+            this.labelR2Aux0_00.Location = new System.Drawing.Point(746, 138);
+            this.labelR2Aux0_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Aux0_00.Name = "labelR2Aux0_00";
-            this.labelR2Aux0_00.Size = new System.Drawing.Size(83, 13);
+            this.labelR2Aux0_00.Size = new System.Drawing.Size(126, 20);
             this.labelR2Aux0_00.TabIndex = 115;
             this.labelR2Aux0_00.Text = "bottom brush";
             // 
@@ -9373,9 +9897,10 @@ namespace ProductionLaunch
             this.checkBoxR3Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR3Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR3Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3Aux1_00.Location = new System.Drawing.Point(599, 130);
+            this.checkBoxR3Aux1_00.Location = new System.Drawing.Point(898, 200);
+            this.checkBoxR3Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3Aux1_00.Name = "checkBoxR3Aux1_00";
-            this.checkBoxR3Aux1_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR3Aux1_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR3Aux1_00.TabIndex = 91;
             this.checkBoxR3Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxR3Aux1_00.CheckStateChanged += new System.EventHandler(this.checkBoxR3Aux1_00_CheckStateChanged);
@@ -9393,9 +9918,10 @@ namespace ProductionLaunch
             this.checkBoxR2Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR2Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR2Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Aux2_00.Location = new System.Drawing.Point(420, 170);
+            this.checkBoxR2Aux2_00.Location = new System.Drawing.Point(630, 262);
+            this.checkBoxR2Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Aux2_00.Name = "checkBoxR2Aux2_00";
-            this.checkBoxR2Aux2_00.Size = new System.Drawing.Size(70, 33);
+            this.checkBoxR2Aux2_00.Size = new System.Drawing.Size(105, 51);
             this.checkBoxR2Aux2_00.TabIndex = 114;
             this.checkBoxR2Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxR2Aux2_00.CheckStateChanged += new System.EventHandler(this.checkBoxR2Aux2_00_CheckStateChanged);
@@ -9413,9 +9939,10 @@ namespace ProductionLaunch
             this.checkBoxR3Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR3Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR3Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3Aux2_00.Location = new System.Drawing.Point(599, 170);
+            this.checkBoxR3Aux2_00.Location = new System.Drawing.Point(898, 262);
+            this.checkBoxR3Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3Aux2_00.Name = "checkBoxR3Aux2_00";
-            this.checkBoxR3Aux2_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR3Aux2_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR3Aux2_00.TabIndex = 92;
             this.checkBoxR3Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxR3Aux2_00.CheckStateChanged += new System.EventHandler(this.checkBoxR3Aux2_00_CheckStateChanged);
@@ -9433,9 +9960,10 @@ namespace ProductionLaunch
             this.checkBoxR2Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR2Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR2Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Aux1_00.Location = new System.Drawing.Point(420, 130);
+            this.checkBoxR2Aux1_00.Location = new System.Drawing.Point(630, 200);
+            this.checkBoxR2Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Aux1_00.Name = "checkBoxR2Aux1_00";
-            this.checkBoxR2Aux1_00.Size = new System.Drawing.Size(70, 32);
+            this.checkBoxR2Aux1_00.Size = new System.Drawing.Size(105, 49);
             this.checkBoxR2Aux1_00.TabIndex = 113;
             this.checkBoxR2Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxR2Aux1_00.CheckStateChanged += new System.EventHandler(this.checkBoxR2Aux1_00_CheckStateChanged);
@@ -9447,9 +9975,10 @@ namespace ProductionLaunch
             this.labelR3Aux0_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Aux0_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Aux0_00.Location = new System.Drawing.Point(684, 90);
+            this.labelR3Aux0_00.Location = new System.Drawing.Point(1026, 138);
+            this.labelR3Aux0_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Aux0_00.Name = "labelR3Aux0_00";
-            this.labelR3Aux0_00.Size = new System.Drawing.Size(83, 13);
+            this.labelR3Aux0_00.Size = new System.Drawing.Size(126, 20);
             this.labelR3Aux0_00.TabIndex = 94;
             this.labelR3Aux0_00.Text = "bottom brush";
             // 
@@ -9466,9 +9995,10 @@ namespace ProductionLaunch
             this.checkBoxR2Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR2Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR2Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR2Aux0_00.Location = new System.Drawing.Point(420, 90);
+            this.checkBoxR2Aux0_00.Location = new System.Drawing.Point(630, 138);
+            this.checkBoxR2Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR2Aux0_00.Name = "checkBoxR2Aux0_00";
-            this.checkBoxR2Aux0_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR2Aux0_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR2Aux0_00.TabIndex = 112;
             this.checkBoxR2Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxR2Aux0_00.CheckStateChanged += new System.EventHandler(this.checkBoxR2Aux0_00_CheckStateChanged);
@@ -9486,9 +10016,10 @@ namespace ProductionLaunch
             this.checkBoxR3Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR3Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR3Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3Aux0_01.Location = new System.Drawing.Point(599, 210);
+            this.checkBoxR3Aux0_01.Location = new System.Drawing.Point(898, 323);
+            this.checkBoxR3Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3Aux0_01.Name = "checkBoxR3Aux0_01";
-            this.checkBoxR3Aux0_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR3Aux0_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR3Aux0_01.TabIndex = 99;
             this.checkBoxR3Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxR3Aux0_01.Visible = false;
@@ -9506,9 +10037,10 @@ namespace ProductionLaunch
             this.checkBoxR3Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR3Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR3Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3Aux1_01.Location = new System.Drawing.Point(599, 250);
+            this.checkBoxR3Aux1_01.Location = new System.Drawing.Point(898, 385);
+            this.checkBoxR3Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3Aux1_01.Name = "checkBoxR3Aux1_01";
-            this.checkBoxR3Aux1_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR3Aux1_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR3Aux1_01.TabIndex = 101;
             this.checkBoxR3Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxR3Aux1_01.Visible = false;
@@ -9520,9 +10052,10 @@ namespace ProductionLaunch
             this.labelR1Aux2_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Aux2_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Aux2_01.Location = new System.Drawing.Point(299, 290);
+            this.labelR1Aux2_01.Location = new System.Drawing.Point(448, 446);
+            this.labelR1Aux2_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Aux2_01.Name = "labelR1Aux2_01";
-            this.labelR1Aux2_01.Size = new System.Drawing.Size(96, 13);
+            this.labelR1Aux2_01.Size = new System.Drawing.Size(142, 20);
             this.labelR1Aux2_01.TabIndex = 107;
             this.labelR1Aux2_01.Text = "blocc. anteriore";
             this.labelR1Aux2_01.Visible = false;
@@ -9534,9 +10067,10 @@ namespace ProductionLaunch
             this.labelR3Aux2_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Aux2_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Aux2_01.Location = new System.Drawing.Point(684, 290);
+            this.labelR3Aux2_01.Location = new System.Drawing.Point(1026, 446);
+            this.labelR3Aux2_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Aux2_01.Name = "labelR3Aux2_01";
-            this.labelR3Aux2_01.Size = new System.Drawing.Size(96, 13);
+            this.labelR3Aux2_01.Size = new System.Drawing.Size(142, 20);
             this.labelR3Aux2_01.TabIndex = 109;
             this.labelR3Aux2_01.Text = "blocc. anteriore";
             this.labelR3Aux2_01.Visible = false;
@@ -9554,9 +10088,10 @@ namespace ProductionLaunch
             this.checkBoxR1Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR1Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR1Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Aux2_01.Location = new System.Drawing.Point(230, 290);
+            this.checkBoxR1Aux2_01.Location = new System.Drawing.Point(345, 446);
+            this.checkBoxR1Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Aux2_01.Name = "checkBoxR1Aux2_01";
-            this.checkBoxR1Aux2_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR1Aux2_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR1Aux2_01.TabIndex = 106;
             this.checkBoxR1Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxR1Aux2_01.Visible = false;
@@ -9568,9 +10103,10 @@ namespace ProductionLaunch
             this.labelR3Aux2_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Aux2_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Aux2_00.Location = new System.Drawing.Point(684, 170);
+            this.labelR3Aux2_00.Location = new System.Drawing.Point(1026, 262);
+            this.labelR3Aux2_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Aux2_00.Name = "labelR3Aux2_00";
-            this.labelR3Aux2_00.Size = new System.Drawing.Size(82, 13);
+            this.labelR3Aux2_00.Size = new System.Drawing.Size(125, 20);
             this.labelR3Aux2_00.TabIndex = 103;
             this.labelR3Aux2_00.Text = "b. paintbrush";
             // 
@@ -9581,9 +10117,10 @@ namespace ProductionLaunch
             this.labelR1Aux2_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Aux2_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Aux2_00.Location = new System.Drawing.Point(299, 170);
+            this.labelR1Aux2_00.Location = new System.Drawing.Point(448, 262);
+            this.labelR1Aux2_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Aux2_00.Name = "labelR1Aux2_00";
-            this.labelR1Aux2_00.Size = new System.Drawing.Size(58, 13);
+            this.labelR1Aux2_00.Size = new System.Drawing.Size(85, 20);
             this.labelR1Aux2_00.TabIndex = 102;
             this.labelR1Aux2_00.Text = "available";
             // 
@@ -9600,9 +10137,10 @@ namespace ProductionLaunch
             this.checkBoxR3Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR3Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR3Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR3Aux2_01.Location = new System.Drawing.Point(599, 290);
+            this.checkBoxR3Aux2_01.Location = new System.Drawing.Point(898, 446);
+            this.checkBoxR3Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR3Aux2_01.Name = "checkBoxR3Aux2_01";
-            this.checkBoxR3Aux2_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR3Aux2_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR3Aux2_01.TabIndex = 108;
             this.checkBoxR3Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxR3Aux2_01.Visible = false;
@@ -9614,9 +10152,10 @@ namespace ProductionLaunch
             this.labelR1Aux1_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Aux1_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Aux1_01.Location = new System.Drawing.Point(299, 250);
+            this.labelR1Aux1_01.Location = new System.Drawing.Point(448, 385);
+            this.labelR1Aux1_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Aux1_01.Name = "labelR1Aux1_01";
-            this.labelR1Aux1_01.Size = new System.Drawing.Size(94, 13);
+            this.labelR1Aux1_01.Size = new System.Drawing.Size(139, 20);
             this.labelR1Aux1_01.TabIndex = 100;
             this.labelR1Aux1_01.Text = "fianco spazzola";
             this.labelR1Aux1_01.Visible = false;
@@ -9628,9 +10167,10 @@ namespace ProductionLaunch
             this.labelR3Aux0_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Aux0_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Aux0_01.Location = new System.Drawing.Point(684, 210);
+            this.labelR3Aux0_01.Location = new System.Drawing.Point(1026, 323);
+            this.labelR3Aux0_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Aux0_01.Name = "labelR3Aux0_01";
-            this.labelR3Aux0_01.Size = new System.Drawing.Size(82, 13);
+            this.labelR3Aux0_01.Size = new System.Drawing.Size(125, 20);
             this.labelR3Aux0_01.TabIndex = 104;
             this.labelR3Aux0_01.Text = "non utilizzato";
             this.labelR3Aux0_01.Visible = false;
@@ -9642,9 +10182,10 @@ namespace ProductionLaunch
             this.labelR1Aux0_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Aux0_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Aux0_01.Location = new System.Drawing.Point(299, 210);
+            this.labelR1Aux0_01.Location = new System.Drawing.Point(448, 323);
+            this.labelR1Aux0_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Aux0_01.Name = "labelR1Aux0_01";
-            this.labelR1Aux0_01.Size = new System.Drawing.Size(92, 13);
+            this.labelR1Aux0_01.Size = new System.Drawing.Size(136, 20);
             this.labelR1Aux0_01.TabIndex = 98;
             this.labelR1Aux0_01.Text = "fondo spazzola";
             this.labelR1Aux0_01.Visible = false;
@@ -9656,9 +10197,10 @@ namespace ProductionLaunch
             this.labelR3Aux1_01.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Aux1_01.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Aux1_01.Location = new System.Drawing.Point(684, 250);
+            this.labelR3Aux1_01.Location = new System.Drawing.Point(1026, 385);
+            this.labelR3Aux1_01.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Aux1_01.Name = "labelR3Aux1_01";
-            this.labelR3Aux1_01.Size = new System.Drawing.Size(82, 13);
+            this.labelR3Aux1_01.Size = new System.Drawing.Size(125, 20);
             this.labelR3Aux1_01.TabIndex = 105;
             this.labelR3Aux1_01.Text = "non utilizzato";
             this.labelR3Aux1_01.Visible = false;
@@ -9676,9 +10218,10 @@ namespace ProductionLaunch
             this.checkBoxR1Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR1Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR1Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Aux1_01.Location = new System.Drawing.Point(230, 250);
+            this.checkBoxR1Aux1_01.Location = new System.Drawing.Point(345, 385);
+            this.checkBoxR1Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Aux1_01.Name = "checkBoxR1Aux1_01";
-            this.checkBoxR1Aux1_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR1Aux1_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR1Aux1_01.TabIndex = 97;
             this.checkBoxR1Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxR1Aux1_01.Visible = false;
@@ -9696,9 +10239,10 @@ namespace ProductionLaunch
             this.checkBoxR1Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR1Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR1Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Aux0_01.Location = new System.Drawing.Point(230, 210);
+            this.checkBoxR1Aux0_01.Location = new System.Drawing.Point(345, 323);
+            this.checkBoxR1Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Aux0_01.Name = "checkBoxR1Aux0_01";
-            this.checkBoxR1Aux0_01.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR1Aux0_01.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR1Aux0_01.TabIndex = 95;
             this.checkBoxR1Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxR1Aux0_01.Visible = false;
@@ -9716,9 +10260,10 @@ namespace ProductionLaunch
             this.checkBoxR1Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR1Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR1Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Aux0_00.Location = new System.Drawing.Point(230, 90);
+            this.checkBoxR1Aux0_00.Location = new System.Drawing.Point(345, 138);
+            this.checkBoxR1Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Aux0_00.Name = "checkBoxR1Aux0_00";
-            this.checkBoxR1Aux0_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR1Aux0_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR1Aux0_00.TabIndex = 86;
             this.checkBoxR1Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxR1Aux0_00.CheckStateChanged += new System.EventHandler(this.checkBoxR1Aux0_00_CheckStateChanged);
@@ -9736,9 +10281,10 @@ namespace ProductionLaunch
             this.checkBoxR1Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR1Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR1Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Aux2_00.Location = new System.Drawing.Point(230, 170);
+            this.checkBoxR1Aux2_00.Location = new System.Drawing.Point(345, 262);
+            this.checkBoxR1Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Aux2_00.Name = "checkBoxR1Aux2_00";
-            this.checkBoxR1Aux2_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR1Aux2_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR1Aux2_00.TabIndex = 89;
             this.checkBoxR1Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxR1Aux2_00.CheckStateChanged += new System.EventHandler(this.checkBoxR1Aux2_00_CheckStateChanged);
@@ -9750,9 +10296,10 @@ namespace ProductionLaunch
             this.labelR3Aux1_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Aux1_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Aux1_00.Location = new System.Drawing.Point(684, 130);
+            this.labelR3Aux1_00.Location = new System.Drawing.Point(1026, 200);
+            this.labelR3Aux1_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Aux1_00.Name = "labelR3Aux1_00";
-            this.labelR3Aux1_00.Size = new System.Drawing.Size(66, 13);
+            this.labelR3Aux1_00.Size = new System.Drawing.Size(99, 20);
             this.labelR3Aux1_00.TabIndex = 96;
             this.labelR3Aux1_00.Text = "side brush";
             // 
@@ -9769,9 +10316,10 @@ namespace ProductionLaunch
             this.checkBoxR1Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxR1Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxR1Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxR1Aux1_00.Location = new System.Drawing.Point(230, 130);
+            this.checkBoxR1Aux1_00.Location = new System.Drawing.Point(345, 200);
+            this.checkBoxR1Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxR1Aux1_00.Name = "checkBoxR1Aux1_00";
-            this.checkBoxR1Aux1_00.Size = new System.Drawing.Size(70, 31);
+            this.checkBoxR1Aux1_00.Size = new System.Drawing.Size(105, 48);
             this.checkBoxR1Aux1_00.TabIndex = 88;
             this.checkBoxR1Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxR1Aux1_00.CheckStateChanged += new System.EventHandler(this.checkBoxR1Aux1_00_CheckStateChanged);
@@ -9783,9 +10331,10 @@ namespace ProductionLaunch
             this.labelR1Aux0_00.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Aux0_00.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Aux0_00.Location = new System.Drawing.Point(299, 90);
+            this.labelR1Aux0_00.Location = new System.Drawing.Point(448, 138);
+            this.labelR1Aux0_00.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Aux0_00.Name = "labelR1Aux0_00";
-            this.labelR1Aux0_00.Size = new System.Drawing.Size(83, 13);
+            this.labelR1Aux0_00.Size = new System.Drawing.Size(126, 20);
             this.labelR1Aux0_00.TabIndex = 87;
             this.labelR1Aux0_00.Text = "bottom brush";
             // 
@@ -9833,10 +10382,11 @@ namespace ProductionLaunch
             this.tabPage6.Controls.Add(this.checkBoxEditR1Aux0_00);
             this.tabPage6.Controls.Add(this.checkBoxEditR1Aux2_00);
             this.tabPage6.Controls.Add(this.checkBoxEditR1Aux1_00);
-            this.tabPage6.Location = new System.Drawing.Point(4, 27);
+            this.tabPage6.Location = new System.Drawing.Point(4, 38);
+            this.tabPage6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1292, 689);
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage6.Size = new System.Drawing.Size(1942, 1066);
             this.tabPage6.TabIndex = 1;
             this.tabPage6.Text = "edit model name";
             // 
@@ -9847,9 +10397,10 @@ namespace ProductionLaunch
             this.labelR4Au1Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Au1Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Au1Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Au1Edit.Location = new System.Drawing.Point(1254, 58);
+            this.labelR4Au1Edit.Location = new System.Drawing.Point(1881, 89);
+            this.labelR4Au1Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Au1Edit.Name = "labelR4Au1Edit";
-            this.labelR4Au1Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR4Au1Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR4Au1Edit.TabIndex = 175;
             this.labelR4Au1Edit.Text = "au1";
             this.labelR4Au1Edit.Visible = false;
@@ -9861,9 +10412,10 @@ namespace ProductionLaunch
             this.labelR4Au2Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4Au2Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4Au2Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4Au2Edit.Location = new System.Drawing.Point(1254, 95);
+            this.labelR4Au2Edit.Location = new System.Drawing.Point(1881, 146);
+            this.labelR4Au2Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4Au2Edit.Name = "labelR4Au2Edit";
-            this.labelR4Au2Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR4Au2Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR4Au2Edit.TabIndex = 176;
             this.labelR4Au2Edit.Text = "au2";
             this.labelR4Au2Edit.Visible = false;
@@ -9875,9 +10427,10 @@ namespace ProductionLaunch
             this.labelR4LavEdit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR4LavEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR4LavEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR4LavEdit.Location = new System.Drawing.Point(1254, 24);
+            this.labelR4LavEdit.Location = new System.Drawing.Point(1881, 37);
+            this.labelR4LavEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR4LavEdit.Name = "labelR4LavEdit";
-            this.labelR4LavEdit.Size = new System.Drawing.Size(24, 13);
+            this.labelR4LavEdit.Size = new System.Drawing.Size(34, 20);
             this.labelR4LavEdit.TabIndex = 174;
             this.labelR4LavEdit.Text = "lav";
             this.labelR4LavEdit.Visible = false;
@@ -9889,9 +10442,10 @@ namespace ProductionLaunch
             this.labelR3Au1Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Au1Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Au1Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Au1Edit.Location = new System.Drawing.Point(1110, 57);
+            this.labelR3Au1Edit.Location = new System.Drawing.Point(1665, 88);
+            this.labelR3Au1Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Au1Edit.Name = "labelR3Au1Edit";
-            this.labelR3Au1Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR3Au1Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR3Au1Edit.TabIndex = 172;
             this.labelR3Au1Edit.Text = "au1";
             // 
@@ -9902,9 +10456,10 @@ namespace ProductionLaunch
             this.labelR3Au2Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3Au2Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3Au2Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3Au2Edit.Location = new System.Drawing.Point(1110, 94);
+            this.labelR3Au2Edit.Location = new System.Drawing.Point(1665, 145);
+            this.labelR3Au2Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3Au2Edit.Name = "labelR3Au2Edit";
-            this.labelR3Au2Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR3Au2Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR3Au2Edit.TabIndex = 173;
             this.labelR3Au2Edit.Text = "au2";
             // 
@@ -9915,9 +10470,10 @@ namespace ProductionLaunch
             this.labelR3LavEdit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR3LavEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR3LavEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR3LavEdit.Location = new System.Drawing.Point(1110, 23);
+            this.labelR3LavEdit.Location = new System.Drawing.Point(1665, 35);
+            this.labelR3LavEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR3LavEdit.Name = "labelR3LavEdit";
-            this.labelR3LavEdit.Size = new System.Drawing.Size(24, 13);
+            this.labelR3LavEdit.Size = new System.Drawing.Size(34, 20);
             this.labelR3LavEdit.TabIndex = 171;
             this.labelR3LavEdit.Text = "lav";
             // 
@@ -9928,9 +10484,10 @@ namespace ProductionLaunch
             this.labelR2Au1Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Au1Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Au1Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Au1Edit.Location = new System.Drawing.Point(918, 59);
+            this.labelR2Au1Edit.Location = new System.Drawing.Point(1377, 91);
+            this.labelR2Au1Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Au1Edit.Name = "labelR2Au1Edit";
-            this.labelR2Au1Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR2Au1Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR2Au1Edit.TabIndex = 169;
             this.labelR2Au1Edit.Text = "au1";
             // 
@@ -9941,9 +10498,10 @@ namespace ProductionLaunch
             this.labelR2Au2Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2Au2Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2Au2Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2Au2Edit.Location = new System.Drawing.Point(918, 96);
+            this.labelR2Au2Edit.Location = new System.Drawing.Point(1377, 148);
+            this.labelR2Au2Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2Au2Edit.Name = "labelR2Au2Edit";
-            this.labelR2Au2Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR2Au2Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR2Au2Edit.TabIndex = 170;
             this.labelR2Au2Edit.Text = "au2";
             // 
@@ -9954,9 +10512,10 @@ namespace ProductionLaunch
             this.labelR2LavEdit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR2LavEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR2LavEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR2LavEdit.Location = new System.Drawing.Point(918, 25);
+            this.labelR2LavEdit.Location = new System.Drawing.Point(1377, 38);
+            this.labelR2LavEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR2LavEdit.Name = "labelR2LavEdit";
-            this.labelR2LavEdit.Size = new System.Drawing.Size(24, 13);
+            this.labelR2LavEdit.Size = new System.Drawing.Size(34, 20);
             this.labelR2LavEdit.TabIndex = 168;
             this.labelR2LavEdit.Text = "lav";
             // 
@@ -9967,9 +10526,10 @@ namespace ProductionLaunch
             this.labelR1Au1Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Au1Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Au1Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Au1Edit.Location = new System.Drawing.Point(759, 59);
+            this.labelR1Au1Edit.Location = new System.Drawing.Point(1138, 91);
+            this.labelR1Au1Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Au1Edit.Name = "labelR1Au1Edit";
-            this.labelR1Au1Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR1Au1Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR1Au1Edit.TabIndex = 166;
             this.labelR1Au1Edit.Text = "au1";
             // 
@@ -9980,9 +10540,10 @@ namespace ProductionLaunch
             this.labelR1Au2Edit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1Au2Edit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1Au2Edit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1Au2Edit.Location = new System.Drawing.Point(759, 96);
+            this.labelR1Au2Edit.Location = new System.Drawing.Point(1138, 148);
+            this.labelR1Au2Edit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1Au2Edit.Name = "labelR1Au2Edit";
-            this.labelR1Au2Edit.Size = new System.Drawing.Size(28, 13);
+            this.labelR1Au2Edit.Size = new System.Drawing.Size(41, 20);
             this.labelR1Au2Edit.TabIndex = 167;
             this.labelR1Au2Edit.Text = "au2";
             // 
@@ -9993,9 +10554,10 @@ namespace ProductionLaunch
             this.labelR1LavEdit.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.labelR1LavEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.labelR1LavEdit.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelR1LavEdit.Location = new System.Drawing.Point(759, 25);
+            this.labelR1LavEdit.Location = new System.Drawing.Point(1138, 38);
+            this.labelR1LavEdit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelR1LavEdit.Name = "labelR1LavEdit";
-            this.labelR1LavEdit.Size = new System.Drawing.Size(24, 13);
+            this.labelR1LavEdit.Size = new System.Drawing.Size(34, 20);
             this.labelR1LavEdit.TabIndex = 165;
             this.labelR1LavEdit.Text = "lav";
             // 
@@ -10012,11 +10574,13 @@ namespace ProductionLaunch
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewDevice4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewDevice4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDevice4.Location = new System.Drawing.Point(640, 580);
+            this.dataGridViewDevice4.Location = new System.Drawing.Point(960, 892);
+            this.dataGridViewDevice4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridViewDevice4.Name = "dataGridViewDevice4";
             this.dataGridViewDevice4.RowHeadersVisible = false;
+            this.dataGridViewDevice4.RowHeadersWidth = 62;
             this.dataGridViewDevice4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewDevice4.Size = new System.Drawing.Size(620, 300);
+            this.dataGridViewDevice4.Size = new System.Drawing.Size(930, 462);
             this.dataGridViewDevice4.TabIndex = 4;
             // 
             // dataGridViewDevice3
@@ -10032,11 +10596,13 @@ namespace ProductionLaunch
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewDevice3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewDevice3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDevice3.Location = new System.Drawing.Point(4, 580);
+            this.dataGridViewDevice3.Location = new System.Drawing.Point(6, 892);
+            this.dataGridViewDevice3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridViewDevice3.Name = "dataGridViewDevice3";
             this.dataGridViewDevice3.RowHeadersVisible = false;
+            this.dataGridViewDevice3.RowHeadersWidth = 62;
             this.dataGridViewDevice3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewDevice3.Size = new System.Drawing.Size(620, 300);
+            this.dataGridViewDevice3.Size = new System.Drawing.Size(930, 462);
             this.dataGridViewDevice3.TabIndex = 3;
             // 
             // dataGridViewDevice2
@@ -10052,11 +10618,13 @@ namespace ProductionLaunch
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewDevice2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewDevice2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDevice2.Location = new System.Drawing.Point(640, 260);
+            this.dataGridViewDevice2.Location = new System.Drawing.Point(960, 400);
+            this.dataGridViewDevice2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridViewDevice2.Name = "dataGridViewDevice2";
             this.dataGridViewDevice2.RowHeadersVisible = false;
+            this.dataGridViewDevice2.RowHeadersWidth = 62;
             this.dataGridViewDevice2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewDevice2.Size = new System.Drawing.Size(620, 300);
+            this.dataGridViewDevice2.Size = new System.Drawing.Size(930, 462);
             this.dataGridViewDevice2.TabIndex = 2;
             // 
             // dataGridViewDevice1
@@ -10072,20 +10640,23 @@ namespace ProductionLaunch
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewDevice1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewDevice1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDevice1.Location = new System.Drawing.Point(5, 260);
+            this.dataGridViewDevice1.Location = new System.Drawing.Point(8, 400);
+            this.dataGridViewDevice1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridViewDevice1.Name = "dataGridViewDevice1";
             this.dataGridViewDevice1.RowHeadersVisible = false;
+            this.dataGridViewDevice1.RowHeadersWidth = 62;
             this.dataGridViewDevice1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewDevice1.Size = new System.Drawing.Size(620, 300);
+            this.dataGridViewDevice1.Size = new System.Drawing.Size(930, 462);
             this.dataGridViewDevice1.TabIndex = 1;
             // 
             // tabControl5
             // 
             this.tabControl5.Controls.Add(this.tabPage8);
-            this.tabControl5.Location = new System.Drawing.Point(6, 6);
+            this.tabControl5.Location = new System.Drawing.Point(9, 9);
+            this.tabControl5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabControl5.Name = "tabControl5";
             this.tabControl5.SelectedIndex = 0;
-            this.tabControl5.Size = new System.Drawing.Size(598, 140);
+            this.tabControl5.Size = new System.Drawing.Size(897, 215);
             this.tabControl5.TabIndex = 0;
             // 
             // tabPage8
@@ -10095,10 +10666,11 @@ namespace ProductionLaunch
             this.tabPage8.Controls.Add(this.buttonRefreshByRobotCode);
             this.tabPage8.Controls.Add(this.comboBoxSearchRobotCode);
             this.tabPage8.Controls.Add(this.label15);
-            this.tabPage8.Location = new System.Drawing.Point(4, 27);
+            this.tabPage8.Location = new System.Drawing.Point(4, 38);
+            this.tabPage8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(590, 109);
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tabPage8.Size = new System.Drawing.Size(889, 173);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "find";
             // 
@@ -10106,9 +10678,10 @@ namespace ProductionLaunch
             // 
             this.buttonEditDeleteRobotCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(221)))), ((int)(((byte)(228)))));
             this.buttonEditDeleteRobotCode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonEditDeleteRobotCode.Location = new System.Drawing.Point(318, 11);
+            this.buttonEditDeleteRobotCode.Location = new System.Drawing.Point(477, 17);
+            this.buttonEditDeleteRobotCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonEditDeleteRobotCode.Name = "buttonEditDeleteRobotCode";
-            this.buttonEditDeleteRobotCode.Size = new System.Drawing.Size(100, 42);
+            this.buttonEditDeleteRobotCode.Size = new System.Drawing.Size(150, 65);
             this.buttonEditDeleteRobotCode.TabIndex = 6;
             this.buttonEditDeleteRobotCode.Text = "delete";
             this.buttonEditDeleteRobotCode.UseVisualStyleBackColor = false;
@@ -10118,9 +10691,10 @@ namespace ProductionLaunch
             // 
             this.buttonRefreshByRobotCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(221)))), ((int)(((byte)(228)))));
             this.buttonRefreshByRobotCode.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.buttonRefreshByRobotCode.Location = new System.Drawing.Point(429, 11);
+            this.buttonRefreshByRobotCode.Location = new System.Drawing.Point(644, 17);
+            this.buttonRefreshByRobotCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonRefreshByRobotCode.Name = "buttonRefreshByRobotCode";
-            this.buttonRefreshByRobotCode.Size = new System.Drawing.Size(144, 42);
+            this.buttonRefreshByRobotCode.Size = new System.Drawing.Size(216, 65);
             this.buttonRefreshByRobotCode.TabIndex = 5;
             this.buttonRefreshByRobotCode.Text = "view";
             this.buttonRefreshByRobotCode.UseVisualStyleBackColor = false;
@@ -10147,9 +10721,10 @@ namespace ProductionLaunch
             "Crime",
             "Biografy",
             "Documentary"});
-            this.comboBoxSearchRobotCode.Location = new System.Drawing.Point(126, 11);
+            this.comboBoxSearchRobotCode.Location = new System.Drawing.Point(189, 17);
+            this.comboBoxSearchRobotCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxSearchRobotCode.Name = "comboBoxSearchRobotCode";
-            this.comboBoxSearchRobotCode.Size = new System.Drawing.Size(179, 31);
+            this.comboBoxSearchRobotCode.Size = new System.Drawing.Size(266, 43);
             this.comboBoxSearchRobotCode.TabIndex = 1;
             this.comboBoxSearchRobotCode.SelectedIndexChanged += new System.EventHandler(this.comboBoxSearchRobotCode_SelectedIndexChanged);
             // 
@@ -10157,9 +10732,10 @@ namespace ProductionLaunch
             // 
             this.label15.AutoSize = true;
             this.label15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label15.Location = new System.Drawing.Point(10, 10);
+            this.label15.Location = new System.Drawing.Point(15, 15);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(109, 18);
+            this.label15.Size = new System.Drawing.Size(160, 29);
             this.label15.TabIndex = 0;
             this.label15.Text = "model name";
             // 
@@ -10176,9 +10752,10 @@ namespace ProductionLaunch
             this.checkBoxEditR4Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR4Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR4Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR4Aux0_00.Location = new System.Drawing.Point(1182, 20);
+            this.checkBoxEditR4Aux0_00.Location = new System.Drawing.Point(1773, 31);
+            this.checkBoxEditR4Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR4Aux0_00.Name = "checkBoxEditR4Aux0_00";
-            this.checkBoxEditR4Aux0_00.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR4Aux0_00.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR4Aux0_00.TabIndex = 159;
             this.checkBoxEditR4Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR4Aux0_00.Visible = false;
@@ -10196,9 +10773,10 @@ namespace ProductionLaunch
             this.checkBoxEditR4Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR4Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR4Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR4Aux1_00.Location = new System.Drawing.Point(1182, 54);
+            this.checkBoxEditR4Aux1_00.Location = new System.Drawing.Point(1773, 83);
+            this.checkBoxEditR4Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR4Aux1_00.Name = "checkBoxEditR4Aux1_00";
-            this.checkBoxEditR4Aux1_00.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR4Aux1_00.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR4Aux1_00.TabIndex = 160;
             this.checkBoxEditR4Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR4Aux1_00.Visible = false;
@@ -10216,9 +10794,10 @@ namespace ProductionLaunch
             this.checkBoxEditR4Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR4Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR4Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR4Aux2_00.Location = new System.Drawing.Point(1182, 91);
+            this.checkBoxEditR4Aux2_00.Location = new System.Drawing.Point(1773, 140);
+            this.checkBoxEditR4Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR4Aux2_00.Name = "checkBoxEditR4Aux2_00";
-            this.checkBoxEditR4Aux2_00.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR4Aux2_00.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR4Aux2_00.TabIndex = 161;
             this.checkBoxEditR4Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR4Aux2_00.Visible = false;
@@ -10236,9 +10815,10 @@ namespace ProductionLaunch
             this.checkBoxEditR4Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR4Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR4Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR4Aux0_01.Location = new System.Drawing.Point(1143, 129);
+            this.checkBoxEditR4Aux0_01.Location = new System.Drawing.Point(1714, 198);
+            this.checkBoxEditR4Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR4Aux0_01.Name = "checkBoxEditR4Aux0_01";
-            this.checkBoxEditR4Aux0_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR4Aux0_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR4Aux0_01.TabIndex = 162;
             this.checkBoxEditR4Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR4Aux0_01.Visible = false;
@@ -10256,9 +10836,10 @@ namespace ProductionLaunch
             this.checkBoxEditR4Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR4Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR4Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR4Aux1_01.Location = new System.Drawing.Point(1143, 159);
+            this.checkBoxEditR4Aux1_01.Location = new System.Drawing.Point(1714, 245);
+            this.checkBoxEditR4Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR4Aux1_01.Name = "checkBoxEditR4Aux1_01";
-            this.checkBoxEditR4Aux1_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR4Aux1_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR4Aux1_01.TabIndex = 163;
             this.checkBoxEditR4Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR4Aux1_01.Visible = false;
@@ -10276,9 +10857,10 @@ namespace ProductionLaunch
             this.checkBoxEditR4Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR4Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR4Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR4Aux2_01.Location = new System.Drawing.Point(1143, 189);
+            this.checkBoxEditR4Aux2_01.Location = new System.Drawing.Point(1714, 291);
+            this.checkBoxEditR4Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR4Aux2_01.Name = "checkBoxEditR4Aux2_01";
-            this.checkBoxEditR4Aux2_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR4Aux2_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR4Aux2_01.TabIndex = 164;
             this.checkBoxEditR4Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR4Aux2_01.Visible = false;
@@ -10296,9 +10878,10 @@ namespace ProductionLaunch
             this.checkBoxEditR2Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR2Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR2Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR2Aux2_01.Location = new System.Drawing.Point(848, 189);
+            this.checkBoxEditR2Aux2_01.Location = new System.Drawing.Point(1272, 291);
+            this.checkBoxEditR2Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR2Aux2_01.Name = "checkBoxEditR2Aux2_01";
-            this.checkBoxEditR2Aux2_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR2Aux2_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR2Aux2_01.TabIndex = 158;
             this.checkBoxEditR2Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR2Aux2_01.Visible = false;
@@ -10316,9 +10899,10 @@ namespace ProductionLaunch
             this.checkBoxEditR2Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR2Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR2Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR2Aux1_01.Location = new System.Drawing.Point(848, 159);
+            this.checkBoxEditR2Aux1_01.Location = new System.Drawing.Point(1272, 245);
+            this.checkBoxEditR2Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR2Aux1_01.Name = "checkBoxEditR2Aux1_01";
-            this.checkBoxEditR2Aux1_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR2Aux1_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR2Aux1_01.TabIndex = 157;
             this.checkBoxEditR2Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR2Aux1_01.Visible = false;
@@ -10336,9 +10920,10 @@ namespace ProductionLaunch
             this.checkBoxEditR2Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR2Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR2Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR2Aux0_01.Location = new System.Drawing.Point(848, 129);
+            this.checkBoxEditR2Aux0_01.Location = new System.Drawing.Point(1272, 198);
+            this.checkBoxEditR2Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR2Aux0_01.Name = "checkBoxEditR2Aux0_01";
-            this.checkBoxEditR2Aux0_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR2Aux0_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR2Aux0_01.TabIndex = 156;
             this.checkBoxEditR2Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR2Aux0_01.Visible = false;
@@ -10356,9 +10941,10 @@ namespace ProductionLaunch
             this.checkBoxEditR3Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR3Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR3Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR3Aux0_00.Location = new System.Drawing.Point(1034, 20);
+            this.checkBoxEditR3Aux0_00.Location = new System.Drawing.Point(1551, 31);
+            this.checkBoxEditR3Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR3Aux0_00.Name = "checkBoxEditR3Aux0_00";
-            this.checkBoxEditR3Aux0_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR3Aux0_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR3Aux0_00.TabIndex = 144;
             this.checkBoxEditR3Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR3Aux0_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR3Aux0_00_CheckStateChanged);
@@ -10376,9 +10962,10 @@ namespace ProductionLaunch
             this.checkBoxEditR3Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR3Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR3Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR3Aux1_00.Location = new System.Drawing.Point(1034, 54);
+            this.checkBoxEditR3Aux1_00.Location = new System.Drawing.Point(1551, 83);
+            this.checkBoxEditR3Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR3Aux1_00.Name = "checkBoxEditR3Aux1_00";
-            this.checkBoxEditR3Aux1_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR3Aux1_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR3Aux1_00.TabIndex = 145;
             this.checkBoxEditR3Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR3Aux1_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR3Aux1_00_CheckStateChanged);
@@ -10396,9 +10983,10 @@ namespace ProductionLaunch
             this.checkBoxEditR2Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR2Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR2Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR2Aux2_00.Location = new System.Drawing.Point(842, 91);
+            this.checkBoxEditR2Aux2_00.Location = new System.Drawing.Point(1263, 140);
+            this.checkBoxEditR2Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR2Aux2_00.Name = "checkBoxEditR2Aux2_00";
-            this.checkBoxEditR2Aux2_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR2Aux2_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR2Aux2_00.TabIndex = 155;
             this.checkBoxEditR2Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR2Aux2_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR2Aux2_00_CheckStateChanged);
@@ -10416,9 +11004,10 @@ namespace ProductionLaunch
             this.checkBoxEditR3Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR3Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR3Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR3Aux2_00.Location = new System.Drawing.Point(1034, 91);
+            this.checkBoxEditR3Aux2_00.Location = new System.Drawing.Point(1551, 140);
+            this.checkBoxEditR3Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR3Aux2_00.Name = "checkBoxEditR3Aux2_00";
-            this.checkBoxEditR3Aux2_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR3Aux2_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR3Aux2_00.TabIndex = 146;
             this.checkBoxEditR3Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR3Aux2_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR3Aux2_00_CheckStateChanged);
@@ -10436,9 +11025,10 @@ namespace ProductionLaunch
             this.checkBoxEditR2Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR2Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR2Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR2Aux1_00.Location = new System.Drawing.Point(842, 54);
+            this.checkBoxEditR2Aux1_00.Location = new System.Drawing.Point(1263, 83);
+            this.checkBoxEditR2Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR2Aux1_00.Name = "checkBoxEditR2Aux1_00";
-            this.checkBoxEditR2Aux1_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR2Aux1_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR2Aux1_00.TabIndex = 154;
             this.checkBoxEditR2Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR2Aux1_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR2Aux1_00_CheckStateChanged);
@@ -10456,9 +11046,10 @@ namespace ProductionLaunch
             this.checkBoxEditR2Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR2Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR2Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR2Aux0_00.Location = new System.Drawing.Point(842, 20);
+            this.checkBoxEditR2Aux0_00.Location = new System.Drawing.Point(1263, 31);
+            this.checkBoxEditR2Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR2Aux0_00.Name = "checkBoxEditR2Aux0_00";
-            this.checkBoxEditR2Aux0_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR2Aux0_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR2Aux0_00.TabIndex = 153;
             this.checkBoxEditR2Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR2Aux0_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR2Aux0_00_CheckStateChanged);
@@ -10476,9 +11067,10 @@ namespace ProductionLaunch
             this.checkBoxEditR3Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR3Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR3Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR3Aux0_01.Location = new System.Drawing.Point(993, 129);
+            this.checkBoxEditR3Aux0_01.Location = new System.Drawing.Point(1490, 198);
+            this.checkBoxEditR3Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR3Aux0_01.Name = "checkBoxEditR3Aux0_01";
-            this.checkBoxEditR3Aux0_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR3Aux0_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR3Aux0_01.TabIndex = 149;
             this.checkBoxEditR3Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR3Aux0_01.Visible = false;
@@ -10496,9 +11088,10 @@ namespace ProductionLaunch
             this.checkBoxEditR3Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR3Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR3Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR3Aux1_01.Location = new System.Drawing.Point(993, 159);
+            this.checkBoxEditR3Aux1_01.Location = new System.Drawing.Point(1490, 245);
+            this.checkBoxEditR3Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR3Aux1_01.Name = "checkBoxEditR3Aux1_01";
-            this.checkBoxEditR3Aux1_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR3Aux1_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR3Aux1_01.TabIndex = 150;
             this.checkBoxEditR3Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR3Aux1_01.Visible = false;
@@ -10516,9 +11109,10 @@ namespace ProductionLaunch
             this.checkBoxEditR1Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR1Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR1Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR1Aux2_01.Location = new System.Drawing.Point(693, 189);
+            this.checkBoxEditR1Aux2_01.Location = new System.Drawing.Point(1040, 291);
+            this.checkBoxEditR1Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR1Aux2_01.Name = "checkBoxEditR1Aux2_01";
-            this.checkBoxEditR1Aux2_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR1Aux2_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR1Aux2_01.TabIndex = 151;
             this.checkBoxEditR1Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR1Aux2_01.Visible = false;
@@ -10536,9 +11130,10 @@ namespace ProductionLaunch
             this.checkBoxEditR3Aux2_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR3Aux2_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR3Aux2_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR3Aux2_01.Location = new System.Drawing.Point(993, 189);
+            this.checkBoxEditR3Aux2_01.Location = new System.Drawing.Point(1490, 291);
+            this.checkBoxEditR3Aux2_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR3Aux2_01.Name = "checkBoxEditR3Aux2_01";
-            this.checkBoxEditR3Aux2_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR3Aux2_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR3Aux2_01.TabIndex = 152;
             this.checkBoxEditR3Aux2_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR3Aux2_01.Visible = false;
@@ -10556,9 +11151,10 @@ namespace ProductionLaunch
             this.checkBoxEditR1Aux1_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR1Aux1_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR1Aux1_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR1Aux1_01.Location = new System.Drawing.Point(693, 159);
+            this.checkBoxEditR1Aux1_01.Location = new System.Drawing.Point(1040, 245);
+            this.checkBoxEditR1Aux1_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR1Aux1_01.Name = "checkBoxEditR1Aux1_01";
-            this.checkBoxEditR1Aux1_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR1Aux1_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR1Aux1_01.TabIndex = 148;
             this.checkBoxEditR1Aux1_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR1Aux1_01.Visible = false;
@@ -10576,9 +11172,10 @@ namespace ProductionLaunch
             this.checkBoxEditR1Aux0_01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR1Aux0_01.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR1Aux0_01.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR1Aux0_01.Location = new System.Drawing.Point(693, 129);
+            this.checkBoxEditR1Aux0_01.Location = new System.Drawing.Point(1040, 198);
+            this.checkBoxEditR1Aux0_01.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR1Aux0_01.Name = "checkBoxEditR1Aux0_01";
-            this.checkBoxEditR1Aux0_01.Size = new System.Drawing.Size(64, 24);
+            this.checkBoxEditR1Aux0_01.Size = new System.Drawing.Size(96, 37);
             this.checkBoxEditR1Aux0_01.TabIndex = 147;
             this.checkBoxEditR1Aux0_01.UseVisualStyleBackColor = true;
             this.checkBoxEditR1Aux0_01.Visible = false;
@@ -10596,9 +11193,10 @@ namespace ProductionLaunch
             this.checkBoxEditR1Aux0_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR1Aux0_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR1Aux0_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR1Aux0_00.Location = new System.Drawing.Point(680, 20);
+            this.checkBoxEditR1Aux0_00.Location = new System.Drawing.Point(1020, 31);
+            this.checkBoxEditR1Aux0_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR1Aux0_00.Name = "checkBoxEditR1Aux0_00";
-            this.checkBoxEditR1Aux0_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR1Aux0_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR1Aux0_00.TabIndex = 141;
             this.checkBoxEditR1Aux0_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR1Aux0_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR1Aux0_00_CheckStateChanged);
@@ -10616,9 +11214,10 @@ namespace ProductionLaunch
             this.checkBoxEditR1Aux2_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR1Aux2_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR1Aux2_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR1Aux2_00.Location = new System.Drawing.Point(680, 91);
+            this.checkBoxEditR1Aux2_00.Location = new System.Drawing.Point(1020, 140);
+            this.checkBoxEditR1Aux2_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR1Aux2_00.Name = "checkBoxEditR1Aux2_00";
-            this.checkBoxEditR1Aux2_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR1Aux2_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR1Aux2_00.TabIndex = 143;
             this.checkBoxEditR1Aux2_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR1Aux2_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR1Aux2_00_CheckStateChanged);
@@ -10636,9 +11235,10 @@ namespace ProductionLaunch
             this.checkBoxEditR1Aux1_00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBoxEditR1Aux1_00.ForeColor = System.Drawing.Color.Transparent;
             this.checkBoxEditR1Aux1_00.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBoxEditR1Aux1_00.Location = new System.Drawing.Point(680, 54);
+            this.checkBoxEditR1Aux1_00.Location = new System.Drawing.Point(1020, 83);
+            this.checkBoxEditR1Aux1_00.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBoxEditR1Aux1_00.Name = "checkBoxEditR1Aux1_00";
-            this.checkBoxEditR1Aux1_00.Size = new System.Drawing.Size(70, 24);
+            this.checkBoxEditR1Aux1_00.Size = new System.Drawing.Size(105, 37);
             this.checkBoxEditR1Aux1_00.TabIndex = 142;
             this.checkBoxEditR1Aux1_00.UseVisualStyleBackColor = true;
             this.checkBoxEditR1Aux1_00.CheckStateChanged += new System.EventHandler(this.checkBoxEditR1Aux1_00_CheckStateChanged);
@@ -10697,7 +11297,7 @@ namespace ProductionLaunch
             tabPageColorStyle26.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT5.HoverStyle = tabPageColorStyle26;
             this.tabPageT5.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT5.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT5.Name = "tabPageT5";
             tabPageColorStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle27.BackFadeColor = System.Drawing.Color.Transparent;
@@ -10714,7 +11314,7 @@ namespace ProductionLaunch
             tabPageColorStyle28.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle28.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT5.SelectedStyle = tabPageColorStyle28;
-            this.tabPageT5.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT5.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT5.StyleFromParent = false;
             this.tabPageT5.TabIndex = 18;
             treeNode11.Name = "";
@@ -10723,19 +11323,20 @@ namespace ProductionLaunch
             this.tabPageT5.Tag = treeNode11;
             this.tabPageT5.Text = "Config";
             this.tabPageT5.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT5.TextBounds")));
-            this.tabPageT5.TextSize = new System.Drawing.SizeF(68.7049F, 25.4663F);
+            this.tabPageT5.TextSize = new System.Drawing.SizeF(103.0574F, 38.19946F);
             // 
             // numericUpDownPLCModbusPort
             // 
             this.numericUpDownPLCModbusPort.Font = new System.Drawing.Font("Verdana", 14.25F);
-            this.numericUpDownPLCModbusPort.Location = new System.Drawing.Point(1108, 848);
+            this.numericUpDownPLCModbusPort.Location = new System.Drawing.Point(1662, 1305);
+            this.numericUpDownPLCModbusPort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numericUpDownPLCModbusPort.Maximum = new decimal(new int[] {
             60000,
             0,
             0,
             0});
             this.numericUpDownPLCModbusPort.Name = "numericUpDownPLCModbusPort";
-            this.numericUpDownPLCModbusPort.Size = new System.Drawing.Size(80, 31);
+            this.numericUpDownPLCModbusPort.Size = new System.Drawing.Size(120, 42);
             this.numericUpDownPLCModbusPort.TabIndex = 244;
             this.numericUpDownPLCModbusPort.Value = new decimal(new int[] {
             502,
@@ -10754,9 +11355,10 @@ namespace ProductionLaunch
             this.ipAddressControlPLCModbusIP.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.ipAddressControlPLCModbusIP.ForeColor = System.Drawing.Color.Black;
             this.ipAddressControlPLCModbusIP.Location = new System.Drawing.Point(975, 804);
+            this.ipAddressControlPLCModbusIP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ipAddressControlPLCModbusIP.Name = "ipAddressControlPLCModbusIP";
             this.ipAddressControlPLCModbusIP.ReadOnly = false;
-            this.ipAddressControlPLCModbusIP.Size = new System.Drawing.Size(213, 31);
+            this.ipAddressControlPLCModbusIP.Size = new System.Drawing.Size(320, 42);
             this.ipAddressControlPLCModbusIP.TabIndex = 243;
             this.ipAddressControlPLCModbusIP.Text = "172.31.10.137";
             this.ipAddressControlPLCModbusIP.Visible = false;
@@ -10768,9 +11370,10 @@ namespace ProductionLaunch
             this.label9.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label9.Location = new System.Drawing.Point(711, 346);
+            this.label9.Location = new System.Drawing.Point(1066, 532);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(122, 18);
+            this.label9.Size = new System.Drawing.Size(179, 29);
             this.label9.TabIndex = 242;
             this.label9.Text = "IP address R2";
             this.label9.Visible = false;
@@ -10782,9 +11385,10 @@ namespace ProductionLaunch
             this.label13.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label13.Location = new System.Drawing.Point(711, 427);
+            this.label13.Location = new System.Drawing.Point(1066, 657);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(122, 18);
+            this.label13.Size = new System.Drawing.Size(179, 29);
             this.label13.TabIndex = 241;
             this.label13.Text = "IP address R3";
             this.label13.Visible = false;
@@ -10796,9 +11400,10 @@ namespace ProductionLaunch
             this.labelSIPR1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSIPR1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelSIPR1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelSIPR1.Location = new System.Drawing.Point(711, 257);
+            this.labelSIPR1.Location = new System.Drawing.Point(1066, 395);
+            this.labelSIPR1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelSIPR1.Name = "labelSIPR1";
-            this.labelSIPR1.Size = new System.Drawing.Size(122, 18);
+            this.labelSIPR1.Size = new System.Drawing.Size(179, 29);
             this.labelSIPR1.TabIndex = 240;
             this.labelSIPR1.Text = "IP address R1";
             this.labelSIPR1.Visible = false;
@@ -10813,9 +11418,10 @@ namespace ProductionLaunch
             this.ipAddressControlRobot3.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.ipAddressControlRobot3.ForeColor = System.Drawing.Color.Black;
             this.ipAddressControlRobot3.Location = new System.Drawing.Point(833, 417);
+            this.ipAddressControlRobot3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ipAddressControlRobot3.Name = "ipAddressControlRobot3";
             this.ipAddressControlRobot3.ReadOnly = false;
-            this.ipAddressControlRobot3.Size = new System.Drawing.Size(213, 31);
+            this.ipAddressControlRobot3.Size = new System.Drawing.Size(320, 42);
             this.ipAddressControlRobot3.TabIndex = 239;
             this.ipAddressControlRobot3.Text = "...";
             this.ipAddressControlRobot3.Visible = false;
@@ -10830,9 +11436,10 @@ namespace ProductionLaunch
             this.ipAddressControlRobot2.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.ipAddressControlRobot2.ForeColor = System.Drawing.Color.Black;
             this.ipAddressControlRobot2.Location = new System.Drawing.Point(833, 339);
+            this.ipAddressControlRobot2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ipAddressControlRobot2.Name = "ipAddressControlRobot2";
             this.ipAddressControlRobot2.ReadOnly = false;
-            this.ipAddressControlRobot2.Size = new System.Drawing.Size(213, 31);
+            this.ipAddressControlRobot2.Size = new System.Drawing.Size(320, 42);
             this.ipAddressControlRobot2.TabIndex = 238;
             this.ipAddressControlRobot2.Text = "...";
             this.ipAddressControlRobot2.Visible = false;
@@ -10847,9 +11454,10 @@ namespace ProductionLaunch
             this.ipAddressControlRobot1.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.ipAddressControlRobot1.ForeColor = System.Drawing.Color.Black;
             this.ipAddressControlRobot1.Location = new System.Drawing.Point(833, 257);
+            this.ipAddressControlRobot1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ipAddressControlRobot1.Name = "ipAddressControlRobot1";
             this.ipAddressControlRobot1.ReadOnly = false;
-            this.ipAddressControlRobot1.Size = new System.Drawing.Size(213, 31);
+            this.ipAddressControlRobot1.Size = new System.Drawing.Size(320, 42);
             this.ipAddressControlRobot1.TabIndex = 237;
             this.ipAddressControlRobot1.Text = "...";
             this.ipAddressControlRobot1.Visible = false;
@@ -10863,9 +11471,10 @@ namespace ProductionLaunch
             "2",
             "3",
             "4"});
-            this.comboBoxAntennaPLP4.Location = new System.Drawing.Point(1041, 176);
+            this.comboBoxAntennaPLP4.Location = new System.Drawing.Point(1562, 271);
+            this.comboBoxAntennaPLP4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxAntennaPLP4.Name = "comboBoxAntennaPLP4";
-            this.comboBoxAntennaPLP4.Size = new System.Drawing.Size(52, 31);
+            this.comboBoxAntennaPLP4.Size = new System.Drawing.Size(76, 43);
             this.comboBoxAntennaPLP4.TabIndex = 236;
             this.comboBoxAntennaPLP4.Text = "4";
             // 
@@ -10876,9 +11485,10 @@ namespace ProductionLaunch
             this.label6.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label6.Location = new System.Drawing.Point(916, 186);
+            this.label6.Location = new System.Drawing.Point(1374, 286);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 18);
+            this.label6.Size = new System.Drawing.Size(134, 29);
             this.label6.TabIndex = 235;
             this.label6.Text = "Antenna 4";
             // 
@@ -10891,9 +11501,10 @@ namespace ProductionLaunch
             "2",
             "3",
             "4"});
-            this.comboBoxAntennaPLP3.Location = new System.Drawing.Point(833, 177);
+            this.comboBoxAntennaPLP3.Location = new System.Drawing.Point(1250, 272);
+            this.comboBoxAntennaPLP3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxAntennaPLP3.Name = "comboBoxAntennaPLP3";
-            this.comboBoxAntennaPLP3.Size = new System.Drawing.Size(52, 31);
+            this.comboBoxAntennaPLP3.Size = new System.Drawing.Size(76, 43);
             this.comboBoxAntennaPLP3.TabIndex = 234;
             this.comboBoxAntennaPLP3.Text = "3";
             // 
@@ -10904,9 +11515,10 @@ namespace ProductionLaunch
             this.label7.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label7.Location = new System.Drawing.Point(708, 187);
+            this.label7.Location = new System.Drawing.Point(1062, 288);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 18);
+            this.label7.Size = new System.Drawing.Size(134, 29);
             this.label7.TabIndex = 233;
             this.label7.Text = "Antenna 3";
             // 
@@ -10919,9 +11531,10 @@ namespace ProductionLaunch
             "2",
             "3",
             "4"});
-            this.comboBoxAntennaPLP2.Location = new System.Drawing.Point(1041, 140);
+            this.comboBoxAntennaPLP2.Location = new System.Drawing.Point(1562, 215);
+            this.comboBoxAntennaPLP2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxAntennaPLP2.Name = "comboBoxAntennaPLP2";
-            this.comboBoxAntennaPLP2.Size = new System.Drawing.Size(52, 31);
+            this.comboBoxAntennaPLP2.Size = new System.Drawing.Size(76, 43);
             this.comboBoxAntennaPLP2.TabIndex = 232;
             this.comboBoxAntennaPLP2.Text = "2";
             // 
@@ -10932,9 +11545,10 @@ namespace ProductionLaunch
             this.lblRGAntennaPL.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRGAntennaPL.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblRGAntennaPL.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblRGAntennaPL.Location = new System.Drawing.Point(916, 150);
+            this.lblRGAntennaPL.Location = new System.Drawing.Point(1374, 231);
+            this.lblRGAntennaPL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRGAntennaPL.Name = "lblRGAntennaPL";
-            this.lblRGAntennaPL.Size = new System.Drawing.Size(92, 18);
+            this.lblRGAntennaPL.Size = new System.Drawing.Size(134, 29);
             this.lblRGAntennaPL.TabIndex = 231;
             this.lblRGAntennaPL.Text = "Antenna 2";
             // 
@@ -10947,9 +11561,10 @@ namespace ProductionLaunch
             "2",
             "3",
             "4"});
-            this.comboBoxAntennaPLP1.Location = new System.Drawing.Point(833, 140);
+            this.comboBoxAntennaPLP1.Location = new System.Drawing.Point(1250, 215);
+            this.comboBoxAntennaPLP1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxAntennaPLP1.Name = "comboBoxAntennaPLP1";
-            this.comboBoxAntennaPLP1.Size = new System.Drawing.Size(52, 31);
+            this.comboBoxAntennaPLP1.Size = new System.Drawing.Size(76, 43);
             this.comboBoxAntennaPLP1.TabIndex = 230;
             this.comboBoxAntennaPLP1.Text = "1";
             // 
@@ -10960,9 +11575,10 @@ namespace ProductionLaunch
             this.lblLFAntennaPL.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLFAntennaPL.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblLFAntennaPL.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblLFAntennaPL.Location = new System.Drawing.Point(708, 150);
+            this.lblLFAntennaPL.Location = new System.Drawing.Point(1062, 231);
+            this.lblLFAntennaPL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLFAntennaPL.Name = "lblLFAntennaPL";
-            this.lblLFAntennaPL.Size = new System.Drawing.Size(92, 18);
+            this.lblLFAntennaPL.Size = new System.Drawing.Size(134, 29);
             this.lblLFAntennaPL.TabIndex = 229;
             this.lblLFAntennaPL.Text = "Antenna 1";
             // 
@@ -10973,9 +11589,10 @@ namespace ProductionLaunch
             this.labelReaderType.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelReaderType.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelReaderType.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelReaderType.Location = new System.Drawing.Point(707, 20);
+            this.labelReaderType.Location = new System.Drawing.Point(1060, 31);
+            this.labelReaderType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelReaderType.Name = "labelReaderType";
-            this.labelReaderType.Size = new System.Drawing.Size(89, 18);
+            this.labelReaderType.Size = new System.Drawing.Size(133, 29);
             this.labelReaderType.TabIndex = 228;
             this.labelReaderType.Text = "RFID type";
             // 
@@ -10986,9 +11603,10 @@ namespace ProductionLaunch
             this.comboBoxReaderType.Items.AddRange(new object[] {
             "ASE",
             "BALLUFF"});
-            this.comboBoxReaderType.Location = new System.Drawing.Point(833, 20);
+            this.comboBoxReaderType.Location = new System.Drawing.Point(1250, 31);
+            this.comboBoxReaderType.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxReaderType.Name = "comboBoxReaderType";
-            this.comboBoxReaderType.Size = new System.Drawing.Size(257, 31);
+            this.comboBoxReaderType.Size = new System.Drawing.Size(384, 43);
             this.comboBoxReaderType.TabIndex = 227;
             this.comboBoxReaderType.Text = "BALLUFF";
             // 
@@ -11002,9 +11620,10 @@ namespace ProductionLaunch
             this.ipAddressG1RFIDReader.Font = new System.Drawing.Font("Verdana", 14.25F);
             this.ipAddressG1RFIDReader.ForeColor = System.Drawing.Color.Black;
             this.ipAddressG1RFIDReader.Location = new System.Drawing.Point(833, 98);
+            this.ipAddressG1RFIDReader.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ipAddressG1RFIDReader.Name = "ipAddressG1RFIDReader";
             this.ipAddressG1RFIDReader.ReadOnly = false;
-            this.ipAddressG1RFIDReader.Size = new System.Drawing.Size(260, 31);
+            this.ipAddressG1RFIDReader.Size = new System.Drawing.Size(390, 42);
             this.ipAddressG1RFIDReader.TabIndex = 226;
             this.ipAddressG1RFIDReader.Text = "172.31.10.130";
             // 
@@ -11015,9 +11634,10 @@ namespace ProductionLaunch
             this.labelPLReaderIP.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPLReaderIP.ForeColor = System.Drawing.SystemColors.WindowText;
             this.labelPLReaderIP.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelPLReaderIP.Location = new System.Drawing.Point(707, 104);
+            this.labelPLReaderIP.Location = new System.Drawing.Point(1060, 160);
+            this.labelPLReaderIP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPLReaderIP.Name = "labelPLReaderIP";
-            this.labelPLReaderIP.Size = new System.Drawing.Size(95, 18);
+            this.labelPLReaderIP.Size = new System.Drawing.Size(139, 29);
             this.labelPLReaderIP.TabIndex = 225;
             this.labelPLReaderIP.Text = "IP address";
             // 
@@ -11029,7 +11649,8 @@ namespace ProductionLaunch
             this.checkBox9.ImageIndex = 0;
             this.checkBox9.ImageList = this.imageListKey;
             this.checkBox9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.checkBox9.Location = new System.Drawing.Point(20, 481);
+            this.checkBox9.Location = new System.Drawing.Point(30, 740);
+            this.checkBox9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(86, 86);
             this.checkBox9.TabIndex = 224;
@@ -11049,9 +11670,11 @@ namespace ProductionLaunch
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.textBox6);
             this.groupBox1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(20, 234);
+            this.groupBox1.Location = new System.Drawing.Point(30, 360);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(320, 231);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(480, 355);
             this.groupBox1.TabIndex = 223;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
@@ -11063,9 +11686,10 @@ namespace ProductionLaunch
             this.label19.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label19.Location = new System.Drawing.Point(20, 20);
+            this.label19.Location = new System.Drawing.Point(30, 31);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(122, 16);
+            this.label19.Size = new System.Drawing.Size(186, 25);
             this.label19.TabIndex = 196;
             this.label19.Text = "current password";
             // 
@@ -11074,9 +11698,10 @@ namespace ProductionLaunch
             this.button4.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(168, 174);
+            this.button4.Location = new System.Drawing.Point(252, 268);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(140, 40);
+            this.button4.Size = new System.Drawing.Size(210, 62);
             this.button4.TabIndex = 200;
             this.button4.Text = "Cancel";
             this.button4.UseVisualStyleBackColor = true;
@@ -11088,9 +11713,10 @@ namespace ProductionLaunch
             this.label20.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label20.Location = new System.Drawing.Point(20, 73);
+            this.label20.Location = new System.Drawing.Point(30, 112);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(101, 16);
+            this.label20.Size = new System.Drawing.Size(153, 25);
             this.label20.TabIndex = 197;
             this.label20.Text = "new password";
             // 
@@ -11099,9 +11725,10 @@ namespace ProductionLaunch
             this.button5.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button5.Location = new System.Drawing.Point(13, 174);
+            this.button5.Location = new System.Drawing.Point(20, 268);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(140, 40);
+            this.button5.Size = new System.Drawing.Size(210, 62);
             this.button5.TabIndex = 199;
             this.button5.Text = "Apply";
             this.button5.UseVisualStyleBackColor = true;
@@ -11113,9 +11740,10 @@ namespace ProductionLaunch
             this.label22.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.label22.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label22.Location = new System.Drawing.Point(20, 115);
+            this.label22.Location = new System.Drawing.Point(30, 177);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(117, 16);
+            this.label22.Size = new System.Drawing.Size(177, 25);
             this.label22.TabIndex = 198;
             this.label22.Text = "repeat password";
             // 
@@ -11124,10 +11752,11 @@ namespace ProductionLaunch
             this.textBox4.BackColor = System.Drawing.SystemColors.Control;
             this.textBox4.Font = new System.Drawing.Font("Verdana", 12F);
             this.textBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox4.Location = new System.Drawing.Point(168, 115);
+            this.textBox4.Location = new System.Drawing.Point(252, 177);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
             this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(125, 27);
+            this.textBox4.Size = new System.Drawing.Size(186, 37);
             this.textBox4.TabIndex = 195;
             this.textBox4.Text = "123456";
             // 
@@ -11136,10 +11765,11 @@ namespace ProductionLaunch
             this.textBox5.BackColor = System.Drawing.SystemColors.Control;
             this.textBox5.Font = new System.Drawing.Font("Verdana", 12F);
             this.textBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox5.Location = new System.Drawing.Point(168, 73);
+            this.textBox5.Location = new System.Drawing.Point(252, 112);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox5.Name = "textBox5";
             this.textBox5.PasswordChar = '*';
-            this.textBox5.Size = new System.Drawing.Size(125, 27);
+            this.textBox5.Size = new System.Drawing.Size(186, 37);
             this.textBox5.TabIndex = 194;
             this.textBox5.Text = "123456";
             // 
@@ -11148,10 +11778,11 @@ namespace ProductionLaunch
             this.textBox6.BackColor = System.Drawing.SystemColors.Control;
             this.textBox6.Font = new System.Drawing.Font("Verdana", 12F);
             this.textBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox6.Location = new System.Drawing.Point(168, 20);
+            this.textBox6.Location = new System.Drawing.Point(252, 31);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox6.Name = "textBox6";
             this.textBox6.PasswordChar = '*';
-            this.textBox6.Size = new System.Drawing.Size(125, 27);
+            this.textBox6.Size = new System.Drawing.Size(186, 37);
             this.textBox6.TabIndex = 193;
             this.textBox6.Text = "123456";
             // 
@@ -11160,9 +11791,10 @@ namespace ProductionLaunch
             this.button6.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button6.Location = new System.Drawing.Point(352, 235);
+            this.button6.Location = new System.Drawing.Point(528, 362);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(180, 40);
+            this.button6.Size = new System.Drawing.Size(270, 62);
             this.button6.TabIndex = 222;
             this.button6.Text = "Change password";
             this.button6.UseVisualStyleBackColor = true;
@@ -11172,9 +11804,10 @@ namespace ProductionLaunch
             this.button7.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button7.Location = new System.Drawing.Point(352, 105);
+            this.button7.Location = new System.Drawing.Point(528, 162);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(180, 40);
+            this.button7.Size = new System.Drawing.Size(270, 62);
             this.button7.TabIndex = 221;
             this.button7.Text = "Mode operator";
             this.button7.UseVisualStyleBackColor = true;
@@ -11186,9 +11819,10 @@ namespace ProductionLaunch
             this.label23.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label23.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label23.Location = new System.Drawing.Point(160, 20);
+            this.label23.Location = new System.Drawing.Point(240, 31);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(80, 18);
+            this.label23.Size = new System.Drawing.Size(119, 29);
             this.label23.TabIndex = 220;
             this.label23.Text = "Operator";
             // 
@@ -11199,9 +11833,10 @@ namespace ProductionLaunch
             this.label24.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label24.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label24.Location = new System.Drawing.Point(20, 20);
+            this.label24.Location = new System.Drawing.Point(30, 31);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(106, 18);
+            this.label24.Size = new System.Drawing.Size(159, 29);
             this.label24.TabIndex = 219;
             this.label24.Text = "current user";
             // 
@@ -11210,9 +11845,10 @@ namespace ProductionLaunch
             this.button8.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.button8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button8.Location = new System.Drawing.Point(352, 165);
+            this.button8.Location = new System.Drawing.Point(528, 254);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(180, 40);
+            this.button8.Size = new System.Drawing.Size(270, 62);
             this.button8.TabIndex = 218;
             this.button8.Text = "Login administrator";
             this.button8.UseVisualStyleBackColor = true;
@@ -11224,9 +11860,10 @@ namespace ProductionLaunch
             this.label25.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label25.Location = new System.Drawing.Point(20, 165);
+            this.label25.Location = new System.Drawing.Point(30, 254);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(85, 18);
+            this.label25.Size = new System.Drawing.Size(128, 29);
             this.label25.TabIndex = 217;
             this.label25.Text = "password";
             // 
@@ -11237,9 +11874,10 @@ namespace ProductionLaunch
             this.label26.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label26.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label26.Location = new System.Drawing.Point(20, 105);
+            this.label26.Location = new System.Drawing.Point(30, 162);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(43, 18);
+            this.label26.Size = new System.Drawing.Size(65, 29);
             this.label26.TabIndex = 216;
             this.label26.Text = "user";
             // 
@@ -11248,10 +11886,11 @@ namespace ProductionLaunch
             this.textBox7.BackColor = System.Drawing.SystemColors.Control;
             this.textBox7.Font = new System.Drawing.Font("Verdana", 12F);
             this.textBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox7.Location = new System.Drawing.Point(160, 165);
+            this.textBox7.Location = new System.Drawing.Point(240, 254);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox7.Name = "textBox7";
             this.textBox7.PasswordChar = '*';
-            this.textBox7.Size = new System.Drawing.Size(125, 27);
+            this.textBox7.Size = new System.Drawing.Size(186, 37);
             this.textBox7.TabIndex = 215;
             this.textBox7.Text = "123456";
             // 
@@ -11261,9 +11900,10 @@ namespace ProductionLaunch
             this.textBox8.Enabled = false;
             this.textBox8.Font = new System.Drawing.Font("Verdana", 12F);
             this.textBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox8.Location = new System.Drawing.Point(160, 105);
+            this.textBox8.Location = new System.Drawing.Point(240, 162);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(125, 27);
+            this.textBox8.Size = new System.Drawing.Size(186, 37);
             this.textBox8.TabIndex = 214;
             this.textBox8.Text = "Administrator";
             // 
@@ -11285,7 +11925,7 @@ namespace ProductionLaunch
             tabPageColorStyle30.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT6.HoverStyle = tabPageColorStyle30;
             this.tabPageT6.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT6.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT6.Name = "tabPageT6";
             tabPageColorStyle31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle31.BackFadeColor = System.Drawing.Color.Transparent;
@@ -11302,7 +11942,7 @@ namespace ProductionLaunch
             tabPageColorStyle32.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle32.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT6.SelectedStyle = tabPageColorStyle32;
-            this.tabPageT6.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT6.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT6.StyleFromParent = false;
             this.tabPageT6.TabIndex = 22;
             treeNode12.Name = "";
@@ -11311,7 +11951,7 @@ namespace ProductionLaunch
             this.tabPageT6.Tag = treeNode12;
             this.tabPageT6.Text = "hide";
             this.tabPageT6.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT6.TextBounds")));
-            this.tabPageT6.TextSize = new System.Drawing.SizeF(47.94221F, 25.4663F);
+            this.tabPageT6.TextSize = new System.Drawing.SizeF(71.91333F, 38.19946F);
             // 
             // tabPageT7
             // 
@@ -11328,7 +11968,7 @@ namespace ProductionLaunch
             this.tabPageT7.HoverStyle = tabPageColorStyle33;
             this.tabPageT7.Key = "Hide";
             this.tabPageT7.Location = new System.Drawing.Point(3, 41);
-            this.tabPageT7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.tabPageT7.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tabPageT7.Name = "tabPageT7";
             tabPageColorStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(85)))), ((int)(((byte)(109)))));
             tabPageColorStyle34.BackFadeColor = System.Drawing.Color.Transparent;
@@ -11345,7 +11985,7 @@ namespace ProductionLaunch
             tabPageColorStyle35.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(150)))), ((int)(((byte)(212)))));
             tabPageColorStyle35.TextShadowColor = System.Drawing.Color.Transparent;
             this.tabPageT7.SelectedStyle = tabPageColorStyle35;
-            this.tabPageT7.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT7.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT7.StyleFromParent = false;
             this.tabPageT7.TabIndex = 23;
             treeNode13.Name = "";
@@ -11354,19 +11994,20 @@ namespace ProductionLaunch
             this.tabPageT7.Tag = treeNode13;
             this.tabPageT7.Text = "exit";
             this.tabPageT7.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT7.TextBounds")));
-            this.tabPageT7.TextSize = new System.Drawing.SizeF(42.65413F, 25.4663F);
+            this.tabPageT7.TextSize = new System.Drawing.SizeF(63.9812F, 38.19946F);
             // 
             // tabPage8_5
             // 
-            this.tabPage8_5.Location = new System.Drawing.Point(0, 0);
+            this.tabPage8_5.Location = new System.Drawing.Point(3, 41);
+            this.tabPage8_5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8_5.Name = "tabPage8_5";
             this.tabPage8_5.ParentPage = this.tabPageT8;
-            this.tabPage8_5.Size = new System.Drawing.Size(0, 0);
+            this.tabPage8_5.Size = new System.Drawing.Size(1687, 2171);
             this.tabPage8_5.TabIndex = 36;
             this.tabPage8_5.Tag = treeNode18;
             this.tabPage8_5.Text = "Espansione Colla";
             this.tabPage8_5.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPage8_5.TextBounds")));
-            this.tabPage8_5.TextSize = new System.Drawing.SizeF(0F, 0F);
+            this.tabPage8_5.TextSize = new System.Drawing.SizeF(216.8164F, 32.16797F);
             // 
             // tabPageT8
             // 
@@ -11374,6 +12015,7 @@ namespace ProductionLaunch
             this.tabPageT8.FormatStyle = tabPageFormatStyle11;
             this.tabPageT8.HoverStyle = tabPageColorStyle26;
             this.tabPageT8.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT8.Name = "tabPageT8";
             this.tabPageT8.NormalStyle = tabPageColorStyle27;
             this.tabPageT8.Pages.AddRange(new object[] {
@@ -11384,7 +12026,7 @@ namespace ProductionLaunch
             this.tabPage8_5});
             this.tabPageT8.ParentPage = null;
             this.tabPageT8.SelectedStyle = tabPageColorStyle28;
-            this.tabPageT8.Size = new System.Drawing.Size(1195, 1396);
+            this.tabPageT8.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT8.StyleFromParent = false;
             this.tabPageT8.TabIndex = 31;
             treeNode18.Name = "";
@@ -11396,18 +12038,19 @@ namespace ProductionLaunch
             this.tabPageT8.Tag = treeNode19;
             this.tabPageT8.Text = "Input/Output";
             this.tabPageT8.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT8.TextBounds")));
-            this.tabPageT8.TextSize = new System.Drawing.SizeF(135.91F, 25.4663F);
+            this.tabPageT8.TextSize = new System.Drawing.SizeF(203.865F, 38.19946F);
             this.tabPageT8.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPageT8_Paint);
             // 
             // tabPageT8_1
             // 
             this.tabPageT8_1.FormatStyle = tabPageFormatStyle3;
-            this.tabPageT8_1.Location = new System.Drawing.Point(0, 0);
+            this.tabPageT8_1.Location = new System.Drawing.Point(3, 41);
+            this.tabPageT8_1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPageT8_1.Name = "tabPageT8_1";
             this.tabPageT8_1.NormalStyle = tabPageColorStyle7;
             this.tabPageT8_1.ParentPage = this.tabPageT8;
             this.tabPageT8_1.SelectedStyle = tabPageColorStyle21;
-            this.tabPageT8_1.Size = new System.Drawing.Size(0, 0);
+            this.tabPageT8_1.Size = new System.Drawing.Size(1687, 2171);
             this.tabPageT8_1.TabIndex = 32;
             treeNode14.Name = "";
             treeNode14.Tag = this.tabPageT8_1;
@@ -11415,18 +12058,17 @@ namespace ProductionLaunch
             this.tabPageT8_1.Tag = treeNode14;
             this.tabPageT8_1.Text = "PLC Generale";
             this.tabPageT8_1.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPageT8_1.TextBounds")));
-            this.tabPageT8_1.TextSize = new System.Drawing.SizeF(0F, 0F);
+            this.tabPageT8_1.TextSize = new System.Drawing.SizeF(173.8086F, 32.16797F);
             this.tabPageT8_1.UseParentTabStripPlacement = false;
-            this.tabPageT8_1.ResumeLayout(false);
-            this.tabPageT8_1.PerformLayout();
             this.tabPageT8_1.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPageT8_1_Paint);
             // 
             // tabPage8_2
             // 
-            this.tabPage8_2.Location = new System.Drawing.Point(0, 0);
+            this.tabPage8_2.Location = new System.Drawing.Point(3, 41);
+            this.tabPage8_2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8_2.Name = "tabPage8_2";
             this.tabPage8_2.ParentPage = this.tabPageT8;
-            this.tabPage8_2.Size = new System.Drawing.Size(0, 0);
+            this.tabPage8_2.Size = new System.Drawing.Size(1687, 2171);
             this.tabPage8_2.TabIndex = 33;
             treeNode15.Name = "";
             treeNode15.Tag = this.tabPage8_2;
@@ -11434,14 +12076,16 @@ namespace ProductionLaunch
             this.tabPage8_2.Tag = treeNode15;
             this.tabPage8_2.Text = "Robot Cardatura";
             this.tabPage8_2.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPage8_2.TextBounds")));
-            this.tabPage8_2.TextSize = new System.Drawing.SizeF(0F, 0F);
+            this.tabPage8_2.TextSize = new System.Drawing.SizeF(212.7031F, 32.16797F);
+            this.tabPage8_2.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPage8_2_Paint);
             // 
             // tabPage8_3
             // 
-            this.tabPage8_3.Location = new System.Drawing.Point(0, 0);
+            this.tabPage8_3.Location = new System.Drawing.Point(3, 41);
+            this.tabPage8_3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8_3.Name = "tabPage8_3";
             this.tabPage8_3.ParentPage = this.tabPageT8;
-            this.tabPage8_3.Size = new System.Drawing.Size(0, 0);
+            this.tabPage8_3.Size = new System.Drawing.Size(1687, 2171);
             this.tabPage8_3.TabIndex = 34;
             treeNode16.Name = "";
             treeNode16.Tag = this.tabPage8_3;
@@ -11449,14 +12093,16 @@ namespace ProductionLaunch
             this.tabPage8_3.Tag = treeNode16;
             this.tabPage8_3.Text = "Espansione Cardatura";
             this.tabPage8_3.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPage8_3.TextBounds")));
-            this.tabPage8_3.TextSize = new System.Drawing.SizeF(0F, 0F);
+            this.tabPage8_3.TextSize = new System.Drawing.SizeF(279.8164F, 32.16797F);
+            this.tabPage8_3.Paint += new System.Windows.Forms.PaintEventHandler(this.tabPage8_3_Paint);
             // 
             // tabPage8_4
             // 
-            this.tabPage8_4.Location = new System.Drawing.Point(0, 0);
+            this.tabPage8_4.Location = new System.Drawing.Point(3, 41);
+            this.tabPage8_4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tabPage8_4.Name = "tabPage8_4";
             this.tabPage8_4.ParentPage = this.tabPageT8;
-            this.tabPage8_4.Size = new System.Drawing.Size(0, 0);
+            this.tabPage8_4.Size = new System.Drawing.Size(1687, 2171);
             this.tabPage8_4.TabIndex = 35;
             treeNode17.Name = "";
             treeNode17.Tag = this.tabPage8_4;
@@ -11464,7 +12110,7 @@ namespace ProductionLaunch
             this.tabPage8_4.Tag = treeNode17;
             this.tabPage8_4.Text = "Robot Colla";
             this.tabPage8_4.TextBounds = ((System.Drawing.RectangleF)(resources.GetObject("tabPage8_4.TextBounds")));
-            this.tabPage8_4.TextSize = new System.Drawing.SizeF(0F, 0F);
+            this.tabPage8_4.TextSize = new System.Drawing.SizeF(149.7031F, 32.16797F);
             // 
             // imageListCentering
             // 
@@ -11520,7 +12166,7 @@ namespace ProductionLaunch
             this.comboBoxPatternBoxName.FormattingEnabled = true;
             this.comboBoxPatternBoxName.Location = new System.Drawing.Point(174, 50);
             this.comboBoxPatternBoxName.Name = "comboBoxPatternBoxName";
-            this.comboBoxPatternBoxName.Size = new System.Drawing.Size(164, 33);
+            this.comboBoxPatternBoxName.Size = new System.Drawing.Size(164, 46);
             this.comboBoxPatternBoxName.TabIndex = 312;
             // 
             // textBoxPatterName
@@ -11529,7 +12175,7 @@ namespace ProductionLaunch
             this.textBoxPatterName.Location = new System.Drawing.Point(127, 11);
             this.textBoxPatterName.MaxLength = 45;
             this.textBoxPatterName.Name = "textBoxPatterName";
-            this.textBoxPatterName.Size = new System.Drawing.Size(173, 33);
+            this.textBoxPatterName.Size = new System.Drawing.Size(173, 46);
             this.textBoxPatterName.TabIndex = 311;
             // 
             // labelPatterName
@@ -11540,7 +12186,7 @@ namespace ProductionLaunch
             this.labelPatterName.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.labelPatterName.Location = new System.Drawing.Point(7, 16);
             this.labelPatterName.Name = "labelPatterName";
-            this.labelPatterName.Size = new System.Drawing.Size(96, 16);
+            this.labelPatterName.Size = new System.Drawing.Size(149, 25);
             this.labelPatterName.TabIndex = 310;
             this.labelPatterName.Text = "pattern name";
             // 
@@ -11552,7 +12198,7 @@ namespace ProductionLaunch
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(7, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 16);
+            this.label2.Size = new System.Drawing.Size(151, 25);
             this.label2.TabIndex = 309;
             this.label2.Text = "pattern levels";
             // 
@@ -11562,7 +12208,7 @@ namespace ProductionLaunch
             this.textBoxPatternLevels.Location = new System.Drawing.Point(200, 130);
             this.textBoxPatternLevels.MaxLength = 5;
             this.textBoxPatternLevels.Name = "textBoxPatternLevels";
-            this.textBoxPatternLevels.Size = new System.Drawing.Size(100, 33);
+            this.textBoxPatternLevels.Size = new System.Drawing.Size(100, 46);
             this.textBoxPatternLevels.TabIndex = 308;
             // 
             // label3
@@ -11573,7 +12219,7 @@ namespace ProductionLaunch
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(7, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 16);
+            this.label3.Size = new System.Drawing.Size(185, 25);
             this.label3.TabIndex = 307;
             this.label3.Text = "pattern elements";
             // 
@@ -11583,7 +12229,7 @@ namespace ProductionLaunch
             this.textBoxPatternElements.Location = new System.Drawing.Point(200, 90);
             this.textBoxPatternElements.MaxLength = 5;
             this.textBoxPatternElements.Name = "textBoxPatternElements";
-            this.textBoxPatternElements.Size = new System.Drawing.Size(100, 33);
+            this.textBoxPatternElements.Size = new System.Drawing.Size(100, 46);
             this.textBoxPatternElements.TabIndex = 306;
             // 
             // label4
@@ -11594,7 +12240,7 @@ namespace ProductionLaunch
             this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label4.Location = new System.Drawing.Point(7, 50);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 16);
+            this.label4.Size = new System.Drawing.Size(192, 25);
             this.label4.TabIndex = 303;
             this.label4.Text = "pattern box name";
             // 
@@ -11623,22 +12269,22 @@ namespace ProductionLaunch
             controlColorStyle1.BorderColor = System.Drawing.Color.Transparent;
             controlColorStyle1.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             this.tabControlMain.ColorStyle = controlColorStyle1;
-            this.tabControlMain.Controls.Add(this.tabPageT4_6);
-            this.tabControlMain.Controls.Add(this.tabPageT4);
-            this.tabControlMain.Controls.Add(this.tabPageT5);
-            this.tabControlMain.Controls.Add(this.tabPageT0);
+            this.tabControlMain.Controls.Add(this.tabPage8_2);
             this.tabControlMain.Controls.Add(this.tabPageT8);
             this.tabControlMain.Controls.Add(this.tabPageT7);
             this.tabControlMain.Controls.Add(this.tabPageT6);
+            this.tabControlMain.Controls.Add(this.tabPageT5);
+            this.tabControlMain.Controls.Add(this.tabPageT4);
             this.tabControlMain.Controls.Add(this.tabPageT3);
             this.tabControlMain.Controls.Add(this.tabPageT1);
+            this.tabControlMain.Controls.Add(this.tabPageT0);
             this.tabControlMain.Controls.Add(this.tabPageT4_1);
             this.tabControlMain.Controls.Add(this.tabPageT4_2);
             this.tabControlMain.Controls.Add(this.tabPageT4_3);
             this.tabControlMain.Controls.Add(this.tabPageT4_4);
             this.tabControlMain.Controls.Add(this.tabPageT4_5);
+            this.tabControlMain.Controls.Add(this.tabPageT4_6);
             this.tabControlMain.Controls.Add(this.tabPageT8_1);
-            this.tabControlMain.Controls.Add(this.tabPage8_2);
             this.tabControlMain.Controls.Add(this.tabPage8_3);
             this.tabControlMain.Controls.Add(this.tabPage8_4);
             this.tabControlMain.Controls.Add(this.tabPage8_5);
@@ -11650,7 +12296,7 @@ namespace ProductionLaunch
             this.tabControlMain.FormatStyle = controlFormatStyle1;
             this.tabControlMain.ImageList = this.imageListTab;
             this.tabControlMain.Location = new System.Drawing.Point(0, 0);
-            this.tabControlMain.Margin = new System.Windows.Forms.Padding(10);
+            this.tabControlMain.Margin = new System.Windows.Forms.Padding(15);
             this.tabControlMain.Name = "tabControlMain";
             tabPageColorStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle36.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
@@ -11678,7 +12324,7 @@ namespace ProductionLaunch
             this.tabPageT7,
             this.tabPageT8});
             this.tabControlMain.ScrollPos = new System.Drawing.Point(0, 0);
-            this.tabControlMain.SelectedPage = this.tabPageT4_6;
+            this.tabControlMain.SelectedPage = this.tabPage8_2;
             tabPageColorStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             tabPageColorStyle37.BackFadeColor = System.Drawing.Color.Transparent;
             tabPageColorStyle37.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(112)))), ((int)(((byte)(129)))));
@@ -11692,7 +12338,7 @@ namespace ProductionLaunch
             this.tabControlMain.SelectedTabStripButtonStyle = commandButtonColorStyle4;
             toolItemColorStyle2.FillStyle = LidorSystems.IntegralUI.Style.FillStyle.Flat;
             this.tabControlMain.SelectedToolItemStyle = toolItemColorStyle2;
-            this.tabControlMain.Size = new System.Drawing.Size(1386, 1440);
+            this.tabControlMain.Size = new System.Drawing.Size(1946, 2215);
             this.tabControlMain.TabIndex = 21;
             this.tabControlMain.TabNavigationMode = LidorSystems.IntegralUI.Containers.TabNavigationMode.Nested;
             this.tabControlMain.TabSpacing = 10;
@@ -11743,7 +12389,7 @@ namespace ProductionLaunch
             this.textBoxLayerBarcode.Location = new System.Drawing.Point(200, 172);
             this.textBoxLayerBarcode.MaxLength = 5;
             this.textBoxLayerBarcode.Name = "textBoxLayerBarcode";
-            this.textBoxLayerBarcode.Size = new System.Drawing.Size(100, 33);
+            this.textBoxLayerBarcode.Size = new System.Drawing.Size(100, 46);
             this.textBoxLayerBarcode.TabIndex = 314;
             // 
             // label12
@@ -11754,7 +12400,7 @@ namespace ProductionLaunch
             this.label12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label12.Location = new System.Drawing.Point(13, 189);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(97, 16);
+            this.label12.Size = new System.Drawing.Size(149, 25);
             this.label12.TabIndex = 313;
             this.label12.Text = "layer barcode";
             // 
@@ -11764,7 +12410,7 @@ namespace ProductionLaunch
             this.comboBoxLayerPatterName.FormattingEnabled = true;
             this.comboBoxLayerPatterName.Location = new System.Drawing.Point(186, 16);
             this.comboBoxLayerPatterName.Name = "comboBoxLayerPatterName";
-            this.comboBoxLayerPatterName.Size = new System.Drawing.Size(164, 33);
+            this.comboBoxLayerPatterName.Size = new System.Drawing.Size(164, 46);
             this.comboBoxLayerPatterName.TabIndex = 312;
             // 
             // textBoxLayerElement
@@ -11773,7 +12419,7 @@ namespace ProductionLaunch
             this.textBoxLayerElement.Location = new System.Drawing.Point(186, 50);
             this.textBoxLayerElement.MaxLength = 45;
             this.textBoxLayerElement.Name = "textBoxLayerElement";
-            this.textBoxLayerElement.Size = new System.Drawing.Size(173, 33);
+            this.textBoxLayerElement.Size = new System.Drawing.Size(173, 46);
             this.textBoxLayerElement.TabIndex = 311;
             // 
             // label1
@@ -11784,7 +12430,7 @@ namespace ProductionLaunch
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label1.Location = new System.Drawing.Point(7, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 16);
+            this.label1.Size = new System.Drawing.Size(149, 25);
             this.label1.TabIndex = 310;
             this.label1.Text = "pattern name";
             // 
@@ -11796,7 +12442,7 @@ namespace ProductionLaunch
             this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label5.Location = new System.Drawing.Point(7, 130);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 16);
+            this.label5.Size = new System.Drawing.Size(92, 25);
             this.label5.TabIndex = 309;
             this.label5.Text = "layer cy";
             // 
@@ -11806,7 +12452,7 @@ namespace ProductionLaunch
             this.textBoxLayerCy.Location = new System.Drawing.Point(200, 130);
             this.textBoxLayerCy.MaxLength = 5;
             this.textBoxLayerCy.Name = "textBoxLayerCy";
-            this.textBoxLayerCy.Size = new System.Drawing.Size(100, 33);
+            this.textBoxLayerCy.Size = new System.Drawing.Size(100, 46);
             this.textBoxLayerCy.TabIndex = 308;
             // 
             // label10
@@ -11817,7 +12463,7 @@ namespace ProductionLaunch
             this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label10.Location = new System.Drawing.Point(7, 90);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 16);
+            this.label10.Size = new System.Drawing.Size(92, 25);
             this.label10.TabIndex = 307;
             this.label10.Text = "layer cx";
             // 
@@ -11827,7 +12473,7 @@ namespace ProductionLaunch
             this.textBoxLayerCx.Location = new System.Drawing.Point(200, 90);
             this.textBoxLayerCx.MaxLength = 5;
             this.textBoxLayerCx.Name = "textBoxLayerCx";
-            this.textBoxLayerCx.Size = new System.Drawing.Size(100, 33);
+            this.textBoxLayerCx.Size = new System.Drawing.Size(100, 46);
             this.textBoxLayerCx.TabIndex = 306;
             // 
             // label11
@@ -11838,7 +12484,7 @@ namespace ProductionLaunch
             this.label11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label11.Location = new System.Drawing.Point(7, 50);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 16);
+            this.label11.Size = new System.Drawing.Size(152, 25);
             this.label11.TabIndex = 303;
             this.label11.Text = "layer element";
             // 
@@ -11887,12 +12533,13 @@ namespace ProductionLaunch
             // 
             // FormApp
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.ClientSize = new System.Drawing.Size(1946, 1106);
             this.Controls.Add(this.tabControlMain);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormApp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
